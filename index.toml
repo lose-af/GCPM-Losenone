@@ -82,7 +82,7 @@ hash = "a431b4941e306a81a4a7c2c8275d576ec80eed44d6990d415b705b82f87be6fc"
 
 [[files]]
 file = "config/fml.toml"
-hash = "0bc9ae95cfe44f8bd70e47c524f35441c9bc2aa8a09340fef933cc9b98bce29e"
+hash = "ac57fc6d369b0b1ca54d2ed07da4da5736238938db18a71402f9edad0a04f4d9"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -382,7 +382,7 @@ hash = "1dcee38470c2939f7265891203775b7631c81822bf2506a451727fcaaf2cc4a2"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "59e679328251ff4aa7f0520a83e1d2d324e6119ce865fcb5146af03666fb9216"
+hash = "633cb4a20c7ac18b6cbab3010650c7b100f20f92b20469e223815fd5ca82310e"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
@@ -398,7 +398,7 @@ hash = "103979a8e59e396f99fb8646c4f8a690c2d743ca3744a2eb8f663b3102b7498c"
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "5f5bdca3065e80bb07e21c346365c5b05fb999a938d4bee8cd3f227184f73afb"
+hash = "0032589daad191eafe1a1da6476f1e3cd4c4f8381a306227e5247837cb466dc8"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
