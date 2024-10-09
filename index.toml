@@ -5,6 +5,22 @@ file = "LICENSE"
 hash = "7ffe1954587c77dfba1cf8eb9b2ea743671fa6e63f9e7a2f258119d42e14eefe"
 
 [[files]]
+file = "config/ModernUI/bootstrap.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/ModernUI/client.toml"
+hash = "9b5a352322b1d64a664c1ba3043cdeae1f26a3f43813c2f802446d3e16a5c9bf"
+
+[[files]]
+file = "config/ModernUI/common.toml"
+hash = "f945d275a66ddec08c1cc3aa5d800675bea43ec270416a70a03fe32e9db7c7b5"
+
+[[files]]
+file = "config/ModernUI/text.toml"
+hash = "446096e3e4396943e0f75a5a25d258b8ef85c242e517c5cea795dd45470769c0"
+
+[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "611b9c06b577cb3cdc72c8b74a78b16b9a7b42832e1380a85107d086a8854fa8"
 
@@ -27,6 +43,14 @@ hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 [[files]]
 file = "config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
+
+[[files]]
+file = "config/botania-client.toml"
+hash = "3e96d7f471846a8349c319e8ea876146e8216530b977f830c86b016b5a76ab89"
+
+[[files]]
+file = "config/botania-common.toml"
+hash = "07e55bb5645a21e30392969aa5b2f8295a2bba660942cb5afa5b34a21ac65dea"
 
 [[files]]
 file = "config/buildinggadgets2-common.toml"
@@ -267,6 +291,10 @@ hash = "995df8041577988f11b60691a2351335742606e4b93f9b2b09cfca342ea47eeb"
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "d4219d903d3aed0aa44b6d33ea517df4a460b0f340286ecfc2c646d8569b4320"
+
+[[files]]
+file = "config/jecharacters.toml"
+hash = "14f14763f026ece314bd3caa1302f0910d34d68370b0ea6de27ca59960f2c817"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -744,6 +772,11 @@ hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
 
 [[files]]
+file = "mods/botania.pw.toml"
+hash = "ac2fd14944240e2c6726a32e0dd4e58045dc140cb51203dc106ff1cefd8616a0"
+metafile = true
+
+[[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "8461b7344559646b5051a6d812e2cd4d43e62c8c817d17f0b2552f65306f43d4"
 metafile = true
@@ -895,7 +928,7 @@ metafile = true
 
 [[files]]
 file = "mods/i18nupdatemod.pw.toml"
-hash = "c260870f0f98b7d3770fd0ff396776ba643407d5eac1447e4f3e295b2f600b92"
+hash = "95aff28211d980eb814dbff5529766188e7786e04194dcfab30dbd83be90cd62"
 metafile = true
 
 [[files]]
@@ -935,7 +968,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "ec23394e3d7a4b7a9203d353f8da8e3653539c08fbae97835f31a0948d9d0e52"
+hash = "780e52b9705ed43b70a7496b7b0f2749735979f95b08931976026b79b1bbe216"
 metafile = true
 
 [[files]]
@@ -975,7 +1008,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ui.pw.toml"
-hash = "2ebcddfa11add6526696755598ed6a9aa651c3036d3ac8fd350113f58dfba0f9"
+hash = "38c13fa6faec7164e3957dc6790d6e6bffc77b0f76a90ff9bae82d24656cc34b"
 metafile = true
 
 [[files]]
@@ -996,6 +1029,11 @@ metafile = true
 [[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "318235772b628c653586f54c27ef1a9ac846dbf3d6a72eb77c23d930e46a983c"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true
 
 [[files]]
@@ -1075,7 +1113,7 @@ metafile = true
 
 [[files]]
 file = "mods/wi-zoom.pw.toml"
-hash = "96f395c71e727cd170cc85473fd26500b9e6c8555fa9b86f645746860938e6b7"
+hash = "ba625f88153b60f038998bae988446b21efe59119dab92d15e3f50411792827a"
 metafile = true
 
 [[files]]
@@ -1101,6 +1139,10 @@ metafile = true
 [[files]]
 file = "resourcepacks/GregTech-Community-Pack-Modern-v1.11.0-补汉材质包-1.20.1.zip"
 hash = "500c71bf9d241cca53d95e43615381298accef94220d0cc333b82dadf1cff0e1"
+
+[[files]]
+file = "resourcepacks/Inter.ttc"
+hash = "5bfddba94e8a8fdb01a25a2f91c6dfc62c178320039f97296a23a5250718cf00"
 
 [[files]]
 file = "resourcepacks/帕秋莉汉化材质包-1.20.1.zip"
