@@ -61,6 +61,10 @@ file = "config/clienttweaks-common.toml"
 hash = "f6a538fbda329bea19292131ca13165c49895261f59afccd33374cc974a21b35"
 
 [[files]]
+file = "config/constructionwand-client.toml"
+hash = "49dab16d69ef53b3846431d403918762dc0b22a4efba307c80894eeec64a1118"
+
+[[files]]
 file = "config/craftingstation-client.toml"
 hash = "ac6f3b0d3f54e87f2bfa1a7ee67f7e70c20d45fa24c08ddd66ad8d3c22e3c45e"
 
@@ -373,6 +377,10 @@ file = "config/sophisticatedcore-common.toml"
 hash = "bed67af13922484e409d6174e8112633176ea6001bd329e0f956383cfa0cabe4"
 
 [[files]]
+file = "config/spark/config.json"
+hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+
+[[files]]
 file = "config/storagedrawers-client.toml"
 hash = "327bfd458ff2b57c072af1f192bd8f828f5e91cd6d3551345ef13d1f599e2f78"
 
@@ -403,6 +411,10 @@ hash = "3c14c00994a8201f0419237fde6f6d6caca7ce7b0ee199c3f400775a39fa3d9b"
 [[files]]
 file = "config/travelanchors/common.json5"
 hash = "2ffae815f28e42ae83781cf17ba9744e53adb7f869d1f0b740c098261a20ccba"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "f682e353825fc32e5de22d716e26f8a2f59163f1fb56638eb87fe401b44433f2"
 
 [[files]]
 file = "config/xaerominimap-common.txt"
@@ -722,6 +734,11 @@ hash = "8afcc0605156507e57a87872fefa808f5753a11163f80193674b5e5e06b42759"
 metafile = true
 
 [[files]]
+file = "mods/alwayseat.pw.toml"
+hash = "482873e1d75c8d55f2d2164c839be5729e5d4c41561f1f6198cc19c4b16f7b6c"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
 metafile = true
@@ -799,6 +816,11 @@ metafile = true
 [[files]]
 file = "mods/codechicken-lib-1-8.pw.toml"
 hash = "f88db7aef79947669ba4d736cc2f352a2269eb21770d5597d306c3017ea126dc"
+metafile = true
+
+[[files]]
+file = "mods/construction-wand.pw.toml"
+hash = "1613f68b9bdd242a957a3a20c5193b640672d11087abcb5c3abe5da45b235e35"
 metafile = true
 
 [[files]]
@@ -1082,6 +1104,11 @@ hash = "8207f330335ef87f9e24a51343691fec49c75153678085d0a1667235d5e463bc"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "d0e1a79dbcda8499e0f12f4adaa5503f9bbc84a6274ce07b3a3839476622e8e5"
+metafile = true
+
+[[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "1f5b23c901e32e8e5b3e426523f7276f3a7a0fa7b3ab78e3244f8c5fc0990a97"
 metafile = true
@@ -1109,6 +1136,11 @@ metafile = true
 [[files]]
 file = "mods/trenzalore.pw.toml"
 hash = "765945f0ae2960eb0cbffeb746b6d98a483b8fb673ce30c48f53c1bb39c1ec5c"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "20e15c7019ce77fca1432a3f3d287aa04ae00760c25d5a48bd3f390b07e6d3c6"
 metafile = true
 
 [[files]]
