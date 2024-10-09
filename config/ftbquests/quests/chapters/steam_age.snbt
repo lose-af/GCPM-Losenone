@@ -11,104 +11,112 @@
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"You may recall that regular Steam machines had a duration penalty, and were twice as slow. Not great."
+				"你可能还记得,普通的蒸汽机器有一个持续时间惩罚,速度是原来的两倍.不太好."
 				""
-				"&5High Pressure&r Steam machines no longer bear a &bduration penalty &rfor recipes, making them objective upgrades."
+				"&5&a高压&f&r蒸汽机器不再对配方有&b持续时间惩罚&r,使它们成为客观的升级."
 				""
-				"Make &eone&r of the proposed HP machines to complete this quest."
+				"制作&e一个&r提议的高压机器以完成此任务."
 			]
 			icon: "gtceu:hp_steam_compressor"
 			id: "5673089822BFCA70"
-			rewards: [{
-				count: 8
-				id: "24A6C74E123DDC99"
-				item: "gtceu:steel_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "24A6C74E123DDC99"
+					item: "gtceu:steel_plate"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Pressure can be good sometimes"
-			tasks: [{
-				id: "77ECBBA179EC9B3F"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_compressor"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_alloy_smelter"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_forge_hammer"
-							}
-						]
+			subtitle: "有时候压力也是好事"
+			tasks: [
+				{
+					id: "77ECBBA179EC9B3F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_compressor"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_alloy_smelter"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_forge_hammer"
+								}
+							]
+						}
 					}
+					title: "看看这些HP机器..."
+					type: "item"
 				}
-				title: "Look at all these HP machines..."
-				type: "item"
-			}]
-			title: "No More Penalty"
+			]
+			title: "不再有惩罚"
 			x: -0.09909863945578223d
 			y: -2.260051020408156d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Now that you have Steel, you can make a Hang Glider. This might be a good item to grab before you hit up the &cNether&r."
+				"现在你有了钢,你可以制作一个&a鞘翅&f.在你前往&c下界&r之前,这可能是一个不错的物品."
 				""
-				"If you don't have enough Leather yet, make a &9Butchering Knife&r and employ its inherent Looting III to hunt some cows."
+				"如果你还没有足够的皮革,制作一把&9屠宰刀&r并利用其固有的&a抢夺III&f来猎杀一些牛."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The Hang Glider originally came from a mod known as OpenBlocks. As its utility was too great to be left on earlier versions, it was ported all the way up to modern versions."
+				"&l&3背景故事:&r&o &a鞘翅&f最初来自一个名为OpenBlocks的模组.由于它的实用性太大,无法留在早期版本中,因此它一直被移植到现代版本."
 			]
 			id: "0C301014EC4D17B8"
-			rewards: [{
-				count: 8
-				id: "1A39F42877915C72"
-				item: "minecraft:leather"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "1A39F42877915C72"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "No, it's Steve with a glider!"
-			tasks: [{
-				id: "1D0F8D4470DFFD19"
-				item: {
-					Count: 1
-					id: "hangglider:hang_glider"
-					tag: {
-						Damage: 0
+			subtitle: "不,是带着滑翔翼的史蒂夫!"
+			tasks: [
+				{
+					id: "1D0F8D4470DFFD19"
+					item: {
+						Count: 1
+						id: "hangglider:hang_glider"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Is it a Phantom? Is it an Elytra?"
+			]
+			title: "是幻翼？还是鞘翅？"
 			x: 1.9417176870748278d
 			y: -2.5865816326530435d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"&3High Pressure Boilers&r will be a better source of Steam for powering your Steam machines."
+				"&3&a高压&f锅炉&r将成为为你的蒸汽机器提供蒸汽的更好来源."
 				""
-				"Keep in mind that you will still be using Steam to power your Electric machines in &7LV&r via the miracles of energy conversion."
+				"请记住,你仍然会使用蒸汽通过能量转换为&7LV&r电力机器供电."
 				""
-				"&cNote:&r You will need more than a handful of &3HP Boilers&r. The more you make, the less you'll need to worry about running out of power."
+				"&c注意:&r 你将需要不止几个&3高压锅炉&r.&a越多&f你制作,你就越不用担心电力耗尽."
 				"{@pagebreak}"
-				"The &3Solid Boiler&r burns solid Fuel. It's self explanatory - better fuels last longer."
+				"&3固体锅炉&r燃烧固体燃料.这很直观——更好的燃料持续时间更长."
 				""
-				"The &3Liquid Boiler&r burns either &dLava&r or &dCreosote&r."
+				"&3液体锅炉&r燃烧&d岩浆&r或&d杂酚油&r."
 				""
-				"The &3Solar Boiler&r burns nothing - it's fueled by the sun."
+				"&3太阳能锅炉&r不燃烧任何东西——它由太阳提供动力."
 				""
-				"Looking for a recommendation? Honestly, either goes, as all three boilers are equivalent in generation. Craft the boiler that best suits your preferred resource."
+				"寻找推荐？老实说,两者都可以,因为所有三种锅炉在发电方面都是等效的.制作最适合你偏好的资源的锅炉."
 				""
-				"Get &eany&r of the proposed boilers to complete this quest."
+				"制作&e任何&r提议的锅炉以完成此任务."
 			]
 			icon: "gtceu:hp_steam_solid_boiler"
 			id: "2FD75E4BD95F6645"
@@ -134,50 +142,52 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Pressure! Pushin' down on me..."
-			tasks: [{
-				id: "0DC74FB54995F3F1"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_solid_boiler"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_liquid_boiler"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hp_steam_solar_boiler"
-							}
-						]
+			subtitle: "压力!压在我身上……"
+			tasks: [
+				{
+					id: "0DC74FB54995F3F1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_solid_boiler"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_liquid_boiler"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hp_steam_solar_boiler"
+								}
+							]
+						}
 					}
+					title: "&a高压&f锅炉"
+					type: "item"
 				}
-				title: "High Pressure Boilers"
-				type: "item"
-			}]
-			title: "High Pressure"
+			]
+			title: "&a高压&f"
 			x: -0.1399149659863994d
 			y: -1.4233163265306032d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The &3Primitive Blast Furnace&r (&3PBF&r for short) is a multiblock you will become very familiar with in the next few hours."
+				"&3&a简易高炉&f&r(简称&3PBF&r)是一个你将在接下来的几个小时内非常熟悉的多方块结构."
 				""
-				"It is &cimportant&r that you get a &3Macerator&r before tackling this quest - if you haven't made one yet, this multiblock will be &lfour times as expensive&r."
+				"在处理这个任务之前,&c重要&r的是你要有一个&3粉碎机&r——如果你还没有制作一个,这个多方块结构将&l贵四倍&r."
 				""
-				"Using your fancy new &3Macerator&r, you'll need to process &d132 Clay&r, split into &d66 Clay Dusts&r and &d66 Brick Dusts&r."
+				"使用你新制作的&3粉碎机&r,你需要处理&d132粘土&r,分成&d66 &a黏土粉&f&r和&d66 &a红砖粉&f&r."
 				""
-				"Build the structure using &4JEI's Multiblock preview tab&r."
+				"使用&4JEI的多方块预览标签&r构建结构."
 				"{@pagebreak}"
-				"Steel will be &9of utmost importance&r throughout the entire game, so make sure you keep that PBF running. We should clarify that the PBF isn't the only way to get Steel throughout your playthrough, though!"
+				"钢将在整个游戏中&9至关重要&r,所以确保你让PBF持续运行.我们应该澄清,PBF并不是你在整个游戏过程中获得钢的唯一方式!"
 				""
-				"Steel also has &6double the durability&r compared to regular Iron for GregTech tools. It also provides &6Diamond mining level&r, and is much faster."
+				"钢还具有&e双倍耐久度&r&a比较&fd普通铁的&d格雷科技&f工具.它还提供&e钻石挖掘等级&r,并且速度更快."
 			]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "40DE888E6025C646"
@@ -197,7 +207,7 @@
 			]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Steel Yourself for Greater Things"
+			subtitle: "为更大的事情做好准备"
 			tasks: [
 				{
 					id: "7B33C92B976F5AB8"
@@ -211,40 +221,42 @@
 					type: "item"
 				}
 			]
-			title: "Primitive Blast Furnace"
+			title: "&a简易高炉&f"
 			x: 1.125d
 			y: -1.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"With a very small percentage of carbon in its mass, Steel is significantly tougher than Iron or Wrought Iron.&r"
+				"钢的碳含量极低,但其硬度远超铁或&a锻铁&f."
 				""
-				"One &3PBF&r most likely won't cut it moving forwards. Make another one, and you'll effectively halve the time spent waiting for Steel."
+				"一个&3高炉&r可能不足以应对未来的需求.再做一个,你就能有效减少等待钢的时间."
 				"{@pagebreak}"
-				"Just to check - did you know GregTech multiblocks can &dshare walls&r? This could save you a whole 12 Firebricks for your second PBF."
+				"顺便一提 - 你知道&d格雷科技&f多方块结构可以&d共享墙壁&r吗？这可以为你节省整整12个耐火砖用于第二个高炉."
 				""
-				"What you &omay&r also do is upgrade to four &3PBFs&r. It just depends on how much time you want to dedicate to resource collection, but more PBFs are always nice. We won't force you to make them, don't worry."
+				"你&o也可以&r升级到四个&3高炉&r.这取决于你愿意投入多少时间在资源收集上,但更多的高炉总是好的.我们不会强迫你做它们,别担心."
 				""
-				"&9Note:&r The &3PBF&r cannot be (reasonably) automated, but putting blocks of Iron and Coke/Charcoal will guarantee it will run for a long time without needing to be babysat."
+				"&9注意:&r &3高炉&r不能(合理地)自动化,但放入&a铁甲&f和焦煤/木炭可以确保它长时间运行而不需要照看."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o  In GregTech 5, one single Ingot of Steel would take you &d360 seconds&f in the PBF when using Coal or Charcoal! That's over &e6 hours&f for a whole stack! Of course, with 4 PBFs, that would cut it down to &3around 1.5 hours&f."
+				"&l&3背景:&r&o 在&d格雷科技&f 5中,使用煤炭或木炭在高炉中生产一个钢锭需要&d360秒&f!整整&e6小时&f才能生产一整组!当然,如果有四个高炉,时间会缩短到&3大约1.5小时&f."
 				""
-				"&oPollution was also (infamously) a thing, so four of these monsters would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison."
+				"&o污染也是一个(臭名昭著的)问题,所以四个这样的大家伙会确保你的角色会周期性地受到负面效果,如缓慢、挖掘疲劳,甚至恶心和中毒."
 				""
-				"&oPollution is actually integrated into GregTech Modern, but we've graciously disabled it in the configs. You can re-enable it if you're up for a challenge."
+				"&o污染实际上已经整合到&d格雷科技&f现代版中,但我们已经在配置中禁用了它.如果你愿意接受挑战,可以重新启用它."
 			]
 			icon: "gtceu:steel_ingot"
 			id: "5D17DFCF6672404C"
-			rewards: [{
-				count: 64
-				id: "7843257BC8A81E96"
-				item: "gtceu:coke_gem"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "7843257BC8A81E96"
+					item: "gtceu:coke_gem"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Steel, Schrödinger's alloy"
+			subtitle: "钢,薛定谔的合金"
 			tasks: [
 				{
 					count: 2L
@@ -265,26 +277,26 @@
 					type: "item"
 				}
 			]
-			title: "We Need More Steel!"
+			title: "我们需要更多钢!"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Now that you have Steel, you can make a &3Flint and Steel&r. You now have access to the &4Nether&r."
+				"现在你有了钢,可以制作一个&3&a打火石&f&r.你现在可以进入&4下界&r."
 				""
-				"&oYou could also light the Nether portal using... natural means. Dirty cheater.&r"
+				"&o你也可以用...自然的方式点燃&a下界&f传送门.肮脏的作弊者.&r"
 				""
-				"The &4Nether&r has more veins to mine, and with those veins, new ores to discover. Check the Ore Tab to learn more about the Nether Veins."
+				"&4下界&r有更多的矿脉可以挖掘,并且这些矿脉中有新的矿石等待你去发现.查看矿石标签了解更多关于&a下界&f矿脉的信息."
 				""
-				"Additionally, &6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r. It'd be great if you could craft the book directly, huh? ;)"
+				"此外,使用&3&a精准采集&f&r挖掘的&e&a下界矿石&f的价值是&a主世界矿石&f的两倍.如果能直接制作附魔书就好了,对吧？;)"
 				"{@pagebreak}"
-				"&4Nether&r veins will take more effort to find - and are more dangerous to mine - than &2Overworld&r veins. Keep on top of your mining by using Waypoints."
+				"&4下界&r矿脉比&2主世界&r矿脉更难找到,也更危险.通过使用路径点来保持你的挖掘进度."
 				""
-				"If you're yet to transition to &dPeaceful&r, it isn't too late to make the switch! There's no need to bother fighting Ghasts or Blazes in GTCEu."
+				"如果你还没有切换到&d和平模式&r,现在还来得及!在GTCEu中,没有必要与恶魂或烈焰人战斗."
 				""
-				"This is because the Blaze/Magma Cube and Enderman loot tables have been changed in this pack to &5Sulfur Dust&r and &5Ender Pearl Dust&r respectively, so you can't just rush the End."
+				"这是因为烈焰人/&a岩浆怪&f和末影人的战利品表在这个包中分别改为&5&a硫粉&f&r和&5&a末影珍珠粉&f&r,所以你不能直接冲进&a末地&f."
 			]
 			icon: "minecraft:netherrack"
 			id: "7CAD6FF241A827F7"
@@ -309,10 +321,12 @@
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:silk_touch"
-								lvl: 1s
-							}]
+							StoredEnchantments: [
+								{
+									id: "minecraft:silk_touch"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -320,25 +334,27 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Why WOULDN'T it be made of Steel?"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "01DEABF7BF6C5413"
-				title: "Take a trip to the Nether"
-				type: "dimension"
-			}]
-			title: "Journey to the Nether"
+			subtitle: "为什么不用钢制作呢？"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "01DEABF7BF6C5413"
+					title: "Take a trip to &a下界&f"
+					type: "dimension"
+				}
+			]
+			title: "前往&a下界&f的旅程"
 			x: 4.125d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Mine some &dSulfur&r from the Nether."
+				"从&a下界&f中挖掘一些&d硫磺&r."
 				""
-				"If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r. JEI might look a little confusing, but don't worry - you can use &bWater Bottles&r in the potion recipe."
+				"如果岩浆\"太热无法处理\",我们提供了一个&e直接合成配方&r用于制作&a抗火药水&f.JEI可能会看起来有点混乱,但别担心 - 你可以在药水配方中使用&b&a水瓶&f&r."
 				""
-				"&l&3Lore:&r&o With the existence of &6Small Sulfur Ores&f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!"
+				"&l&3背景:&r&o 在&d格雷科技&f 5的矿脉中,&e小型&a硫磺矿石&f散布其中,你可以在&a主世界&f中挖掘足够的硫磺,从而跳过访问&a下界&f的步骤.听起来很破坏平衡,但它和下界旅行一样繁琐!"
 			]
 			id: "236C886D50A99785"
 			rewards: [
@@ -367,161 +383,179 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "A little bit of exploring never hurt anyone"
-			tasks: [{
-				count: 16L
-				id: "36D03210534D3226"
-				item: "gtceu:sulfur_dust"
-				type: "item"
-			}]
-			title: "S is for Sulfur"
+			subtitle: "一点探索永远不会伤害任何人"
+			tasks: [
+				{
+					count: 16L
+					id: "36D03210534D3226"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+			]
+			title: "S代表硫磺"
 			x: 5.625d
 			y: -1.5d
 		}
 		{
 			dependencies: ["77EA56D16A9B3BFC"]
 			description: [
-				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2JEI is your true mentor&r if recipes are getting overwhelming."
+				"好消息 - 随着你在模组包中进一步发展,我们将减少你为任务所需的组件数量.记住,&2JEI 是你真正的导师&r,如果配方变得让人不知所措."
 				""
-				"Getting back on topic, set yourself up for &7LV&r by crafting six &aLV Electric Motors&r! This may seem like a lot, but that's the bare minimum required to get to the good stuff in &7LV&r."
+				"回到正题,通过制作六个 &a低压电动马达&f&r 来为自己准备 &7低压&r!这可能看起来很多,但这是进入 &7低压&r 中好东西的最低要求."
 				""
-				"&6Once you complete this Quest and the Electronic Circuit Quest, you are ready to move on to the LV Age.&r"
+				"&e一旦你完成了这个任务和 &a电子电路&f 任务,你就可以进入低压时代了.&r"
 			]
 			icon: "gtceu:lv_electric_motor"
 			id: "5A8F0124E07D5025"
-			rewards: [{
-				id: "405DCE51B96EB09A"
-				item: "gtceu:steel_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "405DCE51B96EB09A"
+					item: "gtceu:steel_block"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Low Voltage beckons..."
-			tasks: [{
-				count: 6L
-				icon: "gtceu:lv_electric_motor"
-				id: "6F01622979E6F332"
-				item: "gtceu:lv_electric_motor"
-				type: "item"
-			}]
-			title: "The First of Many Motors"
+			subtitle: "&a低压&f在召唤..."
+			tasks: [
+				{
+					count: 6L
+					icon: "gtceu:lv_electric_motor"
+					id: "6F01622979E6F332"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+			]
+			title: "&a冷杉&f的众多马达"
 			x: 6.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Obtaining paper is both more difficult and less efficient than in vanilla. Thanks, Greg."
+				"获取纸张比原版更困难且效率更低.谢谢,格雷."
 				""
-				"You'll need to grind &aSugar Canes&r into &aChad&r, and then smush the dust with a mallet and water."
+				"你需要将 &a甘蔗&f&r 磨成 &aChad&r,然后用锤子和水压碎粉末."
 				"{@pagebreak}"
-				"&9Note 1:&r Don't worry, we're not cruel enough to have the recipe consume the bucket."
+				"&9注意1:&r 别担心,我们不会残忍到让配方消耗桶."
 				"{@pagebreak}"
-				"&9Note 2:&r Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &aNomifactory&r veterans."
+				"&9注意2:&r 手工制作一个 &a甘蔗&f 农场.你也可以用观察者和活塞自动化一个.向任何 &aNomifactory&r 老手致敬."
 				"{@pagebreak}"
-				"&9Note 3:&r When you reach &7LV&r, you'll be able to make Paper from Wood."
+				"&9注意3:&r 当你达到 &7低压&r 时,你将能够用木头制作纸张."
 				"{@pagebreak}"
-				"&9Note 4:&r The Crafting Station makes this microcrafting absolutely &2trivial&r - use it!"
+				"&9注意4:&r 制作 &a空间站&f 使这种微型制作变得绝对 &2简单&r - 使用它!"
 				"{@pagebreak}"
-				"&9Note 5:&r Paper will be used as a poor-quality wrapping material for the upcoming resistors."
+				"&9注意5:&r 纸张将被用作即将到来的电阻器的劣质包装材料."
 				"{@pagebreak}"
-				"&9Note 6:&r It is truly a pleasure to share this moment with you, our fellow Greg enjoyer."
+				"&9注意6:&r 与你,我们亲爱的格雷爱好者分享这一刻,真是太棒了."
 				"{@pagebreak}"
-				"&9Note 7:&r Yes, Paper Dust is really called that. Let's get the giggles out of the way now, shall we?"
+				"&9注意7:&r 是的,&a纸粉&f 真的叫这个名字.让我们现在就把笑声发泄出来,好吗？"
 			]
 			id: "76B70EF552B35779"
-			rewards: [{
-				count: 32
-				id: "42FE9060BBF29DAF"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "42FE9060BBF29DAF"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "#realism"
-			tasks: [{
-				count: 4L
-				id: "5DCE370285F5B2C6"
-				item: "minecraft:paper"
-				type: "item"
-			}]
-			title: "Greg has struck again"
+			subtitle: "#现实主义"
+			tasks: [
+				{
+					count: 4L
+					id: "5DCE370285F5B2C6"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			title: "格雷又来了"
 			x: 7.875d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"&6GregTech&r can quickly get &4overwhelming&r with the plethora of fluids it introduces, so you may be looking for a way to store them. "
+				"&e&d格雷科技&f&r 引入的大量流体会让你感到 &4不知所措&r,所以你可能在寻找一种储存它们的方法."
 				""
-				"Introducing... &aDrums&r! They have large internal buffers, and any &aDrum&r can be broken and picked up and will &dkeep the fluid&r inside."
+				"介绍... &a桶&r!它们有较大的内部缓冲区,任何 &a桶&r 都可以被破坏并捡起,并且会 &d保持内部的流体&r."
 				"{@pagebreak}"
-				"&l&4[ NOT YET IMPLEMENTED ]"
+				"&l&4[ 尚未实现 ]"
 				""
-				"Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
+				"此外,机器的 &b内部储罐&r 将与含有流体的物品互动.这对于手工制作非常有用 - 这意味着你可以使用流体桶而不是多个桶进行制作.要 &5清空桶&r 中的流体,将其单独放置在任何制作网格中."
 				""
-				"&o&7Pssst:&r &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
+				"&o&7嘘:&r &o用螺丝刀右键点击可以让桶将其内容排入放置在其下方的另一个容器中.如果你想让你的液体锅炉长时间保持燃料,这很棒."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o These drums are actually ported from GregTech 6."
+				"&l&3背景:&r&o 这些桶实际上是从 &d格雷科技&f 6 移植过来的."
 			]
 			id: "2B74E56C9E138F18"
-			rewards: [{
-				id: "10D8ECE23B3C118B"
-				item: "gtceu:bronze_drum"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "10D8ECE23B3C118B"
+					item: "gtceu:bronze_drum"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Just kidding, tanks for fluids"
-			tasks: [{
-				id: "5876092FAA1763E0"
-				item: "gtceu:bronze_drum"
-				type: "item"
-			}]
-			title: "Armoured Tanks"
+			subtitle: "开玩笑的,流体储罐"
+			tasks: [
+				{
+					id: "5876092FAA1763E0"
+					item: "gtceu:bronze_drum"
+					type: "item"
+				}
+			]
+			title: "装甲坦克"
 			x: -1.125d
 			y: -0.375d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"The &bPrimitive Water Pump&r is an easy way to automatically generate water for your boilers. It doesn't physically pump water from the world, instead generating it &einternally&r. Therefore, you don't need access to a &3body of water&r to make use of it. However, the humidity of the biome does apply a negligible bonus to its water production."
+				"这个 &b原始 &a水泵&f&r 是自动为你的锅炉生成水的简单方法.它并不是从世界中物理抽水,而是 &e内部生成&r.因此,你不需要接触水源来使用它.然而,生物群系的湿度确实会对其水生成产生微小的加成."
 				""
-				"It's a multiblock, so &5consult JEI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
+				"这是一个多方块结构,所以 &5请查阅JEI&r 了解结构.如果你潜行并空手右键点击 \"&a&o控制器&r\" 方块(在这种情况下,控制器方块就是 &b原始 &a水泵&f&r 本身),可以在世界中预览多方块结构."
 				""
-				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
+				"&e小提示:&r 你不需要担心基地的生物群系 &a现在&f,因为你的锅炉只需要很少的水就能维持运行."
 				"{@pagebreak}"
-				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes. When you reach &7LV&r or &bMV&r, you can use an Output Hatch from either tier to further boost the Pump's output."
+				"水会生成在 &c输出仓&r 中.你可以让它向上或向下输出水到你的管道中.当你达到 &7LV&r 或 &bMV&r 时,你可以使用任意等级的输出仓来进一步提升水泵的输出."
 				""
-				"&2Reminder:&r Use a Wrench to rotate GregTech blocks (sneak right-click)."
+				"&2提醒:&r 使用扳手旋转 &d格雷科技&f 方块(潜行右键点击)."
 				""
-				"&l&3Lore:&r&o This Multiblock was ported from GT IMPACT, a classic 1.7.10 GregTech modpack."
+				"&l&3背景故事:&r&o 这个多方块结构是从 GT IMPACT 移植过来的,这是一个经典的 1.7.10 &d格雷科技&f 模组包."
 			]
 			id: "13901DA3D4F5C5A6"
-			rewards: [{
-				count: 18
-				id: "027EB8CF05AAACF8"
-				item: "gtceu:wood_normal_fluid_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 18
+					id: "027EB8CF05AAACF8"
+					item: "gtceu:wood_normal_fluid_pipe"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.1d
-			subtitle: "There's no such thing as \"free\" water"
-			tasks: [{
-				id: "03501AB173BA60EE"
-				item: "gtceu:primitive_pump"
-				type: "item"
-			}]
-			title: "Primitive Water Pump"
+			subtitle: "没有\"免费\"的水"
+			tasks: [
+				{
+					id: "03501AB173BA60EE"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+			]
+			title: "原始 &a水泵&f"
 			x: 0.0d
 			y: -0.375d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Make the listed molds for future alloy smelting. Be sure to make &aMolds&r - don't make &cExtruder Shapes&r, as they're used in a different machine."
+				"制作列出的模具以备将来合金冶炼.确保制作 &a模具&r - 不要制作 &c挤压形状&r,因为它们用于不同的机器."
 				""
-				"The reward for this quest will alleviate &da lot of pain&r when it comes to crafting &bGears&r."
+				"完成此任务的奖励将大大减轻制作 &b齿轮&r 时的痛苦."
 			]
 			icon: "gtceu:ball_casting_mold"
 			id: "22997534983F6812"
@@ -539,7 +573,7 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Reduce the amount of malding by molding"
+			subtitle: "通过模锻减少痛苦"
 			tasks: [
 				{
 					id: "33DCDFE73740AF97"
@@ -557,61 +591,69 @@
 					type: "item"
 				}
 			]
-			title: "Malding"
+			title: "模锻"
 			x: 2.25d
 			y: -0.375d
 		}
 		{
 			dependencies: ["249374557D095913"]
 			description: [
-				"Not many items are made in the &3Extractor&r during the &6Steam Age&r, but it's used to make &9Rubber&r, which you'll need after Steel."
+				"在 &e蒸汽时代&r,&3提取机&r 中制作的物品并不多,但它用于制作 &9橡胶&r,这是你在钢之后需要的."
 				""
-				"You can also process Dirt in the Extractor for &aBones&r, which makes getting &aBone Meal&r a lot easier for Peaceful players."
+				"你也可以在提取机中处理泥土以获得 &a骨头&r,这使得和平模式玩家更容易获得 &a&a骨粉&f&r."
 			]
 			id: "1436DB89E21264F3"
-			rewards: [{
-				count: 16
-				id: "4B856E1E30618E4D"
-				item: "gtceu:sticky_resin"
-				random_bonus: 48
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "4B856E1E30618E4D"
+					item: "gtceu:sticky_resin"
+					random_bonus: 48
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Steam Extractor extracts..."
-			tasks: [{
-				id: "12A46916B1BC17EC"
-				item: "gtceu:lp_steam_extractor"
-				type: "item"
-			}]
-			title: "Steam Extractor"
+			subtitle: "&a蒸汽提取机&f 提取..."
+			tasks: [
+				{
+					id: "12A46916B1BC17EC"
+					item: "gtceu:lp_steam_extractor"
+					type: "item"
+				}
+			]
+			title: "&a蒸汽提取机&f"
 			x: 4.5d
 			y: -0.375d
 		}
 		{
 			dependencies: ["5193DD03C0742548"]
 			description: [
-				"Grow &dRubber Trees&r and cut them down to get &aSticky Resin&r."
+				"种植 &d&a橡胶树&f&r 并砍伐它们以获得 &a&a粘性树脂&f&r."
 				""
-				"If you're playing on a difficulty other than &bPeaceful&r, Sticky Resin can be obtained from Slimeballs."
+				"如果你玩的难度不是 &b和平&r,可以从史莱姆球中获得 &a粘性树脂&f."
 			]
 			id: "3144DC68B266730C"
-			rewards: [{
-				count: 24
-				id: "606726568EBF1E4A"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 24
+					id: "606726568EBF1E4A"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Did you think we would force you to use treetaps...?"
-			tasks: [{
-				count: 32L
-				id: "67D04A48C5473D10"
-				item: "gtceu:sticky_resin"
-				type: "item"
-			}]
-			title: "Sticky Resin"
+			subtitle: "你以为我们会强迫你使用树液提取器吗...？"
+			tasks: [
+				{
+					count: 32L
+					id: "67D04A48C5473D10"
+					item: "gtceu:sticky_resin"
+					type: "item"
+				}
+			]
+			title: "&a粘性树脂&f"
 			x: 5.625d
 			y: -0.375d
 		}
@@ -623,23 +665,25 @@
 				"22997534983F6812"
 			]
 			description: [
-				"Rubber is an excellent insulation material, and that's exactly what it's used for in GTCEu."
+				"橡胶是一种极好的绝缘材料,而这正是它在 GTCEu 中的用途."
 				""
-				"You'll want to use the &3Alloy Smelter&r to make &aRubber Bars&r. These ratios aren't particularly great, but we promise that making Rubber Bars will be much more efficient at &7LV&r."
+				"你会想使用 &3&a合金冶炼&f&r 来制作 &a&a橡胶条&f&r.这些比例并不是特别好,但我们保证在 &7LV&r 时制作 &a橡胶条&f 会更加高效."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In base GregTech 5 (and in base GTCE), you needed to get string and black wool carpets as your first insulation material. &mThat was obviously far, far more fun.&r"
+				"&l&3背景故事:&r&o 在基础 &d格雷科技&f 5(以及基础 GTCE)中,你需要获得线和黑色羊毛地毯作为你的第一个绝缘材料.&m显然,那要有趣得多.&r"
 			]
 			icon: "gtceu:rubber_ingot"
 			id: "77EA56D16A9B3BFC"
-			rewards: [{
-				count: 8
-				id: "7190A812E045BE04"
-				item: "gtceu:rubber_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "7190A812E045BE04"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Put that resin to use!"
+			subtitle: "把树脂用起来!"
 			tasks: [
 				{
 					id: "04946F2F0923EFFE"
@@ -653,7 +697,7 @@
 					type: "item"
 				}
 			]
-			title: "Rubbering up"
+			title: "橡胶化"
 			x: 6.75d
 			y: -0.375d
 		}
@@ -663,196 +707,218 @@
 				"76B70EF552B35779"
 			]
 			description: [
-				"Resistors are components that will be used to make your first Circuit."
+				"电阻器是用于制作你第一个电路的元件."
 				""
-				"It wouldn't be unwise to prioritise the recipes that use &aFine Wires&r, as they'll save you more materials in the long run."
+				"优先制作使用 &a细导线&r 的配方并不愚蠢,因为从长远来看它们会为你节省更多材料."
 				""
-				"Wires may be expensive right now, but they'll get a lot cheaper in &7LV&r."
+				"现在导线可能很贵,但它们在 &7LV&r 会便宜很多."
 			]
 			id: "391E853DCE86BFD0"
-			rewards: [{
-				count: 4
-				id: "0AEE150D99E66D54"
-				item: "minecraft:charcoal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "0AEE150D99E66D54"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The easier component for circuits"
-			tasks: [{
-				id: "35CFB9E695DE3549"
-				item: "gtceu:resistor"
-				type: "item"
-			}]
-			title: "Electronics #1: Resistors"
+			subtitle: "电路的更简单元件"
+			tasks: [
+				{
+					id: "35CFB9E695DE3549"
+					item: "gtceu:resistor"
+					type: "item"
+				}
+			]
+			title: "电子元件 #1:电阻器"
 			x: 7.875d
 			y: -0.375d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"&bFluid Pipes&r will transport &7Steam&r between machines for you."
+				"&b&a流体管道&f&r 将为你输送 &7蒸汽&r 在机器之间."
 				""
-				"Each Pipe has a certain throughput in mB/t, and a &6Temperature Limit&r. This is relevant right now, as Steam will burn Wooden Pipes. Some pipes have &bspecial&r attributes you don't need to worry about for now."
+				"每根管道都有一定的吞吐量(mB/t),以及一个 &e温度限制&r.现在这一点很重要,因为蒸汽会烧毁木质管道.有些管道有 &b特殊&r 属性,你 &a现在&f 不需要担心."
 				""
-				"Each material has several sizes for Pipes. The bigger the Pipe, the &ahigher&r the throughput, but the more &dexpensive&r the craft. For example, a normal &6Bronze Fluid Pipe&r transfers 120 mB/t. (It also has a 1,200 mB internal buffer!)"
+				"每种材料都有几种不同尺寸的管道.管道越大,吞吐量 &a越高&r,但制作成本 &d更贵&r.例如,普通的 &e青铜 &a流体管道&f&r 传输速率为 120 mB/t.(它还有一个 1,200 mB 的内部缓冲!)"
 				""
-				"Get either a Small or Normal &6Bronze Fluid Pipe&r to complete this quest. Both are used in crafting."
+				"获取一个小型或普通的 &e青铜 &a流体管道&f&r 来完成这个任务.两者都用于制作."
 				"{@pagebreak}"
-				"&aReminder:&r 1 second = 20 ticks... assuming the server isn't lagging."
+				"&a提醒:&r &a1秒&f = 20 ticks... 假设服务器没有卡顿."
 				""
-				"&dNote:&r GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
+				"&d注意:&r 启用了 GT6 风格的管道.这意味着放置管道时,它们只会连接到放置时所对的方块.要打开更多连接,请使用你的扳手点击管道."
 				""
-				"You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing (liquids travelling in an undesired direction)."
+				"你也可以按住 &aShift&f 并用扳手 &a右击&f 来禁用某一侧的输入.这可以帮助抵消液体在不需要的方向上流动的问题."
 			]
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "1FFD2242B94A7378"
-			rewards: [{
-				count: 2
-				id: "66E3F49541CA77B9"
-				item: "minecraft:golden_apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "66E3F49541CA77B9"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Liquids, gases... we don't discriminate"
-			tasks: [{
-				id: "006E5756DD2CFB97"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:bronze_small_fluid_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:bronze_normal_fluid_pipe"
-							}
-						]
+			subtitle: "液体,气体... 我们不歧视"
+			tasks: [
+				{
+					id: "006E5756DD2CFB97"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:bronze_small_fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_normal_fluid_pipe"
+								}
+							]
+						}
 					}
+					title: "Bronze &a流体管道&f"
+					type: "item"
 				}
-				title: "Bronze Fluid Pipe"
-				type: "item"
-			}]
-			title: "Fluid Pipes"
+			]
+			title: "&a流体管道&f"
 			x: -1.125d
 			y: 0.75d
 		}
 		{
 			dependencies: ["315DBB3B23F95E0D"]
 			description: [
-				"The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two."
+				"&d固体锅炉&r 是 &a现在&f 唯一可用的锅炉,因为其他锅炉所需的 &a玻璃&f 暂时 &a不可用&f.你只需要一个就能应付,但我们建议至少制作两个."
 				""
-				"Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
+				"重要提示:锅炉会爆炸!即使是 经验丰富的 GT 玩家&r 也可能会被这一点吓到,所以在设置锅炉时要牢记这个警告."
 				"{@pagebreak}"
-				"Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r (Launch!) may occur under the following conditions:"
+				"水与 &e高温&r 相处得不太好,在以下条件下可能会发生 &c蒸汽爆炸&r(发射!):"
 				""
-				"- The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
-				"...and..."
-				"- The Boiler does not have any &bwater&r. This is signified by the absence of a &bblue bar&r in the GUI."
-				"...AND..."
-				"- The Boiler receives water whilst &6both&r conditions are &2true&r."
+				"- &a锅炉&f 处于 &4过热&r 状态.其温度由 GUI 中的 &cred ba&r 指示."
+				"...并且..."
+				"- &a锅炉&f 没有任何 &bwate&r.这由 GUI 中缺少 &blue ba&r 表示."
+				"...并且..."
+				"- &a锅炉&f 在 &eboth&r 条件 &2true&r 时接收到水."
 				"{@pagebreak}"
-				"You can avert catastrophe by filling the boiler with water before heating it up, and making sure the water supply is constant. The drain is slow - &b1 mB&r of Water boils into &7160 mB&r of Steam - so you shouldn't have to worry about running out."
+				"你可以通过在加热前给锅炉注满水,并确保持续供水来避免灾难.排水速度很慢 - &b1 mB&r 的水会变成 &7160 mB&r 的蒸汽 - 所以你不必担心水会用完."
 				""
-				"The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face."
+				"&a锅炉&f 可以在除底部以外的所有面上自动排出蒸汽.对于自动供水,请使用底部面."
 				""
-				"&3Note:&r In this modpack, explosions are configured to &cnot&r damage any block or entity, but you'll &dstill lose&r your machine."
+				"&3注意:&r 在这个模组包中,爆炸配置为 &c不&r 损坏任何方块或实体,但你 &d仍然会失去&r 你的机器."
 			]
 			id: "5DD49D500327A0E2"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Putting the Steam in Steam Age"
-			tasks: [{
-				id: "0F864E85D4956919"
-				item: "gtceu:lp_steam_solid_boiler"
-				type: "item"
-			}]
-			title: "Pressure Cookin'"
+			subtitle: "把蒸汽注入蒸汽时代"
+			tasks: [
+				{
+					id: "0F864E85D4956919"
+					item: "gtceu:lp_steam_solid_boiler"
+					type: "item"
+				}
+			]
+			title: "高压烹饪"
 			x: 0.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from JEI up to 32 EU/t (&7LV&r-tier)."
+				"&d蒸汽机&r 接受从附近锅炉泵入其内部储罐的任何蒸汽.它们将运行 JEI 中的配方,最高可达 32 EU/t(&7LV&r 等级)."
 				""
-				"&6This quest unlocks a new tutorial on Steam in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&e此任务解锁了 &l提示与技巧&r&e 标签中的新蒸汽教程 - 查看它以了解更多!&r"
 			]
 			id: "03DBF1961AE21C76"
-			rewards: [{
-				count: 4
-				id: "5A98072E0B3DBC41"
-				item: "gtceu:bronze_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "5A98072E0B3DBC41"
+					item: "gtceu:bronze_dust"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Surprisingly Steamy"
-			tasks: [{
-				id: "03BA041BE9C347FD"
-				item: "gtceu:bronze_machine_casing"
-				type: "item"
-			}]
-			title: "Steam Machine Behaviour"
+			subtitle: "出乎意料的蒸汽"
+			tasks: [
+				{
+					id: "03BA041BE9C347FD"
+					item: "gtceu:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			title: "蒸汽机行为"
 			x: 1.125d
 			y: 0.75d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The &bAlloy Smelter&r is used for, well, alloys. You'll want it for the efficient &6Bronze&r recipe, and for &4Red Alloy&r in the near future."
+				"&b&a合金冶炼&f&r 用于,嗯,合金.你将需要它来高效制作 &e青铜&r,以及不久后的 &4&a红色合金&f&r."
 				""
-				"Out of all the &6Steam Age&r machines, this is the most steam-hungry. If you ever find yourself running out of steam, give your machine a &alove-tap&r with &dany Soft Mallet&r to momentarily pause it."
+				"在所有 &e蒸汽时代&r 机器中,这是最耗蒸汽的.如果你发现自己蒸汽不足,可以用 &d任何软锤&r 轻轻敲击你的机器,让它暂时暂停."
 			]
 			id: "48AED37B4E20A99A"
-			rewards: [{
-				count: 8
-				id: "241026922AD16AB3"
-				item: "gtceu:bronze_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "241026922AD16AB3"
+					item: "gtceu:bronze_plate"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Alloy Smelter makes alloys..."
-			tasks: [{
-				id: "2F3B195A110E41C2"
-				item: "gtceu:lp_steam_alloy_smelter"
-				type: "item"
-			}]
-			title: "Steam Alloy Smelter"
+			subtitle: "这个 &a合金冶炼&f 制造合金..."
+			tasks: [
+				{
+					id: "2F3B195A110E41C2"
+					item: "gtceu:lp_steam_alloy_smelter"
+					type: "item"
+				}
+			]
+			title: "&a蒸汽合金炉&f"
 			x: 2.25d
 			y: 0.75d
 		}
 		{
 			dependencies: ["249374557D095913"]
 			description: [
-				"Crafting Vacuum Tubes might make you question your existence. Sorry about that."
+				"制作&a真空管&f可能会让你质疑自己的存在.对此感到抱歉."
 				""
-				"This is mostly due to the fact that Wires and Rods are (sadly) very expensive right now, but they'll get cheaper in &7LV&r."
+				"这主要是因为电线和棒子(遗憾的是)现在非常昂贵,但在&7LV&r中它们会变得更便宜."
 				""
-				"Vacuum Tubes are also technically your first Ultra Low Voltage (&8ULV&r) Circuit! Congratulations! You won't find very much use for these by themselves, though."
+				"&a真空管&f在技术上是你第一个超&a低压&f(&8ULV&r)电路!恭喜!不过,你不会发现它们单独使用时有太多用途."
 			]
 			id: "3CF550B81716B8B9"
-			rewards: [{
-				count: 16
-				id: "259F8029A6ED0C85"
-				item: "minecraft:glass_pane"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "259F8029A6ED0C85"
+					item: "minecraft:glass_pane"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The harder component for circuits"
-			tasks: [{
-				count: 2L
-				id: "099C373568DF4500"
-				item: "gtceu:vacuum_tube"
-				type: "item"
-			}]
-			title: "Electronics #3: Vacuum Tubes"
+			subtitle: "&a电路的硬度&f组件"
+			tasks: [
+				{
+					count: 2L
+					id: "099C373568DF4500"
+					item: "gtceu:vacuum_tube"
+					type: "item"
+				}
+			]
+			title: "电子学 #3:&a真空管&f"
 			x: 3.375d
 			y: 0.75d
 		}
@@ -862,36 +928,38 @@
 				"48AED37B4E20A99A"
 			]
 			description: [
-				"Use Mortars or a Macerator (your choice) to microcraft your way to Glass Dust, which you can then turn into a &aGlass Block&r."
+				"使用研钵或粉碎机(随你选择)来微加工得到玻璃粉,然后你可以将其制成&a&a玻璃&f&r."
 				""
-				"If you are lost, a more detailed guide for this process is on the next page, but &dwe urge you to nose around JEI&r and figure out the recipe on your own. Being able to navigate JEI and parse recipes is an &6essential skill&r for completing this pack."
+				"如果你迷失了方向,下一页有更详细的指南,但我们鼓励你使用JEI四处探索并自己找出配方.能够导航JEI并解析配方是完成这个包的&essential skill&r."
 				""
-				"Glass will be easier later on. You've probably already noticed that juicy &3Arc Furnace&r recipe - don't worry, we'll get there soon."
+				"玻璃在以后会更容易获得.你可能已经注意到了那个诱人的&3&a电弧炉&f&r配方——别担心,我们很快就会到达那里."
 				""
-				"Glass tubes will be required for your first Electronic Circuit."
+				"玻璃管将是你第一个&a电子电路&f所需的材料."
 				"{@pagebreak}"
-				"Lost? Worry not!"
+				"迷失了？别担心!"
 				""
-				"First, use a &3method of pulverisation&r to turn Sand into &9Quartz Sand Dust&r."
+				"首先,使用&3粉碎方法&r将沙子变成&9&a石英沙子&f粉&r."
 				""
-				"Next, crush down some Flint into &9Flint Dust&r, and split this dust into tiny piles in a crafting grid."
+				"接下来,将燧石粉碎成&9&a燧石粉&f&r,并在合成网格中将其分成小堆."
 				""
-				"Combine the two into &9Glass Dust&r, which can be molded into Glass in an Alloy Smelter with a &9Block Mold&r."
+				"将两者结合成&9玻璃粉&r,可以在&a合金冶炼&f中用&9块模具&r成型为玻璃."
 				""
-				"Finally, Glass!"
+				"最后,玻璃!"
 			]
 			icon: "minecraft:glass"
 			id: "249374557D095913"
-			rewards: [{
-				count: 2
-				id: "662203C8B58AE656"
-				item: "minecraft:glass"
-				random_bonus: 14
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "662203C8B58AE656"
+					item: "minecraft:glass"
+					random_bonus: 14
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Must be satisfying, right?"
+			subtitle: "一定很满足,对吧？"
 			tasks: [
 				{
 					id: "4B958F6E2AA74763"
@@ -904,35 +972,39 @@
 					type: "item"
 				}
 			]
-			title: "Glass, at last!"
+			title: "终于!玻璃!"
 			x: 3.375d
 			y: -0.375d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
 			description: [
-				"&4Red Alloy&r is an alloy of Copper and Redstone, prized in the GregTech universe for its conductivity."
+				"&4&a红色合金&f&r是铜和红石的合金,在&d格雷科技&f宇宙中因其导电性而备受推崇."
 				""
-				"You will need some for &9Electronic Circuits&r."
+				"你需要一些用于&9&a电子电路&f&r."
 				""
-				"&l&3Lore:&r&o This material originally comes from RedPower - what a throwback!"
+				"&l&3Lore:&r&o 这种材料最初来自RedPower——多么怀旧啊!"
 			]
 			id: "54AF8696674766B4"
-			rewards: [{
-				count: 16
-				id: "0D64AF2E29B7F41A"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "0D64AF2E29B7F41A"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "A completely fictional alloy"
-			tasks: [{
-				id: "4D3C4CF6577957A1"
-				item: "gtceu:red_alloy_ingot"
-				type: "item"
-			}]
-			title: "Red Alloy"
+			subtitle: "一个完全虚构的合金"
+			tasks: [
+				{
+					id: "4D3C4CF6577957A1"
+					item: "gtceu:red_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "&a红色合金&f"
 			x: 5.625d
 			y: 0.75d
 		}
@@ -945,15 +1017,15 @@
 				"77EA56D16A9B3BFC"
 			]
 			description: [
-				"We made it to &7LV&r! Give yourself a pat on the back!"
+				"我们到达了&7LV&r!给自己一个鼓励!"
 				""
-				"Just kidding (lol), you actually need three Circuits to get started anywhere relevant in &7LV&r. Thankfully for you, someone left this spare circuit laying around."
+				"开玩笑的(lol),你实际上需要三个电路才能在&7LV&r中开始任何相关的工作.幸运的是,有人留下了这个备用电路."
 				""
-				"We also want you to make an &aLV Machine Hull&r for this quest. You'll need one if you're to make any &7LV&r machine. We're feeling generous enough that this quest will grant you a second Hull, free of charge!"
+				"我们还希望你为这个任务制作一个&aLV &a机械外壳&f&r.如果你要制作任何&7LV&r机器,你将需要一个.我们感觉足够慷慨,这个任务会免费给你第二个外壳!"
 				""
-				"Circuits are an integral part of progression in GregTech, so keep climbing."
+				"电路是&d格雷科技&f中进展的关键部分,所以继续攀登."
 				""
-				"&6Once you complete this Quest and the LV Motor Quest, you are ready to move on to the LV Age.&r"
+				"&e一旦你完成了这个任务和LV马达任务,你就可以进入LV时代了.&r"
 			]
 			icon: "gtceu:basic_electronic_circuit"
 			id: "4B979482EF026BFF"
@@ -971,7 +1043,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Your first &aElectronic Circuit&r!"
+			subtitle: "你的第一个&a&a电子电路&f&r!"
 			tasks: [
 				{
 					count: 2L
@@ -985,169 +1057,187 @@
 					type: "item"
 				}
 			]
-			title: "Electronics #4: The Circuit"
+			title: "电子学 #4:&a电路板&f"
 			x: 6.75d
 			y: 0.75d
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
 			description: [
-				"&dPotin Fluid Pipes&r have a &avery high throughput&r for the material tier and cost. You may want to look into making some of these to aid with fluid logistics."
+				"&d锅&a流体管道&f&r在材料等级和成本上具有&a非常高的吞吐量&r.你可能想要制作一些来帮助流体物流."
 				""
-				"To get &dPotin&r, you should start by crafting its &eDust&r form."
+				"要获得&d锅&r,你应该从制作其&e粉末&r形式开始."
 				""
-				"This quest calls for either the small or normal pipe. Get either size to complete it."
+				"这个任务要求小或正常的管道.获得任意尺寸以完成它."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o &dPotin Fluid Pipes&r were originally created in &9GT++&r, and were a huge power spike for players in a little pack called &4GT:NH&r. We wanted to spread some of that joy."
+				"&l&3Lore:&r&o &d锅&a流体管道&f&r最初是在&9GT++&r中创建的,对于一个名为&4GT:NH&r的小包中的玩家来说是一个巨大的能量提升.我们想传播一些那种快乐."
 				""
-				"In the real world, &dPotin&r is an alloy used in coins, not pipes. GTCEu just gets more unrealistic by the day..."
+				"在现实世界中,&d锅&r是一种用于硬币的合金,而不是管道.GTCEu每天都在变得更加不现实..."
 			]
 			icon: "gtceu:potin_normal_fluid_pipe"
 			id: "3C70B0717E9377A4"
-			rewards: [{
-				count: 6
-				id: "18C834E9EC619985"
-				item: "gtceu:potin_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "18C834E9EC619985"
+					item: "gtceu:potin_plate"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "...I'm going into battle, and I need only your finest Potin."
-			tasks: [{
-				id: "159D19181DC4DE59"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:potin_small_fluid_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:potin_normal_fluid_pipe"
-							}
-						]
+			subtitle: "...我要去战斗,我只需要你最好的锅."
+			tasks: [
+				{
+					id: "159D19181DC4DE59"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:potin_small_fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "gtceu:potin_normal_fluid_pipe"
+								}
+							]
+						}
 					}
+					title: "波廷管道!"
+					type: "item"
 				}
-				title: "Potin Pipes!"
-				type: "item"
-			}]
-			title: "Potin Seller..."
+			]
+			title: "卖锅的人..."
 			x: -1.125d
 			y: 1.875d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"With the creation of this machine, many recipes that once required you to use a hammer can instead be made here!"
+				"有了这台机器,许多原本需要你用锤子制作的配方现在可以在这里完成了!"
 				""
-				"It can process &bCobblestone into Gravel&r, and &dGravel into Sand&r - and it's zippy at that to boot."
+				"它可以快速地将&b圆石&r加工成&7沙砾&r,再将&d沙砾&r加工成&e沙子&r."
 				""
-				"Last but not least, it makes &aPlates&r at a better ratio: &6three Ingots for two Plates&r. A worthwhile investment!"
+				"最重要的是,它以更好的比例制作&a板材&r:&e三个锭可以制作两个板材&r.这是一项值得的投资!"
 				""
-				"You know what? &aBonus&r! We'll give you the &8Anvil&r back if you craft the Forge Hammer. This is a gentle reminder that you can repair GregTech tools in an Anvil."
+				"你知道吗？&a额外奖励&r!如果你制作了&a锻造锤&f,我们会把&8铁砧&r还给你.这是一个友好的提醒,你可以在铁砧中修复&d格雷科技&f工具."
 			]
 			id: "1931FC6DEAC29646"
-			rewards: [{
-				id: "5C8B8D03ACE3CEED"
-				item: "minecraft:anvil"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5C8B8D03ACE3CEED"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Forge Hammer hammers..."
-			tasks: [{
-				id: "4F4074D7CE5A61A0"
-				item: "gtceu:lp_steam_forge_hammer"
-				type: "item"
-			}]
-			title: "Steam Forge Hammer"
+			subtitle: "The &a锻造锤&f 锤击..."
+			tasks: [
+				{
+					id: "4F4074D7CE5A61A0"
+					item: "gtceu:lp_steam_forge_hammer"
+					type: "item"
+				}
+			]
+			title: "&a蒸汽锻造锤&f"
 			x: 0.0d
 			y: 1.875d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The &bMacerator&r frees you from the painful process of &egrinding stuff into dust&r with a &3Mortar&r, but at the steep cost of time. Processing a single piece of Iron Ore in this machine will take &ctwenty seconds&r - twice the time it takes to smelt an ingot in a furnace!"
+				"&b粉碎机&r让你摆脱了用&3研磨机&r将物品&e研磨成粉末&r的痛苦过程,但代价是时间.在这台机器中处理一块&a铁矿石&f需要&c二十秒&r——是熔炉中熔炼一个锭所需时间的两倍!"
 				""
-				"The Macerator also marks the advent of &eOre Processing&r, but that's a scary topic that we'll dip our toes into in the next quest."
+				"&a粉碎机&f也标志着&e&a矿物处理&f&r的到来,但这是一个可怕的话题,我们将在下一个任务中略微提及."
 				"{@pagebreak}"
-				"The macerator will output only the first item shown in recipes from JEI. The other slots are locked until you make a &6HV&r Macerator. How unfortunate..."
+				"粉碎机只会输出JEI配方中显示的第一种物品.&a其他&f槽位在你制作&eHV&r粉碎机之前是锁定的.真不幸..."
 				""
-				"Our (&oimportant!&r) advice: it's actually better to keep directly smelting for now! The efficiency loss is made up with faster mining. Use the Macerator to make things like &aClay Dust&r instead!"
+				"我们(§o重要!§r)的建议:实际上直接熔炼§a现在§f更好!§a效率§f的损失可以通过更快的挖掘来弥补.使用粉碎机制作像§a§a黏土粉§f§r这样的物品!"
 			]
 			id: "1C50A758A1DE25CB"
-			rewards: [{
-				count: 32
-				id: "26175A33C13BBF0C"
-				item: "gtceu:clay_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "26175A33C13BBF0C"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Macerator macerates..."
-			tasks: [{
-				id: "6DFD6AC8CF31305C"
-				item: "gtceu:lp_steam_macerator"
-				type: "item"
-			}]
-			title: "Steam Macerator"
+			subtitle: "&a粉碎机&f 粉碎..."
+			tasks: [
+				{
+					id: "6DFD6AC8CF31305C"
+					item: "gtceu:lp_steam_macerator"
+					type: "item"
+				}
+			]
+			title: "蒸汽粉碎机"
 			x: 1.125d
 			y: 1.875d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
-			description: ["Invar has &650% more durability&r when used in GregTech tools compared to Iron (yes, that is the same as &aWrought Iron&r), and comes with inherent &bEfficiency I&r. Great for mining - you might want to consider using this in your tools if you &5haven't unlocked&r Steel."]
+			description: ["殷钢在&d格雷科技&f工具中的耐用性比铁(是的,与&a&a锻铁&f&r相同)高&e50%&r,并且自带&b&a效率&f I&r.非常适合挖掘——如果你&5还没有解锁&r钢,可以考虑在你的工具中使用它."]
 			id: "76F61E499780C30B"
-			rewards: [{
-				id: "15C0F36A7E35F7A6"
-				item: {
-					Count: 1
-					id: "gtceu:invar_mining_hammer"
-					tag: {
-						DisallowContainerItem: 0b
-						Enchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 1s
-						}]
-						GT.Behaviours: {
-							AoEColumn: 1
-							AoELayer: 0
-							AoERow: 1
-							MaxAoEColumn: 1
-							MaxAoELayer: 0
-							MaxAoERow: 1
+			rewards: [
+				{
+					id: "15C0F36A7E35F7A6"
+					item: {
+						Count: 1
+						id: "gtceu:invar_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 1s
+								}
+							]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 1151
+								ToolSpeed: 5.6f
+							}
+							HideFlags: 2
 						}
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 2
-							MaxDamage: 1151
-							ToolSpeed: 5.6f
-						}
-						HideFlags: 2
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "An Iron-Nickel alloy"
-			tasks: [{
-				count: 3L
-				id: "49E114B96843E5C9"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/invar"
+			subtitle: "一种铁镍合金"
+			tasks: [
+				{
+					count: 3L
+					id: "49E114B96843E5C9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/invar"
+						}
 					}
+					title: "&a殷钢锭&f"
+					type: "item"
 				}
-				title: "Invar Ingot"
-				type: "item"
-			}]
-			title: "Invar"
+			]
+			title: "殷钢"
 			x: 2.25d
 			y: 1.875d
 		}
@@ -1157,23 +1247,25 @@
 				"1C50A758A1DE25CB"
 			]
 			description: [
-				"Macerate Wood into Wood Pulp, then compress it into Wood Plates. Combine it with Resin to make an empty board."
+				"将木头粉碎成&a木浆&f,然后压缩成&a木板&f.将其与树脂结合制作一个空白的电路板."
 				""
-				"Stick in some expensive Copper Wires (these'll get cheaper in &7LV&r) and you've got the base for your first &aCircuit&r."
+				"插入一些昂贵的&a铜线&f(这些在&7LV&r中会更便宜),你就有了第一个&a电路&r的基础."
 				""
-				"Almost there!"
+				"快完成了!"
 			]
 			icon: "gtceu:resin_printed_circuit_board"
 			id: "4ED5A9AEF7B928BA"
-			rewards: [{
-				count: 4
-				id: "2A1EAEB72424AFB9"
-				item: "gtceu:wood_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2A1EAEB72424AFB9"
+					item: "gtceu:wood_plate"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The circuit-er part of circuits..."
+			subtitle: "电路的电路板部分..."
 			tasks: [
 				{
 					id: "3704C06203B7485A"
@@ -1185,7 +1277,7 @@
 						}
 					}
 					optional_task: true
-					title: "Wood Plates"
+					title: "&a木板&f"
 					type: "item"
 				}
 				{
@@ -1194,58 +1286,62 @@
 					type: "item"
 				}
 			]
-			title: "Electronics #2: Circuit Boards"
+			title: "电子学 #2:&a电路板&f"
 			x: 5.625d
 			y: 1.875d
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
 			description: [
-				"In its simplest form, Ore Processing in GregTech boils down to &aconverting one Ore Block into two Ingots through two Dusts&r, like several other tech mods. "
+				"在最简单的形式中,&a矿物处理&f在&d格雷科技&f中归结为&a将一个矿石块通过两个粉末转换成两个锭&r,就像其他几个科技模组一样."
 				""
-				"The added spice is the amount of steps, either optional or required."
+				"&a已添加&f的调味料是步骤的数量,无论是可选的还是必需的."
 				""
-				"Ore Processing will be explained further once you get into &7LV&r."
+				"&a矿物处理&f将在你进入&7LV&r后进一步解释."
 				""
-				"&6This quest unlocks a new tutorial on rudimentary Ore Processing in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&e这个任务解锁了一个关于基础&a矿物处理&f的新教程,在&l提示与技巧&r&e标签中查看以了解更多!&r"
 			]
 			icon: "gtceu:crushed_gold_ore"
 			id: "7813F183681E0342"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "...and how do I get rid of it?"
-			tasks: [{
-				id: "1C4CFA0AD3125A6D"
-				title: "Oh god, what have I gotten myself into!?"
-				type: "checkmark"
-			}]
-			title: "What is this Mess?!"
+			subtitle: "...我该如何摆脱它？"
+			tasks: [
+				{
+					id: "1C4CFA0AD3125A6D"
+					title: "哦天哪,我这是把自己卷入了什么!？"
+					type: "checkmark"
+				}
+			]
+			title: "这是什么乱七八糟的？!"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
 			description: [
-				"&o...or perhaps it was the opposite?&r"
+				"&o...或者也许是相反的？&r"
 				""
-				"The &3Steam Grinder&r can pulverize &6large batches of items quickly&r and effortlessly&r, sort of like a parallel Macerator."
+				"&3&a蒸汽磨粉机&f&r可以快速且毫不费力地粉碎&e大量物品&r,有点像并行粉碎机."
 				""
-				"This thing is incredibly good for its tier. It's actually as strong as 5.3 &6HV&r Macerators, and only requires a trickle of Steam to power."
+				"这台机器在其等级中非常出色.它的强度实际上相当于5.3个&eHV&r粉碎机,并且只需要少量的蒸汽来驱动."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze."
+				"&l&3背景故事:&r&o 这个多方块结构最初来自GT++.它需要使用图巴加合金来制作,这是一种由金和青铜混合而成的合金."
 			]
 			icon: "gtceu:steam_grinder"
 			id: "7FF95F1216D104B2"
-			rewards: [{
-				count: 8
-				id: "36B5ABA86707D569"
-				item: "gtceu:bronze_ingot"
-				random_bonus: 16
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "36B5ABA86707D569"
+					item: "gtceu:bronze_ingot"
+					random_bonus: 16
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Steam Oven's elder brother"
+			subtitle: "&a蒸汽炉&f的哥哥"
 			tasks: [
 				{
 					id: "478F7F5E6B4FC488"
@@ -1274,34 +1370,36 @@
 					type: "item"
 				}
 			]
-			title: "Steam Grinder"
+			title: "&a蒸汽磨粉机&f"
 			x: 1.125d
 			y: 3.0d
 		}
 		{
 			dependencies: ["76F61E499780C30B"]
 			description: [
-				"&o...or little brother. Don't let him know!&r"
+				"&o...或者小弟弟.别让他知道!&r"
 				""
-				"The &3Steam Oven&r is a great multiblock option if you need &6effortlessly smelt large quantities of items.&r No more lines of furnaces that you have to manually empty and refuel!"
+				"如果你需要&effortlessly smelt large quantities of items&r,&3&a蒸汽炉&f&r是一个很好的多方块结构选项.不再需要手动清空和重新添加燃料的熔炉阵列!"
 				""
-				"It effectively behaves as a parallel furnace, smelting up to 8 items at a time for a low cost of Steam."
+				"它的工作原理类似于并行熔炉,每次可以熔炼多达8个物品,成本仅为蒸汽."
 				"{@pagebreak}"
 				""
-				"&l&3Lore:&r&o This Multiblock - despite being very similar to its brother, the Steam Grinder - isn't ported from a GregTech version or addon. Its actual progenitor is the Steam Oven from Railcraft, which dates back to 1.4.7!"
+				"&l&3背景故事:&r&o 这个多方块结构——尽管与它的兄弟&a蒸汽磨粉机&f非常相似——并不是从&d格雷科技&f版本或模组移植过来的.它的真正起源是来自Railcraft的&a蒸汽炉&f,可以追溯到1.4.7版本!"
 			]
 			icon: "gtceu:steam_oven"
 			id: "6C25D11A26306168"
-			rewards: [{
-				count: 8
-				id: "72D375E16194CAE2"
-				item: "gtceu:bronze_ingot"
-				random_bonus: 16
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "72D375E16194CAE2"
+					item: "gtceu:bronze_ingot"
+					random_bonus: 16
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Steam Grinder's big brother"
+			subtitle: "&a蒸汽磨粉机&f的大哥"
 			tasks: [
 				{
 					id: "0EA421E6E53FA6A8"
@@ -1336,7 +1434,7 @@
 					type: "item"
 				}
 			]
-			title: "Steam Oven"
+			title: "&a蒸汽炉&f"
 			x: 2.25d
 			y: 3.0d
 		}
@@ -1346,17 +1444,17 @@
 				"54AF8696674766B4"
 			]
 			description: [
-				"The &9Portable Cell&r serves as an early-game digital backpack alternative! It holds up to &a54&r types of items."
+				"&9&a便携元件&f&r作为早期游戏的数字背包替代品!它可以容纳多达&a54&r种物品."
 				""
-				"What's more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an &aME Drive&r or &b&aME IO Port&r for convenience."
+				"更重要的是,它的功能就像一个普通的AE2 &a存储单元&f.一旦你启动了ME系统,你可以方便地将它放入&a&aME驱动器&f&r或&b&a&aME IO端口&f&r中."
 				""
-				"The Portable Cell's energy only drains when it's open. With &6167 minutes&r of juice stored in it thanks to changed config, you shouldn't worry about it running out of energy."
+				"&a便携元件&f只有在打开时才会消耗能量.由于配置更改,它存储了&e167分钟&r的电量,你不必担心它会耗尽能量."
 				""
-				"Regardless, you will be able to &dcharge&r it in &7LV&r in &3machine Charger slots&r, &3Turbo Chargers&r or &3Battery Buffers&r."
+				"无论如何,你可以在&7LV&r机器的&3充电器槽&r、&3涡轮充电器&r或&3电池缓冲器&r中&d充电&r."
 				"{@pagebreak}"
-				"&cWarning&r: Attempting to store items with very large NBT Tags may result in them getting &cstuck&r. So far it seems that the Building Gadgets, Terminal and Clipboards are &lsafe&r, but you never know what could happen."
+				"&c警告&r:尝试存储带有非常大的&aNBT标签&f的物品可能会导致它们&c卡住&r.到目前为止,&d建筑小帮手&f、终端和剪贴板似乎是&lsafe&r的,但你永远不知道会发生什么."
 				""
-				"If something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest, then place your Portable Cell inside the IO Port. This will spit out any stored items into the chest."
+				"如果有什么东西卡住了,只需构建一个简单的AE2网络,只需一个&a能量接收器&f、一个&aIO端口&f和一个&a存储总线&f放在箱子上,然后将你的&a便携元件&f放入&aIO端口&f中.这将把所有存储的物品吐出到箱子中."
 			]
 			icon: {
 				Count: 1
@@ -1364,68 +1462,78 @@
 				tag: { }
 			}
 			id: "7DDCB711526F37A0"
-			rewards: [{
-				count: 4
-				id: "3463AA941A74C11C"
-				item: "gtceu:certus_quartz_gem"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "3463AA941A74C11C"
+					item: "gtceu:certus_quartz_gem"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.66d
-			subtitle: "A higher-tech Backpack! "
-			tasks: [{
-				id: "459D19A750BB8440"
-				item: {
-					Count: 1
-					id: "ae2:portable_item_cell_1k"
-					tag: { }
+			subtitle: "一个更高科技的背包!"
+			tasks: [
+				{
+					id: "459D19A750BB8440"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_1k"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Portable Cell"
+			]
+			title: "&a便携元件&f"
 			x: 4.5d
 			y: 0.75d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
-			description: ["The Steam Compressor unlocks some tantalising new recipes that will help you to progress towards Steel."]
+			description: ["&a蒸汽压缩机&f解锁了一些诱人的新配方,这将帮助你向钢材迈进."]
 			id: "07415D6305C3B1D2"
-			rewards: [{
-				id: "1F47D2A131498C25"
-				item: "gtceu:wrought_iron_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F47D2A131498C25"
+					item: "gtceu:wrought_iron_block"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The Steam Compressor compresses..."
-			tasks: [{
-				id: "21C99D59F1BE48A3"
-				item: "gtceu:lp_steam_compressor"
-				type: "item"
-			}]
-			title: "Steam Compressor"
+			subtitle: "&a蒸汽压缩机&f压缩..."
+			tasks: [
+				{
+					id: "21C99D59F1BE48A3"
+					item: "gtceu:lp_steam_compressor"
+					type: "item"
+				}
+			]
+			title: "&a蒸汽压缩机&f"
 			x: 1.125d
 			y: -0.375d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"With your first &8Steel&r under your belt (ha!), you can make a &bTool Belt&r to free up inventory space from all those pesky GT tools. It can be equipped in its own &ddedicated Curio slot&r."
+				"在你的腰带上有了第一个&8钢&r(哈哈!),你可以制作一个&b&a工具腰带&f&r,以释放那些烦人的GT工具占用的库存空间.它&a可装备&f在自己的&dedicated Curio slot&r中."
 				""
-				"By default, the hotkey to open the belt is &eR&r, but you can rebind it if you prefer. From this GUI, you can place tools inside the belt's storage, and swap them with your &dmain-hand tool&r whenever is convenient."
+				"默认情况下,打开腰带的快捷键是&eR&r,但如果你愿意,可以重新绑定.通过这个GUI,你可以将工具放入腰带的存储空间,并在方便时与你的&d主手工具&r交换."
 				""
-				"The belt has a small initial inventory of a single tool. This can be expanded by combining the belt with &bBelt Pouches&r in an &aAnvil&r - the maximum slottage is &69 slots&r."
+				"腰带有一个小的初始库存,只能容纳一个工具.这可以通过将腰带与&b&a腰带包&fes&r在&a铁砧&r中组合来扩展——最大槽位数为&e9个槽&r."
 			]
 			icon: "toolbelt:belt"
 			id: "4A993CC40AB6D35C"
-			rewards: [{
-				id: "38A84272E0407C69"
-				item: "toolbelt:pouch"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "38A84272E0407C69"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "Take some weight off your inventory"
+			subtitle: "减轻你的库存负担"
 			tasks: [
 				{
 					id: "281B54469C34A5E2"
@@ -1438,126 +1546,134 @@
 					type: "item"
 				}
 			]
-			title: "Tool Belt"
+			title: "&a工具腰带&f"
 			x: 2.4927380952380958d
 			y: -2.1580102040816165d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
 			description: [
-				"&3Item Pipes&r are a simple yet effective way to move items around &dinstantly&r, but with throughput limitations."
+				"&3物品管道&r是一种简单但有效的移动物品的方式,可以&d瞬间&r移动,但有吞吐量限制."
 				""
-				"Higher tier pipes provide ridiculously large throughput - a rare sight in modded Minecraft!"
+				"&a更高等级&f的管道提供了惊人的大吞吐量——这在模组化的Minecraft中是罕见的!"
 				""
-				"Item Pipes &9do not pull&r, but they will push any item inserted into them to other connected inventories, prioritizing &9the closest inventory&r first."
+				"物品管道&9不会拉取&r物品,但会将插入的任何物品推送到其他连接的容器中,优先选择&9最近的容器&r."
 				"{@pagebreak}"
-				"The priority mechanics are &osomewhat complicated&r, so skip ahead if you aren't interested:"
+				"优先级机制&osomewhat complicated&r,所以如果你不感兴趣可以跳过:"
 				""
-				"A &eDestination&r will have a &dRouting Value&r calculated, which is the sum of all \"Routing Values\" of the individual Pipes to that Destination. Whichever Destination has the &clowest &dRouting Value&r will be the one selected for Insertion."
+				"一个&e目标&r将有一个&d路由值&r计算,这是所有\"路由值\"的总和,指向该目标的各个管道的路由值.具有&c最低&d路由值&r的目标将被选中进行插入."
 				""
-				"&3Restrictive Pipes&r typically have the lowest Priority for insertion due to their higher Routing Value."
+				"&3限制性管道&r通常由于其较高的路由值而具有最低的插入优先级."
 				"{@pagebreak}"
-				"Right now, you can use them in combination with &6Hoppers&r, but you will also be able to use them with Conveyor Modules, Output Buses, and machine Auto-Outputs all in the LV age."
+				"目前,你可以将它们与&e漏斗&r结合使用,但你也可以在LV时代将它们与传送带模块、输出总线和机器自动输出一起使用."
 				""
-				"&9Note:&r GT6-style Pipes are &denabled&r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your &5Wrench&r on the grid."
+				"&9注意:&r GT6风格的管道&d已启用&r.这意味着放置的管道只会连接到它们所放置的方块.要打开更多连接,请使用你的&5扳手&r在网格上操作."
 				""
-				"Get &eany&r of the suggested Item Pipes to complete this quest."
+				"获取&e任何&r推荐的物品管道以完成此任务."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Oooooh, YEAH! Item Pipes were in GregTech 5, and for whatever reason they weren't kept for GTCE, so you had to use other mods to transport items. Who does that!? Jokes aside, we hope you enjoy Item Pipes being back in GregTech!"
+				"&l&3背景故事:&r&o 哦,是的!物品管道在&d格雷科技&f 5中出现过,但由于某种原因在GTCE中没有保留,所以你必须使用其他模组来运输物品.谁会那样做呢!？说笑归说笑,我们希望你喜欢物品管道在&d格雷科技&f中回归!"
 			]
 			icon: "gtceu:tin_small_item_pipe"
 			id: "539CF1B85725786D"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "All your logistics woes are solved"
-			tasks: [{
-				id: "158F4EEDC214A3BA"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:tin_small_item_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:nickel_small_item_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:cobalt_small_item_pipe"
-							}
-						]
+			subtitle: "所有的物流问题都解决了"
+			tasks: [
+				{
+					id: "158F4EEDC214A3BA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:tin_small_item_pipe"
+								}
+								{
+									Count: 1b
+									id: "gtceu:nickel_small_item_pipe"
+								}
+								{
+									Count: 1b
+									id: "gtceu:cobalt_small_item_pipe"
+								}
+							]
+						}
 					}
+					title: "早期游戏物品管道"
+					type: "item"
 				}
-				title: "Earlygame Item Pipes"
-				type: "item"
-			}]
-			title: "Item Pipes"
+			]
+			title: "物品管道"
 			x: 3.375d
 			y: 1.875d
 		}
 		{
 			dependencies: ["54AF8696674766B4"]
 			description: [
-				"After &lmany&r requests, &6Sophisticated Backpacks&r has now been integrated!"
+				"经过&l多次&r请求,&e&a精妙背包&f&r现已整合!"
 				""
-				"Backpacks scale alongside &aPortable Cell&r tiering, with modular upgrades that can be inserted to provide new &dBackpack functionalities&r."
+				"背包的等级与&a&a便携元件&f&r的等级同步,并可通过插入模块化升级来提供新的&d背包功能&r."
 				""
-				"Before you reach &7LV&r, the upgrade options are &cquite limited&r. However, you should be able to upgrade the starter backpack &eonce&r before you make your first electric machine!"
+				"在你达到&7LV&r之前,升级选项&c相当有限&r.然而,你应该能够在制作你的第一个电动机器之前&e一次&r升级初始背包!"
 				"{@pagebreak}"
-				"Just so you know - backpacks have been configured and will &cnot&r interact with a connected &bStorage Bus&r. If you want the power of digital storage, you'll have to work for it!"
+				"只是让你知道——背包已被配置,&c不会&r与连接的&b&a存储总线&f&r交互.如果你想要数字存储的力量,你必须为此努力!"
 				""
-				"Oh, and holding one too many backpacks will &6slow you down&r."
+				"哦,对了,携带太多背包会&e减慢你的速度&r."
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "5E89BDA8943534AF"
-			rewards: [{
-				count: 4
-				id: "7193C5F82152C3EB"
-				item: "minecraft:leather"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "7193C5F82152C3EB"
+					item: "minecraft:leather"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 0.66d
-			subtitle: "A lower-tech Personal Cell!"
-			tasks: [{
-				id: "193A62DF98B59838"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			title: "Backpacks"
+			subtitle: "低科技的个人存储单元!"
+			tasks: [
+				{
+					id: "193A62DF98B59838"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			title: "背包"
 			x: 4.5d
 			y: 1.875d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"The &3Charcoal Pile Igniter&r is a particularly unique multiblock. You can use it to produce &aCharcoal&r faster than &3Coke Ovens&r, but this comes with the trade-off of &amanual labor&r."
+				"这个&3&a木炭堆&f点燃&r是一个特别独特的多方块结构.你可以用它来比&3&a焦炉&f&r更快地生产&a木炭&r,但这需要&a手动劳动&r作为代价."
 				"{@pagebreak}"
-				"To operate the Igniter, dig a big pit into the ground - up to &e9x5x9&r blocks in size. Line the floor of the pit with vanilla &aBrick blocks&r, then fill the remaining space entirely with &aLogs&r. After that, &acover the filled pit&r with Grass, Dirt, or other natural groundcover to form a roof. In the layer with the roof, place the Igniter! To start it, light it with &aFlint and Steel&r."
+				"要操作点燃器,在地上挖一个大坑——大小可达&e9x5x9&r方块.用原版的&a砖块&r铺满坑底,然后用&a原木&r填满剩余的空间.之后,用草方块、泥土或其他自然覆盖物&a覆盖填满的坑&r来形成屋顶.在屋顶层,放置点燃器!要启动它,用&a&a打火石&f&r点燃它."
 				""
-				"Once the process completes, open up the pit for your reward - &aBrittle Charcoal&r. This can be mined with a Shovel (or Spade!), and each block drops 1.4 Charcoal on average. Assuming 1 Log converts into 1 Brittle Charcoal, we're sure you can see the efficiency boost!"
+				"一旦过程完成,打开坑来获取你的奖励——&a易碎木炭&r.这可以用&a锹&f(或铲子!)挖掘,每个方块平均掉落1.4个木炭.假设1个原木转换成1个易碎木炭,我们相信你能看到效率的提升!"
 				"{@pagebreak}"
-				"&eNote&r: The pit must be &cfull to the brim&r with Logs - Air blocks will prevent this Multiblock from forming."
+				"§e注意§r:坑必须§c完全填满§r原木——空气方块会阻止这个多方块结构的形成."
 				""
-				"&eNote&r: This quest is &boptional&r. If you would like to skip this quest, hit the checkmark instead."
+				"&e注意&r:这个任务是&b可选的&r.如果你想跳过这个任务,点击勾选标记."
 				""
-				"&l&3Lore:&r&o This multiblock originated in GT5u, but did not require a fire-starting item to start."
+				"&l&3背景故事:&r&o 这个多方块结构起源于GT5u,但不需要点火物品来启动."
 			]
 			icon: "gtceu:charcoal_pile_igniter"
 			id: "4384068C4517F3D9"
-			rewards: [{
-				id: "73DAEC542AC76676"
-				item: "gtceu:brittle_charcoal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "73DAEC542AC76676"
+					item: "gtceu:brittle_charcoal"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I'm the trouble starter, punkin' instigator..."
+			subtitle: "我是麻烦的制造者,捣蛋的煽动者..."
 			tasks: [
 				{
 					id: "2586D1FC6BC5E53C"
@@ -1567,34 +1683,34 @@
 				}
 				{
 					id: "3B769177C398E246"
-					title: "No, I hate extra Charcoal yields..."
+					title: "不,我讨厌多余的木炭产量..."
 					type: "checkmark"
 				}
 			]
-			title: "Fuel Pit"
+			title: "燃料坑"
 			x: 1.390697278911567d
 			y: -2.9743367346938605d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"You DO have access to some beefy &bfluid storage&r right now, but you'll need to make a &eMultiblock&r to access it!"
+				"你现在确实可以使用一些强大的&b流体储存&r,但你需要制作一个&e多方块结构&r来访问它!"
 				""
-				"The &3Wooden Multiblock Tank&r&r holds &a250,000 mB&r, but you won't be able to use it to store &chot Fluids&r such as Lava, or &cGases&r such as Steam or Oxygen."
+				"这个&3木质多方块储罐&r可以储存&a250,000 mB&r,但你不能用它来储存&c高温流体&r如岩浆,或&c气体&r如蒸汽或氧气."
 				""
-				"The &3Steel Multiblock Tank&r holds &a1,000,000 mB&r, and lifts the aforementioned fluid restrictions."
+				"这个&3钢质多方块储罐&r可以储存&a1,000,000 mB&r,并且取消了上述流体限制."
 				""
-				"Get &eany&r of the Tanks to complete this quest. The Steel version is &dway too expensive&r right now - so you should probably make the Wooden one instead."
+				"获取&e任意&r一个储罐来完成这个任务.&a钢&f版本现在&d太贵了&r——所以你可能应该制作木质的."
 				"{@pagebreak}"
-				"Fluid transfer can either be facilitated through the Controller block, or through up to &atwo Valves&r."
+				"流体转移可以通过&a控制器&f方块,或者通过最多&a两个阀门&r来实现."
 				""
-				"Valves can &9auto-output&r by placing them on the &dbottom layer&r and making them &dface down&r (as always, use a &5Wrench&r to adjust their facing)."
+				"阀门可以通过放置在&d底部层&r并使其&d朝下&r(像往常一样,使用&5扳手&r来调整它们的朝向)来&9自动输出&r."
 				""
-				"Unlike &3Drums&r, these Tanks aren't portable... but you probably guessed that already."
+				"与&3桶&r不同,这些储罐不是便携式的...但你大概已经猜到了."
 				""
-				"This Quest generously rewards an extra &6Coke Oven&r. Make the most of GTCEu's &bwallsharing&r mechanic, and place it next to an existing Coke Oven to save on casings."
+				"这个任务慷慨地奖励一个额外的&e&a焦炉&f&r.充分利用GTCEu的&b墙共享&r机制,并将其放置在现有的&a焦炉&f旁边以节省外壳材料."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Just like Drums, these multiblocks are ported from GregTech 6."
+				"&l&3背景故事:&r&o 就像桶一样,这些多方块结构是从&d格雷科技&f 6移植过来的."
 			]
 			icon: "gtceu:steel_tank_valve"
 			id: "15923B47D23CCF34"
@@ -1613,7 +1729,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "So long, and Tanks for all the fish!"
+			subtitle: "再见了,感谢所有的鱼!"
 			tasks: [
 				{
 					id: "19C34AAB329C7ABF"
@@ -1633,7 +1749,7 @@
 							]
 						}
 					}
-					title: "Multiblock Tank"
+					title: "多方块储罐"
 					type: "item"
 				}
 				{
@@ -1654,7 +1770,7 @@
 							]
 						}
 					}
-					title: "Tank Valves"
+					title: "&a储罐阀门&f"
 					type: "item"
 				}
 				{
@@ -1676,40 +1792,42 @@
 							]
 						}
 					}
-					title: "24 Casings"
+					title: "24个框架"
 					type: "item"
 				}
 			]
-			title: "Multiblock Tanks"
+			title: "多方块储罐"
 			x: 0.5539625850340073d
 			y: -2.8110714285714167d
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
 			description: [
-				"Ever wanted your pipes to look &leven&r&o cooler? Now you can!"
+				"曾经想过让你的管道看起来&l更&r&o酷吗？现在你可以了!"
 				""
-				"Fluid and Item Pipes can be placed inside of Frameboxes, giving your base an &6unparalleled level of beauty&r!"
+				"流体和物品管道可以放置在框架盒内,为你的基地带来&e无与伦比的美感&r!"
 				""
-				"All you - dear player - need to do is right-click a frame onto a pipe or a pipe onto a frame, and you're done!"
+				"你——亲爱的玩家——只需要右键点击一个框架到管道上,或者一个管道到框架上,就完成了!"
 				""
-				"&l&3Lore:&r&o This is a GTCEu-original mechanic!"
+				"&l&3背景故事:&r&o 这是GTCEu原创的机制!"
 			]
 			icon: "gtceu:steel_frame"
 			id: "27240865315F9530"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Spaghetti has never looked so swanky!"
-			tasks: [{
-				id: "431894F9877BC900"
-				item: "gtceu:steel_frame"
-				type: "item"
-			}]
-			title: "Aesthetic Ultra"
+			subtitle: "意大利面从未如此时髦!"
+			tasks: [
+				{
+					id: "431894F9877BC900"
+					item: "gtceu:steel_frame"
+					type: "item"
+				}
+			]
+			title: "美学极致"
 			x: -2.1577721088435453d
 			y: 0.7399489795918583d
 		}
 	]
-	subtitle: ["Harness the power of Steam and learn the basics"]
-	title: "Steam Age"
+	subtitle: ["利用蒸汽的力量并学习基础知识"]
+	title: "蒸汽时代"
 }

@@ -16,20 +16,20 @@ ItemEvents.tooltip((event) => {
       "expatternprovider:ex_inscriber",
       "expatternprovider:ingredient_buffer"
     ],
-    Text.red("Disabled in this modpack!").bold(true)
+    Text.red("在此模组包中已禁用!").bold(true)
   );
 
-  event.add("gtceu:greenhouse", Text.gray("Two green thumbs up!"));
+  event.add("gtceu:greenhouse", Text.gray("两个大拇指竖起来!"));
   event.add(
     "gtceu:construction_core",
-    Text.gray("Offers cheaper recipes for building blocks!")
+    Text.gray("提供更便宜的建筑方块配方!")
   );
   event.add(
     "gtceu:construction_core",
     Text.darkGray("Requires Construction Foam to operate.")
   );
 
-  event.add("ae2:controller", Text.gray("Channels are §cdisabled§7."));
+  event.add("ae2:controller", Text.gray("频道已§c禁用§7."));
 
-  event.add("expatternprovider:fishbig", Text.gray("Congratulations! You won Minecraft."));
+  event.add("expatternprovider:fishbig", Text.gray("恭喜!你赢得了Minecraft."));
 });

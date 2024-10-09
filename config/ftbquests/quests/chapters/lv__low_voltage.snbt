@@ -6,144 +6,166 @@
 	icon: "gtceu:lv_electric_motor"
 	id: "7D50771C3FE033D7"
 	order_index: 1
-	quest_links: [{
-		id: "376725077649D2CC"
-		linked_quest: "5A8F0124E07D5025"
-		shape: "gear"
-		size: 1.2d
-		x: 2.25d
-		y: 0.0d
-	}]
+	quest_links: [
+		{
+			id: "376725077649D2CC"
+			linked_quest: "5A8F0124E07D5025"
+			shape: "gear"
+			size: 1.2d
+			x: 2.25d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["2F7617C0C4B330DE"]
 			description: [
-				"The &aFluid Regulator&r is sort of the equivalent to a &9Robot Arm&r for Fluids."
+				"&a&a流体调节器&f&r有点像流体的&9&a机械臂&f&r."
 				""
-				"It can transfer fluids, but has two useful modes:"
+				"它可以转移流体,但有两种有用的模式:"
 				""
-				"&9-&r &dSupply Exact&r will transfer the amount of specified Fluid per tick if available. No more, no less."
-				"&9-&r &dKeep Exact&r will make sure the exact amount of Fluid in the attached machine is being kept."
+				"&9-&r &d&a精确补给&f&r将在可用时每刻转移指定数量的流体.不多不少."
+				"&9-&r &d&a保持补给&f&r将确保连接的机器中保持精确数量的流体."
 			]
 			id: "47D4545452F05E37"
-			rewards: [{
-				id: "64CB7F650D8CE198"
-				item: "gtceu:lv_electric_pump"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "64CB7F650D8CE198"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A cover!"
-			tasks: [{
-				id: "5E8D784C83A4F672"
-				item: "gtceu:lv_fluid_regulator"
-				type: "item"
-			}]
+			subtitle: "一个覆盖物!"
+			tasks: [
+				{
+					id: "5E8D784C83A4F672"
+					item: "gtceu:lv_fluid_regulator"
+					type: "item"
+				}
+			]
 			x: -1.125d
 			y: 1.125d
 		}
 		{
 			dependencies: ["38993B4697B0E16C"]
 			description: [
-				"When placed on a machine, Robot Arms are a more configurable version of a Conveyor Module. They allow you to transfer items in specific batches, at specific rates, or keep a certain amount of items stocked."
+				"放置在机器上时,&a机械臂&f是传送带模块的一个更可配置的版本.它们允许你以特定的批次、特定的速率或保持一定数量的物品进行转移."
 				""
-				"Practical uses for the Robot Arm will be explained in future Quests as a tutorial."
+				"关于&a机械臂&f的实际用途将在未来的任务中作为教程进行解释."
 				""
-				"&9Note:&r The functionalities provided by the Robot Arm work &lonly&r if it is &lrequired&r to perform the operation."
+				"&9注意:&r &a机械臂&f提供的功能&l仅&r在&l需要&r执行操作时工作."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5 had blocks such as the Buffer, Filter and Type Filter to allow fine control over items. In GTCE it's all been replaced by the almighty Robot Arm and various Filter Covers. Much more compact!"
+				"&l&3Lore:&r&o &d格雷科技&f 5有诸如缓冲器、过滤器和类型过滤器等方块,允许对物品进行精细控制.在GTCE中,这一切都被全能的&a机械臂&f和各种过滤器覆盖物所取代.更加紧凑!"
 			]
 			id: "3DE7A2B91CFF48F6"
-			rewards: [{
-				id: "372D894C29C4513C"
-				item: "gtceu:basic_electronic_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "372D894C29C4513C"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "You're going to hate making these"
-			tasks: [{
-				id: "7D7A9CBE1E368E53"
-				item: "gtceu:lv_robot_arm"
-				type: "item"
-			}]
+			subtitle: "你会讨厌制作这些"
+			tasks: [
+				{
+					id: "7D7A9CBE1E368E53"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"Less common as a component, but used in a number of critical machines."
+				"作为一个组件不那么常见,但在许多关键机器中使用."
 				""
-				"When placed on a machine, conveyor modules will transfer items. You can configure them to import or export."
+				"放置在机器上时,传送带模块将转移物品.你可以配置它们导入或导出."
 				""
-				"They can also accept various &9Item Filters&r."
+				"它们还可以接受各种&9物品过滤器&r."
 			]
 			id: "288CE4AA4C5AA8BF"
-			rewards: [{
-				id: "16807937144E5F61"
-				item: "gtceu:rubber_nugget"
-				random_bonus: 7
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "16807937144E5F61"
+					item: "gtceu:rubber_nugget"
+					random_bonus: 7
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component, but also a cover!"
-			tasks: [{
-				id: "064169E7E2772387"
-				item: "gtceu:lv_conveyor_module"
-				type: "item"
-			}]
+			subtitle: "一个制作组件,但也是一个覆盖物!"
+			tasks: [
+				{
+					id: "064169E7E2772387"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+			]
 			x: 1.125d
 			y: 1.125d
 		}
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"When placed on a machine, pumps will transfer fluid. You can configure them to import or export."
+				"当放置在机器上时,泵会转移流体.你可以配置它们进行输入或输出."
 				""
-				"It can accept a &9Fluid Filter&r."
+				"它可以接受 &9&a流体过滤规制&f&r."
 			]
 			id: "2F7617C0C4B330DE"
-			rewards: [{
-				id: "204B2C6507063DF7"
-				item: "gtceu:lv_electric_motor"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "204B2C6507063DF7"
+					item: "gtceu:lv_electric_motor"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component, but also a cover!"
-			tasks: [{
-				id: "7A37B370D2D40E6A"
-				item: "gtceu:lv_electric_pump"
-				type: "item"
-			}]
+			subtitle: "一个合成组件,但也是一个覆盖物!"
+			tasks: [
+				{
+					id: "7A37B370D2D40E6A"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+			]
 			x: -1.125d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"A specialized motor needed to make certain machines."
+				"一种用于制造某些机器的专用马达."
 				""
-				"One of the more intricate crafting components, as it's made using a motor."
+				"作为一个更复杂的合成组件,它是由马达制成的."
 			]
 			id: "38993B4697B0E16C"
-			rewards: [{
-				count: 4
-				id: "05D8932AEED073F8"
-				item: "gtceu:small_steel_gear"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "05D8932AEED073F8"
+					item: "gtceu:small_steel_gear"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component - did you expect anything fancier?"
-			tasks: [{
-				id: "70FEF63FB9A58B02"
-				item: "gtceu:lv_electric_piston"
-				type: "item"
-			}]
+			subtitle: "一个合成组件 - 你期待更花哨的东西吗？"
+			tasks: [
+				{
+					id: "70FEF63FB9A58B02"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+			]
 			x: 1.125d
 			y: 0.0d
 		}
@@ -153,48 +175,52 @@
 				"5A8F0124E07D5025"
 			]
 			description: [
-				"The &3Steam Turbine&r is the only Generator you can realistically use in &7LV&r. &2Later, you'll unlock more interesting Power options&r, such as natural gases or petrols."
+				"&3&a汽轮机&f&r 是你可以在 &7LV&r 中实际使用的唯一发电机.&2稍后,你将解锁更多有趣的电力选项&r,如天然气或汽油."
 				""
-				"When provided Steam, the turbine will output EU at a ratio of &d2 Steam = 1 EU&r."
+				"当提供蒸汽时,汽轮机将以 &d2 蒸汽 = 1 EU&r 的比例输出 EU."
 				""
-				"&6This quest unlocks two new tutorials on Electricity and Cables in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
+				"&e此任务解锁了 &l提示与技巧&r&e 标签中的两个关于电力和电缆的新教程 - 查看它们以了解更多!&r"
 				"{@pagebreak}"
-				"If you're using a single &3Steam Turbine&r, you only need &a1x Tin Cables&r. On the other hand, if you upgrade to &32 Steam Turbines&r, you should use &a2x Tin Cables&r - else they may end up &cburning&r."
+				"如果你使用单个 &3&a汽轮机&f&r,你只需要 &a1x &a锡线缆&f&r.另一方面,如果你升级到 &32 &a汽轮机&f&r,你应该使用 &a2x &a锡线缆&f&r - 否则它们可能会 &cburning&r."
 				""
-				"This is because of the &9Amperage&r mechanic... but that will be explained later so you can enjoy playing. Don't worry!"
+				"这是因为 &9电流&r 机制... 但这将在稍后解释,所以你可以享受游戏.别担心!"
 			]
 			id: "6E186F9C57155BFA"
 			size: 0.75d
-			subtitle: "You must construct more turbines"
-			tasks: [{
-				id: "155BC745245BCBAF"
-				item: "gtceu:lv_steam_turbine"
-				type: "item"
-			}]
-			title: "Electricity Generation"
+			subtitle: "你必须建造更多的汽轮机"
+			tasks: [
+				{
+					id: "155BC745245BCBAF"
+					item: "gtceu:lv_steam_turbine"
+					type: "item"
+				}
+			]
+			title: "&a发电装置&f"
 			x: 3.375d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6431381FBE07D6EF"]
 			description: [
-				"This questline serves as a quick guide to &9GregTech Amperage&r. As for &dVoltage&r mechanics, we'll go over those once you reach &bMV&r."
+				"此任务线作为 &9&d格雷科技&f 电流&r 的快速指南.至于 &d电压&r 机制,我们将在你达到 &bMV&r 时进行讲解."
 				""
-				"&6&lTL;DR:&r For safety, match the Amperage limit of your Cables with the max amount of Amps provided by your Energy Producers."
+				"&e&lTL;DR:&r 为了安全,请将电缆的电流限制与能源生产者提供的最大安培数匹配."
 				""
-				"&6This quest unlocks a new tutorial on Amperage in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&e此任务解锁了 &l提示与技巧&r&e 标签中的一个关于电流的新教程 - 查看它以了解更多!&r"
 			]
 			id: "7B0FF43022F6C2EC"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Amps and You: a how-to"
-			tasks: [{
-				count: 4L
-				id: "1C81FD3C54CC2274"
-				item: "gtceu:tin_quadruple_cable"
-				type: "item"
-			}]
-			title: "But what are Amps?"
+			subtitle: "安培与你:一个操作指南"
+			tasks: [
+				{
+					count: 4L
+					id: "1C81FD3C54CC2274"
+					item: "gtceu:tin_quadruple_cable"
+					type: "item"
+				}
+			]
+			title: "但是什么是安培？"
 			x: 6.75d
 			y: 1.125d
 		}
@@ -204,48 +230,52 @@
 				"45B71324028F6E68"
 			]
 			description: [
-				"Well... can you show us an &bMV&r Circuit as well?"
+				"那么... 你能给我们展示一个 &bMV&r 电路吗？"
 				""
-				"&aAluminium&r is the main ingredient for &bMV&r machinery. Check &8aa&7aa&raall the way to the other side for the &2Sapphire Quest&r if you haven't acquired any &aAluminium Dust&r yet."
+				"&a铝&f 是 &bMV&r 机械的主要原料.如果你还没有获得任何 &a&a铝粉&f&r,请检查 &2蓝宝石任务&r."
 				""
-				"Once you setup an &3MV Electrolyzer&r, you can get &aAluminium&r through many other ores. All of this quest's rewards bear &aAluminium&r, so keep an eye out for them when mining."
+				"一旦你设置了一个 &3MV 电解机&r,你可以通过许多其他矿石获得 &a铝&f.此任务的所有奖励都包含 &a铝&f,所以在挖掘时要注意它们."
 				""
-				"The process of smelting Aluminium can be cut down by about a third with &9Nitrogen&r, which is obtained by centrifuging &9Air&r from a &3Gas Collector&r."
+				"通过离心 &3&a集气器&f&r 中的 &9Ai&r 获得的 &9氮气&r 可以将熔炼铝的过程缩短约三分之一."
 				""
-				"&6You will still need MV Circuits in order to make MV machines!&r"
+				"&e你仍然需要 MV 电路来制造 MV 机器!&r"
 			]
 			id: "7567E885B7166603"
-			rewards: [{
-				count: 8
-				id: "19987707822BC176"
-				item: "gtceu:aluminium_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "19987707822BC176"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "We're basically in MV now, right?"
-			tasks: [{
-				id: "161B5813936E5E42"
-				item: "gtceu:aluminium_ingot"
-				type: "item"
-			}]
+			subtitle: "我们基本上已经在 MV 了,对吧？"
+			tasks: [
+				{
+					id: "161B5813936E5E42"
+					item: "gtceu:aluminium_ingot"
+					type: "item"
+				}
+			]
 			x: 9.393452380952382d
 			y: 3.360459183673477d
 		}
 		{
 			dependencies: ["4B979482EF026BFF"]
 			description: [
-				"Make some Battery Alloy, used for Battery Hulls."
+				"制作一些 &a电池合金&f,用于电池外壳."
 				""
-				"Antimony is found in the &cNether&r, so don't forget to check its Ore Tab."
+				"锑可以在 &c下界&r 中找到,所以别忘了检查它的矿石标签."
 				""
-				"&9Note:&r This quest does &lnot&r contain functional Batteries - head downwards for that."
+				"&9注意:&r 此任务不包含功能性电池 - 向下查看相关内容."
 			]
 			icon: "gtceu:battery_alloy_ingot"
 			id: "6D9D54FAB21EC086"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Batteries are great!"
+			subtitle: "电池很棒!"
 			tasks: [
 				{
 					count: 2L
@@ -266,32 +296,36 @@
 					type: "item"
 				}
 			]
-			title: "Battery Preparations!"
+			title: "电池准备!"
 			x: 3.96d
 			y: 2.64d
 		}
 		{
 			dependencies: ["1C767009F505A813"]
 			description: [
-				"Crates are flat upgrades to Chests. A single block space that stores more items - what more could you ask for?"
+				"箱子是箱子的平面升级.一个方块空间存储更多物品 - 你还能要求什么？"
 				""
-				"Where they shine is the fact that they &6accept Covers&r, making them perfect candidates for buffers in automation."
+				"它们的优势在于 &e接受覆盖物&r,使它们成为自动化中缓冲区的完美候选者."
 			]
 			id: "7CCC1BDDE0C67F16"
-			rewards: [{
-				id: "1CADDD995C2DD509"
-				item: "ae2:sky_stone_chest"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1CADDD995C2DD509"
+					item: "ae2:sky_stone_chest"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Earlygame buffering"
-			tasks: [{
-				id: "6FE87ED832BF40D1"
-				item: "gtceu:steel_crate"
-				type: "item"
-			}]
-			title: "GregTech Storage"
+			subtitle: "早期游戏的缓冲"
+			tasks: [
+				{
+					id: "6FE87ED832BF40D1"
+					item: "gtceu:steel_crate"
+					type: "item"
+				}
+			]
+			title: "&d格雷科技&f 存储"
 			x: 0.0d
 			y: 2.25d
 		}
@@ -302,62 +336,66 @@
 				"2F7617C0C4B330DE"
 			]
 			description: [
-				"Covers are placed by right-clicking with Cover in hand on a face of a machine, and removed with a &5Crowbar&r (or by mining the machine, but that's way slower)."
+				"通过手持覆盖物右键点击机器的某个面来放置覆盖物,使用&5乌鸦爪&r(或通过挖掘机器,但那要慢得多)来移除覆盖物."
 				""
-				"Pretty much any GregTech \"machine\" will accept Covers, even if they wouldn't provide any functionality."
+				"几乎任何&d格雷科技&f \"机器\"都可以接受覆盖物,即使它们没有任何功能."
 				""
-				"Opening a Cover is done by sneak-right-clicking it with an &5empty hand&r. You can also right-click with a &5Screwdriver&r, or sneak-right-click on another face using the grid."
+				"打开覆盖物是通过潜行右键点击它,使用&5空手&r.你也可以使用&5螺丝刀&r右键点击,或者在网格上潜行右键点击另一个面."
 				"{@pagebreak}"
-				"For Covers that transfer Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:"
+				"对于传输物品/流体的覆盖物,你会有一个按钮来启用/禁用通过覆盖物的其他形式的传输:"
 				""
-				"&9- &rDisabled: only the cover will be allowed to transfer on this machine side."
+				"&9- &r禁用:只有覆盖物可以在这个机器面上传输."
 				""
-				"&9-&r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter"
+				"&9-&r 允许过滤(仅在有过滤器时相关!):只有在匹配过滤器时,其他传输才会启用"
 				""
-				"&9-&r Allow Unfiltered: any other transfer is allowed on this machine side."
+				"&9-&r 允许未过滤:任何其他传输在这个机器面上都是允许的."
 				""
-				"Placing a cover of a lower voltage tier on a machine is &9safe&r."
+				"在机器上放置一个较低电压等级的覆盖物是&9安全的&r."
 			]
 			icon: "gtceu:crafting_table_cover"
 			id: "1C767009F505A813"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Extra utility without taking up blockspace!"
-			tasks: [{
-				id: "7C7A8A26D3FF0E96"
-				title: "I'm an expert on Covers now, don't you worry."
-				type: "checkmark"
-			}]
-			title: "Cover Behaviour"
+			subtitle: "在不占用方块空间的情况下增加额外功能!"
+			tasks: [
+				{
+					id: "7C7A8A26D3FF0E96"
+					title: "I'm 现在是覆盖物的专家了,不用担心."
+					type: "checkmark"
+				}
+			]
+			title: "覆盖行为"
 			x: 0.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"All machines typically have one &7Front Face&r, and one &9Output Face&r."
+				"所有机器通常都有一个&7正面&r和一个&9输出面&r."
 				""
-				"The &7Front Face&r should be obvious.\\nThe &9Output Face&r is the face with a dot or hole on it. By default, this is at the back of the machine as you place it."
+				"&7正面&r应该是显而易见的.&9输出面&r是带有点或孔的面.默认情况下,这是你放置机器时的背面."
 				""
-				"Machines can &aauto-output&r through their output face. To enable auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with &dFilters&r and &dCovers&r, which are explained in the quest to the upper left of this one."
+				"机器可以通过它们的输出面进行自动输出&r.要启用自动输出,点击GUI中的相应按钮.流体和物品的自动输出是分别切换的.进一步控制自动输出可以通过&d过滤器&r和&d覆盖物&r来实现,这些在左上方的任务中有解释."
 				"{@pagebreak}"
-				"Right-clicking a machine with a &5Wrench&r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side &ccannot&r also be the output side! "
+				"使用&5扳手&r右键点击机器可以改变输出面,潜行右键点击可以改变正面.请记住,正面不能同时是输出面!"
 				""
-				"By default, items and fluids cannot be inserted through the output side, but this can be toggled with a &5Screwdriver&r. Either right-click the output face directly, or shift-right-click on the grid corresponding to the side of the output."
+				"默认情况下,物品和流体不能通过输出面插入,但可以使用&5螺丝刀&r切换.直接右键点击输出面,或者在对应输出面的网格上潜行右键点击."
 				""
-				"There are unique machines that do not process recipes, such as the &3Pump&r, &3Miner&r, &3Fisher&r, &3Item Collector&r, etc. These machines will output on their &7Front Face&r (which is still marked as a dot)."
+				"有一些独特的机器不处理配方,例如&3泵&r、&3矿机&r、&3钓鱼机&r、&3物品收集器&r等.这些机器会在它们的&7正面&r(仍然标记为点)上输出."
 			]
 			icon: "minecraft:hopper"
 			id: "64E1E87B8AF72968"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Let's learn."
-			tasks: [{
-				id: "6A4DFF7493955B8D"
-				title: "Hmm, how interesting!"
-				type: "checkmark"
-			}]
-			title: "Machine Auto-Output Behaviour"
+			subtitle: "让我们学习."
+			tasks: [
+				{
+					id: "6A4DFF7493955B8D"
+					title: "嗯,真有趣!"
+					type: "checkmark"
+				}
+			]
+			title: "机器自动输出行为"
 			x: 1.125d
 			y: 2.25d
 		}
@@ -367,107 +405,123 @@
 				"5A8F0124E07D5025"
 			]
 			description: [
-				"You could make any other &7LV&r Machine, but it would be easiest to start with the most useful one. We know, we know... you wanna make some of the crazier stuff first, but trust us, this is the best starting point."
+				"你可以制作任何其他&7LV&r机器,但最简单的开始方式是最有用的.我们知道,我们知道...你想先做一些更疯狂的东西,但相信我们,这是最好的起点."
 				""
-				"The Wiremill lets you make &6two Wires from one Ingot&r. That should be three times cheaper than what you were doing up until now!"
+				"&a线材轧机&f允许你从一块锭中制作&e两根电线&r.这应该比你现在所做的便宜三倍!"
 				""
-				"To the right of this Quest, you'll find some important machines which will grant you cheaper intermediates."
+				"在这个任务的右边,你会发现一些重要的机器,它们将为你提供更便宜的中间产物."
 				"{@pagebreak}"
-				"&9Note:&r Recipes inside &3LV Machines&r go up to a maximum usage of &a32 EU/t (LV)&r. Anything higher than that and you will need a &bMV&r (or better) Machine. Needless to say, we aren't quite there yet."
+				"&9注意:&r &3&aLV机器&f&r中的配方最高使用&a32 EU/t (LV)&r.任何高于这个的,你将需要一个&bMV&r(或更好)的机器.不用说,我们还没有到那一步."
 				""
-				"You will need a &dProgrammed Circuit&r for certain recipes. We're sure you don't want to spend a precious Circuit to craft one, so &6read the dedicated quest for important details&r."
+				"某些配方需要&d&a编程电路&f&r.我们确信你不想浪费一个宝贵的电路来制作一个,所以&e阅读专门的任务以获取重要细节&r."
 				""
-				"With this machine safely crafted - welcome to the age of all things electric!"
+				"有了这台机器的安全制作 - 欢迎来到电气时代!"
 			]
 			id: "32EA7E81885C8E87"
-			rewards: [{
-				count: 4
-				id: "2B736C4992CDC8D1"
-				item: "gtceu:copper_single_wire"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2B736C4992CDC8D1"
+					item: "gtceu:copper_single_wire"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "No more painful wires!"
-			tasks: [{
-				id: "2B5BF6F3ED693B9E"
-				item: "gtceu:lv_wiremill"
-				type: "item"
-			}]
-			title: "Basic Wiremill"
+			subtitle: "不再痛苦的电线!"
+			tasks: [
+				{
+					id: "2B5BF6F3ED693B9E"
+					item: "gtceu:lv_wiremill"
+					type: "item"
+				}
+			]
+			title: "&a基础线材轧机&f"
 			x: 2.25d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"Arguably the second best &7LV&r machine to craft, but we're down if you want to argue otherwise."
+				"可以说是第二好的&7LV&r机器,但如果你有异议,我们也可以讨论."
 				""
-				"This unlocks the ability to convert one &6Ingot into one Plate&r, which is a better ratio than the Forge Hammer."
+				"这解锁了将一个&e锭&r转换为一个&e板&r的能力,这是一个比&a锻造锤&f更好的比例."
 			]
 			id: "10ECB471A77F5136"
-			rewards: [{
-				count: 4
-				id: "6DF60970CB48982D"
-				item: "gtceu:steel_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6DF60970CB48982D"
+					item: "gtceu:steel_plate"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "The Bender bends!"
-			tasks: [{
-				id: "3AC3A8728EE60E4C"
-				item: "gtceu:lv_bender"
-				type: "item"
-			}]
-			title: "Basic Bender"
+			subtitle: "&a弯曲机&f弯曲!"
+			tasks: [
+				{
+					id: "3AC3A8728EE60E4C"
+					item: "gtceu:lv_bender"
+					type: "item"
+				}
+			]
+			title: "&a基础弯曲机&f"
 			x: 4.5d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"The Lathe is an important machine to help shape metals. Thanks to it, you can turn &6one Ingot into two Rods&r, and &6one Bolt into one screw&r. That's twice the efficiency on those recipes as opposed to crafting by hand."
+				"&a车床&f是一个重要的机器,帮助塑造金属.有了它,你可以将&e一个锭&r变成两个&e杆&r,以及将&e一个螺栓&r变成一个&e螺丝&r.这些配方比手工制作效率高两倍."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The GregTech 5 Lathe produces one Rod and 2 small piles of Dust per Ingot. We also have a setting for this in GTCEu, but it's turned off by default."
+				"&l&3背景故事:&r&o &d格雷科技&f 5的车床每个锭产生一个杆和2个小堆的粉尘.我们在GTCEu中也有这个设置,但默认是关闭的."
 				""
-				"&oThe GT6 Lathe acts like GT5's, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!"
+				"&oGT6的车床像GT5的一样,但螺栓车床成一个螺丝和1/72堆粉尘.恶心!"
 			]
 			id: "07E7678095258EDB"
-			rewards: [{
-				count: 4
-				id: "09FC4530E70B9105"
-				item: "gtceu:steel_rod"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "09FC4530E70B9105"
+					item: "gtceu:steel_rod"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "The Lathe lathes!"
-			tasks: [{
-				id: "6781D0241D0564A5"
-				item: "gtceu:lv_lathe"
-				type: "item"
-			}]
-			title: "Basic Lathe"
+			subtitle: "&a车床&f车削!"
+			tasks: [
+				{
+					id: "6781D0241D0564A5"
+					item: "gtceu:lv_lathe"
+					type: "item"
+				}
+			]
+			title: "&a基础车床&f"
 			x: 3.375d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
-			description: ["One of the cheapest - if not the cheapest - &7LV&r machine. Use this to make &6Redstone-free Magnetic Rods&r for your Motors. Whenever you start to batch your Motors, this machine will save you stacks and stacks of Redstone."]
+			description: ["最便宜的&7LV&r机器之一.用它来制作&e无红石的磁性杆&r用于你的马达.当你开始批量生产马达时,这台机器会为你节省大量的红石."]
 			id: "29379C91D6E00436"
-			rewards: [{
-				count: 16
-				id: "47F3A37E7A315A1D"
-				item: "minecraft:redstone"
-				random_bonus: 16
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "47F3A37E7A315A1D"
+					item: "minecraft:redstone"
+					random_bonus: 16
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "The Polarizer polarizes!"
-			tasks: [{
-				id: "5EC42A72DEC6F9FC"
-				item: "gtceu:lv_polarizer"
-				type: "item"
-			}]
-			title: "Basic Polariser"
+			subtitle: "&a两极磁化机&f极化!"
+			tasks: [
+				{
+					id: "5EC42A72DEC6F9FC"
+					item: "gtceu:lv_polarizer"
+					type: "item"
+				}
+			]
+			title: "&a基础两极磁化机&f"
 			x: 5.625d
 			y: 1.125d
 		}
@@ -477,173 +531,189 @@
 				"3E6DC423FE4A99F7"
 			]
 			description: [
-				"&dSneak right-click&r when in hand to activate your Magnet. Do it again to deactivate. The battery capacity of your magnet depends on the battery used to craft it."
+				"&d潜行右键&r手持时激活你的磁铁.再次操作以关闭.&a电池&f容量取决于用于制作的电池."
 				""
-				"&9Note:&r If you're worried about getting overwhelmed by Cobblestone or Netherrack, use the trash can from FTB Utilities (top left corner of your inventory) to void them."
+				"&9注意:&r 如果你担心被圆石或地狱岩淹没,使用FTB Utilities的垃圾桶(在你的物品栏左上角)来清除它们."
 			]
 			id: "3ECD9C9B909CCCCC"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Why can't these items I mine behave and enter my inventory!?"
-			tasks: [{
-				id: "14E4C5F6C88F5358"
-				item: "gtceu:lv_item_magnet"
-				type: "item"
-			}]
-			title: "Magnet"
+			subtitle: "为什么我挖的这些物品不能乖乖进入我的物品栏？!"
+			tasks: [
+				{
+					id: "14E4C5F6C88F5358"
+					item: "gtceu:lv_item_magnet"
+					type: "item"
+				}
+			]
+			title: "&a磁铁&f"
 			x: 5.61d
 			y: 2.31d
 		}
 		{
 			dependencies: ["6431381FBE07D6EF"]
 			description: [
-				"&oThe &3Large Boiler&r is an &6optional&r big-boy variant of the Small Boilers. It runs off solid or liquid fuel."
+				"&o&3大型锅炉&r是小型锅炉的&e可选&r大型版本.它使用固体或液体燃料运行."
 				""
-				"If you want Steam-based power production, this will be your first port-of-call. Other power options are listed in the &bMV&r chapter."
+				"如果你想使用蒸汽发电,这将是你的首选.其他发电选项列在&bMV&r章节中."
 				""
-				"&cImportant:&r This Boiler &lCAN&r also &cexplode&r similarly to the regular Boilers! Usually, the explosion can be rather devastating... but it's configured to not damage blocks or entities in this modpack."
+				"&c重要:&r 这个锅炉&l可以&r像普通锅炉一样&c爆炸&r!通常,爆炸可能相当具有破坏性... 但在本模组包中,配置为不会损坏方块或实体."
 				"{@pagebreak}"
-				"&cWater supply is &lcrucial&r&r. Dedicate a &3Primitive Pump&r with a &7LV&r Output Hatch in the &lsame chunk&r as the Boiler. Any biome will still be enough to supply enough water."
+				"&c供水是&l至关重要的&r.在锅炉所在的&l同一块&r中,使用&3原始泵&r和&7LV&r输出舱.任何生物群系仍然足以供应足够的水."
 				""
-				"Once fully heated up, the &3LBB&r produces 800 Steam per tick, which is &d400EU/t&r after conversion, or 12.5 Basic Steam Turbines. Such (relatively!) immense power comes at the cost of &la lot&r of burnable fuel."
+				"一旦完全加热,&3LBB&r每刻产生800蒸汽,转换后为&d400EU/t&r,或12.5&a基础蒸汽轮机&f.如此(相对!)巨大的电力是以大量可燃燃料为代价的."
 				"{@pagebreak}"
-				"&5&lWith this in consideration&r, the GUI lets you &9throttle&r the Boiler down to 25% power for 200 Steam per tick. That's &d100EU/t&r, or slightly above 3 Basic Steam Turbines."
+				"&5&l考虑到这一点&r,GUI允许你&9节流&r锅炉至25%功率,每刻产生200蒸汽.那是&d100EU/t&r,或略高于3&a基础蒸汽轮机&f."
 				""
-				"&9Note:&r An in-depth tutorial about Multiblocks is given after you get the &3Electric Blast Furnace&r. We recommend you aim for that first."
+				"&9注意:&r 关于多方块结构的深入教程在你获得&3&a电力高炉&f&r后给出.我们建议你先瞄准那个."
 			]
 			id: "33263404ED38C6D2"
-			rewards: [{
-				id: "1BEF1D97E033F1B1"
-				item: "gtceu:steam_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1BEF1D97E033F1B1"
+					item: "gtceu:steam_bucket"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Boom, boom, boom, boom"
-			tasks: [{
-				id: "560D4D0D6BECE006"
-				item: "gtceu:bronze_large_boiler"
-				type: "item"
-			}]
+			subtitle: "砰,砰,砰,砰"
+			tasks: [
+				{
+					id: "560D4D0D6BECE006"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+			]
 			x: 6.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
 			description: [
-				"&6Superconductors&r are special Wires available for each Voltage tier. They don't come with a Cable counterpart, but that isn't necessary, as they have absolutely &6zero cable loss&r."
+				"&e超导体&r 是每个电压等级可用的特殊导线.它们没有对应的电缆,但这并不必要,因为它们具有绝对的 &e零电缆损耗&r."
 				""
-				"They also won't damage you when you touch them. This makes them the best choice for wiring, if not a little expensive in comparison to the other wires."
+				"它们也不会在你触摸时对你造成伤害.这使得它们成为布线的最佳选择,尽管与其他导线相比有点贵."
 				""
-				"If you weren't already enamoured, the 1x variant also covers 2 Amps. Isn't that nice?"
+				"如果你还没有被吸引,1x 变种还覆盖了 2 安培.这不是很好吗？"
 				""
-				"Now is a good time to replace your crappy &aTin Cables&r. Recycle them in the &3Packager&r to recover both the Tin and Rubber used to craft them."
+				"现在是时候替换掉你那些糟糕的 &a&a锡线缆&f&r 了.在 &3包裹&r 中回收它们,以回收用于制作它们的锡和橡胶."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o No version of GregTech has had actual Superconductors for &7LV&f up until Gregicality and GTCEu, though some modpacks had lossless cables."
+				"&l&3背景故事:&r&o 在 Gregicality 和 GTCEu 之前,&d格雷科技&f 的任何版本都没有真正的 LV 超导体,尽管有些模组包有零损耗的电缆."
 			]
 			id: "46AD7A6F3B6775F5"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "We aren't losing a single Amp more"
-			tasks: [{
-				id: "4477AB06651827D6"
-				item: "gtceu:manganese_phosphide_single_wire"
-				type: "item"
-			}]
-			title: "LV Superconductor"
+			subtitle: "我们不会再损失一丝安培"
+			tasks: [
+				{
+					id: "4477AB06651827D6"
+					item: "gtceu:manganese_phosphide_single_wire"
+					type: "item"
+				}
+			]
+			title: "LV 超导体"
 			x: 7.875d
 			y: 2.25d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The &3Thermal Centrifuge&r is the most energy hungry out of the Ore Processing machines. It takes &aCrushed Ore&r or &aPurified Ore&r to give a different &6Byproduct&r from the &3Ore Washer&r, but at the same rate."
+				"&3&a热力离心机&f&r 是 &a矿物处理&f 机器中最耗能的.它需要 &a&a粉碎矿石&f&r 或 &a&a纯化&f矿石&r 来产生与 &3&a洗矿厂&f&r 不同的 &e副产品&r,但速度相同."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The GT5 Thermal Centrifuge required 48 EU/t to run. Yes, this may be above 32 EU/t, but GT5 had &dspecial mechanics&f where certain machines such as this one could accept more than 1 Amp."
+				"&l&3背景故事:&r&o GT5 的 &a热力离心机&f 需要 48 EU/t &a来运行&f.是的,这可能超过 32 EU/t,但 GT5 有 &d特殊机制&f,某些机器(如这台)可以接受超过 1 安培的电流."
 				""
-				"&oIn GTCE, the Thermal Centrifuge was changed to only work at &bMV&f with 60EU/t recipes. Let's be completely honest with you... what a &4complete waste of time&f! Never worth it. Thankfully, we've buffed the machine to be much more relevant."
+				"&o在 GTCE 中,&a热力离心机&f 被改为仅在 &bMV&f 下以 60EU/t 的配方工作.让我们完全诚实地告诉你...这真是 &4完全浪费时间&f!从来都不值得.幸运的是,我们已经增强了这台机器,使其更加相关."
 			]
 			id: "772F7CD63D31966A"
 			size: 0.75d
-			subtitle: "No, not THAT kind of Thermal"
-			tasks: [{
-				id: "10AB20A316EA688F"
-				item: "gtceu:lv_thermal_centrifuge"
-				type: "item"
-			}]
-			title: "Basic Thermal Centrifuge"
+			subtitle: "不,不是那种热力"
+			tasks: [
+				{
+					id: "10AB20A316EA688F"
+					item: "gtceu:lv_thermal_centrifuge"
+					type: "item"
+				}
+			]
+			title: "&a基础热力离心机&f"
 			x: -0.375d
 			y: 3.375d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The Sifter sifts &dGem type&r &aPurified Ores&r to find &aExquisite&r and &aFlawless&r Gems, which can be cut into normal Gems. It also finds &aPurified Dusts&r of that gem. Overall, this gives a &6higher yield&r than other means."
+				"&a筛沙工小屋&f 筛选 &d宝石类型&r 的 &a&a纯化&f矿石&r 以找到 &a精美&r 和 &a无瑕&r 的宝石,这些宝石可以切割成普通宝石.它还能找到该宝石的 &a&a纯化&f粉末&r.总的来说,这比其他方法产量更高."
 				""
-				"A small amount of &dFlawless Emeralds&r will be required in &bMV&r, and running ores in &3Sifting Machine&r is how you obtain these."
+				"在 &bMV&r 中,需要少量的 &d无瑕绿宝石&r,而通过 &3筛选机&r 运行矿石是获取这些宝石的方式."
 				""
-				"Each higher tier of &3Sifter&r increases the chance of all Gem types to be found, at the cost of more energy. "
+				"每个更高等级的 &3筛选机&r 都会增加找到所有宝石类型的几率,但代价是更多的能量."
 				""
-				"&9Note:&r If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However, this is a rather slow process, so you may want to smelt this type of ore directly into the Gem."
+				"&9注意:&r 如果你粉碎了 &a宝石矿石&f(如钻石),使用这台机器来恢复非粉末形式的实际宝石是至关重要的.然而,这是一个相当缓慢的过程,所以你可能想直接将这种矿石熔炼成宝石."
 			]
 			id: "7A64425597F58015"
 			size: 0.75d
-			subtitle: "You're as Exquisite as the gems you sift!"
-			tasks: [{
-				id: "2D87ADACFE1EF8E5"
-				item: "gtceu:lv_sifter"
-				type: "item"
-			}]
+			subtitle: "你和筛选的宝石一样精美!"
+			tasks: [
+				{
+					id: "2D87ADACFE1EF8E5"
+					item: "gtceu:lv_sifter"
+					type: "item"
+				}
+			]
 			x: 0.75d
 			y: 5.625d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&l在 &a矿物处理&f 之外:&r"
 				""
-				"You can make &6Paper out of Wood&r so that you no longer rely on &aSugar Canes&9*&r. You're probably sick of them by now, especially if you've played Nomifactory."
+				"你可以用木材制作 &e纸&r,这样你就不再依赖 &a&a甘蔗&f&9*&r.你现在可能已经厌倦了它们,尤其是如果你玩过 Nomifactory."
 				""
-				"There are some other less important recipes, such as applying colours to various items and blocks, or bleaching them."
+				"还有一些不太重要的配方,比如给各种物品和方块上色或漂白."
 				""
-				"&9*&r &aSugar&r is still useful as a requirement for &cTNT&r production in &6HV&r, so don't dismantle your setups."
+				"&9*&r &a甘蔗&r 在 &eHV&r 的 &cTNT&r 生产中仍然有用,所以不要拆掉你的装置."
 				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
+				"&l对于 &a矿物处理&f:&r"
 				""
-				"Some &aCrushed Ores&r have alternate routes when washed into &aPurified Ore&r, involving bathing in either &aMercury&r or &aSodium Persulfate&r. This step isn't really important, unless you really want that special &6Byproduct&r. This can be a nice alternate source of Gold (hint, hint!)."
+				"一些 &a&a粉碎矿石&f&r 在浸洗成 &a&a纯化&f矿石&r 时,可以通过浸泡在 &a汞&r 或 &a&a过硫酸钠&f&r 中进行不同的处理.这一步并不重要,除非你真的想要那个特殊的 &e副产品&r.这可以是一个不错的黄金替代来源(提示,提示!)."
 			]
 			id: "330BDB559A7BAB35"
 			size: 0.75d
-			subtitle: "The Chemical Bath bathes..."
-			tasks: [{
-				id: "526A5FF9B5DBB129"
-				item: "gtceu:lv_chemical_bath"
-				type: "item"
-			}]
-			title: "Basic Chemical Bath"
+			subtitle: "化学浸洗器在沐浴..."
+			tasks: [
+				{
+					id: "526A5FF9B5DBB129"
+					item: "gtceu:lv_chemical_bath"
+					type: "item"
+				}
+			]
+			title: "&a基础化学浸洗器&f"
 			x: 1.125d
 			y: 3.375d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"This machine combines washing for simple automation, but also advanced and precise washing for byproducts."
+				"这台机器结合了简单的自动化清洗功能,但也提供了对副产品的高级和精确清洗."
 				""
-				"Washing a &aCrushed Ore&r will grant a &aPurified Ore&r which can be refined further, some useless stone, and more importantly, the first &6Byproduct&r!"
+				"清洗&a&a粉碎矿石&f&r将获得&a&a纯化&f矿石&r,可以进一步精炼,还有一些无用的石头,更重要的是,第一个&e副产品&r!"
 				""
-				"Any Ore will give at &9minimum 2/3rd of a Dust&r of this Byproduct through washing. Prioritize this step the most."
+				"任何矿石通过清洗至少会给出这种副产品的&92/3的粉末&r.优先进行这一步."
 				""
-				"Using Distilled Water over Water cuts recipe duration in half, but it's also more difficult to produce."
+				"使用&a蒸馏水&f而不是普通水可以将配方时间减半,但生产起来也更加困难."
 			]
 			id: "58BA62A3A8A32C24"
 			size: 0.75d
-			subtitle: "Wash that mouth out"
-			tasks: [{
-				id: "1C03C5F3E5196342"
-				item: "gtceu:lv_ore_washer"
-				type: "item"
-			}]
-			title: "Basic Ore Washing Plant"
+			subtitle: "把那东西洗干净"
+			tasks: [
+				{
+					id: "1C03C5F3E5196342"
+					item: "gtceu:lv_ore_washer"
+					type: "item"
+				}
+			]
+			title: "&a基础洗矿厂&f"
 			x: 1.5d
 			y: 5.25d
 		}
@@ -653,13 +723,13 @@
 				"10ECB471A77F5136"
 			]
 			description: [
-				"By clicking the &6Circuit Configuration Slot&r in machines, you can create a &bghost Programmed Circuit&r. "
+				"通过点击机器中的&e电路配置槽&r,你可以创建一个&b幽灵&a编程电路&f&r."
 				""
-				"This is a fake circuit that allows you to select a given configuration for recipes! There's no need to spend your circuits crafting &bProgrammed Circuits&r anymore."
+				"这是一个假电路,允许你为配方选择一个给定的配置!不再需要花费你的电路来制作&b&a编程电路&f&r了."
 				""
-				"&dElectric Machines&r and &dItem Input Buses&r will have a Ghost Circuit Slot."
+				"&d电动机器&r和&d物品输入总线&r将有一个幽灵电路槽."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This feature is originally from GTNH."
+				"&l&3背景故事:&r&o 这个功能最初来自GTNH."
 			]
 			icon: {
 				Count: 1
@@ -671,37 +741,43 @@
 			id: "59F0060B55307311"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Don't want to spend your circuits to select recipes?"
-			tasks: [{
-				id: "7C04F3247B0C0BCB"
-				type: "checkmark"
-			}]
-			title: "Programmed Circuits"
+			subtitle: "不想花费电路来选择配方？"
+			tasks: [
+				{
+					id: "7C04F3247B0C0BCB"
+					type: "checkmark"
+				}
+			]
+			title: "&a编程电路&f"
 			x: 3.3d
 			y: 1.98d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"Make this machine when you feel like it's time you invested into Batteries."
+				"当你觉得是时候投资电池时,制作这台机器."
 				""
-				"It'll also be required if you want to make Storage Disks from &bApplied Energistics 2&r."
+				"如果你想从&b&d应用能源2&f&r制作存储磁盘,这也是必需的."
 			]
 			id: "37307A46E70011D3"
-			rewards: [{
-				count: 2
-				id: "25A57A151B7E8FEB"
-				item: "gtceu:lithium_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "25A57A151B7E8FEB"
+					item: "gtceu:lithium_dust"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "This machine does nothing exciting"
-			tasks: [{
-				id: "5521E4E26119E152"
-				item: "gtceu:lv_canner"
-				type: "item"
-			}]
-			title: "Basic Canner"
+			subtitle: "这台机器没什么令人兴奋的"
+			tasks: [
+				{
+					id: "5521E4E26119E152"
+					item: "gtceu:lv_canner"
+					type: "item"
+				}
+			]
+			title: "基础罐装机"
 			x: 3.375d
 			y: 3.375d
 		}
@@ -711,80 +787,84 @@
 				"6D9D54FAB21EC086"
 			]
 			description: [
-				"&aBatteries&r can be put into the energy slot at the bottom middle of machine GUIs, or in a &3Battery Buffer&r."
+				"&a电池&r可以放入机器GUI底部中间的能量槽中,或者放入&3电池缓冲器&r中."
 				""
-				"When inside your inventory, they can be sneak-right-clicked to allow the batteries to &dcharge&r your EU items."
+				"当在你的物品栏中时,它们可以通过潜行右键点击来允许电池&d充电&r你的EU物品."
 				""
-				"&7LV&r, &bMV&r, and &6HV&r Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have. &dLithium&r has the best capacity, followed by &dCadmium&r, then &dSodium&r."
+				"&7LV&r、&bMV&r和&eHV&r电池有三种形式,允许你根据你拥有的材料选择你认为最好的.&d锂&r容量最大,其次是&d镉&r,然后是&d钠&r."
 				""
-				"Our recommendation? Find a Salt vein, and either &aelectrolyze Salt&r for &dSodium&r, or &awash crushed Lepidolite&r for &dLithium&r."
+				"我们的建议？找到一个盐矿脉,并通过&a电解盐&r获得&d钠&r,或者通过&a清洗粉碎的锂云母&r获得&d锂&r."
 				""
-				"Get &eany&r &aBattery&r to complete this quest."
+				"获得&e任何&a电池&r以完成此任务."
 			]
 			id: "3E6DC423FE4A99F7"
 			size: 0.75d
-			subtitle: "Batteries for storing energy!"
-			tasks: [{
-				icon: "gtceu:lv_sodium_battery"
-				id: "47D0D12A26963702"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "gtceu:batteries/lv"
+			subtitle: "用于存储能量的电池!"
+			tasks: [
+				{
+					icon: "gtceu:lv_sodium_battery"
+					id: "47D0D12A26963702"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:batteries/lv"
+						}
 					}
+					title: "Any &a低压电池&f"
+					type: "item"
 				}
-				title: "Any LV Battery"
-				type: "item"
-			}]
-			title: "Batteries!"
+			]
+			title: "电池!"
 			x: 4.875d
 			y: 3.375d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
 			description: [
-				"By itself, the Battery Buffer does nothing. However, if you place batteries inside its internal storage, it will act as a power buffer."
+				"本身,电池缓冲器没有任何作用.但是,如果你将电池放入其内部存储中,它将充当电源缓冲器."
 				""
-				"The &3Battery Buffer&r handles &9two Amps in&r, and &9one Amp out&r, &dper Battery&r. The output side has the dot, and all other sides are used as inputs."
+				"&3电池缓冲器&r处理&9两个输入安培&r,和&9一个输出安培&r,&d每个电池&r.输出侧有圆点,所有其他侧用作输入."
 				""
-				"&6It'll also charge &lboth&r EU and RF Tools inside it&r."
+				"&e它还会为&l两者&rEU和RF工具充电&r."
 				""
-				"This is a must have if you don't have unlimited power at hand. Get &eany&r &7LV&r Battery Buffer to finish the quest. However, the 16 slots variant is likely overkill at this stage."
+				"如果你手头没有无限电源,这是必须的.获得&e任何&7LV&r电池缓冲器以完成任务.然而,16槽的变体在这个阶段可能过于 overkill."
 				"{@pagebreak}"
-				"&9Note:&r Don't loop your lossy Cables back to your Battery Buffer! If you think about it, you'll just end up voiding energy."
+				"&9注意:&r 不要将你的有损电缆循环回到你的电池缓冲器!如果你仔细想想,你最终会浪费能量."
 				""
-				"&l&3Lore:&r&o To be frank with you, the GTCE Battery Buffer was... mediocre. It's been reworked in GTCEu to provide a mix between GT5 and GTCE's functionality. Energy now splits evenly across all batteries!"
+				"&l&3背景故事:&r&o 坦率地说,GTCE的电池缓冲器...很一般.它在GTCEu中进行了重新设计,以提供GT5和GTCE功能之间的混合.能量现在均匀地分布在所有电池中!"
 			]
 			icon: "gtceu:lv_battery_buffer_4x"
 			id: "6431381FBE07D6EF"
 			size: 0.75d
-			tasks: [{
-				id: "35FEF4BB8295416C"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_battery_buffer_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_battery_buffer_8x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_battery_buffer_16x"
-							}
-						]
+			tasks: [
+				{
+					id: "35FEF4BB8295416C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_battery_buffer_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_battery_buffer_8x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_battery_buffer_16x"
+								}
+							]
+						}
 					}
+					title: "&a低压电池&f 缓冲器"
+					type: "item"
 				}
-				title: "LV Battery Buffer"
-				type: "item"
-			}]
-			title: "Battery Buffer"
+			]
+			title: "电池缓冲器"
 			x: 6.75d
 			y: 3.375d
 		}
@@ -794,161 +874,179 @@
 				"6431381FBE07D6EF"
 			]
 			description: [
-				"This Quest explains the core mechanic of the &3Electric Blast Furnace&r, whilst the quest below will explore the mechanics of the Multiblock Parts that you'll also need. Be sure to refer to them."
+				"本任务解释了&3&a电力高炉&f&r的核心机制,而下面的任务将探索你也需要的多方块部件的机制.请务必参考它们."
 				""
-				"Anyway, the &3EBF&r is your &efirst electric multiblock&r! Congrats. It's used to process materials at high temperatures."
+				"无论如何,&3EBF&r是你的&e第一个电动多方块结构&r!恭喜.它用于在高温下处理材料."
 				""
-				"You'll become familiar with the EBF to make &aAluminium&r and progress to &d&bMV Age&r. It can also make &7Steel&r faster than a PBF."
+				"你将熟悉EBF来制作&a铝&r并进入&d&bMV时代&r.它还可以比PBF更快地制作&7钢&r."
 				"{@pagebreak}"
-				"It's important to keep in mind that the EBF is a beefy boy. The minimum power cost to run a recipe is &9120 EU/t&r! That's slightly under 4 &7LV&r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this."
+				"重要的是要记住,EBF是一个强大的机器.运行一个配方的最低电力成本是&9120 EU/t&r!这略低于4个&7LV&r发电机.这就是为什么它在电池任务之后才解锁.你可能希望考虑建立一个单独的电力线路,使用单独的发电机和电池缓冲器来运行它."
 			]
 			id: "1E9BE8D3F8A602DC"
-			rewards: [{
-				count: 16
-				id: "0DBE03823EE6616B"
-				item: "gtceu:invar_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "0DBE03823EE6616B"
+					item: "gtceu:invar_ingot"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "A big milestone!"
-			tasks: [{
-				id: "10F6305A7E5D186D"
-				item: "gtceu:electric_blast_furnace"
-				type: "item"
-			}]
+			subtitle: "一个重要的里程碑!"
+			tasks: [
+				{
+					id: "10F6305A7E5D186D"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+			]
 			x: 7.875d
 			y: 3.375d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The Autoclave is typically the last step of Gem Processing. It is used turn a select few &aGem Dusts&r back into regular Gems."
+				"&a热压罐&f通常是宝石处理的最后一步.它用于将选定的&a宝石粉&r还原为普通宝石."
 				""
-				"It's veeeery slow - thus, it is generally not advised to crush gem ores at all, as the recovery process is too expensive."
+				"它的速度非常慢 - 因此,通常不建议完全粉碎宝石矿石,因为回收过程成本太高."
 				""
-				"&9Note:&r In this modpack, the Autoclave is required to make &5Fluix Crystals&r if you're to progress in Applied Energistics. Sorry."
+				"&9注意:&r 在这个模组包中,如果你要推进&a应用能源&f,高压釜是制作&5&a福鲁伊克斯水晶&f&r所必需的.抱歉."
 			]
 			id: "22A1A629AF754066"
 			size: 0.75d
-			subtitle: "\"Oops, I turned my Diamonds into dust\""
-			tasks: [{
-				id: "30C94122AD446D9B"
-				item: "gtceu:lv_autoclave"
-				type: "item"
-			}]
-			title: "Basic Autoclave"
+			subtitle: "\"哎呀,我把钻石变成了粉末\""
+			tasks: [
+				{
+					id: "30C94122AD446D9B"
+					item: "gtceu:lv_autoclave"
+					type: "item"
+				}
+			]
+			title: "&a基础高压釜&f"
 			x: -1.125d
 			y: 4.125d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
-			description: ["A rarely used machine. It uses magnetism to separate some Magnetic ores and gain additional &6Byproducts&r you would not obtain otherwise."]
+			description: ["一个很少使用的机器.它利用磁力分离一些磁性矿石,并获得额外的&e副产品&r,否则你无法获得."]
 			id: "24B4D9608718EE27"
 			size: 0.75d
-			subtitle: "Magnets... how do they work"
-			tasks: [{
-				id: "3162F3E3D12E00FB"
-				item: "gtceu:lv_electromagnetic_separator"
-				type: "item"
-			}]
-			title: "Basic Electromagnetic Separator"
+			subtitle: "磁铁...它们是如何工作的"
+			tasks: [
+				{
+					id: "3162F3E3D12E00FB"
+					item: "gtceu:lv_electromagnetic_separator"
+					type: "item"
+				}
+			]
+			title: "&a基础电磁选矿机&f"
 			x: 0.375d
 			y: 3.375d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"This quest is a light look over the &dfull scale of regular Ore Processing&r. Why \"regular\"? Some ores require special treatment, but that's a topic for much later. Oh no, we're already getting carried away!"
+				"这个任务是对&d常规&a矿物处理&f&r的全面概述.为什么\"常规\"？有些矿石需要特殊处理,但这将是以后的话题.哦不,我们已经开始跑题了!"
 				""
-				"Each quest surrounding this one gives a different machine that has some involvement in Ore Processing."
+				"围绕这个任务的每个任务都给出了一个在&a矿物处理&f中有所涉及的不同机器."
 				""
-				"&cNote:&r Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. That's a legitimate stat, by the way."
+				"&c注意:&r 不要过于专注于&a矿物处理&f!在这个阶段它非常慢,而且耗电量大.大约90%的矿石并不重要到值得你去特意获取它们的副产品.顺便说一下,这是一个合法的统计数据."
 			]
 			icon: "gtceu:crushed_sulfur_ore"
 			id: "701BCADAE5CF6CA5"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "You can't escape Greg..."
-			tasks: [{
-				id: "3A7506F2C9145157"
-				title: "I agree to lose my sanity"
-				type: "checkmark"
-			}]
-			title: "What is this Mess?: Part Two"
+			subtitle: "&a你无法逃脱&f Greg..."
+			tasks: [
+				{
+					id: "3A7506F2C9145157"
+					title: "我同意失去理智"
+					type: "checkmark"
+				}
+			]
+			title: "这是什么混乱？:第二部分"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"&7LV&r will require you to craft a lot of different machines! Here's a friendly tip if you're struggling to set goals: pick an item in a later quest and go backwards from there."
+				"&7LV&r将要求你制作许多不同的机器!如果你在设定目标时遇到困难,这里有一个友好的提示:选择一个后面的任务中的物品,然后从那里倒推."
 				""
-				"With that in mind... why don't we start with a &5Fusion Reactor&r? Never mind, slightly too ambitious - let's check a closer goal instead. Ah, yes, the &3Electric Blast Furnace&r - the main \"end goal\" of &7LV&r - should be a good target."
+				"考虑到这一点...为什么不从&5&a聚变堆&f&r开始呢？算了,稍微有点野心太大了 - 让我们检查一个更近的目标.啊,是的,&3&a电力高炉&f&r - &7LV&r的主要\"最终目标\" - 应该是一个不错的目标."
 				""
-				"The EBF is &aexpensive&r, which is why you should initially focus on machines to make components and materials cheaper. We'll do our best to guide you in the right direction with these quests."
+				"EBF是&a昂贵的&r,这就是为什么你应该最初专注于制作组件和材料的机器,以降低成本.我们将尽最大努力通过这些任务引导你走向正确的方向."
 				""
-				"Other important goals are crafting the &3LV Assembler&r and making your first &aMV Circuits&r."
+				"其他重要的目标是制作&3LV Assemble&r并制作你的第一个&aMV电路&r."
 			]
 			icon: "gtceu:basic_electronic_circuit"
 			id: "648BCF486E16CCB2"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "Too many options, too little time!"
-			tasks: [{
-				id: "07CE2766ECA4B0D8"
-				title: "I... might have some sense of direction now"
-				type: "checkmark"
-			}]
-			title: "LV Age Progression"
+			subtitle: "太多选择,时间太少!"
+			tasks: [
+				{
+					id: "07CE2766ECA4B0D8"
+					title: "我... 现在可能有点方向感了"
+					type: "checkmark"
+				}
+			]
+			title: "LV时代进展"
 			x: 2.25d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3D98819A799D2E64"]
 			description: [
-				"Build this machine next to your &3Chemical Reactor&r to automatically solidify Rubber into &aRubber Sheets&r."
+				"将这个机器建造在你的&3&a化学反应器&f&r旁边,自动将橡胶固化为&a&a橡胶片&f&r."
 				""
-				"You can make your Chemical Reactor auto-output if you &dwrench&r the side of your &3Chemical Reactor&r and enable Fluid &9auto-output&r."
+				"如果你用&d扳手&r点击你的&3&a化学反应器&f&r的侧面并启用流体&9自动输出&r,你可以让你的&a化学反应器&f自动输出."
 				""
-				"There will be more Fluids to solidify, so you may re-purpose your &3Fluid Solidifier&r when not crafting Rubber - or make a second one!"
+				"还会有更多的流体需要固化,所以当你不制作橡胶时,你可以重新利用你的&3&a流体固化机&f&r - 或者制作第二个!"
 			]
 			id: "581CDF545E1EA1FD"
-			rewards: [{
-				id: "2B85DCFFF22770D8"
-				item: "gtceu:rubber_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2B85DCFFF22770D8"
+					item: "gtceu:rubber_bucket"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "The Fluid Solidifier solidifies..."
-			tasks: [{
-				id: "20B1CA4DB2750E84"
-				item: "gtceu:lv_fluid_solidifier"
-				type: "item"
-			}]
-			title: "Basic Fluid Solidifier"
+			subtitle: "&a流体固化机&f 正在固化..."
+			tasks: [
+				{
+					id: "20B1CA4DB2750E84"
+					item: "gtceu:lv_fluid_solidifier"
+					type: "item"
+				}
+			]
+			title: "&a基础流体固化器&f"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
 			description: [
-				"The Prospector is an amazing tool that'll help you find veins in no time."
+				"&a探矿者&f是一个神奇的工具,能帮你快速找到矿脉."
 				""
-				"Its GUI is interactive. Right-clicking will scan for ores, displaying them on a dynamic map."
+				"它的GUI是交互式的.右键点击将扫描矿石,并在动态地图上显示它们."
 				""
-				"&l&3Lore:&r&o Back in OUR day, the portable Prospector was locked to &dLuV&f. Kids these days have it easy."
+				"&l&3背景故事:&r&o 在我们那个时代,便携式探矿者被锁定在&dLuV&f.现在的孩子们真是轻松."
 			]
 			id: "2E36E5755B2F551C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "(Ok, maybe not)"
-			tasks: [{
-				id: "1AC97E61EF4958C8"
-				item: "gtceu:prospector.lv"
-				type: "item"
-			}]
-			title: "This is Hacking"
+			subtitle: "(好吧,也许不是)"
+			tasks: [
+				{
+					id: "1AC97E61EF4958C8"
+					item: "gtceu:prospector.lv"
+					type: "item"
+				}
+			]
+			title: "这是黑客行为"
 			x: 4.642304421768699d
 			y: 2.165391156462583d
 		}
@@ -958,13 +1056,13 @@
 				"70432F650591353C"
 			]
 			description: [
-				"Prepare &a128 Cupronickel&r, &a32 Bronze&r and &a16 Tin Alloy&r to craft the Heating Coils required for your first Electric Blast Furnace."
+				"准备&a128铜镍合金&r, &a32青铜&r 和 &a16白铜&f&r 来制作你的第一个&a电力高炉&f所需的&a加热旋管&f."
 				""
-				"This is still less than half (!) of the cost of the whole EBF in raw materials. You will also need about a stack each of Invar and Steel, so get mining."
+				"这仍然不到整个EBF原材料成本的一半(!).你还需要大约一组的殷钢和钢,所以去挖矿吧."
 				""
-				"The Cupronickel Coils will allow the EBF to perform recipes up to &d1,800K&r (ignoring Voltage bonuses). That's pretty hot if you ask us."
+				"&a白铜线圈&f将使EBF能够执行高达&d1,800K&r的配方(忽略电压加成).如果你问我们,那可是相当热的."
 				""
-				"&6This quest unlocks a new tutorial on Coils in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&e此任务解锁了&l提示与技巧&r&e标签中的新线圈教程 - 去看看吧,了解更多!&r"
 			]
 			icon: {
 				Count: 1
@@ -989,117 +1087,127 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "Baby's first heating coil"
-			tasks: [{
-				count: 16L
-				id: "4F19FBED1E1766AC"
-				item: "gtceu:cupronickel_coil_block"
-				type: "item"
-			}]
-			title: "Cupronickel Coils"
+			subtitle: "宝贝的第一个加热线圈"
+			tasks: [
+				{
+					count: 16L
+					id: "4F19FBED1E1766AC"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+			]
+			title: "&a白铜线圈&f"
 			x: 6.75d
 			y: 4.5d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&5You:&r &oThat's it, I'm uninstalling! This pack is stupid! We're barely in &7LV&r&o, but you're asking me to make you a &6HV&r&o machine!?&r"
+				"&5你:&r &o就这样,我要卸载了!这个包太蠢了!我们才刚到&7LV&r&o,但你却让我做一个&eHV&r&o机器？!&r"
 				""
-				"Yes! This is indeed not completable yet, which is also why this quest appears in the &6HV&r Chapter."
+				"是的!这确实还不能完成,这也是为什么这个任务出现在&eHV&r章节中."
 				"{@pagebreak}"
-				"Remember how disappointing it was that you couldn't get byproducts with your Macerator? Well... that disappointment won't be going away until you reach &6HV&r."
+				"还记得你的粉碎机不能获得副产品时有多失望吗？好吧... 这种失望在你达到&eHV&r之前不会消失."
 				""
-				"&6The Macerator will unlock its second and third slot at HV&r. Trust us - this will be great for Ore Processing. In fact, one byproduct is absolutely locked behind this (after the Thermal Centrifuge step)."
+				"&e&a精炼机&f在HV时将解锁其第二个和第三个槽.相信我们 - 这对&a矿物处理&f非常有用.事实上,一个副产品完全被锁定在这个步骤之后(在&a热力离心机&f之后)."
 				""
-				"&cNote:&r Unlike GTCE, the &bMV&r Macerator in GTCEu &cdoesn't&r have a second slot."
+				"&c注意:&r 与GTCE不同,GTCEu中的&bMV&r粉碎机&c没有&r第二个槽."
 				""
-				"&5Writer:&r &oCome back to me when you are stronger, young Cricket.&r"
+				"&5作者:&r &o等你变强了再回来找我,年轻的蟋蟀.&r"
 			]
 			id: "1DA54DA70E12F499"
-			rewards: [{
-				id: "19F7BE0EE2221321"
-				item: "gtceu:tiny_stainless_steel_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19F7BE0EE2221321"
+					item: "gtceu:tiny_stainless_steel_dust"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "What? Why?!"
-			tasks: [{
-				id: "5580AE2868E0E451"
-				item: "gtceu:hv_macerator"
-				type: "item"
-			}]
-			title: "Universal Macerator"
+			subtitle: "什么？为什么？!"
+			tasks: [
+				{
+					id: "5580AE2868E0E451"
+					item: "gtceu:hv_macerator"
+					type: "item"
+				}
+			]
+			title: "通用粉碎机"
 			x: -1.125d
 			y: 3.375d
 		}
 		{
 			dependencies: ["3A8D7FC6F316C38C"]
 			description: [
-				"The Gas Collector collects Air that can then be centrifuged into &aOxygen&r and &aNitrogen&r."
+				"&a集气器&f收集空气,然后可以离心成&a氧气&r和&a氮气&r."
 				""
-				"&l&3Lore:&r&o GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... here, cell chemistry is no more."
+				"&l&3背景故事:&r&o &d格雷科技&f 5玩家记得他们必须用压缩机和IC2电池来获得&a压缩空气&f... 在这里,电池化学不再需要了."
 			]
 			id: "15928F50AE80A5CF"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time to sell some Air"
-			tasks: [{
-				id: "5710E0C2A7441809"
-				item: "gtceu:lv_gas_collector"
-				type: "item"
-			}]
-			title: "Basic Gas Collector"
+			subtitle: "是时候卖些空气了"
+			tasks: [
+				{
+					id: "5710E0C2A7441809"
+					item: "gtceu:lv_gas_collector"
+					type: "item"
+				}
+			]
+			title: "基础&a集气器&f"
 			x: 1.125d
 			y: 6.75d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The &3Packager&r compresses &aTiny Dusts&r and &aSmall Dusts&r into &afull Dusts&r, which can be compressed further into Ingots."
+				"&3打包机&r将&a&a小撮粉末&f&r和&a&a小堆粉末&f&r压缩成&a完整的粉末&r,这些粉末可以进一步压缩成锭."
 				""
-				"It can also work in reverse, change between sizes of Wires, and much more..."
+				"它也可以反向工作,改变电线的大小,等等..."
 				""
-				"Unpacking Cables back into Wires and Rubber will be &every useful&r once you rewire your Energy Network."
+				"将电缆拆包回电线和橡胶在你重新布线&a能量网络&f时会&every有用&r."
 				"{@pagebreak}"
-				"&oYeah, we know...&r the 3x3 compacting recipes don't seem useful, because you can just use a Crafting Table. We urge you to consider the utility of this machine when used for &9automation&r purposes."
+				"&o是的,我们知道...&r 3x3的压缩配方看起来没用,因为你可以直接使用&a工作台&f.我们敦促你考虑在&9自动化&r目的下使用这台机器的实用性."
 				""
-				"For an &9automated&r Dust setup, route &aTiny Dusts&r into a buffer inventory (a chest will do) placed next to your &3Packager&r."
+				"对于&9自动化的&r粉末设置,将&a&a小撮粉末&f&r路由到一个缓冲库存(一个箱子就可以),放在你的&3打包机&r旁边."
 				""
-				"Next place a &3Robot Arm&r and configure it to \"&dImport&r\", and \"&dSupply Exact 9&r\". Finally, let the Machine auto-output on another side."
+				"接下来放置一个&3&a机械臂&f&r并配置它为\"&d导入&r\",和\"&d&a精确补给&f 9&r\".最后,让机器在另一侧自动输出."
 				""
-				"&l&3Lore:&r&o In GTCE, the reverse operation required a separate machine - the Unpackager."
+				"&l&3背景故事:&r&o 在GTCE中,反向操作需要一个单独的机器 - 拆包机."
 			]
 			id: "3F123950216DF93B"
 			size: 0.75d
-			subtitle: "Look who's packing"
-			tasks: [{
-				id: "33AEA84A406741FF"
-				item: "gtceu:lv_packer"
-				type: "item"
-			}]
-			title: "Basic Packer"
+			subtitle: "看看谁在打包"
+			tasks: [
+				{
+					id: "33AEA84A406741FF"
+					item: "gtceu:lv_packer"
+					type: "item"
+				}
+			]
+			title: "基础打包机"
 			x: -1.125d
 			y: 4.875d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"The &3Chemical Reactor&r will be required for &la lot&r of recipes."
+				"The &3&a化学反应器&f&r 将会用于 &la lot&r 的配方."
 				""
-				"Let's give it a spin - why don't we use your freshly made Chemical Reactor to unlock a new, &6better recipe for Rubber&r? Rubber is &dunusable&r as a Fluid, so you will need to make another machine to process it further."
+				"让我们来试试吧 - 为什么不使用你刚制作的 &a化学反应器&f &a解锁&f 一个新的,&ebetter recipe for Rubbe&r？橡胶作为流体是 &dunusable&r,所以你需要制作另一个机器来进一步处理它."
 				"{@pagebreak}"
-				"You can't make Rubber using the Chemical Reactor alone, so here are some &aother machines&r you might want to aim for: "
+				"你不能单独使用 &a化学反应器&f 制作橡胶,所以这里有一些 &a其他机器&r 你可能想要考虑:"
 				""
-				"A &3Solidifier&r is useful to solidify your Rubber directly into &aRubber Sheets&r. You'll want these moving forward."
+				"一个 &3Solidifie&r 可以直接将你的橡胶固化成 &a&a橡胶片&f&r.你会在接下来的步骤中需要这些."
 				""
-				"You could then make use of an &3Assembler&r to use your molten Rubber for &aCables&r. This isn't important for Tin Cables, but better cables will &eneed&r to be made in the Assembler."
+				"然后你可以使用一个 &3Assemble&r 来使用你的熔融橡胶制作 &aCables&r.这对于 &a锡线缆&f 不是很重要,但更好的电缆 &eneed&r 需要在装配机中制作."
 				""
-				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
+				"&e注意:&r 通过在你的物品栏中用 &lbucket&r 存储流体来提交流体.抱歉 - 这是 &aFTB任务&f 的一个特性."
 			]
 			icon: "gtceu:lv_chemical_reactor"
 			id: "3D98819A799D2E64"
 			size: 0.75d
-			subtitle: "Chemistry for dummies"
+			subtitle: "化学入门"
 			tasks: [
 				{
 					id: "108424445D0F748A"
@@ -1112,28 +1220,28 @@
 					type: "item"
 				}
 			]
-			title: "Basic Chemical Reactor"
+			title: "&a基础化学反应釜&f"
 			x: 3.375d
 			y: 5.625d
 		}
 		{
 			dependencies: ["3D98819A799D2E64"]
 			description: [
-				"Cells are an alternative form of Fluid storage. All Cell types with the same type and amount of Fluid inside them &6stack&r. They can be automatically filled with a &3Canning Machine&r."
+				"细胞是流体存储的另一种形式.所有相同类型和数量的流体内部的细胞 &estack&r.它们可以通过 &3&a装罐机&f&r 自动填充."
 				""
-				"Cells hold &done bucket&r of Fluid."
+				"细胞可以容纳 &done bucket&r 的流体."
 				"{@pagebreak}"
-				"Universal Cells hold up to &done bucket&r, but also can store &9fractions&r of Buckets. They're particularly ideal if you want to store leftover Fluid without crafting a whole Drum. "
+				"通用细胞可以容纳多达 &done bucket&r,但也可以存储 &9fractions&r 的桶.如果你想要存储剩余的流体而不需要制作整个桶,它们特别理想."
 				""
-				"Cells made from higher tier materials can hold even more fluid, but &9Drums&r and &9Super Tanks&r will hold more by then."
+				"由更高等级材料制成的细胞可以容纳更多的流体,但 &9Drums&r 和 &9Super Tanks&r 届时会容纳更多."
 				""
-				"Like Drums, Cells can be placed into a crafting grid to clear their contents."
+				"像桶一样,细胞可以放入合成格中以清空其内容物."
 			]
 			icon: "gtceu:fluid_cell"
 			id: "292938760AB9A12B"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "GTCE killed cell chemistry... GTCE killed Cells!"
+			subtitle: "GTCE 杀死了细胞化学... GTCE 杀死了细胞!"
 			tasks: [
 				{
 					id: "48507FA04651418B"
@@ -1146,7 +1254,7 @@
 					type: "item"
 				}
 			]
-			title: "Dead Cells"
+			title: "&a死亡细胞&f"
 			x: 4.5d
 			y: 5.625d
 		}
@@ -1156,23 +1264,25 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"Use both of your new machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes Rotors far easier to craft - &6four Ingots per Rotor&r, as well."
+				"使用你的两个新机器将材料转化为流体,然后再固化回转子!这种组合使得转子的制作变得容易得多 - &e每转子四个锭&r,也是如此."
 				""
-				"You can also do the same for &6Gears&r and &6Small Gears&r, which will then be superseded when you make a &3MV Extruder&r."
+				"你也可以对 &e齿轮&r 和 &e小齿轮&r 做同样的事情,然后当你制作一个 &3MV 挤压机&r 时,它们将被取代."
 				""
-				"&9Note:&r Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in JEI."
+				"&9注意:&r 一些金属需要比 &7LV&r 更高的电压来进行流体提取,所以确保在JEI中查看配方的等级."
 			]
 			icon: "gtceu:rotor_casting_mold"
 			id: "115C4226F6473F0C"
-			rewards: [{
-				count: 2
-				id: "7162E47A4FB3EDB1"
-				item: "gtceu:empty_mold"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "7162E47A4FB3EDB1"
+					item: "gtceu:empty_mold"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time to end the misery of hand crafting rotors!"
+			subtitle: "是时候结束手工制作转子的痛苦了!"
 			tasks: [
 				{
 					id: "4A68C6BC78CB07E2"
@@ -1193,21 +1303,23 @@
 		{
 			dependencies: ["199361B5FEC959EA"]
 			description: [
-				"&aSoldering Alloy&r is used solely as a &9Fluid&r, and in most cases is &dinterchangeable&r in circuit recipes as a cheaper alternative to Tin&r."
+				"&a&a焊锡&f&r 仅用作 &9流体&r,并且在大多数情况下在电路配方中作为锡的更便宜的替代品是 &d可互换的&r."
 				""
-				"The choice is yours. Save more materials? Make Soldering Alloy. Spend less time crafting materials? Tin is the way to go."
+				"选择权在你.节省更多材料？制作 &a焊锡&f.花费更少时间制作材料？锡是更好的选择."
 			]
 			icon: "gtceu:soldering_alloy_ingot"
 			id: "713C8D6A20BF3A0E"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I got soul but I'm not a solder"
-			tasks: [{
-				id: "67F9F84D66E32728"
-				item: "gtceu:soldering_alloy_dust"
-				type: "item"
-			}]
-			title: "Soldering Alloy"
+			subtitle: "我有灵魂但我不是焊锡"
+			tasks: [
+				{
+					id: "67F9F84D66E32728"
+					item: "gtceu:soldering_alloy_dust"
+					type: "item"
+				}
+			]
+			title: "&a焊锡&f"
 			x: 7.875d
 			y: 5.625d
 		}
@@ -1217,22 +1329,24 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"With &7LV&r power, the primary way of getting &aAluminium Dust&r is by electrolyzing &9Sapphire&r or &2Green Sapphire&r. Aluminium is the main &bMV&r material, similar to how Steel is crucial in &7LV&r, and Bronze is important in the &6Steam Age&r."
+				"使用 &7LV&r 电力,获取 &a&a铝粉&f&r 的主要方法是电解 &9蓝宝石&r 或 &2&a绿色蓝宝石&f&r.铝是主要的 &bMV&r 材料,类似于钢在 &7LV&r 中的关键作用,青铜在 &e蒸汽时代&r 中的重要性."
 				""
-				"It's possible to obtain Aluminium by processing ores such as &6Fullers' Earth&r, but the commitment required to see similar yields is more than sourcing your Aluminium from &3Sapphire&r. For this reason, you can &5skip the quest&r with the checkbox."
+				"通过处理矿石如 &e富勒土&r 可以获得铝,但所需的投入与从 &3蓝宝石&r 获取铝相比,产量相似.因此,你可以 &5跳过带有复选框的任务&r."
 				""
-				"It would be wise to obtain enough Sapphire to electrolyze into a full stack of &aAluminium Dust&r - it &lwill&r be useful very soon. Plus, bonus Oxygen is always nice."
+				"明智的做法是获取足够的蓝宝石以电解成一整堆 &a&a铝粉&f&r - 它 &l将会&r 很快派上用场.此外,额外的氧气总是好的."
 			]
 			icon: "gtceu:sapphire_dust"
 			id: "2F1CCFEBAB71B1F3"
-			rewards: [{
-				count: 12
-				id: "6ED23A377745D74A"
-				item: "gtceu:green_sapphire_ore"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "6ED23A377745D74A"
+					item: "gtceu:green_sapphire_ore"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "One Step Closer To MV"
+			subtitle: "更接近MV的一步"
 			tasks: [
 				{
 					count: 6L
@@ -1243,42 +1357,46 @@
 				}
 				{
 					id: "1AF7F9E162724B49"
-					title: "I'm not finding any Sapphire, thank you."
+					title: "I'm 找不到任何蓝宝石,谢谢."
 					type: "checkmark"
 				}
 			]
-			title: "Sapphire"
+			title: "蓝宝石"
 			x: -2.25d
 			y: 5.625d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&l在 &a矿物处理&f 之外:&r"
 				""
-				"Similar to the Centrifuge, this machine does a lot of things - we can't hope to list them all! Fortunately, it's one of the cheapest &7LV&r machines, so grab it as soon as it becomes necessary."
+				"类似于离心机,这台机器能做很多事情——我们无法一一列举!幸运的是,它是&7LV&r机器中最便宜的之一,所以一旦需要就赶紧入手吧."
 				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
+				"&l对于 &a矿物处理&f:&r"
 				""
-				"Okay, we lied. It's not &oexactly&r used for Ore Processing, it's actually used in the &adecomposition of Dusts&r. However, most of the useful electrolysis recipes are locked at &bMV&r. You can peep at the &emolecular formula&r in a dust's tooltip to see what you can get from electrolysis."
+				"好吧,我们撒谎了.它并不是&o完全&r用于&a矿物处理&f,实际上是用于&a分解尘晶&r.然而,大多数有用的电解配方在&bMV&r等级才解锁.你可以在尘晶的工具提示中查看&e分子式&r,看看你能从电解中得到什么."
 				"{@pagebreak}"
-				"&cTake caution!&r Due to how ores work, directly smelting dusts into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide whether you want to prioritise direct value, or byproduct count."
+				"&c小心!&r由于矿物的工作方式,直接将尘晶熔炼成锭可能会比电解获得更高的金属产量.然而,这意味着你会失去尘晶中的其他产物.你必须决定是优先考虑直接价值,还是副产品数量."
 			]
 			id: "32B08E6F414A00C0"
-			rewards: [{
-				count: 2
-				id: "63E578C8E82CB9DC"
-				item: "gtceu:lv_electric_motor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "63E578C8E82CB9DC"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "Separating anything you can think of"
-			tasks: [{
-				id: "536874A8C35E1C86"
-				item: "gtceu:lv_electrolyzer"
-				type: "item"
-			}]
-			title: "Basic Electrolyzer"
+			subtitle: "分离你所能想到的任何东西"
+			tasks: [
+				{
+					id: "536874A8C35E1C86"
+					item: "gtceu:lv_electrolyzer"
+					type: "item"
+				}
+			]
+			title: "&a基础电解机&f"
 			x: -1.125d
 			y: 5.625d
 		}
@@ -1288,73 +1406,81 @@
 				"2F1CCFEBAB71B1F3"
 			]
 			description: [
-				"For now, you should use &9Water&r for its recipes instead of trying to acquire Lubricant."
+				"目前,你应该使用&9水&r来制作配方,而不是试图获取润滑剂."
 				""
-				"The &3Cutting Machine&r additionally unlocks converting &6Rods into four Bolts&r."
+				"&3&a切割机&f&r还可以解锁将&e棒&r转换为四个&e螺栓&r."
 				""
-				"This machine is the only way to obtain &dGem Plates&r, which are needed to craft Filters, and by extension, the &3Gas Collector&r."
+				"这台机器是获得&d宝石板&r的唯一途径,宝石板是制作过滤器,以及扩展到&3&a集气器&f&r所需的."
 			]
 			id: "3A8D7FC6F316C38C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The Cutter... cuts..."
-			tasks: [{
-				id: "662DB818821C4EAE"
-				item: "gtceu:lv_cutter"
-				type: "item"
-			}]
-			title: "Basic Cutter"
+			subtitle: "&a切削燧石刀&f... 切割..."
+			tasks: [
+				{
+					id: "662DB818821C4EAE"
+					item: "gtceu:lv_cutter"
+					type: "item"
+				}
+			]
+			title: "基础切割机"
 			x: -1.125d
 			y: 6.75d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&l在 &a矿物处理&f 之外:&r"
 				""
-				"Oh boy, what can't this machine do? Decomposition recipes to separate dust types, separating air, do your taxes, and many others..."
+				"哦,天哪,这台机器不能做什么？分解配方以分离尘晶类型,分离空气,处理税务,以及其他许多事情..."
 				""
-				"The list is too long! Let's just say &cyou need the Centrifuge&r."
+				"清单太长了!我们只能说&c你需要离心机&r."
 				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
+				"&l对于 &a矿物处理&f:&r"
 				""
-				"This takes &aImpure Dust&r or &aPurified Dust&r and turns them into clean Dust, plus an added tiny Dust &6Byproduct&r. This is outside of the optimal chain for Byproducts, but this is also the cheapest Ore Processing machine of the presented array to run and to setup on a small scale."
+				"这会将&a&a含杂尘晶&f&r或&a&a纯化&f尘晶&r转化为干净的尘晶,并额外获得一个微小的尘晶&e副产品&r.这不在副产品的最佳链条之外,但这台机器也是所展示的&a矿物处理&f机器中最便宜的,适合小规模运行和设置."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In base GTCE, this was objectively the strongest Ore Processing machine as it was fairly easy to use, and gave three tiny dusts, just like the Ore Washer or the Thermal Centrifuge. We tuned it down in favor of diversity."
+				"&l&3背景:&r&o 在基础GTCE中,这无疑是&a矿物处理&f机器中最强大的,因为它使用起来相当简单,并且像&a洗矿厂&f或&a热力离心机&f一样,可以获得三个微小的尘晶.我们为了多样性而降低了它的强度."
 			]
 			id: "5263F866638D875C"
-			rewards: [{
-				id: "525C65CA6AFD3C11"
-				item: "minecraft:cauldron"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "525C65CA6AFD3C11"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "Jack of Many Trades"
-			tasks: [{
-				id: "20EDB55B8D5CDAD6"
-				item: "gtceu:lv_centrifuge"
-				type: "item"
-			}]
-			title: "Basic Centrifuge"
+			subtitle: "多面手"
+			tasks: [
+				{
+					id: "20EDB55B8D5CDAD6"
+					item: "gtceu:lv_centrifuge"
+					type: "item"
+				}
+			]
+			title: "&a基础离心机&f"
 			x: 0.0d
 			y: 6.75d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"It's recommended that you &6put this machine off&r until you actually require it for for progression - explore elsewhere if you're fresh into &7LV&r."
+				"建议你在实际需要它来推进之前&e推迟使用这台机器&r——如果你刚进入&7LV&r,可以去其他地方探索."
 				""
-				"Some alloys previously made by hand can also be made in the mixer, except at &ahigher yield&r."
+				"一些以前手工制作的合金也可以在搅拌机中制作,只是&a产量更高&r."
 			]
 			id: "257DB4B39B2A928E"
 			size: 0.75d
-			subtitle: "The Mixer mixes..."
-			tasks: [{
-				id: "4A0B4A206ED30212"
-				item: "gtceu:lv_mixer"
-				type: "item"
-			}]
-			title: "Basic Mixer"
+			subtitle: "&a混合搅拌机&f 混合..."
+			tasks: [
+				{
+					id: "4A0B4A206ED30212"
+					item: "gtceu:lv_mixer"
+					type: "item"
+				}
+			]
+			title: "&a基础搅拌机&f"
 			x: 2.25d
 			y: 6.75d
 		}
@@ -1365,47 +1491,49 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"Unfortunately, this is only an &lEmpty&r Spray Can, which you have to fill with Chemical Dye before using."
+				"不幸的是,这只是一个&l空的&r&a喷漆罐&f,你必须在使用前用化学染料填充它."
 				""
-				"&aSpray Cans&r do not provide any functionality involving machines, but can be quite &bvisually appealing and useful&r!"
+				"&a&a喷漆罐&f&r不会为机器提供任何功能,但可以非常&b视觉上吸引人且有用&r!"
 				""
-				"Any (or almost any) GregTech tile entity (machine, pipe, cable...) can be &6painted&r to one of the 16 colors of your choosing. This is great for screenshots, or to separate different setups for convenience in a Multiplayer base. They also help with distinguishing between pipelines and cables."
+				"任何(或几乎任何)&d格雷科技&f的方块实体(机器、管道、电缆...)都可以被&e喷漆&r成你选择的16种颜色之一.这对于截图或为了多人基地中的不同设置的便利性非常有用.它们还有助于区分管道和电缆."
 				""
-				"Holding the &aSpray Can&r in the offhand will automatically paint any block you place."
+				"手持&a&a喷漆罐&f&r在副手时,会自动为你放置的任何方块喷漆."
 			]
 			id: "5AD9884E7BFB2510"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time for server tag wars"
-			tasks: [{
-				id: "28CFFA0F7A33E02F"
-				item: "gtceu:empty_spray_can"
-				type: "item"
-			}]
-			title: "Spray Can"
+			subtitle: "服务器标签大战时间"
+			tasks: [
+				{
+					id: "28CFFA0F7A33E02F"
+					item: "gtceu:empty_spray_can"
+					type: "item"
+				}
+			]
+			title: "&a喷漆罐&f"
 			x: 3.375d
 			y: 6.75d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"While this is an extremely &9important&r machine for progression, this will &9&lnot help you immediately&r as it is &cexpensive.&r Most of the recipes you will want to pursue require &cfluids&r. Set up a little bit more infrastructure before rushing this."
+				"虽然这是一个极其&9重要&r的机器,但它&9&l不会立即帮助你&r,因为它&c昂贵&r.你想要追求的大多数配方都需要&c流体&r.在急于建造这个之前,先建立更多的基础设施."
 				""
-				"With that out of the way, the &3Assembler&r is crucial to gameplay. Consider it as important as a Crafting Table, except... well, it's a machine, duh."
+				"既然如此,&3装配机&r对游戏至关重要.把它看作和&a工作台&f一样重要,只不过... 好吧,它是一台机器,废话."
 				""
-				"We as \"modpack developers\" also love to use this to include all sorts of custom recipes - and speaking of custom recipes, the Assembler now unlocks &dApplied Energistics 2&r!"
+				"我们作为\"模组包开发者\"也喜欢用它来包含各种自定义配方 - 说到自定义配方,装配机现在解锁了&d应用能源2&f&r!"
 				"{@pagebreak}"
-				"Once you have enough infrastructure you will be able to make use of better recipes for:"
+				"一旦你有足够的基础设施,你将能够利用更好的配方来制作:"
 				""
-				"&9-&r &6Vacuum Tubes&r, giving over double the previous yield"
+				"&9-&r &e&a真空管&f&r,产量是之前的一倍以上"
 				""
-				"&9-&r &6Resistors&r, granting 4 resistors per craft!"
+				"&9-&r &e电阻器&r,每次制作可获得4个电阻器!"
 				""
-				"&9-&r &6Circuit Boards&r, greatly reducing copper used"
+				"&9-&r &e&a电路板&f&r,大大减少了铜的使用"
 				""
-				"Wahoo!"
+				"哇呼!"
 				""
-				"&l&3Lore:&r&o Back in the days of GregTech 2, the Assembling Machine only had two slots, and was only really used for alternate Circuit and Hull recipes."
+				"&l&3背景故事:&r&o 在&d格雷科技&f 2的时代,&a控制电路加工厂&f只有两个槽位,并且主要用于替代电路和外壳配方."
 			]
 			id: "63CD0236B337EAAD"
 			rewards: [
@@ -1423,12 +1551,14 @@
 			]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Assemblers, Avenge!"
-			tasks: [{
-				id: "6B5537B80EB05B30"
-				item: "gtceu:lv_assembler"
-				type: "item"
-			}]
+			subtitle: "装配机,复仇!"
+			tasks: [
+				{
+					id: "6B5537B80EB05B30"
+					item: "gtceu:lv_assembler"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 6.75d
 		}
@@ -1438,51 +1568,55 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"&3Voiding Covers&r can be attached to GregTech Machines, Crates or Drums. They will void stuff you don't want. How fancy!"
+				"&3虚空覆盖&r可以附加到&d格雷科技&f机器、箱子或桶上.它们会吞噬你不想要的东西.多酷啊!"
 				""
-				"For machines, it will only void items in the Output slots. The Input slots are ignored."
+				"对于机器,它只会吞噬输出槽中的物品.输入槽会被忽略."
 				""
-				"You can attach a &aFilter&r for more precise voiding."
+				"你可以附加一个&a过滤器&r以进行更精确的吞噬."
 				"{@pagebreak}"
-				"An advanced version also exists, which requires a &dMV Circuit&r. It enables voiding above a set threshold - great for for overflow control."
+				"还有一个高级版本,需要一个&dMV电路&r.它可以在设定阈值以上吞噬物品 - 非常适合用于溢出控制."
 				""
-				"&9Note:&r They default to being switched off, to prevent accidental voiding. Right-click them with a &5Soft Mallet&r to activate them."
+				"&9注意:&r 它们默认是关闭的,以防止意外吞噬.用&5软锤&r右键点击它们以激活."
 				""
-				"Obtaining &eany&r Voiding Cover will complete this Quest."
+				"获得&e任何&r虚空覆盖将完成此任务."
 			]
 			icon: "gtceu:item_voiding_cover"
 			id: "249B9E104CAF5FE6"
-			rewards: [{
-				count: 32
-				id: "7B4720913F7D4D6E"
-				item: "minecraft:cactus"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "7B4720913F7D4D6E"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The best mechanic - making an item or fluid disappear!"
-			tasks: [{
-				id: "4AA56628D87A3AF9"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:fluid_voiding_cover"
-							}
-							{
-								Count: 1b
-								id: "gtceu:item_voiding_cover"
-							}
-						]
+			subtitle: "最好的机制 - 让物品或流体消失!"
+			tasks: [
+				{
+					id: "4AA56628D87A3AF9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:fluid_voiding_cover"
+								}
+								{
+									Count: 1b
+									id: "gtceu:item_voiding_cover"
+								}
+							]
+						}
 					}
+					title: "虚空覆盖物"
+					type: "item"
 				}
-				title: "Voiding Covers"
-				type: "item"
-			}]
-			title: "Voiding Covers"
+			]
+			title: "虚空覆盖"
 			x: 5.625d
 			y: 6.75d
 		}
@@ -1492,22 +1626,24 @@
 				"581CDF545E1EA1FD"
 			]
 			description: [
-				"&8Wait, we're not in the Steam Age anymore!"
+				"&8等等,我们不再处于蒸汽时代了!"
 				""
-				"The reason we didn't present &7LV&r versions of &6Steam&r machines is because they are &4NOT&r required. You might not want to invest into an upgrade that does next to nothing. Except for &othis one&r specifically, because it's a big improvement over the &6Steam Age&r."
+				"我们没有介绍&7LV&r版本的&e蒸汽&r机器的原因是它们&4不是&r必需的.你可能不想投资到一个几乎没什么提升的升级上.除了&o这个&r特别的情况,因为它比&e蒸汽时代&r有了很大的改进."
 				""
-				"The &3Basic Extractor&r gains Fluid capabilities, which enables &aFluid Extraction&r. Use it to melt Rubber that you previously solidified, to &dmelt Soldering Alloy&r for your circuits, and to &dmelt Red Alloy&r for the &6best Vacuum Tube recipe&r in the &3Assembler&r!"
+				"&3&a基础提取机&f&r获得了流体处理能力,这使得&a流体提取&r成为可能.用它来熔化你之前固化的橡胶,熔化&a焊锡&f&r来制作电路,熔化&a红色合金&f&r来制作&e最好的&a真空管&f配方&r在&3装配机&r中!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Did you notice this machine doubles as both an Extractor and a Fluid Extractor? The two of them were separate machines in previous versions of GregTech."
+				"&l&3背景故事:&r&o 你注意到这台机器既是提取机又是&a树液提取器&f吗？&a两&f个在之前的&d格雷科技&f版本中是分开的机器."
 			]
 			id: "5B2696206205CB2E"
 			size: 0.75d
-			subtitle: "The Steam Extractor extracts..."
-			tasks: [{
-				id: "5CD363C839475426"
-				item: "gtceu:lv_extractor"
-				type: "item"
-			}]
+			subtitle: "蒸汽提取机提取..."
+			tasks: [
+				{
+					id: "5CD363C839475426"
+					item: "gtceu:lv_extractor"
+					type: "item"
+				}
+			]
 			x: 6.75d
 			y: 6.75d
 		}
@@ -1517,81 +1653,93 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"From now on, all Circuits should be made in a &3Circuit Assembler&r. Use it now to enjoy &6far cheaper LV and MV circuits&r."
+				"从现在开始,所有电路都应该在&3&a电路组装机&f&r中制作.现在使用它来享受&e更便宜的LV和MV电路&r."
 				""
-				"Each time you upgrade to a new tier of &3Circuit Assembler&r, you will be able to craft more &dadvanced themes&r of circuit. These will use &ccomplex&r and &msometimes&r unfamiliar ingredients, but will be more efficient to craft overall."
+				"每次你升级到&3&a电路组装机&f&r的新等级,你将能够制作更&d高级主题&r的电路.这些电路将使用复杂&r和&ms有时&r不熟悉的材料,但总体上会更高效."
 				""
-				"&l&3Lore:&r&o The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial. GTCE decided not to port it, and the tug-of-war continues with its inclusion in GTCEu."
+				"&l&3背景故事:&r&o &a电路组装机&f在&d格雷科技&f的不同版本中出现过.GT5没有它,它在GT5 Unofficial中重新实现.GTCE决定不移植它,而它的包含在GTCEu中继续拉锯."
 			]
 			id: "199361B5FEC959EA"
-			rewards: [{
-				id: "0418E257FEDA52B7"
-				item: "gtceu:good_electronic_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0418E257FEDA52B7"
+					item: "gtceu:good_electronic_circuit"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "Hopefully, your first MV Circuit expense"
-			tasks: [{
-				id: "6287E8A7C254ECA7"
-				item: "gtceu:lv_circuit_assembler"
-				type: "item"
-			}]
+			subtitle: "希望这是你的第一个MV电路花费"
+			tasks: [
+				{
+					id: "6287E8A7C254ECA7"
+					item: "gtceu:lv_circuit_assembler"
+					type: "item"
+				}
+			]
 			x: 7.875d
 			y: 6.75d
 		}
 		{
 			dependencies: ["1A77CA35F054F988"]
 			description: [
-				"The &3Arc Furnace&r uses a lil' bit of &9Oxygen&r to smelt items in a different fashion than Furnaces."
+				"&3&a电弧炉&f&r 使用少量的 &9氧气&r 来熔炼物品,与熔炉的方式不同."
 				""
-				"You can use it to make easier &aWrought Iron&r, double your &aGlass&r, and gain access to &aAnnealed Copper&r."
+				"你可以用它来更容易地制作 &a&a锻铁&f&r,双倍生产 &a玻璃&r,并获得 &a&a退火铜&f&r."
 				""
-				"It can also recycle various components and machines back to their original material."
+				"它还可以将各种组件和机器回收成原始材料."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Previous versions had both the Arc Furnace and the &bPlasma Arc Furnace&f. In that case, why not use one machine for both? Well, that's exactly what we thought - but we ultimately decided to remove one of the two &bplasma&f recipes. And then the other &bplasma&f recipe. "
+				"&l&3背景故事:&r&o 之前的版本中有 &a电弧炉&f 和 &b&a等离子电弧炉&f&f.在这种情况下,为什么不使用一台机器来完成两者的功能呢？这正是我们最初的想法——但我们最终决定 &a移除&f 其中一个 &b等离子&f 配方.然后是另一个 &b等离子&f 配方."
 				""
-				"&oIn short, the &bPlasma Arc Furnace&f is &4gone&f. RIP."
+				"&o简而言之,&b&a等离子电弧炉&f&f 已经 &4消失了&f.安息吧."
 			]
 			id: "63256ED95F17B242"
-			rewards: [{
-				id: "2DF03194A80B3F4B"
-				item: "gtceu:oxygen_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2DF03194A80B3F4B"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "Here lies Plasma Furnace"
-			tasks: [{
-				id: "2374C06C5E1EFC24"
-				item: "gtceu:lv_arc_furnace"
-				type: "item"
-			}]
+			subtitle: "等离子电弧炉安息于此"
+			tasks: [
+				{
+					id: "2374C06C5E1EFC24"
+					item: "gtceu:lv_arc_furnace"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: 7.875d
 		}
 		{
 			dependencies: ["3A8D7FC6F316C38C"]
 			description: [
-				"A fancy tool to help with base building. The gadget has different modes that you can view by holding the relevant hotkey - it defaults to &eG&r."
+				"一个帮助基地建设的精美工具.该工具有不同的模式,你可以通过按下相关的热键来查看——默认是 &eG&r."
 				""
-				"Be sure to check out the &3Destruction Gadget&r and the &3Copy Paste Gadget&r."
+				"一定要查看 &3&a破坏小帮手&f&r 和 &3复制粘贴工具&r."
 				""
-				"You &6should&r be able to charge this in the charger slot of any &bGregTech machine&r, but unfortunately, this is currently &cbugged&r. Have a look at the &dTurbo Charger&r quest in the top-right of this page if you want to charge this."
+				"你 应该&r 能够在任何 &b&d格雷科技&f 机器&r 的充电槽中为这个工具充电,但不幸的是,目前这 &c有bug&r.如果你想充电,请查看页面右上角的 &d涡轮充电&r 任务."
 			]
 			id: "0DAD0A6360448B39"
-			rewards: [{
-				count: 64
-				id: "754F6E206D20BC31"
-				item: "minecraft:bricks"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "754F6E206D20BC31"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A familiar face in the land of Greg"
-			tasks: [{
-				id: "65100C599DB0F30C"
-				item: "buildinggadgets2:gadget_building"
-				type: "item"
-			}]
+			subtitle: "在格雷科技世界中的熟悉面孔"
+			tasks: [
+				{
+					id: "65100C599DB0F30C"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+			]
 			x: -2.25d
 			y: 6.75d
 		}
@@ -1601,59 +1749,65 @@
 				"32B08E6F414A00C0"
 			]
 			description: [
-				"You could waste &o&eprecious years of your life&r in JEI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed."
+				"你可能会在JEI中浪费 &o&e宝贵的生命&r 来寻找最优的氧气配方,因为有多种获取方式.各种矿物在电解时会产生氧气."
 				""
-				"If only the quest book had more information!"
+				"如果任务书能提供更多信息就好了!"
 				"{@pagebreak}"
-				"Surprise! The best source according to us (!) is &acentrifuging Air&r after making a &dGas Collector&r, which you might not be able to make just yet. This recipe also gives &aNitrogen&r, which is handy as it can speed up certain &3Electric Blast Furnace&r recipes&r."
+				"惊喜!根据我们的判断(!),最好的来源是 &a离心Ai&r 之后制作 &d&a集气器&f&r,这可能你还无法制作.这个配方还会产生 &a氮气&r,这很方便,因为它可以加速某些 &3&a电力高炉&f&r 配方&r."
 				""
-				"The second best source according to us (!) is &aelectrolyzing Silicon Dioxide&r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust."
+				"&a秒&f 根据我们的判断(!),最好的来源是 &a电解二氧化硅&f&r.&a二氧化硅&f 可以从多种来源获得,如玻璃粉、&a花岗岩粉&f 和 &a暗花岗岩&f 粉."
 				"{@pagebreak}"
-				"The third best source according to us (!) is &aelectrolyzing Water&r. In reality, electrolysis of water is more suitable for &aHydrogen production&r due to the higher energy cost."
+				"根据我们的判断(!),第三好的来源是 &a电解水&r.实际上,水电解更适合 &a氢气生产&r,因为能量成本更高."
 				""
-				"The fourth best source according to us (!) is &ato not void&r it, EVER! Any Oxygen obtained from any source is worth something and should be stored in Tanks."
+				"根据我们的判断(!),第四好的来源是 &a永远不要浪费&r 它!任何来源获得的氧气都是有价值的,应该储存在储罐中."
 				""
-				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
+				"&e注意:&r 通过在物品栏中用 &l桶&r 储存流体来提交流体.抱歉——这是 &aFTB任务&f 的一个特性."
 			]
 			icon: "gtceu:oxygen_bucket"
 			id: "1A77CA35F054F988"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Achtually, it's Dioxygen..."
-			tasks: [{
-				id: "1F76ED94CDBD13E1"
-				item: "gtceu:oxygen_bucket"
-				type: "item"
-			}]
-			title: "Breath of Fresh Oxygen"
+			subtitle: "实际上,它是双原子氧..."
+			tasks: [
+				{
+					id: "1F76ED94CDBD13E1"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
+				}
+			]
+			title: "新鲜的氧气"
 			x: -1.125d
 			y: 7.875d
 		}
 		{
 			dependencies: ["5263F866638D875C"]
 			description: [
-				"You can now &3centrifuge&r &aResin&r, which will still give Raw Rubber - but this time alongside &aGlue&r (and the less useful Plantball)."
+				"你现在可以 &3离心&r &a树脂&r,这仍然会得到 &a生橡胶&f - 但这次还会得到 &a胶水&r(以及不太有用的植物球)."
 				""
-				"Give yourself a headstart and get on producing Glue. You can use it to make &6cheaper Resistors&r, as well as &6cheaper Circuit Boards&r in the &3Assembling Machine&r (and it is especially useful &oin the near future&r)."
+				"给自己一个起步,开始生产胶水.你可以用它来制作 &e更便宜的电阻器&r,以及 &e更便宜的 &a电路板&f&r 在 &3&a控制电路加工厂&f&r 中(并且在不久的将来特别有用)."
 				""
-				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
+				"&e注意:&r 通过在物品栏中用 &l桶&r 储存流体来提交流体.抱歉——这是 &aFTB任务&f 的一个特性."
 			]
 			icon: "gtceu:glue_bucket"
 			id: "0EAC071414AEC07E"
-			rewards: [{
-				count: 4
-				id: "3134ECF63472A855"
-				item: "gtceu:rubber_log"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "3134ECF63472A855"
+					item: "gtceu:rubber_log"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "Extractor? I hardly knew 'er!"
-			tasks: [{
-				id: "284F6584EEEF3AD6"
-				item: "gtceu:glue_bucket"
-				type: "item"
-			}]
-			title: "Glued"
+			subtitle: "离心机？我几乎不认识她!"
+			tasks: [
+				{
+					id: "284F6584EEEF3AD6"
+					item: "gtceu:glue_bucket"
+					type: "item"
+				}
+			]
+			title: "粘合"
 			x: 0.0d
 			y: 7.875d
 		}
@@ -1663,27 +1817,29 @@
 				"257DB4B39B2A928E"
 			]
 			description: [
-				"Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are &4among&r these materials."
+				"许多未来的材料无法直接从任何矿石中熔炼得到!它们而是通过处理其他矿石的副产品获得.镓和砷就是这些材料中的&4一部分&r."
 				"{@pagebreak}"
-				"For &dGallium&r, you may, ranged from worst to best (compromising difficulty and yields):"
+				"对于&d镓&r,你可以从最差到最好(考虑难度和产量):"
 				""
-				"&9- &3Electrolyze &aSphalerite&r for a low chance of dust. Note that you lose out on direct smelting value."
+				"&9- &3电解&a闪锌矿&r以获得低概率的粉末.注意,你会失去直接熔炼的价值."
 				""
-				"&9-&r Put &aCrushed Bauxite&r in the &3Chemical Bath&r. Note that this requires &9Sodium Persulfate&r."
+				"&9-&r 将&a粉碎铝土矿&r放入&3&a化学浸洗器&f&r.注意,这需要&9&a过硫酸钠&f&r."
 				""
-				"&9-&r Obtain it as a Byproduct of &aSphalerite&r Ore Processing in the &3Thermal Centrifuge&r or &3Centrifuge&r."
+				"&9-&r 作为&a闪锌矿&r&a矿物处理&f的副产品在&3&a热力离心机&f&r或&3离心机&r中获得."
 				""
-				"For &dArsenic&r, you will have to mine and &3centrifuge&r &aRealgar&r."
+				"对于&d砷&r,你必须开采并&3离心&a雷加尔&r."
 			]
 			id: "4073577B7EF9B593"
 			size: 0.75d
-			subtitle: "I hate byproducts, they're awesome"
-			tasks: [{
-				id: "0FDC60275B1959C3"
-				item: "gtceu:gallium_arsenide_dust"
-				type: "item"
-			}]
-			title: "Gallium Arsenide"
+			subtitle: "我讨厌副产品,它们很棒"
+			tasks: [
+				{
+					id: "0FDC60275B1959C3"
+					item: "gtceu:gallium_arsenide_dust"
+					type: "item"
+				}
+			]
+			title: "&a砷化镓&f"
 			x: 1.5d
 			y: 7.875d
 		}
@@ -1693,77 +1849,85 @@
 				"0EAC071414AEC07E"
 			]
 			description: [
-				"This Circuit Board is used to create &dMV Circuits&r!"
+				"这个&a电路板&f用于创建&dMV电路&r!"
 				""
-				"&9Note:&r You have &ltwo&r options when making the Phenolic Printed Circuit Board. If you use &aSodium Persulfate&r or &aIron III Chloride&r, making boards takes &6only a quarter of the Silver&r as opposed to the crafting recipe."
+				"&9注意:&r制作酚醛&a印刷电路板&f时,你有&lt两种&r选择.如果你使用&a&a过硫酸钠&f&r或&a&a三氯化铁&f&r,制作电路板所需的&e银&r仅为合成配方的&e四分之一&r."
 				""
-				"&lHowever&r, given how painful it may be for you to obtain these chemicals &oright now&r, you can simply use more Silver by mining most of a Galena Vein..."
+				"&l然而&r,考虑到你现在可能很难获得这些化学品&oright ow&r,你可以简单地通过开采大部分方铅矿矿脉来使用更多的银……"
 				""
-				"The quest for &aSodium Persulfate&r is in the &bMV&r chapter, if you're down for some light reading."
+				"寻找&a&a过硫酸钠&f&r的任务在&bMV&r章节中,如果你愿意做一些轻松的阅读."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Back in GTCEu 1.12.2, these circuit boards were called \"&2Good Circuit Boards&f\". Not exactly a fitting name, as they're &4rather evil&f to craft."
+				"&l&3背景:&r&o在GTCEu 1.12.2中,这些电路板被称为\"&2好&a电路板&f&f\".这个名字并不完全合适,因为它们的制作过程&4相当邪恶&f."
 			]
 			id: "3647B1B964A15E4E"
-			rewards: [{
-				id: "2B815290D1F7D038"
-				item: "gtceu:resin_printed_circuit_board"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2B815290D1F7D038"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "A Good Board"
-			tasks: [{
-				id: "2DE7B75F25A4AB9E"
-				item: "gtceu:phenolic_printed_circuit_board"
-				type: "item"
-			}]
+			subtitle: "一个好的电路板"
+			tasks: [
+				{
+					id: "2DE7B75F25A4AB9E"
+					item: "gtceu:phenolic_printed_circuit_board"
+					type: "item"
+				}
+			]
 			x: 3.375d
 			y: 7.875d
 		}
 		{
 			dependencies: ["63CD0236B337EAAD"]
 			description: [
-				"Getting into Applied Energistics at this point is possible, but also a little bit involved..."
+				"在这个阶段进入&a应用能源&f是可能的,但也稍微有些复杂……"
 				""
-				"You will need to make quite a few &7LV&r machines, and the &7LV-tier&r recipes for some AE2 items are comparatively expensive without access to more advanced technology."
+				"你需要制作相当多的&7LV&r机器,并且某些AE2物品的&7LV-tie&r配方在没有更先进技术的情况下相对昂贵."
 				""
-				"In &7LV&r, you're able to craft:"
+				"在&7LV&r中,你可以合成:"
 				""
-				"&6-&r Energy Acceptor"
+				"&e-&r &a能量接收器&f"
 				""
-				"&6-&r ME Terminal"
+				"&e-&r &aME终端&f"
 				""
-				"&6-&r 1k ME Storage component"
+				"&e-&r 1k ME存储组件"
 				""
-				"&6-&r ME Chest"
+				"&e-&r &aME箱子&f"
 				"{@pagebreak}"
-				"&9Note:&r This pack includes &5Fluix Crystals&r, but they are generated as a GT material, rather than the default AE2 Fluix Crystals. To get them, put &dFluix Dust&r in the &aAutoclave&r, which is made from &7Certus Quartz Dust&r, &eNether Quartz Dust&o&r and &cRedstone&r in a &aMixer&r. No need to charge the Certus Quartz. It gets... charged in the Mixer... or something like that."
+				"&9注意:&r这个包包含了&5&a福鲁伊克斯水晶&f&r,但它们是作为GT材料生成的,而不是默认的AE2&a福鲁伊克斯水晶&f.要获得它们,将&d&a福鲁伊克斯粉&f&r放入&a高压釜&r中,这是由&7&a赛特斯石英粉&f&r、&e&a下界石英粉&f&o&r和&c红石&r在&a混合器&r中制成的.不需要给&a赛特斯石英水晶&f充电.它在混合器中……充电……或者类似的东西."
 				"{@pagebreak}"
-				"Additionally - a &6warning&r. Clicking on the Guide button in Applied Energistics 2 machine GUIs will most likely &ccrash your game&r due to an incompatibility with &eStarlight&r. If you're looking for guides on &bApplied Energistics 2&r, more information can be found:"
+				"此外 - 一个&ewarning&r.点击&d应用能源2&f机器GUI中的指南按钮很可能会&crash your game&r,因为与&eStarlight&r不兼容.如果你在寻找&b&d应用能源2&f&r的指南,更多信息可以在以下找到:"
 				""
-				"The official &dApplied Energistics 2&r website: &9https://appliedenergistics.org/guides&r"
+				"§a官方§d§d应用能源2§f§r网站:§9https://appliedenergistics.org/guides§r"
 				""
-				"An &binstructionary video&r made by &aPansmith&r, which covers Applied Energistics 2 on &6Minecraft 1.12.2&r. The fundamentals are still near-identical, however."
-				"&9https://www.youtube.com/watch?v=u0ouTWgdcXk&r"
+				"由&aPansmith&r制作的&b教学视频&r,涵盖了&d应用能源2&f在&eMinecraft 1.12.2&r上的内容.基本原理仍然非常相似."
+				"§9https://www.youtube.com/watch?v=u0ouTWgdcXk§r"
 			]
 			id: "0E72017800A9766C"
-			rewards: [{
-				id: "73455D7AB7929E27"
-				item: {
-					Count: 1
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
+			rewards: [
+				{
+					id: "73455D7AB7929E27"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time to ditch those chests"
-			tasks: [{
-				id: "2080D5BB367332D3"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
-			title: "The Digital Age? Already!?"
+			subtitle: "是时候抛弃那些箱子了"
+			tasks: [
+				{
+					id: "2080D5BB367332D3"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+			]
+			title: "&a数字&f时代？已经!？"
 			x: 4.5d
 			y: 7.875d
 		}
@@ -1773,26 +1937,30 @@
 				"4073577B7EF9B593"
 			]
 			description: [
-				"Don't let JEI fool you... there's only one possible recipe right now for this Primitive Diode."
+				"不要让JEI欺骗你……现在这个原始二极管只有一个可能的配方."
 				""
-				"Diodes have a infamously &4nasty recipe&r, but they will become cheaper and more convenient once you can obtain &ePolyethylene&r."
+				"二极管有一个臭名昭著的&4糟糕配方&r,但一旦你能获得&e聚乙烯&r,它们会变得更便宜和更方便."
 				""
-				"This is required for &dMV Circuits&r."
+				"这是制作&dMV电路&r所必需的."
 			]
 			id: "7BE7DE4C0109D788"
-			rewards: [{
-				count: 8
-				id: "7E08419FB2E4B575"
-				item: "gtceu:gallium_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "7E08419FB2E4B575"
+					item: "gtceu:gallium_dust"
+					type: "item"
+				}
+			]
 			size: 0.75d
-			subtitle: "Don't be swayed by JEI!"
-			tasks: [{
-				id: "0FE8CA1C2D212378"
-				item: "gtceu:diode"
-				type: "item"
-			}]
+			subtitle: "不要被JEI左右!"
+			tasks: [
+				{
+					id: "0FE8CA1C2D212378"
+					item: "gtceu:diode"
+					type: "item"
+				}
+			]
 			x: 5.625d
 			y: 7.875d
 		}
@@ -1803,372 +1971,392 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"Well... gotten any Aluminium Ingots yet?"
+				"嗯... 你拿到&a铝锭&f了吗？"
 				""
-				"Each Electric Age has Circuits corresponding to its tier. The Good Electronic Circuit is the &dfirst MV Circuit&r you can make out of the three tiers of &bMV&r Circuitry."
+				"每个电力时代都有与其等级对应的电路.&a优质电子电路板&f是你能制作的三种&bMV&r电路中的&d第一个MV电路&r."
 				""
-				"Always be on the lookout for a cheaper way to make your circuits - new sets of recipes become available each time you make a new tier of &2Circuit Assembler&r. Conveniently, this tier of Circuit unlocks one now! Its recipes are far, far cheaper than hand-crafting Circuits."
+				"始终留意制作电路的更便宜方法——每次你制作新的&2&a电路组装机&f&r等级时,都会解锁新的配方.方便的是,这一等级的电路现在就解锁了一个!它的配方比手工制作电路便宜得多."
 				""
-				"&6Having this and Aluminium will grant access to MV Machines.&r"
+				"&e拥有这个和铝锭将让你能够使用&aMV机器&f.&r"
 			]
 			id: "0DBC148D92A9F69F"
-			rewards: [{
-				count: 4
-				id: "052E7DFC7E0B9EEF"
-				item: "gtceu:basic_electronic_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "052E7DFC7E0B9EEF"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Does that mean we're at MV yet?"
-			tasks: [{
-				id: "70313E1917121E14"
-				item: "gtceu:good_electronic_circuit"
-				type: "item"
-			}]
-			title: "First MV Circuit!"
+			subtitle: "这是否意味着我们已经进入MV阶段了？"
+			tasks: [
+				{
+					id: "70313E1917121E14"
+					item: "gtceu:good_electronic_circuit"
+					type: "item"
+				}
+			]
+			title: "第一个MV电路!"
 			x: 7.875d
 			y: 7.875d
 		}
 		{
 			dependencies: ["2F1CCFEBAB71B1F3"]
 			description: [
-				"As mentioned in the previous quest, electrolyse the &1Sapphire Dust&r to get your &bAluminium Dust&r."
+				"如前一任务所述,电解&1&a蓝宝石粉&f&r以获得你的&b&a铝粉&f&r."
 				""
-				"Now all you need is an EBF! If you haven't started to work towards one, move to the right on this quest page and you'll end up there."
+				"现在你只需要一个EBF!如果你还没有开始制作一个,请在这个任务页面向&a右&f移动,你就会到达那里."
 			]
 			hide_dependent_lines: true
 			id: "45B71324028F6E68"
 			size: 0.75d
-			subtitle: "Aluminium, not \"Aluminum\""
-			tasks: [{
-				id: "144F4F8EF61BEEA5"
-				item: "gtceu:aluminium_dust"
-				type: "item"
-			}]
-			title: "Aluminium Dust"
+			subtitle: "是铝,不是\"铝\""
+			tasks: [
+				{
+					id: "144F4F8EF61BEEA5"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+			]
+			title: "&a铝粉&f"
 			x: -3.375d
 			y: 6.75d
 		}
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
 			description: [
-				"Multiblocks bear a large variety of interesting mechanics that might seem daunting, but don't worry - we've written a guide to help you learn."
+				"多方块结构拥有大量有趣的机制,可能看起来令人望而生畏,但别担心——我们写了一份指南来帮助你学习."
 				""
-				"&6This quest unlocks a bunch of tutorials on Multiblocks in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
+				"&e这个任务解锁了&l提示与技巧&r&e标签中关于多方块结构的大量教程——查看它们以了解更多!&r"
 			]
 			hide_text_until_complete: false
 			icon: "gtceu:heatproof_machine_casing"
 			id: "2FC7B1E867E4194E"
 			size: 0.75d
-			subtitle: "By the end of this, you'll be an expert"
-			tasks: [{
-				id: "2AA5580CDD655FBC"
-				type: "checkmark"
-			}]
-			title: "Multiblock Techniques"
+			subtitle: "到这结束时,你将成为专家"
+			tasks: [
+				{
+					id: "2AA5580CDD655FBC"
+					type: "checkmark"
+				}
+			]
+			title: "多方块结构技巧"
 			x: 7.875d
 			y: 4.5d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7这个任务的主题是可选的,但可能仍然对你有兴趣.我们把它放在这里是为了完整性.&r"
 				""
-				"The &3Rock Breaker&r generates different types of igneous Rocks. In order to operate, &9Water&r and &cLava&r (doesn't need to be source blocks) must both be adjacent to it. Those rocks might be pulverized and electrolyzed into certain materials."
+				"&3&a碎石机&f&r生成不同类型的火成岩.为了运行,&9水&r和&c岩浆&r(不需要是源块)必须都与它相邻.那些岩石可能会被粉碎并电解成某些材料."
 				""
-				"Certain rocks, such as &b&cRed Granite&r, need up to &5EV&r power to generate."
+				"某些岩石,如&b&c&a红花岗岩&f&r,需要高达&5EV&r的电力来生成."
 				""
-				"&eAny&r Rock Breaker will complete this Quest."
+				"&e任何&r&a碎石机&f都会完成这个任务."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Obsidian requiring Redstone to generate is in reference to an ancient Minecraft bug, &7MC-4239&f. Placing Redstone where the Cobblestone would go in a cobble generator would make it generate Obsidian instead. This bug was resolved in snapshot 14w25b for Minecraft 1.8, over 9 years ago at the time of writing!"
+				"&l&3背景故事:&r&o 需要红石来生成黑曜石的参考是一个古老的Minecraft漏洞,&7MC-4239&f.在圆石生成器中放置红石,而不是圆石,会使其生成黑曜石.这个漏洞在Minecraft 1.8的快照14w25b中被修复,写作时已经超过9年了!"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_rock_crusher"
 			id: "1F2359106FC95603"
-			rewards: [{
-				id: "1140542401ED7AAB"
-				item: "minecraft:cobblestone"
-				random_bonus: 63
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1140542401ED7AAB"
+					item: "minecraft:cobblestone"
+					random_bonus: 63
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "What is this, Skyblock?"
-			tasks: [{
-				id: "10F588EB061EB2EA"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_rock_crusher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_rock_crusher"
-							}
-						]
+			subtitle: "这是什么,空岛生存？"
+			tasks: [
+				{
+					id: "10F588EB061EB2EA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ev_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iv_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:luv_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:zpm_rock_crusher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:uv_rock_crusher"
+								}
+							]
+						}
 					}
+					title: "&a碎石机&f"
+					type: "item"
 				}
-				title: "Rock Crusher"
-				type: "item"
-			}]
-			title: "Cobble is Life"
+			]
+			title: "碎石机是生命"
 			x: 4.29d
 			y: 0.0d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7这个任务的主题是可选的,但可能仍然对你有兴趣.我们把它放在这里是为了完整性.&r"
 				""
-				"The &3Turbo Charger&r charges &6RF and EU&r items such as &9Drills&r extremely quickly."
-				"It accepts up to 4 Amps for every item it charges, making it &6twice as fast&r as the &3Battery Buffer&r. It cannot discharge, though."
+				"&3涡轮增压充电器&r以极快的速度为&eRF和EU&r物品如&9钻头&r充电."
+				"它每个充电物品最多接受4安培,使其比&3电池缓冲器&r&e快两倍&r.不过,它不能放电."
 				""
-				"&eAny&r Charger will complete this Quest."
+				"&e任何&r充电器都会完成这个任务."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_charger_4x"
 			id: "2DB259568F347C0E"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "100% Battery"
-			tasks: [{
-				id: "07BF7F14849A3027"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:ulv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:lv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_charger_4x"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uhv_charger_4x"
-							}
-						]
+			subtitle: "100%电池"
+			tasks: [
+				{
+					id: "07BF7F14849A3027"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:ulv_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ev_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iv_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:luv_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:zpm_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:uv_charger_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:uhv_charger_4x"
+								}
+							]
+						}
 					}
+					title: "涡轮增压器"
+					type: "item"
 				}
-				title: "Turbo Charger"
-				type: "item"
-			}]
-			title: "Turbo Charger"
+			]
+			title: "涡轮增压充电器"
 			x: 5.28d
 			y: 0.0d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7此任务的主题是可选的,但可能仍然对你感兴趣.我们将其放在这里是为了完整性.&r"
 				""
-				"The &3Fisher&r catches fish from Water. It requires a 5x5 area of Water directly below to operate. It uses the same loot table as normal Fishing, so it can catch things like &dEnchanted Books&r. Each operation consumes 1 String and EU equivalent to its tier (32 for &7LV&r, etc.) That's about it."
+				"这个&3渔夫&r从水中捕鱼.它需要直接下方有5x5的水域才能运作.它使用与普通钓鱼相同的战利品表,所以它可以捕获像&d&a附魔书&f&r这样的物品.每次操作消耗1根线和与其等级相当的EU(&7LV&r为32,等等).差不多就是这样."
 				""
-				"&eFish Oil&r can be extracted from Fish, which can be used for &6Bio Diesel&r."
+				"&e&a鱼油&f&r可以从鱼中提取,可以用于&e&a生物柴油&f&r."
 				""
-				"Get &eany&r tier Fisher to complete this quest. (They only go up to &5EV&r. If you forsee needing enough Fish to justify an &1IV&r or higher Fisher, make a feature request on our GitHub or Discord.)"
+				"获取&e任何&r等级的渔夫来完成此任务.(它们最高只能到&5EV&r.如果你预计需要足够的鱼来证明使用&1IV&r或更高等级的渔夫是合理的,请在我们的GitHub或Discord上提出功能请求.)"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_fisher"
 			id: "3B26CA44EA955B07"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Women want me, fish fear me"
-			tasks: [{
-				id: "07BA97A0F04F0876"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_fisher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_fisher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_fisher"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_fisher"
-							}
-						]
+			subtitle: "女人想要我,鱼儿害怕我"
+			tasks: [
+				{
+					id: "07BA97A0F04F0876"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_fisher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_fisher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_fisher"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ev_fisher"
+								}
+							]
+						}
 					}
+					title: "渔夫"
+					type: "item"
 				}
-				title: "Fisher"
-				type: "item"
-			}]
-			title: "Fishing 50"
+			]
+			title: "钓鱼 50"
 			x: 6.2700000000000005d
 			y: 0.0d
 		}
 		{
 			dependencies: ["46AD7A6F3B6775F5"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7此任务的主题是可选的,但可能仍然对你感兴趣.我们将其放在这里是为了完整性.&r"
 				""
-				"The &3World Accelerator&r... well, accelerates the world. Placing it down and powering it will cause it to tick-accelerate any Tile Entities around it. Using a Screwdriver, you can also toggle it to tick-accelerate random blocks in its area, such as farmland. "
+				"这个&3世界加速器&r...嗯,加速世界.放置它并供电后,它会使周围的方块实体加速.使用螺丝刀,你还可以将其切换为加速其区域内的随机方块,例如耕地."
 				""
-				"Keep in mind that GregTech machines are blacklisted from tick acceleration - this is for the better, as tick-accelerating a GregTech machine can lead to it consuming many Amps at once and nuking your power system."
+				"请记住,&d格雷科技&f机器被列入黑名单,不会被加速 - 这是为了更好,因为加速&d格雷科技&f机器可能会导致它一次性消耗大量安培并摧毁你的电力系统."
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:lv_world_accelerator"
 			id: "113F3D2E48F62CBB"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I Have Become Chronos"
-			tasks: [{
-				id: "5924F0A33AD22EC9"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:iv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_world_accelerator"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_world_accelerator"
-							}
-						]
+			subtitle: "我已经成为了克罗诺斯"
+			tasks: [
+				{
+					id: "5924F0A33AD22EC9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_world_accelerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_world_accelerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_world_accelerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ev_world_accelerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iv_world_accelerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:luv_world_accelerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:zpm_world_accelerator"
+								}
+								{
+									Count: 1b
+									id: "gtceu:uv_world_accelerator"
+								}
+							]
+						}
 					}
+					title: "世界加速器"
+					type: "item"
 				}
-				title: "World Accelerators"
-				type: "item"
-			}]
-			title: "At The Speed Of Light"
+			]
+			title: "以&a光速&f"
 			x: 7.875d
 			y: 1.125d
 		}
 		{
 			dependencies: ["46AD7A6F3B6775F5"]
 			description: [
-				"If you're a builder, &bweep no more&r - this custom multiblock, freshly made with the powers of &dKubeJS&r, is made for you."
+				"如果你是建筑师,&b别再哭泣&r - 这个由&dKubeJS&r力量新鲜制作的定制多方块结构,就是为你准备的."
 				""
-				"By providing the multiblock with a near-negligible amount of &6Construction Foam&r, you'll gain access to increased yields of many different &bbuilding blocks&r to spice up your base."
+				"通过为多方块结构提供几乎可以忽略不计的&e&a建筑泡沫&f&r,你将获得许多不同建筑方块&r的增产,以丰富你的基地."
 				""
-				"Don't go too crazy!"
+				"不要太过疯狂!"
 				""
-				"&8(Crazy? I was crazy once!)&r"
+				"&8(疯狂？我曾经疯狂过!)&r"
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:construction_core"
 			id: "11989C3388C969DF"
 			shape: "rsquare"
 			size: 0.75d
-			subtitle: "If you build it, they will come"
-			tasks: [{
-				id: "5635E327260121C3"
-				item: "gtceu:construction_core"
-				type: "item"
-			}]
-			title: "Building Resources"
+			subtitle: "如果你建造它,他们就会来"
+			tasks: [
+				{
+					id: "5635E327260121C3"
+					item: "gtceu:construction_core"
+					type: "item"
+				}
+			]
+			title: "建筑资源"
 			x: 8.91d
 			y: 1.65d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
 			description: [
-				"&9Drills&r are electric tools which come in different tiers. The &7LV&r Drill is quite good: mining a 3x3x1 area. Higher-tier drills can mine 3x3x3, 5x5x5, and up to 9x9x9 to make huge holes!"
+				"&9钻头&r是电动工具,有不同的等级.&7LV&r钻头非常不错:挖掘3x3x1的区域.更高等级的钻头可以挖掘3x3x3、5x5x5,甚至高达9x9x9,以制造巨大的洞穴!"
 				""
-				"This suggested drill is with a Diamond tip, which might be the best material for it right now."
+				"建议的钻头带有钻石尖端,这可能是目前最好的材料."
 				""
-				"&9Note 1:&r All Electric Tools have a lot more durability than indicated, as they use Energy to prevent damage from being applied! On top of that, they can be enchanted as Pickaxes can."
+				"&9注意1:&r所有电动工具的耐久度都比显示的要多,因为它们使用能量来防止损坏!此外,它们可以像镐一样附魔."
 				""
-				"&9Note 2:&r Drills can now be configured to different ranges, not just the maximum or a single block."
+				"&9注意2:&r钻头现在可以配置为不同的范围,不仅仅是最大或单个方块."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Up until GTCEu, Electric tools required Stainless Steel, which locked players out of experiencing their glory until &6HV&f!"
+				"&l&3传说:&r&o 直到GTCEu,电动工具需要&a不锈钢&f,这使得玩家无法体验到它们的荣耀,直到&eHV&f!"
 			]
 			icon: {
 				Count: 1
@@ -2197,7 +2385,7 @@
 			id: "70BBF00528C68A05"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "We Drill Now? We Drill Now."
+			subtitle: "我们现在钻探吗？我们现在钻探."
 			tasks: [
 				{
 					id: "0D2407D27B875AC3"
@@ -2233,111 +2421,115 @@
 					type: "checkmark"
 				}
 			]
-			title: "Oh Yeah, we Drillin'"
+			title: "哦耶,我们在钻探"
 			x: 5.519855442176862d
 			y: 4.124574829931966d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7此任务的主题是可选的,但可能仍然对你感兴趣.我们将其放在这里是为了完整性.&r"
 				""
-				"The &3Block Breaker&r... well, we'll &dleave it to you&r to figure out what this one does. There are likely some &anifty farms&r you can create with clever usage of this machine - especially with the &6many vanilla mechanics&r introduced between 1.12.2 and 1.20.1!"
+				"这个&3方块破坏器&r...嗯,我们&d留给你&r来猜猜它做什么.很可能你可以通过巧妙地使用这台机器创建一些&anifty农场&r - 特别是在1.12.2到1.20.1之间引入的&emany原版机制&r!"
 				""
-				"Higher tiers of &3Block Breaker&r come with an additional speed bonus."
+				"&a更高等级&f的&3方块破坏器&r带有额外的速度加成."
 				""
-				"&eAny&r Block Breaker will complete this Quest."
+				"&e任何&r方块破坏器都可以完成此任务."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_block_breaker"
 			id: "12DF2E5269BE87D5"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I've had it with these blocks!"
-			tasks: [{
-				id: "3FF25D11627A1D05"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_block_breaker"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_block_breaker"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_block_breaker"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_block_breaker"
-							}
-						]
+			subtitle: "我已经受够了这些方块!"
+			tasks: [
+				{
+					id: "3FF25D11627A1D05"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_block_breaker"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_block_breaker"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_block_breaker"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ev_block_breaker"
+								}
+							]
+						}
 					}
+					title: "方块破坏者"
+					type: "item"
 				}
-				title: "Block Breakers"
-				type: "item"
-			}]
-			title: "Break the Targets!"
+			]
+			title: "打破目标!"
 			x: 7.26d
 			y: 0.0d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7这个任务的主题是可选的,但可能仍然对你有吸引力.我们把它放在这里是为了完整性.&r"
 				""
-				"&3Item Collectors&r will pick up items - similar to any kind of &aVacuum Chest&r you may be familiar with from &dother mods&r."
+				"&3物品收集器&r会捡起物品——类似于你可能从&d其他模组&r中熟悉的&a&a虚空箱子&f&r."
 				""
-				"Higher tiers of &3Collector&r will increase the &ecollection radius&r over multiple chunks. This can be useful if your farm relies on in-world drops, such as &bSugar Cane&r, or... &7uh, bizarrely,&r &8chicken eggs.&r"
+				"&a更高等级&f的&3收集器&r会增加跨多个区块的&e收集半径&r.如果你的农场依赖于世界掉落物,比如&b&a甘蔗&f&r,或者...&7呃,奇怪的是,&r&8鸡蛋&r,这会很有用."
 				""
-				"&eAny&r Item Collector will complete this Quest."
+				"&e任何&r物品收集器都会完成这个任务."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_item_collector"
 			id: "112189FE1A12537A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Oops, dropped my Pickaxe."
-			tasks: [{
-				id: "4FB4D157D57EF9C8"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_item_collector"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_item_collector"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_item_collector"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_item_collector"
-							}
-						]
+			subtitle: "哎呀,我的镐掉了."
+			tasks: [
+				{
+					id: "4FB4D157D57EF9C8"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_item_collector"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_item_collector"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_item_collector"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ev_item_collector"
+								}
+							]
+						}
 					}
+					title: "物品收集器"
+					type: "item"
 				}
-				title: "Item Collectors"
-				type: "item"
-			}]
-			title: "Gotta Catch 'Em All"
+			]
+			title: "必须全部抓住"
 			x: 8.25d
 			y: 0.0d
 		}
 	]
-	subtitle: ["Tame electricity and make your first machines"]
-	title: "&7LV&r - Low Voltage"
+	subtitle: ["驯服电力并制作你的第一台机器"]
+	title: "&7LV&r - 低压"
 }

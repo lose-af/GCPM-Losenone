@@ -6,14 +6,16 @@
 	icon: "gtceu:mv_electric_motor"
 	id: "43E779CEEB25D55B"
 	order_index: 2
-	quest_links: [{
-		id: "6FCAD016C795DE93"
-		linked_quest: "7567E885B7166603"
-		shape: "gear"
-		size: 1.2d
-		x: 0.0d
-		y: 0.375d
-	}]
+	quest_links: [
+		{
+			id: "6FCAD016C795DE93"
+			linked_quest: "7567E885B7166603"
+			shape: "gear"
+			size: 1.2d
+			x: 0.0d
+			y: 0.375d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
@@ -21,24 +23,24 @@
 				"7567E885B7166603"
 			]
 			description: [
-				"The &3Pyrolyse Oven&r is an electric equivalent to the &3Coke Oven&r. It can produce &9Coal Coke&r and &9Charcoal&r with a &9Creosote&r byproduct just as before, but also has additional &6Organic Byproducts&r, the most beneficial of these being &aWood Tar&r."
+				"&3&a热解炉&f&r是&3&a焦炉&f&r的电力等效物.它可以像以前一样生产&9&a焦煤&f&r和&9木炭&r,并附带&9杂酚油&r副产品,但也有额外的&e有机副产品&r,其中最有益的是&a&a木焦油&f&r."
 				""
-				"Another product is &aBiomass&r, which is more pertinent for your progression as of this moment."
+				"另一个产品是&a生物质&r,这对你的进展目前更为相关."
 				"{@pagebreak}"
-				"The byproducts can be Distilled for an array of organic resources, with &odifferent&r byproducts giving &odifferent&r ratios of &odifferent&r chemicals."
+				"副产品可以通过蒸馏获得一系列有机资源,不同的副产品会提供不同的化学品比例."
 				""
-				"You will need to take a peek at the &9Distillation&r Quest to get to grips with the power of distillation..."
+				"你需要查看&9蒸馏&r任务以掌握蒸馏的力量..."
 				"{@pagebreak}"
-				"There are recipes that can accept &bNitrogen&r to double the speed. This isn't quite worth pursuing right now, but Nitrogen will eventually be free and infinite."
+				"有些配方可以接受&b氮气&r以加倍速度.这目前不太值得追求,但氮气最终会是免费且无限的."
 				""
-				"You should be more than fine with a single &3LV Energy Hatch&r, and Superconductors to supply a steady &d64 EU/t&r. Additionally, &3Cupronickel Coils&r are perfect when you're getting used to the Pyrolyse Oven, but you may want to upgrade to &bKanthal&r eventually."
+				"你用一个&3LV能量接口&r和超导体供应稳定的&d64 EU/t&r就足够了.此外,&3&a白铜线圈&f&r在你熟悉&a热解炉&f时非常完美,但你最终可能想升级到&bKanthal&r."
 				""
 				"{@pagebreak}"
-				"&9&lNote:&r&l The Plant path is one path you can take towards &9&lEthylene&r&l, which is a necessary chemical in progressing to &6HV&r&l. The other path involves Oil.&r"
+				"&9&l注意:&r&l &a种植需求等级&f路径是你通往&9&l乙烯&l的一条路径,这是进展到&eHV&l所需的化学品.&a其他&f路径涉及石油.&r"
 				""
-				"The Pyrolyse Oven remains &doptional&r. However, it is very rewarding to construct one either for Power, or for the various Byproducts, and we highly recommend you give it a look."
+				"&a热解炉&f仍然是&d可选的&r.然而,建造一个无论是为了电力还是为了各种副产品,都非常有回报,我们强烈建议你看看."
 				""
-				"&l&3Lore:&r&o In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to a lack of a JEI preview."
+				"&l&3背景:&r&o 在GT5u中,&a热解炉&f的结构是一个只有9个线圈的巨大盒子,这使得玩家通常需要花费几分钟调试问题,因为没有JEI预览."
 			]
 			icon: "gtceu:pyrolyse_oven"
 			id: "53DC6E32C41C94C3"
@@ -59,13 +61,15 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Thermal Decomposition"
-			tasks: [{
-				id: "0FD2962C232149F8"
-				item: "gtceu:pyrolyse_oven"
-				type: "item"
-			}]
-			title: "Pyrolyse Oven"
+			subtitle: "热分解"
+			tasks: [
+				{
+					id: "0FD2962C232149F8"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+			]
+			title: "&a热解炉&f"
 			x: 0.0d
 			y: -0.75d
 		}
@@ -75,56 +79,62 @@
 				"1A29EFBCEA017F99"
 			]
 			description: [
-				"Welcome to the &2natural&r Ethylene route! This method uses &9plant matter&r to produce Ethanol."
+				"欢迎来到&2自然&r乙烯路径!这种方法使用&9植物材料&r来生产乙醇."
 				""
-				"Before we get ahead of ourselves, &aSugar Cane&r works fine in a &3Brewery&r for a decent yield of Biomass."
+				"在我们跑题之前,&a&a甘蔗&f&r在&3酿造厂&r中工作得很好,可以获得不错的生物质产量."
 				""
-				"Othe&rrwise, you could try the \"&o&dPlantball into Bio Chaff&r\" route, and then turn it into Biomass, either in the &3Brewery&r or the &3Pyrolyse Oven&r - the latter being more efficient."
+				"否则,你可以尝试\"&o&d植物球变成生物碎片&r\"路径,然后将其变成生物质,要么在&3酿造厂&r中,要么在&3&a热解炉&f&r中——后者更高效."
 				""
-				"&9Note:&r Only one Bio Chaff can be obtained from maceration until you make the &3HV Macerator&r."
+				"&9注意:&r 在你制作&3HV粉碎机&r之前,只能从粉碎中获得一个生物碎片."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o You may recognise Plantballs from IndustrialCraft2! In IC2 Experimental, there was this rather... obscure way to turn Biomass into Biogas for power, which sadly required too much investment to be really worth it."
+				"&l&3背景:&r&o 你可能从IndustrialCraft2中认出植物球!在IC2 Experimental中,有一种相当... 模糊的方式将生物质变成生物气体以获取电力,但遗憾的是需要太多投资,实际上并不值得."
 			]
 			icon: "gtceu:plant_ball"
 			id: "6EB68C28BEE24DEF"
-			rewards: [{
-				id: "55B6D1599E7C55B1"
-				item: "gtceu:bio_chaff"
-				random_bonus: 7
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "55B6D1599E7C55B1"
+					item: "gtceu:bio_chaff"
+					random_bonus: 7
+					type: "item"
+				}
+			]
 			size: 0.66d
-			subtitle: "Plants aren't industrial enough!"
-			tasks: [{
-				id: "4FBD476EB6B6DD04"
-				item: "gtceu:biomass_bucket"
-				type: "item"
-			}]
-			title: "Biomass"
+			subtitle: "植物还不够工业化!"
+			tasks: [
+				{
+					id: "4FBD476EB6B6DD04"
+					item: "gtceu:biomass_bucket"
+					type: "item"
+				}
+			]
+			title: "生物质"
 			x: 0.0d
 			y: -1.875d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
+				"&a啤酒制造者&f可以将&a红石&f和&a杂酚油&f/&a石油&f转化为&a润滑油&f.润滑油有一些小众用途,主要用于&3切割机&f中,可以显著减少其配方的时间."
 				""
-				"The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic."
+				"&a啤酒制造者&f是一个非常非常慢的机器,但它运行配方几乎不需要电力.建造&2多个酿酒厂&f将帮助你在追求塑料的过程中获得足够的生物质."
 				""
-				"&9Note:&r The Brewery \"unlocks\" the Biomass path towards &9Ethylene&r. The same can be done in the &3Pyrolyse Oven&r. The other path involves Oil.&r"
+				"&9注意:&f &a啤酒制造者&f \"解锁\" 生物质路径通往&9乙烯&f.同样可以在&3&a热解炉&f中完成.&a其他&f路径涉及石油."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o You could make your own Brewery if you want to build up a company and start selling Booze... in GregTech 6.&r"
+				"&l&3背景故事:&f&o 如果你想建立一家公司并开始销售酒类... 在&d格雷科技&f 6中,你可以自己建造一个酿酒厂."
 			]
 			icon: "gtceu:mv_brewery"
 			id: "1A29EFBCEA017F99"
-			rewards: [{
-				id: "2F6FA635755FBFA8"
-				item: "minecraft:redstone"
-				random_bonus: 31
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2F6FA635755FBFA8"
+					item: "minecraft:redstone"
+					random_bonus: 31
+					type: "item"
+				}
+			]
 			size: 0.66d
-			subtitle: "*hic*... *hic*"
+			subtitle: "*打嗝*... *打嗝*"
 			tasks: [
 				{
 					id: "095C98D86D021B2E"
@@ -138,7 +148,7 @@
 					type: "item"
 				}
 			]
-			title: "Local Brewery selling Booze"
+			title: "本地酿酒厂销售酒类"
 			x: 1.125d
 			y: -1.875d
 		}
@@ -149,24 +159,26 @@
 				"316FF60D6FFE97CE"
 			]
 			description: [
-				"Our warmest congratulations on making it here."
+				"我们最热烈的祝贺你到达这里."
 				""
-				"The way you should obtain &aEthylene&r was described in the previous Quest, depending on the route you chose."
+				"你获得&a乙烯&f的方式在之前的任务中已经描述过,取决于你选择的路径."
 				""
-				"&aEthylene&r will shortly be used in polymer production. It's also useful in a few other reactions."
+				"&a乙烯&f很快将用于聚合物生产.它也在其他一些反应中有用."
 			]
 			icon: "gtceu:ethylene_bucket"
 			id: "6BB98D128822730E"
 			min_required_dependencies: 1
 			shape: "square"
 			size: 0.75d
-			subtitle: "One of many hydrocarbons"
-			tasks: [{
-				id: "29191DABA0ACE155"
-				item: "gtceu:ethylene_bucket"
-				type: "item"
-			}]
-			title: "Ethylene"
+			subtitle: "许多碳氢化合物之一"
+			tasks: [
+				{
+					id: "29191DABA0ACE155"
+					item: "gtceu:ethylene_bucket"
+					type: "item"
+				}
+			]
+			title: "乙烯"
 			x: 1.125d
 			y: -3.0d
 		}
@@ -176,41 +188,43 @@
 				"6A304E453D74C57C"
 			]
 			description: [
-				"Put your previously made &aBiomass&r into a &3MV Distillery&r to make &aEthanol&r."
+				"将你之前制作的&a生物质&f放入&3MV蒸馏器&f中制作&a乙醇&f."
 				""
-				"You will need this for &dEthylene&r by reacting it with &aSulfuric Acid&r in a &3MV Chemical Reactor&r... unless you chose to go down the Oil path."
+				"你将需要这个通过在&3MV&a化学反应器&f中与&a硫酸&f反应来制作&d乙烯&f... 除非你选择了石油路径."
 				""
-				"Once you have a hefty starting stock of Ethanol, consider making and distilling &9Fermented Biomass&r in a &3Distillation Tower&r (when you get there!) for extra chemicals."
+				"一旦你有了大量的乙醇储备,考虑制作并在&3&a蒸馏塔&f中蒸馏&9&a发酵生物质&f(当你到达那里时!)以获得额外的化学品."
 				""
-				"&cDo not try&r to use Ethanol as a Power source... it's quite possibly its worst use. If it's organic &9Power&r that you want, we suggest taking a look at &dBenzene&r instead!"
+				"&c不要尝试&f将乙醇用作电源... 这可能是它最糟糕的用途.如果你想要有机&9电源&f,我们建议你看看&d苯&f!"
 			]
 			id: "5D9D01EF219A31C5"
 			size: 0.66d
-			subtitle: "Yo, wait - that's alcohol!"
-			tasks: [{
-				id: "6D7350EA7AB6CF25"
-				item: "gtceu:ethanol_bucket"
-				type: "item"
-			}]
-			title: "Ethanol"
+			subtitle: "等等,那是酒精!"
+			tasks: [
+				{
+					id: "6D7350EA7AB6CF25"
+					item: "gtceu:ethanol_bucket"
+					type: "item"
+				}
+			]
+			title: "乙醇"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
+				"蒸馏&a石油&f将给你需要脱硫的燃料."
 				""
-				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				"&a硫化氢&f在&3电解机&f中可以完美地&d回收&f."
 				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
+				"要自动化这个过程,只需将你的&3&a化学反应器&f和&3电解机&f放在一起.确保使用你的&5螺丝刀&f来&4启用从输出侧输入&f."
 				""
-				"&aNaphtha&r is a good &9Product&r source. Keep following the quests to the right for more details."
+				"&a石脑油&f是一个很好的&9产品&f来源.继续跟随任务&a向右&f &a了解更多&f."
 			]
 			icon: "gtceu:naphtha_bucket"
 			id: "6238B2A7ED1BE5A1"
 			size: 0.66d
-			subtitle: "We're still confused on how this is pronounced"
+			subtitle: "我们仍然对如何发音感到困惑"
 			tasks: [
 				{
 					id: "01BF2D557A9EF2B0"
@@ -224,33 +238,35 @@
 					type: "item"
 				}
 			]
-			title: "Naphtha"
+			title: "石脑油"
 			x: -1.125d
 			y: -4.125d
 		}
 		{
 			dependencies: ["6238B2A7ED1BE5A1"]
 			description: [
-				"Don't panic! We'll mostly be doing this to get hydrocarbons."
+				"&a别慌&f!我们主要这样做是为了获得碳氢化合物."
 				""
-				"There are many ways to acquire &dEthylene&r from Oil processing. It's easy to get lost in all the options and recipes!"
+				"从石油加工中获得&d乙烯&f有很多方法.在所有选项和配方中很容易迷失方向!"
 				""
-				"The best way is to steam-crack &aNaphtha&r in a &3Chemical Reactor&r. Be sure to make the &aSeverely Steam-Cracked&r version for a higher yield of Ethylene."
+				"最好的方法是使用&3&a化学反应器&f中的&a石脑油&f进行蒸汽裂解.确保制作&a严重蒸汽裂解&f版本以获得更高的乙烯产量."
 				"{@pagebreak}"
-				"Once in &6HV&r, you'll have the option to do this recipe in the &3Cracking Unit&r at 100% efficiency. Unfortunately, the recipes you are doing with the Chemical Reactor have a loss of &450%&r."
+				"一旦进入&eHV&f,你将有在&3&a石油裂化机&f中以100%效率完成此配方的选项.不幸的是,你正在使用&a化学反应器&f进行的配方有&450%&f的损失."
 				""
-				"&9Note:&r All of this looks and feels terribly inefficient - we hope that's strong motivation to tier up! The &3Distillation Tower&r will be a huge upgrade for petrochem, but you're not quite there... yet. Right now, you'll have to use a &3Distillery&r to get &dEthylene&r."
+				"&9注意:&f 所有这些看起来和感觉都非常低效 - 我们希望这是升级的强大动力!&3&a蒸馏塔&f将是石油化工的巨大升级,但你还没有完全到达那里... 现在,你必须使用&3蒸馏器&f来获得&d乙烯&f."
 			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "3E2E161F8CE35138"
 			size: 0.66d
-			subtitle: "Fuel and oil cracking can get complicated..."
-			tasks: [{
-				id: "5687D81E6BFDC7E0"
-				item: "gtceu:severely_steam_cracked_naphtha_bucket"
-				type: "item"
-			}]
-			title: "Fuel Cracking"
+			subtitle: "燃料和石油裂解可能会变得复杂..."
+			tasks: [
+				{
+					id: "5687D81E6BFDC7E0"
+					item: "gtceu:severely_steam_cracked_naphtha_bucket"
+					type: "item"
+				}
+			]
+			title: "燃料裂解"
 			x: 0.0d
 			y: -4.125d
 		}
@@ -261,82 +277,88 @@
 				"6E186F9C57155BFA"
 			]
 			description: [
-				"Higher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &3Advanced Steam Turbine&r will use &d5,120 mB Steam&r per second, equivalent to &d256 mB/t&r."
+				"更高等级的发电机将按比例增加燃料消耗,以保持燃料的持续时间和特定能量不变.&3&a进阶蒸汽轮机&f&r 每秒将使用 &d5,120 mB 蒸汽&r,相当于 &d256 mB/t&r."
 				""
-				"Get &eany&r of the generators to complete this quest, but you may prefer starting off with the &3Advanced Steam Turbine&r."
+				"获取任意发电机以完成此任务,但你可能更愿意从 &3&a进阶蒸汽轮机&f&r 开始."
 				"{@pagebreak}"
-				"There are a few new power options available for &bMV&r. Selecting the Generators and pressing &4U&r will let you see which fuels count as &aCombustion&r or &aGas&r."
+				"在 &bMV&r 中有一些新的电力选项可用.选择发电机并按下 &4U&r 将让你看到哪些燃料被视为 &a燃烧&r 或 &a气体&r."
 				""
-				"Quests in the top left corner of this Chapter are for the valuable Power options."
+				"本章左上角的任务是关于有价值的电力选项."
 				""
-				"If you stick to &9Steam&r for your Power generation, you'll probably need a &3Large Boiler&r."
+				"如果你坚持使用 &9蒸汽&r 进行发电,你可能需要一个 &3大型锅炉&r."
 			]
 			icon: "gtceu:mv_steam_turbine"
 			id: "583D0CC4FAA4FC98"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Things are 'boutta get rough"
-			tasks: [{
-				id: "1F170291094582D6"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:mv_steam_turbine"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_gas_turbine"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_combustion"
-							}
-						]
+			subtitle: "事情即将变得艰难"
+			tasks: [
+				{
+					id: "1F170291094582D6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:mv_steam_turbine"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_gas_turbine"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_combustion"
+								}
+							]
+						}
 					}
+					title: "MV发电机"
+					type: "item"
 				}
-				title: "MV Generators"
-				type: "item"
-			}]
-			title: "Electricity Generation in MV"
+			]
+			title: "&aMV发电装置&f"
 			x: 2.25d
 			y: -1.875d
 		}
 		{
 			dependencies: ["2AD44111B9B39C90"]
 			description: [
-				"Any Steel you encounter in day-to-day life is most likely &7Stainless Steel&r. It is extremely resilient against corrosion.&r"
+				"你在日常生活中遇到的任何钢材很可能都是 &7&a不锈钢&f&r.它对腐蚀具有极强的抵抗力."
 				""
-				"Stainless Steel is the material for &6HV&r components, like Aluminium for &bMV&r and Steel for &7LV&r. It is also used in high quantities for the &3Distillation Tower&r."
+				"&a不锈钢&f 是 &eHV&r 组件的材料,就像铝用于 &bMV&r 和钢用于 &7LV&r.它也大量用于 &3&a蒸馏塔&f&r."
 				""
-				"It requires &cChromium&r, obtained mainly from &cRuby&r, and &2Manganese&r, obtained from &2Pyrolusite&r and others in its vein."
+				"它需要 &c铬&r,主要从 &c红宝石&r 中获得,以及 &2锰&r,从 &2软锰矿&r 和其他矿脉中获得."
 				"{@pagebreak}"
-				"Smelting Stainless Steel requires &dHV Power&r, which you likely do not have at this point. Scaling Power Production is crucial."
+				"熔炼 &a不锈钢&f 需要 &dHV 电力&r,这在你目前的阶段可能还没有.扩大电力生产是关键."
 				""
-				"If you &9haven't already&r, it would be a good idea to get a second EBF going. They can share blocks, so that means your second EBF only requires &a10 Cupronickel Coils&r instead of 16."
+				"如果你 &9还没有&r,建立第二个 EBF 是个好主意.它们可以共享方块,这意味着你的第二个 EBF 只需要 &a10 &a白铜线圈&f&r 而不是 16 个."
 				""
-				"Have one EBF run off &bMV&r for Aluminium and any other recipes requiring &bMV&r Power, and one running off &6HV&r with &32 MV Energy Hatches&r."
+				"让一个 EBF 使用 &bMV&r 电力运行铝和其他需要 &bMV&r 电力的配方,另一个使用 &eHV&r 电力运行,并配备 &32 个 MV 能量端口&r."
 			]
 			icon: "gtceu:stainless_steel_ingot"
 			id: "16A6AE5C770DB83A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3973B757526393F6"
-				table_id: 6500114529187527477L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3973B757526393F6"
+					table_id: 6500114529187527477L
+					type: "choice"
+				}
+			]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "HV is in your grasp"
-			tasks: [{
-				id: "3192FF80FBDC7A28"
-				item: "gtceu:stainless_steel_ingot"
-				type: "item"
-			}]
-			title: "Stainless Steel"
+			subtitle: "高压 近在咫尺"
+			tasks: [
+				{
+					id: "3192FF80FBDC7A28"
+					item: "gtceu:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "&a不锈钢&f"
 			x: 3.375d
 			y: 0.375d
 		}
@@ -346,29 +368,31 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"&3Transformers&r allow you to step up and down safely between Voltage tiers. They convert the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage."
+				"&3变压器&r 允许你在电压等级之间安全地升压和降压.它们将接收到的电力转换为比输入电压高一档或低一档的等量电力."
 				""
-				"Apart from running machines on different voltage tiers, Transformers come in handy for transporting power across longer distances, as cable loss has less of an effect at higher voltages. Just like real life!"
+				"除了在不同电压等级的机器上运行外,变压器在长距离传输电力时也很有用,因为电缆损耗在高电压下影响较小.就像现实生活一样!"
 				"{@pagebreak}"
-				"Transformers have 5 low voltage sides, and 1 high voltage side."
+				"变压器有 5 个低电压侧和 1 个高电压侧."
 				""
-				"The &9normal&r Transformer can only do 1A <-> 4A conversion, but &9Adjustable&r Transformers can be changed between 1A <-> 4A, 2A <-> 8A, 4A <-> 16A, and 16A <-> 64A conversions. "
+				"&9普通&r 变压器只能进行 1A <-> 4A 转换,但 &9可调&r 变压器可以在 1A <-> 4A、2A <-> 8A、4A <-> 16A 和 16A <-> 64A 之间切换."
 				""
-				"Use a &aSoft Hammer&r to change between transforming up and down, and a &aScrewdriver&r on Adjustable Transformers to change the amperage."
+				"使用 &a&a需要软锤&f&r 在升压和降压之间切换,使用 &a螺丝刀&r 在可调变压器上改变电流."
 				""
-				"Higher tier Transformers will require &9Coils&r."
+				"&a更高等级&f 的变压器将需要 &9线圈&r."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:mv_transformer_1a"
 			id: "6C20A9A64C1BE0BF"
 			size: 0.75d
-			subtitle: "LV In Disguise"
-			tasks: [{
-				id: "6C36867EB98E772D"
-				item: "gtceu:lv_transformer_1a"
-				type: "item"
-			}]
-			title: "Transformers"
+			subtitle: "低压 的伪装"
+			tasks: [
+				{
+					id: "6C36867EB98E772D"
+					item: "gtceu:lv_transformer_1a"
+					type: "item"
+				}
+			]
+			title: "变压器"
 			x: 2.25d
 			y: 1.5d
 		}
@@ -378,39 +402,41 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"If you're wanting to dive into &bMV&r, start here."
+				"如果你想深入 &bMV&r,从这里开始."
 				""
-				"The dusts created in an &3MV Mixer&r have great utility."
+				"在 &3MV 搅拌机&r 中创建的粉末具有极大的实用性."
 			]
 			icon: "gtceu:mv_mixer"
 			id: "4A92AFD2532EED26"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Mixing more complex alloys"
-			tasks: [{
-				id: "31B514C75B302F25"
-				item: "gtceu:mv_mixer"
-				type: "item"
-			}]
-			title: "Advanced Mixer"
+			subtitle: "混合更复杂的合金"
+			tasks: [
+				{
+					id: "31B514C75B302F25"
+					item: "gtceu:mv_mixer"
+					type: "item"
+				}
+			]
+			title: "&a进阶搅拌机&f"
 			x: 1.125d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7567E885B7166603"]
 			description: [
-				"Here's a list of the components you will need in &bMV&r. To alleviate the pain, be sure to autocraft or &dbulk-craft&r these parts, especially &aMotors&r."
+				"以下是你需要的 &bMV&r 组件列表.为了减轻痛苦,请务必使用自动合成或 &dbulk-craft&r 这些部件,尤其是 &a马达&r."
 				""
-				"Familiar with the &aEmitter&r? This tier's Emitter requires a &dFlawless Emerald&r in its recipe, which'll be only attainable with the &3Sifting Machine&r for now."
+				"熟悉 &a发射器&r 吗？这一层的发射器配方需要 &d无瑕的绿宝石&r,只有通过 &3筛选机&r &a现在&f 才能获得."
 				""
-				"Conveyors, Pumps and Robot Arms are objective upgrades to &7LV&r versions if you use them as covers."
+				"传送带、泵和 &a机械臂&f 是 &7LV&r 版本的客观升级,如果你将它们用作覆盖板."
 				""
-				"&6This quest unlocks a new tutorial on Overclocking in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&e此任务解锁了 &l提示与技巧&r&e 标签中的新教程,关于超频 - 查看以了解更多!&r"
 			]
 			icon: "gtceu:mv_electric_motor"
 			id: "1BE0349B8F3890D3"
 			size: 0.66d
-			subtitle: "Hated crafting these in the previous tier?"
+			subtitle: "讨厌在前一层制作这些吗？"
 			tasks: [
 				{
 					id: "76A30E86C0FDF039"
@@ -443,7 +469,7 @@
 					type: "item"
 				}
 			]
-			title: "MV Components"
+			title: "中压 组件"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -452,42 +478,46 @@
 				"7567E885B7166603"
 				"0DBC148D92A9F69F"
 			]
-			description: ["The Advanced Electrolyzer allows you to decompose &6far more&r Dusts. This will make getting materials such as &aAluminium&r&o a lot&r easier!"]
+			description: ["&a进阶电解机&f 允许你分解 &efar more&r 粉末.这将使获取 &a铝&r&o 等材料&r 变得更加容易!"]
 			icon: "gtceu:mv_electrolyzer"
 			id: "0EFEE489906256AA"
 			shape: "square"
 			size: 0.75d
-			subtitle: "We made it to MV, and, well..."
-			tasks: [{
-				id: "151788F66BAD5F97"
-				item: "gtceu:mv_electrolyzer"
-				type: "item"
-			}]
-			title: "Advanced Electrolyser"
+			subtitle: "我们到达了中压,嗯..."
+			tasks: [
+				{
+					id: "151788F66BAD5F97"
+					item: "gtceu:mv_electrolyzer"
+					type: "item"
+				}
+			]
+			title: "进阶电解机"
 			x: -1.125d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0EFEE489906256AA"]
 			description: [
-				"All four output Dusts obtained from Clay electrolysis are immensely useful."
+				"从粘土电解获得的四种输出粉末都非常有用."
 				""
-				"We'll ask you to give us a total of &a416 Clay Dust&r for this quest. You may also want to look into other sources of similar materials, such as &aSodalite&r. Check JEI for some ideas."
+				"我们将要求你提供总共 &a416 &a粘土粉&f&r 来完成此任务.你可能还想寻找其他类似材料的来源,例如 &a方钠石&r.查看JEI以获取一些想法."
 				""
-				"You should use the Sodium and/or Lithium to make some &6MV Batteries&r."
+				"你应该使用钠和/或 &a锂&f 来制作一些 &eMV 电池&r."
 				""
-				"Grr, all this useless &dWater&r you're getting keeps clogging the machine! Maybe you should deal with it by using a &3Voiding Cover&r."
+				"呃,你得到的这些无用的 &d水&r 一直在堵塞机器!也许你应该使用 &3虚空漏斗&r 来处理它."
 			]
 			icon: "minecraft:clay_ball"
 			id: "2273DD7E5CD49017"
-			rewards: [{
-				count: 4
-				id: "52A043C0F3795CC8"
-				item: "gtceu:mv_battery_hull"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "52A043C0F3795CC8"
+					item: "gtceu:mv_battery_hull"
+					type: "item"
+				}
+			]
 			size: 0.66d
-			subtitle: "Clay is an extremely &mbalanced&r useful material for electrolysis"
+			subtitle: "粘土是电解中极其 &m平衡&r 有用的材料"
 			tasks: [
 				{
 					count: 64L
@@ -514,100 +544,108 @@
 					type: "item"
 				}
 			]
-			title: "A Balanced Quest"
+			title: "平衡的任务"
 			x: -2.25d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0DBC148D92A9F69F"]
 			description: [
-				"This kind soul&r will mine ores for you when placed above a vein."
+				"这个好心的家伙会在放置在矿脉上方时为你挖掘矿石."
 				""
-				"Vertical range is unlimited below the miner. Horizontal range is displayed in the tooltip."
+				"垂直范围在采矿机下方是无限的.水平范围显示在工具提示中."
 				""
-				"The &bMV&r variant may not have the range to mine a full vein, but the &6HV&r variant does, so you may wish hold off for now. Get &eeither&r to complete this Quest."
+				"&bMV&r 变种可能没有足够的范围来挖掘整个矿脉,但 &eHV&r 变种有,所以你可能希望 &a现在&f 先不要着急.获取 &e任一&r 来完成此任务."
 				"{@pagebreak}"
-				"You will need &9Power&r. &aCharged Batteries&r may work, but they tend to run out of power, which is a bit inconvenient."
+				"你需要 &9电力&r.&a充电电池&r 可能有效,但它们往往会耗尽电力,这有点不方便."
 				""
-				"Our top suggestion is to use a filled &3Drum&r of some kind of fuel (if you're using Steam, no dice!) and a &3Generator&r. "
+				"我们最推荐的建议是使用某种燃料的 &3鼓&r(如果你使用蒸汽,那就没戏了!)和一个 &3发电机&r."
 				""
-				"Place the Drum above your Generator and right-click it with a &5Screwdriver&r to auto-output into the Generator."
+				"将鼓放置在发电机上方,并用 &5螺丝刀&r 右键点击它以自动输出到发电机."
 				"{@pagebreak}"
-				"&cNote:&r Do not forget to &dchunkload&r all 9 chunks of the ore vein with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)."
+				"&c注意:&r 不要忘记使用FTB Utilities加载矿脉的所有9个区块(打开左上角的地图,用左键点击区块以声明,用shift-左键点击以启用强制加载)."
 				""
-				"&9Tip:&r You can either use an &3ME Chest&r or a &32x2 Drawer&r as the output inventory to make transporting the ores back home a simple task. The &3ME Chest&r can be powered with EU directly."
+				"&9提示:&r 你可以使用 &3&aME箱子&f&r 或 &32x2 抽屉&r 作为输出库存,使将矿石运回家变得简单.&3&aME箱子&f&r 可以直接用EU供电."
 			]
 			icon: "gtceu:mv_miner"
 			id: "5C94CF50090D7DA0"
-			rewards: [{
-				id: "2C877DA425BBFC5D"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_pickaxe"
-					tag: {
-						Damage: 58
+			rewards: [
+				{
+					id: "2C877DA425BBFC5D"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 58
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "square"
 			size: 0.75d
-			tasks: [{
-				id: "431D533510584687"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_miner"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_miner"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_miner"
-							}
-						]
+			tasks: [
+				{
+					id: "431D533510584687"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_miner"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_miner"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hv_miner"
+								}
+							]
+						}
 					}
+					title: "任意列出的采矿机"
+					type: "item"
 				}
-				title: "Any of the listed Miners"
-				type: "item"
-			}]
-			title: "Digital Miner"
+			]
+			title: "&a数字型采矿机&f"
 			x: -3.375d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4A92AFD2532EED26"]
 			description: [
-				"Vanadiumsteel is required in small quantities in progression. It's &6nearly four times as durable&r as Steel if used in GregTech tools. The Vanadium comes from &aVanadium Magnetite&r, which you may have encountered in Magnetite veins."
+				"在进度中需要少量钒钢.如果用于 &d格雷科技&f 工具,它的耐用性几乎是钢的 &enearly four times&r.&a钒&f 来自 &a&a钒磁铁矿&f&r,你可能在磁铁矿脉中遇到过."
 				""
-				"Other Steel alloys include Blue Steel, Red Steel, and Black Steel!"
+				"其他钢合金包括 &a蓝色钢&f、&a红色钢&f 和 &a黑色钢&f!"
 				""
-				"Take some Blue Steel free of charge - it's twice as durable as Steel."
+				"免费赠送一些 &a蓝色钢&f - 它的耐用性是钢的两倍."
 			]
 			icon: "gtceu:vanadium_steel_ingot"
 			id: "682C26579EDDCA76"
-			rewards: [{
-				count: 16
-				id: "2000E0E550142D12"
-				item: "gtceu:blue_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2000E0E550142D12"
+					item: "gtceu:blue_steel_ingot"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Steel Your Heart"
-			tasks: [{
-				count: 4L
-				id: "2E6C71CB2E5EEAC7"
-				item: "gtceu:vanadium_steel_ingot"
-				type: "item"
-			}]
-			title: "Steel Alloys"
+			subtitle: "钢铁你的心"
+			tasks: [
+				{
+					count: 4L
+					id: "2E6C71CB2E5EEAC7"
+					item: "gtceu:vanadium_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "钢合金"
 			x: 1.125d
 			y: 2.625d
 		}
@@ -617,40 +655,42 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"&3Molecular Assemblers&r can be used to automate Crafting Table recipes, which means you can automate just about anything now."
+				"&3&a分子装配室&f&r 可以用来自动化 &a工作台&f 配方,这意味着你现在几乎可以自动化任何东西."
 				""
-				"To maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other."
+				"为了最大化单个 &a分子装配室&f 能处理的配方数量,可以制作一个 &a分子装配室&f 和 &aME接口&f 的3D矩阵 - 每个组件的6个面都被另一个组件包围."
 				""
-				"Using higher-tier materials in crafting will yield more Molecular Assemblers."
+				"使用更高等级的材料进行合成会获得更多的 &a分子装配室&f."
 				"{@pagebreak}"
-				"&cWarning:&r Try to avoid using GT tools in AE2 autocrafting! It causes AE2 to freak out... you may or may not destroy the TPS, or even worse, end up having thousands of tools being crafted as soon as one of them breaks."
+				"&c警告:&r 尽量避免在AE2自动合成中使用GT工具!这会导致AE2崩溃... 你可能会破坏TPS,甚至更糟,最终会有成千上万的工具被合成,只要其中一个坏了."
 				""
-				"If you're stubborn enough to &oreally&r want to use GT tools in AE2 autocrafting, prioritise encoding recipes that use tools with high durability, but &4do not&r setup autocrafting for the tools themselves. Instead, use the alternate &3Assembling Machine&r recipes."
+				"如果你固执到 &oreally&r 想在AE2自动合成中使用GT工具,优先编码使用高耐久工具的配方,但 &4不要&r 为工具本身设置自动合成.相反,使用替代的 &3&a控制电路加工厂&f&r 配方."
 			]
 			icon: "ae2:molecular_assembler"
 			id: "0A1165C6D1F62C2B"
 			size: 0.66d
-			subtitle: "Autocrafting at last!"
-			tasks: [{
-				id: "37ED5227CCC0FE20"
-				item: "ae2:molecular_assembler"
-				type: "item"
-			}]
-			title: "Autocrafting"
+			subtitle: "终于可以自动合成了!"
+			tasks: [
+				{
+					id: "37ED5227CCC0FE20"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "自动合成"
 			x: 3.375d
 			y: 1.5d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Making &aAE2 Presses&r will unlock all the &9Processors&r from AE2. This opens up &9ME Drives&r, &9ME Interfaces,&r &9ME Crafting CPUs&r... that's almost the rest of AE2 at your fingertips!"
+				"制作 &aAE2冲压机&r 将解锁AE2的所有 &9处理器&r.这为你打开了 &9&aME驱动器&f&r, &9&aME接口&f,&r &9ME合成CPU&r... 这几乎是你指尖上的AE2的其余部分!"
 				""
-				"AE2 &9Printed Circuits&r are now made in the &3Forming Press&r."
+				"AE2 &9印刷电路&r 现在在 &3&a冲压机床&f&r 中制作."
 			]
 			icon: "ae2:silicon_press"
 			id: "5401AB5E399E7BEA"
 			size: 0.66d
-			subtitle: "Who likes meteor hunting, anyway?"
+			subtitle: "谁喜欢陨石狩猎呢,反正？"
 			tasks: [
 				{
 					id: "1141B6EFBC930999"
@@ -673,44 +713,48 @@
 					type: "item"
 				}
 			]
-			title: "Pressing Matters"
+			title: "冲压事宜"
 			x: 3.375d
 			y: 2.64d
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
 			description: [
-				"The &3MV Cutter&r is required to cut &7Silicon Boules&r to prepare them for &aLaser Engraving&r."
+				"&3MV切割机&r 需要用来切割 &7&a硅球&f&r 以准备它们进行 &a激光雕刻&r."
 				""
-				"We recommend you supply this machine with a steady stream of &dLubricant&r to cut down on the processing time."
+				"我们建议你为这台机器提供稳定的 &d润滑剂&r 流,以减少处理时间."
 				""
-				"Lubricant can be &3brewed&r from &eOil&r and &aTalc&r, &2Soapstone&r or &cRedstone&r."
+				"润滑剂可以通过 &3酿造&r &e石油&r 和 &a滑石&r, &2皂石&r 或 &c红石&r 制成."
 			]
 			icon: "gtceu:mv_cutter"
 			id: "5CBBBFD1FBBE95CE"
-			rewards: [{
-				id: "6FD8201A5A3EF40C"
-				item: {
-					Count: 1
-					id: "gtceu:universal_fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:lubricant"
+			rewards: [
+				{
+					id: "6FD8201A5A3EF40C"
+					item: {
+						Count: 1
+						id: "gtceu:universal_fluid_cell"
+						tag: {
+							Fluid: {
+								Amount: 1000
+								FluidName: "gtceu:lubricant"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Upgrades, people, upgrades!"
-			tasks: [{
-				id: "2AFB7F9BD4D82974"
-				item: "gtceu:mv_cutter"
-				type: "item"
-			}]
-			title: "Advanced Cutter"
+			subtitle: "升级,人们,升级!"
+			tasks: [
+				{
+					id: "2AFB7F9BD4D82974"
+					item: "gtceu:mv_cutter"
+					type: "item"
+				}
+			]
+			title: "高级切割机"
 			x: 2.25d
 			y: 2.625d
 		}
@@ -720,20 +764,22 @@
 				"71412502C81F21C1"
 			]
 			description: [
-				"The &3Laser Engraver&r engraves patterns into &9Silicon Wafers&r based on the type of &9Lens&r it is given. After the wafers are engraved, they must be passed through a &3Cutting Machine&r to turn them into components ready to be put into Circuits."
+				"&3激光雕刻机&r 根据所给的 &9透镜&r 类型在 &9&a硅晶片&f&r 上雕刻图案.雕刻完成后,必须通过 &3&a切割机&f&r 将它们变成可以放入电路中的组件."
 				""
-				"Higher tier Engravers can etch more complex wafers for more efficient Circuits."
+				"&a更高等级&f 雕刻机可以蚀刻更复杂的晶片,以制作更高效的电路."
 			]
 			icon: "gtceu:mv_laser_engraver"
 			id: "315169840E06110F"
 			shape: "square"
 			size: 0.75d
-			tasks: [{
-				id: "75E27D981733ED44"
-				item: "gtceu:mv_laser_engraver"
-				type: "item"
-			}]
-			title: "Laser Engraving"
+			tasks: [
+				{
+					id: "75E27D981733ED44"
+					item: "gtceu:mv_laser_engraver"
+					type: "item"
+				}
+			]
+			title: "激光雕刻"
 			x: 4.5d
 			y: 2.625d
 		}
@@ -743,27 +789,31 @@
 				"16A1EF8B80A96633"
 			]
 			description: [
-				"A &7LV&r Battery Buffer and two &7LV&r Energy Hatches likely won't cut it anymore. Let's remedy that!"
+				"一个 &7LV&r 电池缓冲器和两个 &7LV&r 能量端口可能不再够用了.让我们来解决这个问题!"
 				""
-				"Upgrade your Electric Blast Furnace with a &3MV Energy Hatch&r. Now, you can run it with &bMV&r Generators without having to mess around with &3Transformers&r."
+				"用 &3MV能量端口&r 升级你的 &a电力高炉&f.现在,你可以用 &bMV&r 发电机运行它,而不需要摆弄 &3变压器&r."
 			]
 			icon: "gtceu:mv_energy_input_hatch"
 			id: "2AD44111B9B39C90"
-			rewards: [{
-				count: 24
-				id: "42B5E0E29F987E16"
-				item: "gtceu:annealed_copper_single_wire"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 24
+					id: "42B5E0E29F987E16"
+					item: "gtceu:annealed_copper_single_wire"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "LV is so old-school!"
-			tasks: [{
-				id: "1C69557EB4F9E50F"
-				item: "gtceu:mv_energy_input_hatch"
-				type: "item"
-			}]
-			title: "Upgrade your EBF!"
+			subtitle: "低压太老派了!"
+			tasks: [
+				{
+					id: "1C69557EB4F9E50F"
+					item: "gtceu:mv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			title: "升级你的电弧炉!"
 			x: 3.375d
 			y: -0.75d
 		}
@@ -773,23 +823,25 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"The &3Assembler&r is a staple for every Tier; an important goal to unlock more recipes and progress further into the Age. Many in the community see crafting a voltage tier's Assembler as a sign of &oproperly&r reaching said voltage."
+				"&3装配机&r 是每个等级的基石；一个重要的目标 &a解锁&f 更多配方并进一步推进到时代.社区中的许多人认为制作一个电压等级的装配机是 &oproperly&r 达到该电压的标志."
 				""
-				"That being said, welcome to &bMV&r!"
+				"话虽如此,欢迎来到 &bMV&r!"
 				""
-				"The &bMV &3Assembler&r unlocks &eTransistors&r, &eCapacitors&r and &eInductors&r, used for the next tiers of Circuits."
+				"&bMV &3装配机&r 解锁 &e晶体管&r, &e电容器&r 和 &e电感器&r,用于下一个等级的电路."
 			]
 			icon: "gtceu:mv_assembler"
 			id: "75F38905DEA60F15"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Assengers, Avemble"
-			tasks: [{
-				id: "2396FECF2A11AA8E"
-				item: "gtceu:mv_assembler"
-				type: "item"
-			}]
-			title: "Advanced Assembler"
+			subtitle: "装配机,装配"
+			tasks: [
+				{
+					id: "2396FECF2A11AA8E"
+					item: "gtceu:mv_assembler"
+					type: "item"
+				}
+			]
+			title: "高级装配机"
 			x: 1.125d
 			y: -0.75d
 		}
@@ -799,39 +851,43 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"GregTech doesn't provide ways to farm plants or trees, so we made a custom multiblock for the modpack!"
+				"&d格雷科技&f没有提供种植植物或树木的方法,所以我们为模组包制作了一个自定义多方块结构!"
 				""
-				"The multiblock &3Greenhouse&r will be your source of &aWood&r and other plants if you wish."
+				"这个多方块结构&3温室&r将成为你获取&a木头&r和其他植物的来源,如果你愿意的话."
 				""
-				"The &aWood&r production should be enough to run &32 Pyrolyse Ovens&r at their lowest Power."
+				"&a木头&r的生产应该足够运行&32个&a热解炉&f&r在最低功率下."
 				""
-				"You can also use this for automated &aResin&r. The yields are kept low to incentivize other rubber sources later in the game."
+				"你也可以用它来自动化&a树脂&r.产量保持较低,以鼓励在游戏后期使用其他橡胶来源."
 				"{@pagebreak}"
-				"&9Note: &rWith &d40 EU/t&r recipes, it needs either 1 &bMV&r energy hatch or 2 &7LV&r energy hatches. Multiblocks will &cnot&r use 2A of one tier to reach the next one for recipe voltage minimums. "
+				"&9注意:&r使用&d40 EU/t&r的配方,它需要1个&bMV&r能量输入口或2个&7LV&r能量输入口.多方块结构&c不会&r使用两个相同等级的能量输入口来达到下一个等级的配方电压最小值."
 				""
-				"In other words, the controller needs to say at least \"&bMV&r\" in the GUI to run recipes which say \"&bMV&r\" in JEI, even if they can draw enough EU/t with a lower tier hatch configuration."
+				"换句话说,控制器在GUI中至少需要显示\"&bMV&r\"才能运行JEI中显示为\"&bMV&r\"的配方,即使它们可以通过较低等级的能量输入口配置来满足EU/t的需求."
 				""
-				"&9Note:&r The structure requires a lot of &9Wrought Iron&r. Make sure you have an &3Arc Furnace&r for that."
+				"§9注意:§r这个结构需要大量的§9§a锻铁§f§r.确保你有一个§3§a电弧炉§f§r来处理这些."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o We originally implemented a Chemical Reactor recipe for wood in the modpack to solve the tree problem. Our implementation turned out to be completely busted, so we decided that a rebalance was due. Hopefully, the Greenhouse is a happy middle ground."
+				"&l&3背景故事:&r&o我们最初在模组包中实现了一个&a化学反应器&f配方来解决树木问题.我们的实现结果完全失效了,所以我们决定进行重新平衡.希望温室是一个愉快的折中方案."
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2655B72C9FF3B372"
-			rewards: [{
-				count: 10
-				id: "7DCCFC3ADD071D57"
-				item: "gtceu:ulv_machine_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "7DCCFC3ADD071D57"
+					item: "gtceu:ulv_machine_casing"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The power of KubeJS"
-			tasks: [{
-				id: "35CFA225ADAD5D06"
-				item: "gtceu:greenhouse"
-				type: "item"
-			}]
-			title: "Greenhouse"
+			subtitle: "KubeJS的力量"
+			tasks: [
+				{
+					id: "35CFA225ADAD5D06"
+					item: "gtceu:greenhouse"
+					type: "item"
+				}
+			]
+			title: "温室"
 			x: 0.0d
 			y: 2.625d
 		}
@@ -842,56 +898,60 @@
 				"66805BB78A828C00"
 			]
 			description: [
-				"&3Kanthal Heating Coils&r are the next major step in progression. They increase the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest to the top-left for details."
+				"&3&a坎塔尔合金加热线圈&f&r是你进阶的下一个重要步骤.它们将你的&3&a高炉&f&r的温度提升到&d2,700K&r,使你能够处理新材料.它们也可能&e加速&r温度较低的配方——查看左上角的任务以获取详细信息."
 				""
-				"You will need a staggering &a128 Ingots&r for a full set of Coils, which will easily take over an hour. We advise that you move on to other projects while your &3EBF&r is hard at work - that or build another one!"
+				"你需要惊人的&a128个锭&r来制作一套完整的线圈,这将轻松花费超过一个小时.我们建议你在&3EBF&r努力工作时继续进行其他项目——或者再建一个!"
 				"{@pagebreak}"
-				"An &3MV Chemical Bath&r is required to cool &cHot Ingots&r down. They're &chot&r when held, as the name implies. &o&7Maybe you should save your hands and automate this...&r"
+				"需要一个&3MV &a化学浸洗器&f&r来冷却&c热锭&r.它们正如其名,是&c热的&r.&o&7也许你应该保护你的手并自动化这个过程...&r"
 				""
-				"With the construction of a &3Kanthal EBF&r, you're now able to make &dSilicon Ingots&r!"
+				"建造了&3坎塔尔合金EBF&r后,你现在能够制作&d&a硅锭&f&r了!"
 			]
 			icon: "gtceu:kanthal_coil_block"
 			id: "1C55AE6AD5BDE304"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Is it getting hot in here?"
-			tasks: [{
-				count: 16L
-				id: "0737586F9DFFC0FE"
-				item: "gtceu:kanthal_coil_block"
-				type: "item"
-			}]
-			title: "Kanthal Coils"
+			subtitle: "这里是不是变热了？"
+			tasks: [
+				{
+					count: 16L
+					id: "0737586F9DFFC0FE"
+					item: "gtceu:kanthal_coil_block"
+					type: "item"
+				}
+			]
+			title: "&a坎塔尔合金线圈&f"
 			x: 4.5d
 			y: -0.75d
 		}
 		{
 			dependencies: ["1C55AE6AD5BDE304"]
 			description: [
-				"This is a guide on how to automatically route &lall&r&o your Hot Ingots to your Chemical Bath, while keeping everything automated in tip-top shape."
+				"这是一个关于如何自动将&l所有&r&o热锭路由到你的&a化学浸洗器&f,同时保持一切自动化完美运行的指南."
 				""
-				"The cheap way would be to use filters, and manually add Hot Ingots one by one... which is so boring! Let's try the fun option."
+				"便宜的方法是使用过滤器,并手动一个一个地添加热锭...这太无聊了!让我们尝试有趣的选择."
 				""
-				"Install an &aItem Tag Filter&r Cover on the side of your &3Chemical Bath&r, open it and set it to whitelist \"&e&lhot_ingots&r\"."
+				"在你的&3&a化学浸洗器&f&r的侧面安装一个&a物品&a标签过滤器&f&r，打开它并设置为白名单\"&e&lhot_ingots&r\"。"
 				""
-				"From here, you can route with &9any logistics system&r of your choice."
+				"从这里,你可以使用&9任何物流系统&r来路由."
 				"{@pagebreak}"
-				"Connect the output of your &3EBF(s)&r to the input of your &3Chemical Bath&r and the output dump (Chest or Crate)."
-				"You can also have a &dRestrictive Pipe&r in front of the output dump to ensure the Chemical Bath will be prioritized."
+				"将你的&3EBF(s)&r的输出连接到你的&3&a化学浸洗器&f&r的输入和输出倾倒(箱子或板条箱)."
+				"你也可以在输出倾倒前放置一个&d限制性管道&r,以确保&a化学浸洗器&f优先处理."
 				""
-				"&l&9Note:&r If you wish to know more tags for more automation setups, they will display if you press Shift when hovering over an item. For instance, an item tagged with &e&o#forge:plates/copper&r would be filtered as &e&lplates/copper&r."
+				"&l&9注意:&r如果你想了解更多用于更多自动化设置的标签,当你悬停在一个物品上时按下Shift键,它们会显示.例如,一个带有&e&o#forge:plates/coppe&r标签的物品将被过滤为&e&lplates/coppe&r."
 				""
-				"&9Other Note:&r The Item Tag Filter partially supports &dregex&r. Hover over the info icon for more information."
+				"§9其他注意:§r物品§a标签过滤器§f部分支持§d正则表达式§r.§a悬停§f信息图标§a了解更多信息§f."
 			]
 			icon: "gtceu:item_tag_filter"
 			id: "13A976D0D612BC84"
 			size: 0.66d
-			subtitle: "Stop burning your darn hands!"
-			tasks: [{
-				id: "76A20EE57CB39857"
-				item: "gtceu:item_tag_filter"
-				type: "item"
-			}]
+			subtitle: "停止&a燃烧&f你的手!"
+			tasks: [
+				{
+					id: "76A20EE57CB39857"
+					item: "gtceu:item_tag_filter"
+					type: "item"
+				}
+			]
 			title: "250IQ"
 			x: 3.375d
 			y: -1.875d
@@ -902,23 +962,27 @@
 				"75F38905DEA60F15"
 				"1C55AE6AD5BDE304"
 			]
-			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r and your shiny new &3Kanthal EBF&r."]
+			description: ["一个电路组件,你现在可以生产它,这要归功于&3MV组装机&r和你闪亮的新&3坎塔尔合金EBF&r."]
 			icon: "gtceu:transistor"
 			id: "375684F9CBEF9132"
-			rewards: [{
-				id: "3107038561B0F74E"
-				item: "gtceu:silicon_dust"
-				random_bonus: 3
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3107038561B0F74E"
+					item: "gtceu:silicon_dust"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			tasks: [{
-				id: "240735279EBC0193"
-				item: "gtceu:transistor"
-				type: "item"
-			}]
-			title: "Moore's Law"
+			tasks: [
+				{
+					id: "240735279EBC0193"
+					item: "gtceu:transistor"
+					type: "item"
+				}
+			]
+			title: "摩尔定律"
 			x: 6.75d
 			y: -0.75d
 		}
@@ -929,32 +993,34 @@
 				"1E7BF65DB32B8B3E"
 			]
 			description: [
-				"Alright... technically, obtaining &6HV&r Circuits and Stainless Steel lets you progress to &6HV&r - but let's not rush things."
+				"好吧... 从技术上讲,获得 &e高压&r 电路和 &a不锈钢&f 可以让你进入 &e高压&r 阶段,但我们不要操之过急."
 				""
-				"The first thing you should make with these is a &3MV Circuit Assembler&r to unlock the new tier of Circuits right away; cheaper recipes is the &dreal payoff&r here."
+				"你应该首先用这些材料制作一个 &3MV &a电路组装机&f,&a解锁&f 新的电路等级；更便宜的配方才是 &d真正的回报&r."
 			]
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "26394C1290D70AB6"
 			shape: "square"
 			size: 0.75d
-			subtitle: "...but hold on before getting too giddy"
-			tasks: [{
-				id: "75EB5730046212D0"
-				item: "gtceu:advanced_integrated_circuit"
-				type: "item"
-			}]
-			title: "First HV Circuits!"
+			subtitle: "...但在你过于兴奋之前先冷静一下"
+			tasks: [
+				{
+					id: "75EB5730046212D0"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+			]
+			title: "第一个高压电路!"
 			x: 6.75d
 			y: 0.375d
 		}
 		{
 			dependencies: ["315169840E06110F"]
-			description: ["&aRandom Access Memory&r is required for more advanced Electronic Components."]
+			description: ["&a随机存储器&f 是制作更高级 &a电子元件&f 所必需的."]
 			icon: "gtceu:ram_chip"
 			id: "1E7BF65DB32B8B3E"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Random Access Memories"
+			subtitle: "&a随机存取存储器&f"
 			tasks: [
 				{
 					id: "40E0E6FD45AEC7B1"
@@ -974,47 +1040,51 @@
 					type: "item"
 				}
 			]
-			title: "Download more RAM"
+			title: "下载更多内存"
 			x: 5.625d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6F6D2829FC42F21C"]
 			description: [
-				"The Integrated Logic Circuit is an alternate &7LV &aCircuit&r, which is easier to mass-produce, and can be upgraded to &bMV&r (and then &6HV&r)."
+				"&a基础集成电路&f 是 &7低压&a电路&r 的替代品,更容易大规模生产,并且可以升级到 &b中压&r(然后是 &e高压&r)."
 				""
-				"&9Note:&r This is not a strict upgrade to the cost of Circuits - you would need to get to the next Tier for that, just slightly further down in &bMV&r. It is still an important upgrade, and is required to get to &6HV circuits&r."
+				"&9注意:&r这不是电路成本的严格升级——你需要达到下一个等级 &b中压&r 才能实现这一点.它仍然是一个重要的升级,并且是获得 &e高压电路&r 所必需的."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The circuit progression in GTCEu is mostly based on GT5u's progression. It has been rebalanced to not be as painful. &lSpecifically&r this circuit tier, which was a trap!"
+				"&l&3背景故事:&r&o GTCEu 中的电路进度主要基于 GT5u 的进度.它已经过重新平衡,不再那么痛苦.&l特别是&r 这个电路等级,曾经是一个陷阱!"
 			]
 			icon: "gtceu:basic_integrated_circuit"
 			id: "5C17BF90DA2AAEEE"
 			shape: "square"
 			size: 0.75d
-			subtitle: "You have unlocked a new tier of Circuits!"
-			tasks: [{
-				id: "2301CD2A841F17D9"
-				item: "gtceu:basic_integrated_circuit"
-				type: "item"
-			}]
-			title: "More LV Circuits"
+			subtitle: "你已解锁了新的电路等级!"
+			tasks: [
+				{
+					id: "2301CD2A841F17D9"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+			]
+			title: "更多低压电路"
 			x: 6.75d
 			y: 2.625d
 		}
 		{
 			dependencies: ["5C17BF90DA2AAEEE"]
-			description: ["The &bMV&r Circuit for the Integrated Tier."]
+			description: ["集成等级的中压电路."]
 			icon: "gtceu:good_integrated_circuit"
 			id: "60D7F6C1EE918B66"
 			shape: "square"
 			size: 0.75d
-			subtitle: "More... I demand more!"
-			tasks: [{
-				id: "0622E51767B0AB58"
-				item: "gtceu:good_integrated_circuit"
-				type: "item"
-			}]
-			title: "More MV Circuits"
+			subtitle: "更多... 我要求更多!"
+			tasks: [
+				{
+					id: "0622E51767B0AB58"
+					item: "gtceu:good_integrated_circuit"
+					type: "item"
+				}
+			]
+			title: "更多中压电路"
 			x: 6.75d
 			y: 1.5d
 		}
@@ -1024,21 +1094,21 @@
 				"1E9BE8D3F8A602DC"
 			]
 			description: [
-				"&9Silicon Boules&r are made in the &3EBF&r with half a stack of &aSilicon Dust&r and a pinch of &aGallium Arsenide&r. Their primary purpose is engraving &6Circuit Wafers&r."
+				"&9&a硅球&f 是在 &3EBF&r 中用半组 &a&a硅粉&f 和少量 &a&a砷化镓&f 制作的.它们的主要用途是雕刻 &e电路晶圆&r."
 				""
-				"After making the Boule, process it in the &3Cutter&r to get 16 Silicon Wafers ready for engraving."
+				"制作硅球后,在 &3切割机&r 中加工它以获得 16 个 &a硅晶片&f,准备进行雕刻."
 				""
-				"The recommended &aSilicon&r source at this point would be... hm, either &dGlass Dust&r or &dSodalite&r."
+				"此时推荐的 &a硅&r 来源是... 嗯,要么是 &d玻璃粉&r 要么是 &d天青石&r."
 				""
-				"&cWarning:&r Each Silicon Boule takes &47.5 minutes&r to make at 120 EU/t, or 1,080,000 EU! If the EBF loses power midway, the recipe will start to &close progress&r."
+				"&c警告:&r 每个 &a硅球&f 需要 &47.5分钟&r 在 120 EU/t 下制作,或 1,080,000 EU!如果 EBF 中途断电,配方将 &close 进度&r."
 				""
-				"With that being said, Silicon Boules take an absolute age to craft, so consider parallelizing the recipe in multiple &3EBF&rs and stockpiling them."
+				"话虽如此,&a硅球&f 制作时间非常长,所以考虑在多个 &3EBF&r 中并行制作并囤积它们."
 			]
 			icon: "gtceu:silicon_boule"
 			id: "71412502C81F21C1"
 			shape: "square"
 			size: 0.75d
-			subtitle: "These wafers are fully fungible"
+			subtitle: "这些晶片是完全可替代的"
 			tasks: [
 				{
 					id: "1A18D503A429CC17"
@@ -1052,57 +1122,63 @@
 					type: "item"
 				}
 			]
-			title: "Silicon Lottery"
+			title: "硅的抽奖"
 			x: 4.5d
 			y: 3.75d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"As is common for every tier, the &3Circuit Assembler&r is an essential part of progression, always opening up a new Tier of circuits."
+				"像每个等级一样,&3&a电路组装机&f 是进度的重要部分,总是会解锁新的电路等级."
 				""
-				"At this point you should be placing an &3Extractor&r next to your Circuit Assembler. Send off dozens of stacks of &aSoldering Alloy&r Ingots, and you won't have to worry about refilling again."
+				"此时你应该在你的 &a电路组装机&f 旁边放置一个 &3提取器&r.发送数十组 &a&a焊锡&f 锭,你就不必再担心再次填充了."
 			]
 			icon: "gtceu:mv_circuit_assembler"
 			id: "0DE5C3FBC9A6A690"
-			rewards: [{
-				count: 40
-				id: "484745BF48673036"
-				item: "gtceu:soldering_alloy_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 40
+					id: "484745BF48673036"
+					item: "gtceu:soldering_alloy_dust"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Yippee, yahoo"
-			tasks: [{
-				id: "7ED7103DAF7E4413"
-				item: "gtceu:mv_circuit_assembler"
-				type: "item"
-			}]
-			title: "Advanced Circuit Assembler"
+			subtitle: "耶,呼"
+			tasks: [
+				{
+					id: "7ED7103DAF7E4413"
+					item: "gtceu:mv_circuit_assembler"
+					type: "item"
+				}
+			]
+			title: "高级 &a电路组装机&f"
 			x: 7.875d
 			y: 0.375d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"At its lowest power (Cupronickel coils and &7LV&r Voltage), the &dMulti Smelter&r smelts 32 items in just 12 seconds - equivalent to &926.7 Furnaces&r, or 3.3 Steam Ovens!"
+				"在最低功率(铜镍合金线圈和 &7低压&r 电压)下,&d&a工业熔炉&f 只需 12 秒就能熔炼 32 个物品——相当于 &926.7 个熔炉&r,或 3.3 个 &a蒸汽炉&f!"
 				""
-				"If that wasn't already enough to convince you, standard &aoverclocks&r can be applied with sufficient voltage."
+				"如果这还不足以说服你,标准 &a超频&r 可以在足够的电压下应用."
 				""
-				"And even better - higher tier &3Coils&r increase the amount of items it can smelt in &dparallel&r!"
+				"更好的是 - 更高等级的 &3线圈&r 增加了它可以并行熔炼的物品数量!"
 			]
 			icon: "gtceu:multi_smelter"
 			id: "6DDDE2268B691F74"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Possibly the most powerful furnace you've seen"
-			tasks: [{
-				id: "0A42FE4B72071451"
-				item: "gtceu:multi_smelter"
-				type: "item"
-			}]
-			title: "Ultimate Smelter"
+			subtitle: "可能是你见过的最强大的熔炉"
+			tasks: [
+				{
+					id: "0A42FE4B72071451"
+					item: "gtceu:multi_smelter"
+					type: "item"
+				}
+			]
+			title: "终极熔炉"
 			x: 5.625d
 			y: 0.375d
 		}
@@ -1113,23 +1189,25 @@
 				"0DE5C3FBC9A6A690"
 			]
 			description: [
-				"&6The best LV Circuits&r! You can start to churn these guys out, as you'll be making them for the rest of the game."
+				"&e最佳低压电路&r!你可以开始大量生产这些,因为你在游戏的其余部分都会用到它们."
 				""
-				"Try to keep a stockpile of these crafted at all times - making these on-demand can take a while."
+				"尽量随时保持这些电路的库存——按需制作这些电路可能需要一段时间."
 				""
-				"Reaching &5EV&r will unlock methods to make them even cheaper."
+				"达到 &5超高压&r 将解锁使它们更便宜的方法."
 			]
 			icon: "gtceu:microchip_processor"
 			id: "5E76D4C24026157D"
 			shape: "square"
 			size: 0.75d
-			subtitle: "It Feels Good to be the Best"
-			tasks: [{
-				id: "4E076080D7B23372"
-				item: "gtceu:microchip_processor"
-				type: "item"
-			}]
-			title: "Best LV Circuits"
+			subtitle: "成为最佳的感觉真好"
+			tasks: [
+				{
+					id: "4E076080D7B23372"
+					item: "gtceu:microchip_processor"
+					type: "item"
+				}
+			]
+			title: "最佳低压电路"
 			x: 7.875d
 			y: -0.75d
 		}
@@ -1140,21 +1218,23 @@
 				"6E9E15DA847DD0A1"
 			]
 			description: [
-				"&6The best MV Circuits&r! You will be making these for the remainder of the game."
+				"&e最佳MV电路&r!你将在游戏的剩余部分制作这些."
 				""
-				"Eventually (in &1IV&r), they will become even cheaper."
+				"最终(在&1IV&r),它们将变得更加便宜."
 			]
 			icon: "gtceu:micro_processor"
 			id: "38DE506FF5B32031"
 			shape: "square"
 			size: 0.75d
-			subtitle: "MV has peaked"
-			tasks: [{
-				id: "120B63C2E40D359A"
-				item: "gtceu:micro_processor"
-				type: "item"
-			}]
-			title: "Best MV Circuits"
+			subtitle: "中压已达到顶峰"
+			tasks: [
+				{
+					id: "120B63C2E40D359A"
+					item: "gtceu:micro_processor"
+					type: "item"
+				}
+			]
+			title: "最佳中压电路"
 			x: 7.875d
 			y: 1.5d
 		}
@@ -1165,21 +1245,23 @@
 				"3568BC9742092FC5"
 			]
 			description: [
-				"Your first &5EV&r Circuit gets a unique texture. If you still consider yourself to be in &bMV&r, &ahold off&r on making too many of these, as they won't benefit you right now. We can't stop you from making these if you &djust wanna flex&r on us, though."
+				"你的第一个&5EV&r电路有一个独特的纹理.如果你仍然认为自己处于&bMV&r阶段,&a暂时不要&r制作太多这些,因为它们现在对你没有好处.不过,如果你&d只是想炫耀&r,我们也不能阻止你制作这些."
 				""
-				"It'll be needed in &6HV&r."
+				"它将在&e高压(HV)&r中需要."
 			]
 			icon: "gtceu:micro_processor_computer"
 			id: "4AFD3073C731A1E4"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Standing out amongst the rest"
-			tasks: [{
-				id: "34EA9B71F8BF607F"
-				item: "gtceu:micro_processor_computer"
-				type: "item"
-			}]
-			title: "First EV Circuits!"
+			subtitle: "在众多中脱颖而出"
+			tasks: [
+				{
+					id: "34EA9B71F8BF607F"
+					item: "gtceu:micro_processor_computer"
+					type: "item"
+				}
+			]
+			title: "第一个超高压电路!"
 			x: 7.875d
 			y: 3.75d
 		}
@@ -1189,21 +1271,23 @@
 				"3DFFA8F91452C62A"
 			]
 			description: [
-				"Better &6HV&r Circuits - much &dcheaper&r and easier to make than before."
+				"更好的&e高压(HV)&r电路 - 比以前更&d便宜&r和更容易制作."
 				""
-				"&6You should now be ready to move on the HV Chapter&r, unless you're yet to scale up your Power Production."
+				"&e你现在应该准备好进入高压(HV)章节&r,除非你还没有扩大你的电力生产."
 			]
 			icon: "gtceu:micro_processor_assembly"
 			id: "5063FDFFBE3E4855"
 			shape: "square"
 			size: 0.75d
-			subtitle: "On that HV grind"
-			tasks: [{
-				id: "2FE33281A44C34F6"
-				item: "gtceu:micro_processor_assembly"
-				type: "item"
-			}]
-			title: "More HV Circuits"
+			subtitle: "在高压上努力"
+			tasks: [
+				{
+					id: "2FE33281A44C34F6"
+					item: "gtceu:micro_processor_assembly"
+					type: "item"
+				}
+			]
+			title: "更多高压电路"
 			x: 7.875d
 			y: 2.625d
 		}
@@ -1213,174 +1297,192 @@
 				"10FB27DD3C7BEC2F"
 			]
 			description: [
-				"A circuit component that you can now produce thanks to the &3MV Assembler&r!"
+				"一个你可以通过&3中压(MV)组装机&r制作的电路组件!"
 				""
-				"Capacitors are commonly used in computers to store information during power failures, amongst many other uses."
+				"电容器通常用于计算机在断电期间存储信息,以及其他许多用途."
 			]
 			icon: "gtceu:capacitor"
 			id: "6E9E15DA847DD0A1"
 			shape: "square"
 			size: 0.75d
-			subtitle: "No cap, bussin frfr"
-			tasks: [{
-				id: "60D8154F5C9C0EAC"
-				item: "gtceu:capacitor"
-				type: "item"
-			}]
-			title: "Capacitors"
+			subtitle: "没有上限,直接爆发"
+			tasks: [
+				{
+					id: "60D8154F5C9C0EAC"
+					item: "gtceu:capacitor"
+					type: "item"
+				}
+			]
+			title: "电容器"
 			x: 7.875d
 			y: -1.875d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&aBlue Alloy&r is an excellent Cable material for &6HV&r power."
+				"&a蓝色合金&r是&e高压(HV)&r电力的一种极好的电缆材料."
 				""
-				"Nothing is preventing you from using it for &bMV&r power too! Make sure that you don't overvolt your machines, though."
+				"没有什么能阻止你也将其用于&b中压(MV)&r电力!不过,确保不要过载你的机器."
 				""
-				"Superconductors for both &bMV&r and &6HV&r are unlocked... later."
+				"超导体用于&b中压(MV)&r和&e高压(HV)&r稍后解锁..."
 				""
-				"&aElectrotine&r is obtained from the &cNether&r, so don't craft it in the Mixer!"
+				"&a电石&r从&c下界&r获得,所以不要在搅拌机中制作它!"
 				""
-				"Furthermore, &aElectrotine&r can be separated for &dElectrum&r and &dRedstone&r."
+				"此外,&a电石&r可以分离为&d银金&r和&d红石&r."
 			]
 			icon: "gtceu:blue_alloy_ingot"
 			id: "1FCF2C103E25972B"
-			rewards: [{
-				id: "61F22179773C70D6"
-				item: "gtceu:electrotine_dust"
-				random_bonus: 7
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "61F22179773C70D6"
+					item: "gtceu:electrotine_dust"
+					random_bonus: 7
+					type: "item"
+				}
+			]
 			size: 0.66d
-			subtitle: "You're blue now... that's my alloy"
-			tasks: [{
-				id: "15C7369398FAB8DB"
-				item: "gtceu:blue_alloy_ingot"
-				type: "item"
-			}]
-			title: "Blue Alloy"
+			subtitle: "你现在变蓝了... 那是我的合金"
+			tasks: [
+				{
+					id: "15C7369398FAB8DB"
+					item: "gtceu:blue_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "蓝色合金"
 			x: 6.75d
 			y: 3.75d
 		}
 		{
 			dependencies: ["6E9E15DA847DD0A1"]
 			description: [
-				"A Circuit Component that you can now make thanks to the &3MV Assembler&r."
+				"一个你可以通过&3中压(MV)组装机&r制作的电路组件."
 				""
-				"If you want the cheapest recipe, &aNickel-Zinc Ferrite&r is the way to go."
+				"如果你想要最便宜的配方,&a镍锌铁氧体&r是最佳选择."
 			]
 			icon: "gtceu:inductor"
 			id: "3DFFA8F91452C62A"
 			shape: "square"
 			size: 0.75d
 			subtitle: "Z = jwL"
-			tasks: [{
-				id: "6690451CCAB62CA1"
-				item: "gtceu:inductor"
-				type: "item"
-			}]
-			title: "Inductors"
+			tasks: [
+				{
+					id: "6690451CCAB62CA1"
+					item: "gtceu:inductor"
+					type: "item"
+				}
+			]
+			title: "电感器"
 			x: 9.0d
 			y: 0.375d
 		}
 		{
 			dependencies: ["6BB98D128822730E"]
 			description: [
-				"If you want to be less fancy, just call it plastic."
+				"如果你不想太花哨,就叫它塑料吧."
 				""
-				"For the polymerization process, add &aOxygen&r, which gives better returns than Air, then solidify like you would with Rubber."
+				"对于聚合过程,加入&a氧气&r,这比空气有更好的回报,然后像橡胶一样固化."
 				""
-				"&aPolyethylene (PE)&r is the key to unlocking &6many new things&r. It's commonly used as &dSheets&r, or in &dFluid&r form."
+				"&a聚乙烯 (PE)&r是解锁&e许多新事物&r的关键.它通常用作&d片材&r,或以&d流体&r形式."
 				""
-				"&l&3Lore:&r&o The OreDict and fluid name for Polyethylene in 1.12.2 GTCEu was &bplastic&f, for cross-mod compatibility."
+				"&l&3背景故事:&r&o &a矿物辞典&f和1.12.2 GTCEu中的聚乙烯流体名称是&b塑料&f,用于跨模组兼容性."
 			]
 			icon: "gtceu:polyethylene_plate"
 			id: "10FB27DD3C7BEC2F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "48DD442B4934D192"
-				table_id: 8104073045527404694L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48DD442B4934D192"
+					table_id: 8104073045527404694L
+					type: "choice"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Baby's first polymer!"
-			tasks: [{
-				id: "15E5F008339B8964"
-				item: "gtceu:polyethylene_plate"
-				type: "item"
-			}]
-			title: "Polyethylene"
+			subtitle: "宝宝的第一种聚合物!"
+			tasks: [
+				{
+					id: "15E5F008339B8964"
+					item: "gtceu:polyethylene_plate"
+					type: "item"
+				}
+			]
+			title: "聚乙烯"
 			x: 6.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"&aPatterns&r are used for AE2 autocrafting. Using &aPolyvinyl Chloride&r increases the yield by &64 times&r, and higher-tier plastics have even greater yields."
+				"&a模板&r用于AE2自动制作.使用&a&a聚氯乙烯&f&r将产量增加&e&a可用 4 次&f&r,更高等级的塑料有更大的产量."
 				""
-				"&3Molecular Assemblers&r aren't available for a little while more, but you can still automate machines with &9ME Interfaces&r."
+				"&3&a分子装配室&f&r还需要一段时间才能使用,但你仍然可以通过&9&aME接口&f&r自动化机器."
 				""
-				"A sub-note for autocrafting... whilst it's possible to perform chemical chains on-demand with AE2, doing so can build some bad habits that'll come back around to bite you in higher tiers. We urge you to passive things wherever you can."
+				"关于自动制作的附注... 虽然可以使用AE2按需进行化学链,但这可能会养成一些不良习惯,这些习惯会在更高等级时回来困扰你.我们建议你尽可能被动地做事."
 			]
 			icon: "ae2:blank_pattern"
 			id: "1C036BCB2C488CFF"
 			size: 0.66d
-			subtitle: "Autocrafting at last!"
-			tasks: [{
-				id: "032C24CBA8687E72"
-				item: "ae2:blank_pattern"
-				type: "item"
-			}]
-			title: "Patterns"
+			subtitle: "终于可以自动制作了!"
+			tasks: [
+				{
+					id: "032C24CBA8687E72"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "模板"
 			x: 5.625d
 			y: -4.125d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"No, but seriously."
+				"不,说真的."
 				""
-				"This is the &cu&6l&et&ai&bm&9a&5t&4e&r portable Fluid storage solution. &64,000 buckets of storage&r - in one single block!"
+				"这是最&cu&el&et&ai&bm&9a&5t&4e&r便携式流体存储解决方案.&e4,000桶存储&r - 在一个单独的方块中!"
 				""
-				"Like Drums, Super Tanks &6keep their fluids when broken&r, and can be cleared in the crafting grid."
+				"像鼓一样,超级储罐&e在被破坏时会保留流体&r,并且可以在合成网格中清空."
 				""
-				"If you hunger for &9even more&r storage, take a look at higher tier Super Tanks or AE2 Fluid Storage Cells."
+				"如果你渴望&9更多的&r存储空间,可以看看更高等级的超级储罐或AE2的流体&a存储单元&f."
 			]
 			icon: "gtceu:lv_super_tank"
 			id: "6C53B01A05FFF1DC"
 			size: 0.66d
-			subtitle: "Super Tanks are OP!"
-			tasks: [{
-				id: "47EA273D728C158F"
-				item: "gtceu:lv_super_tank"
-				type: "item"
-			}]
-			title: "Super Tank"
+			subtitle: "超级储罐太强了!"
+			tasks: [
+				{
+					id: "47EA273D728C158F"
+					item: "gtceu:lv_super_tank"
+					type: "item"
+				}
+			]
+			title: "超级储罐"
 			x: 5.625d
 			y: -1.875d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"&aPolyvinyl Chloride (PVC)&r is the 3rd-most produced plastic in real life. Here in CEu, it can be substituted for Polyethylene in the production of &aPlastic Circuit Boards&r and other items to increase the yield. It is required from &5EV&r onwards to wrap Cables."
+				"&a&a聚氯乙烯&f&r (PVC)&r 是现实生活中第三大生产的塑料.在CEu中,它可以替代聚乙烯用于生产&a&a塑料电路基板&f&r和其他物品,以提高产量.从&5超高压(EV)&r开始,它需要用于包裹电缆."
 				""
-				"PVC item pipes also have the &6highest throughput&r available for a while, but most of your setups right now won't need such speed. Still, it's good to keep this knowledge in your pocket."
+				"PVC物品管道也有&e最高的吞吐量&r,但目前大多数设置不需要如此高的速度.不过,知道这一点还是不错的."
 				""
-				"&9Pro tip:&r The fluid form of PVC is never used in base GTCEu, so feel free to solidify all of it into sheets."
+				"&9专业提示:&r 液态PVC在基础GTCEu中从未使用过,所以可以放心地将所有液态PVC固化成片."
 			]
 			icon: "gtceu:polyvinyl_chloride_plate"
 			id: "40408FFD02134148"
 			shape: "square"
 			size: 0.75d
-			subtitle: "You've already made one polymer, what's two?"
-			tasks: [{
-				id: "72696AD2B77F805B"
-				item: "gtceu:polyvinyl_chloride_plate"
-				type: "item"
-			}]
-			title: "Polyvinyl Chloride"
+			subtitle: "你已经制造了一种聚合物,再多一种又何妨？"
+			tasks: [
+				{
+					id: "72696AD2B77F805B"
+					item: "gtceu:polyvinyl_chloride_plate"
+					type: "item"
+				}
+			]
+			title: "&a聚氯乙烯&f"
 			x: 6.75d
 			y: -4.125d
 		}
@@ -1390,15 +1492,15 @@
 				"10FB27DD3C7BEC2F"
 			]
 			description: [
-				"At this point, you have all the tools available to start making Plastic Boards. Higher-tier polymers in future will increase your PCB yields substantially."
+				"现在,你已经拥有开始制作塑料电路板所需的所有工具.未来更高等级的聚合物将大大提高你的PCB产量."
 				""
-				"The recipe chains are starting to get pretty long, so we recommend processing large batches in two dedicated &3Chemical Reactors&r."
+				"配方链开始变得相当长,所以我们建议在两个专用的&3&a化学反应器&f&r中处理大批量产品."
 			]
 			icon: "gtceu:plastic_printed_circuit_board"
 			id: "4600221BF0A30C3A"
 			shape: "square"
 			size: 0.75d
-			subtitle: "It's a Casio on a Plastic Board"
+			subtitle: "塑料电路板上的卡西欧"
 			tasks: [
 				{
 					id: "68B5E2667EDAE895"
@@ -1411,7 +1513,7 @@
 					type: "item"
 				}
 			]
-			title: "Plastic Boards"
+			title: "塑料电路板"
 			x: 7.875d
 			y: -3.0d
 		}
@@ -1422,31 +1524,33 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"&aSodium Persulfate&r can be used in &9Ore Processing&r in the &3Chemical Bath&r to get various bonus outputs you would not normally obtain. It is completely optional, but pretty rewarding."
+				"&a&a过硫酸钠&f&r 可以在&9&a矿物处理&f&r中用于&3&a化学浸洗器&f&r,以获得通常无法获得的额外产出.这是完全可选的,但非常值得."
 				""
-				"&lWait, stop! That's only a distraction&r - the real topic of this Quest is..."
+				"&l等等,停下!那只是个干扰&r - 这个任务的真正主题是..."
 				""
-				"&aSodium Persulfate&r and &aIron III Chloride&r are used to make cheaper &9Good Circuit Boards&r, as their inclusion cuts Silver usage by a factor of four."
+				"&a&a过硫酸钠&f&r 和 &a&a三氯化铁&f&r 用于制作更便宜的&9优质&a电路板&f&r,因为它们的使用减少了四分之三的银用量."
 				""
-				"They're also &drequired&r to make &9Plastic Circuit Boards&r."
+				"它们也是制作&9&a塑料电路基板&f&r的&d必需品&r."
 				"{@pagebreak}"
-				"Making &aSodium Persulfate&r will yield &aHydrochloric Acid&r as a coproduct, which you may re-use to make &aIron III Chloride&r. This should the best approach right now, but the decision is entirely yours."
+				"制作&a&a过硫酸钠&f&r 会产生&a&a盐酸&f&r作为副产品,你可以重新利用它来制作&a&a三氯化铁&f&r.这应该是目前最好的方法,但决定权完全在你."
 				""
-				"With more automation later in the game, Iron III Chloride will be the cheaper and more straight forward path."
+				"随着游戏后期更多的自动化,&a三氯化铁&f将是最便宜且最直接的路径."
 				""
-				"This Quest can be completed with &eeither&r Fluid."
+				"这个任务可以通过&e任意一种&r流体完成."
 			]
 			icon: "gtceu:iron_iii_chloride_bucket"
 			id: "4353AB0E20601AEC"
-			rewards: [{
-				count: 20
-				id: "5A23AC1DA33FDC71"
-				item: "gtceu:salt_ore"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 20
+					id: "5A23AC1DA33FDC71"
+					item: "gtceu:salt_ore"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Let's etch some Copper off Circuit Boards!"
+			subtitle: "让我们从&a电路板&f上蚀刻掉一些铜吧!"
 			tasks: [
 				{
 					id: "118468CD578081CF"
@@ -1459,7 +1563,7 @@
 					type: "item"
 				}
 			]
-			title: "Sodium Persulfate / Iron III Chloride"
+			title: "&a过硫酸钠&f / &a三氯化铁&f"
 			x: 7.875d
 			y: -4.125d
 		}
@@ -1469,28 +1573,30 @@
 				"1A77CA35F054F988"
 			]
 			description: [
-				"JEI might look a little overwhelming here, so we'll go through the best path for Sulfuric Acid here."
+				"JEI 在这里可能看起来有点让人不知所措,所以我们将在这里介绍制作 &a硫酸&f 的最佳路径."
 				""
-				"Making &eSulfuric Acid&r is a three step process. It is used in many important reactions, so you should automate its production ASAP."
+				"制作 &e&a硫酸&f&r 是一个三步过程.它在许多重要反应中使用,所以你应该尽快自动化其生产."
 				"{@pagebreak}"
-				"To automate it, you will need &3three LV Chemical Reactors&r. We would recommend building a dedicated setup somewhere with &3a single LV Generator&r to power all three machines. You can then spaghetti your pipes to handle input and output &m...or simply use AE2&r."
+				"要自动化它,你需要 &3三个低压(LV)&a化学反应器&f&r.我们建议在某个地方建立一个专门的设置,使用 &3一个低压(LV)发电机&r 为所有三台机器供电.然后你可以用管道处理输入和输出 &m...或者简单地使用 AE2&r."
 				""
-				"&9-&r Step 1: React &aSulfur&r with &bOxygen&r to form &aSulfur Dioxide&r."
-				"&9-&r Step 2: React &aSulfur Dioxide&r with more &bOxygen&r to form &aSulfur Trioxide&r."
-				"&9-&r Step 3: React &aSulfur Trioxide&r with &bWater&r to form &eSulfuric Acid&r."
+				"&9-&r 第一步:将 &a硫&r 与 &b氧气&r 反应形成 &a&a二氧化硫&f&r."
+				"&9-&r 第二步:将 &a&a二氧化硫&f&r 与更多的 &b氧气&r 反应形成 &a&a三氧化硫&f&r."
+				"&9-&r 第三步:将 &a&a三氧化硫&f&r 与 &b水&r 反应形成 &e&a硫酸&f&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5's Chemical Reactor only had one Fluid slot. To circumvent that, they would do &dcell chemistry&f. The way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then loop back to its starting position. A somewhat fun and interesting automation challenge, but also a chore!"
+				"&l&3背景故事:&r&o &d格雷科技&f 5 的 &a化学反应器&f 只有一个流体槽.为了绕过这一点,他们会进行 &d细胞化学&f.自动化 &a硫酸&f 的方法是让一个细胞从一个机器到另一个机器,然后循环回到起始位置.这是一个有趣且有趣的自动化挑战,但也是一项繁琐的工作!"
 			]
 			id: "316FF60D6FFE97CE"
 			shape: "square"
 			size: 0.75d
-			subtitle: "\"...what he thought was H2O was H2SO4!\""
-			tasks: [{
-				id: "06B5F04DEFC12458"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
-			title: "Sulfuric Acid"
+			subtitle: "\"...他以为那是 H2O,其实是 H2SO4!\""
+			tasks: [
+				{
+					id: "06B5F04DEFC12458"
+					item: "gtceu:sulfuric_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "&a硫酸&f"
 			x: 1.125d
 			y: -4.125d
 		}
@@ -1500,28 +1606,30 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"Obtain &9Hydrochloric Acid&r by mixing &aHydrogen&r and &aChlorine&r."
+				"通过混合 &a氢气&r 和 &a氯气&r 获得 &9&a盐酸&f&r."
 				""
-				"This acid is also obtained as waste from a lot of reactions involving &aChlorine&r. Depending on your setups, you may never need to produce it directly."
+				"这种酸也可以作为许多涉及 &a氯气&r 的反应的副产品获得.根据你的设置,你可能永远不需要直接生产它."
 				"{@pagebreak}"
-				"&cNote:&r We have a $medicine command on our Discord:"
+				"&c注意:&r 我们在 Discord 上有一个 $medicine 命令:"
 				""
-				"\"&b&oDo not attempt this in real life - it is not only illegal, but also stupidly dangerous&r\"."
+				"\"&b&o不要在现实生活中尝试这个 - 这不仅是非法的,而且愚蠢地危险&r\"."
 				""
-				"This applies to toying with chemicals. Please don't do it."
+				"这适用于玩弄化学品.请不要这样做."
 				""
-				"Side note - we can guarantee you have a sample of this with you right now! It's in your stomach as a part of gastric acid."
+				"顺便说一下 - 我们可以保证你现在就有一个样本!它作为胃酸的一部分在你的胃里."
 			]
 			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "64CACABB48635904"
 			size: 0.66d
-			subtitle: "You'll need a lot of this!"
-			tasks: [{
-				id: "34147C1DD7B8DE55"
-				item: "gtceu:hydrochloric_acid_bucket"
-				type: "item"
-			}]
-			title: "Hydrochloric Acid"
+			subtitle: "你会需要很多这个!"
+			tasks: [
+				{
+					id: "34147C1DD7B8DE55"
+					item: "gtceu:hydrochloric_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "&a盐酸&f"
 			x: 3.375d
 			y: -4.125d
 		}
@@ -1531,31 +1639,33 @@
 				"64CACABB48635904"
 			]
 			description: [
-				"You may notice that some fluids say they are \"&aAcidic&r\", with &9Sulfuric Acid&r being one of them."
+				"你可能会注意到一些流体说它们是 \"&a酸性&r\",其中 &9&a硫酸&f&r 就是其中之一."
 				""
-				"This means that many fluid pipes will not be able to transport them safely!"
+				"这意味着许多流体管道将无法安全地运输它们!"
 				""
-				"At &bMV&r, the cheapest pipes for acid transportation are probably &aGold&r, with the more expensive &aVanadium Steel&r or &aChrome&r pipes taking second and third place."
+				"在 &bMV&r,最便宜的酸运输管道可能是 &a金&r,其次是更昂贵的 &a钒钢&r 或 &a铬&r 管道."
 				""
-				"&aStainless Steel&r or &aPolytetrafluoroethylene&r (try saying that fast) will be valid options once you are in &6HV&r."
+				"&a&a不锈钢&f&r 或 &a聚四氟乙烯&r(试着快速说出来)在你进入 &eHV&r 后将是有效的选择."
 				"{@pagebreak}"
-				"You have three options for acid storage at around this point: &dGlass Vials&r, &dGold Drums&r, or &dSuper Tanks&r. Glass Vials are like &9Fluid Cells&r, and are made to store acids. Gold Drums are self-explanatory. Super Tanks will be unlocked after &9Polyethylene&r, and can store any fluid without restriction."
+				"在这个阶段,你有三种酸存储选项:&d&a玻璃试管&f&r,&d金桶&r,或 &d超级储罐&r.&a玻璃试管&f 就像 &9&a流体单元&f&r,是用来储存酸的.金桶不言自明.超级储罐将在 &9聚乙烯&r 之后解锁,可以无限制地储存任何流体."
 				""
-				"&cWARNING:&r Acids in the wrong pipes will cause &cvoiding&r, &cpipe burning&r, and high chance of &cdeath&r! Be careful!"
+				"&c警告:&r 酸在错误的管道中会导致 &c虚空&r,&c管道燃烧&r,以及高概率的 &c死亡&r!小心!"
 				""
-				"&l&3Lore:&r&o The acid transportation and storage mechanics originate from GregTech 6."
+				"&l&3背景故事:&r&o 酸运输和存储机制源自 &d格雷科技&f 6."
 			]
 			icon: "gtceu:acid_hazard_sign_block"
 			id: "079442C113D54856"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "...if you don't read this quest."
-			tasks: [{
-				id: "2D0DE3FB6E5E4146"
-				title: "I'm an acid professional, don't worry"
-				type: "checkmark"
-			}]
-			title: "It will Melt Your Flesh"
+			subtitle: "...如果你不读这个任务."
+			tasks: [
+				{
+					id: "2D0DE3FB6E5E4146"
+					title: "I'm 是一名酸处理专家,别担心"
+					type: "checkmark"
+				}
+			]
+			title: "它会融化你的肉"
 			x: 2.25d
 			y: -4.125d
 		}
@@ -1565,30 +1675,32 @@
 				"6D9D54FAB21EC086"
 			]
 			description: [
-				"&bMV&r Batteries will appeal to you if you want to buffer Energy, just like &7LV&r."
+				"&bMV&r 电池会吸引你,如果你想缓冲能量,就像 &7LV&r 一样."
 				""
-				"The cost in &aSodium&r, &aLithium&r or &aCadmium&r jumps up to 8 dusts, so you should use whatever you have the most of. The difference in capacity isn't &7THAT&r huge, after all!"
+				"成本在 &a钠&r,&a锂&r 或 &a镉&r 上跳到 8 个粉末,所以你应该使用你最多的那种.毕竟,容量差异并不是 &7那么&r 巨大!"
 				""
-				"Get &eeither&r Battery to complete the Quest."
+				"获得 &e任一&r 电池以完成任务."
 			]
 			icon: "gtceu:hv_battery_hull"
 			id: "2202AA5DC6DB0A26"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Baby Got Battery"
-			tasks: [{
-				id: "5FEE671A75766B78"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "gtceu:batteries/mv"
+			subtitle: "宝贝得到了电池"
+			tasks: [
+				{
+					id: "5FEE671A75766B78"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:batteries/mv"
+						}
 					}
+					title: "任意&a中压电池&f"
+					type: "item"
 				}
-				title: "Any MV Battery"
-				type: "item"
-			}]
-			title: "Better Batteries"
+			]
+			title: "更好的电池"
 			x: 4.5d
 			y: -1.875d
 		}
@@ -1598,13 +1710,13 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"We &lSINCERELY&r hope at &cno&r point you made the &7LV&r Extruder, because only the &bMV&r Extruder is actually useful. If you did, immediately &arecycle it&r through the Arc Furnace."
+				"我们&l真诚&r希望你在任何时候都没有制作&7LV&r挤压机,因为只有&bMV&r挤压机才是真正有用的.如果你已经制作了,请立即&a通过电弧炉回收它&f."
 				""
-				"The Extruder shapes solid materials into (almost!) any form using &aIngots&r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio."
+				"&a挤压机&f可以将固体材料塑造成(几乎!)任何形状,使用&a锭&r.这是一个减少微型制作的好方法,同时保持高转换率."
 				""
-				"The Extruder can make &6Bolts&r, &6&6Small Gears&r, &6Gears&r, and &6&6Rings&r at the highest efficiency in a single step!"
+				"&a挤压机&f可以以最高效率一步制作&e螺栓&r、&e小齿轮&r、&e齿轮&r和&e环&r!"
 				""
-				"You may also like to use it for &dPipes&r, &dLong Rods&r, and &dRotors&r."
+				"你可能还想用它来制作&d管道&r、&d长杆&r和&d转子&r."
 			]
 			icon: "gtceu:mv_extruder"
 			id: "22B5AD670496C02D"
@@ -1622,33 +1734,37 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The biggest upgrade you'll make"
-			tasks: [{
-				id: "73E8504BA235C4BF"
-				item: "gtceu:mv_extruder"
-				type: "item"
-			}]
-			title: "Advanced Extruder"
+			subtitle: "你将做出的最大升级"
+			tasks: [
+				{
+					id: "73E8504BA235C4BF"
+					item: "gtceu:mv_extruder"
+					type: "item"
+				}
+			]
+			title: "&a高级金属挤压机&f"
 			x: 1.125d
 			y: 0.375d
 		}
 		{
 			dependencies: ["22B5AD670496C02D"]
 			description: [
-				"Aluminium Cells are a big upgrade over the Steel Cells or Universal Fluid Cells."
+				"铝制储罐是对钢制储罐或通用&a流体单元&f的重大升级."
 				""
-				"They can hold any fraction of Fluid - up to &d32 buckets&r!"
+				"它们可以容纳任何流体——最多&d32桶&r!"
 			]
 			icon: "gtceu:aluminium_fluid_cell"
 			id: "53B0D08DB90EC369"
 			size: 0.66d
-			subtitle: "Like cells... only larger!"
-			tasks: [{
-				id: "105EA8621A99C1EC"
-				item: "gtceu:aluminium_fluid_cell"
-				type: "item"
-			}]
-			title: "Large Cells"
+			subtitle: "像储罐...只是更大!"
+			tasks: [
+				{
+					id: "105EA8621A99C1EC"
+					item: "gtceu:aluminium_fluid_cell"
+					type: "item"
+				}
+			]
+			title: "大型储罐"
 			x: 2.25d
 			y: 0.375d
 		}
@@ -1658,79 +1774,81 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"It's quite the investment to own a &3Fluid Drilling Rig&r, but it is &oby far&r the most prominent &6source of Oil&r."
+				"拥有一台&3&a流体钻机&f钻机&r是一项相当大的投资,但它确实是&o迄今为止&r最主要的&e石油资源&r."
 				""
-				"It pumps fluids from underneath Bedrock itself. Note that the fluids aren't actually there, instead being simulated."
+				"它从基岩下方抽取流体.请注意,这些流体实际上并不存在,而是被模拟的."
 				""
-				"Fluid veins are stored within regions of &48x8 chunks&r. Each vein has a different fluid, but they are mostly types of Oil."
+				"流体矿脉存储在&48x8区块&r的区域内.每个矿脉都有不同的流体,但它们大多是石油类型."
 				""
-				"You can't carry out prospecting for fluid veins &oyet&r - this will come at &6HV&r."
+				"你目前还不能进行流体矿脉的勘探——这将在&eHV&r时实现."
 				"{@pagebreak}"
-				"Each vein generates with a different base yield. This is typically between &d150L&r to &d300L per second&r."
+				"每个矿脉生成时都有不同的基础产量.这通常在&d150L&r到&d300L每秒&r之间."
 				""
-				"When drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time until it reaches its depletion yield. At that point, you should move the Rig to a different vein."
+				"当耗尽时,流体矿脉会慢慢枯竭.这将导致流体产量随时间减少,直到达到枯竭产量.届时,你应该将钻机移动到不同的矿脉."
 				""
-				"A &3Basic Fluid Drilling Rig&r will last for 100,000 operations (with 1 second per operation) until depletion. This is enough for &6well over 10,000&r buckets of Oil. Higher tier Rigs will massively increase the yield, while also decreasing the depletion rate."
+				"一台&3基础&a流体钻机&f钻机&r将持续100,000次操作(&a每次1秒&f)直到枯竭.这足以抽取&e超过10,000&r桶石油.&a更高等级&f的钻机将大幅提高产量,同时降低枯竭率."
 				"{@pagebreak}"
-				"&lWhat you can find in the &2Overworld&r&l:&r"
+				"§l你在§2主世界§r§l中可以找到的:§r"
 				""
-				"&9Oil:&r richer in &aLight Fuel&r, the most appreciated variant."
-				"&9Light Oil:&r richer in &aRefinery Gas&r, usable for power."
-				"&9Heavy Oil:&r richer in &aHeavy Fuel&r, which has uses that are more niche."
-				"&9Raw Oil:&r richer in &aNaphtha&r, the best source of the early-game oil products."
-				"&9Natural Gas:&r grants &aRefinery Gas&r with no distillation required."
-				"&l&9Salt Water:&r grants &aSodium&r and &aChlorine&r, useful later."
+				"&9石油:&r富含&a&a轻燃料&f&r,最受赞赏的变种."
+				"&9&a轻油:&r富含&a&a炼油气&f&r,可用于发电."
+				"&9&a重油:&r富含&a&a重燃料&f&r,用途较为小众."
+				"&9&a原油:&r富含&a石脑油&r,是早期游戏石油产品的最佳来源."
+				"&9&a天然气:&r提供&a&a炼油气&f&r,无需蒸馏."
+				"&l&9&a盐水:&r提供&a钠&r和&a氯&r,后期有用."
 				"{@pagebreak}"
-				"&lWhat you can find in the &cNether&r&l:&r"
+				"§l你在§c下界§r§l中可以找到的:§r"
 				""
-				"&9Natural Gas:&r grants &aRefinery Gas&r but with higher yield than the Overworld vein."
-				"&9Lava:&r hopefully, you know what this is."
+				"&9&a天然气:&r提供&a&a炼油气&f&r,但产量高于&a主世界&f矿脉."
+				"§9岩浆:§r希望你知道这是什么."
 				""
-				"When starting out, you may have to tap randomly until you find something you like. Remember that whatever you pump could also be used to refuel your Fluid Rig."
+				"刚开始时,你可能需要随机抽取,直到找到你喜欢的东西.记住,你抽取的任何东西都可以用来为你的流体钻机加油."
 			]
 			icon: "gtceu:mv_fluid_drilling_rig"
 			id: "05ADBAE5B6F38956"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Fluid Drilling Rigs in CEu!"
-			tasks: [{
-				id: "3FB527F5B10381D2"
-				item: "gtceu:mv_fluid_drilling_rig"
-				type: "item"
-			}]
-			title: "Fluid Drilling Rigs"
+			subtitle: "&a流体钻机&f在CEu中!"
+			tasks: [
+				{
+					id: "3FB527F5B10381D2"
+					item: "gtceu:mv_fluid_drilling_rig"
+					type: "item"
+				}
+			]
+			title: "&a流体钻机&f"
 			x: -1.125d
 			y: 0.375d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
+				"获取任何类型的 &3泵&r,将其放置在油泉上方并... 给它一些动力."
 				""
-				"Do &cnot&r pump above an Ocean, as the pump will attempt to pull water, resulting in getting the pump stuck. Sorry!"
+				"不要在海洋上方抽取,因为泵会试图抽取水,导致泵被卡住.抱歉!"
 				"{@pagebreak}"
-				"Each Oil deposit can have between &63,000&r and &69,200&r buckets of Oil, which is a LOT! Refining the Oil&r onsite into either &aLight Fuel&r or &aDiesel&r (or both) is perfectly viable. The next few Quests will explain each type's pros and cons."
+				"每个石油矿床可以含有 &e3,000&r 到 &e9,200&r 桶石油,这非常多!在现场将石油精炼成 &a轻燃料&r 或 &a柴油&r(或两者)是完全可行的.接下来的几个任务将解释每种类型的优缺点."
 				""
-				"Store any obtained Oil in &3Drums&r, but you would do yourself a favour to use a &3Super Tank&r as soon as you can make them."
+				"将获得的石油储存在 &3桶&r 中,但一旦你能制作 &3超级储罐&r,这将对你非常有利."
 				""
-				"&cWarning: &rDo not forget to &dchunkload&r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)."
+				"&c警告:&r 不要忘记使用 FTB Utilities 进行 &d区块加载&r(打开左上角的地图,用左键点击区块并启用强制加载)."
 				"{@pagebreak}"
-				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
+				"&9&l注意:&r&l &a石油&f 路径是通往 &9&l乙烯&r&l 的一条路径.&a其它&f 路径涉及通过一些乙醇来获取自然资源."
 				""
-				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to &5EV&r."
+				"目前,石油是 &d可选的&r.当你到达 &5电动汽车&r 时,它将成为强制性的."
 				""
-				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
+				"石油也可以精炼成 &a轻燃料&r、&a柴油&r 甚至 &a汽油&r,这些都是极好的能源选择."
 				""
-				"If you chose this path, you should use it for both Power and Ethylene."
+				"如果你选择了这条路径,你应该将其用于电力和乙烯."
 				""
-				"Oil spouts are a &6great starting point&r - they will tide you over until you unlock Fluid Drilling Rigs."
+				"油泉是一个 &e很好的起点&r - 它们将帮助你度过难关,直到你解锁 &a流体钻探&r 设备."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack &cwithout&f Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky, or wait until &6HV&f, where prospecting for fluids was available."
+				"&l&3背景:&r&o 石油喷泉最初来自 Buildcraft.如果你玩过没有 Buildcraft 的 &d格雷科技&f 5 模组包,你需要使用流体钻探设备并随机尝试,或者等到 &e高压&f 时,流体勘探功能才可用."
 			]
 			icon: "gtceu:oil_bucket"
 			id: "0774EC59CD3DD7A5"
 			size: 0.66d
-			subtitle: "Ever mined into an Oil deposit?"
+			subtitle: "曾经挖掘到石油矿床吗？"
 			tasks: [
 				{
 					id: "21FF6E45F9AC5E76"
@@ -1758,7 +1876,7 @@
 							]
 						}
 					}
-					title: "Any Pump will do"
+					title: "任意泵都可以"
 					type: "item"
 				}
 				{
@@ -1767,35 +1885,37 @@
 					type: "item"
 				}
 			]
-			title: "US Simulator"
+			title: "美国模拟器"
 			x: -1.125d
 			y: -0.75d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"Underground, you may come across pure Oilsands ore veins. You can &3centrifuge&r the Dust to get &aOil&r."
+				"在地下,你可能会遇到纯油砂矿脉.你可以 &3离心&r 粉末来获得 &a石油&r."
 				""
-				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
+				"&9&l注意:&r&l &a石油&f 路径是通往 &9&l乙烯&r&l 的路径之一.&a其他&f 路径涉及与一些乙醇的自然接触.&r"
 				""
-				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to &5EV&r."
+				"目前,石油是 &d可选的&r.当你到达 &5EV&r 时,它变得强制性."
 				""
-				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
+				"石油也可以以 &a&a轻燃料&f&r、&a柴油&r 甚至 &a汽油&r 的形式精炼,这些都是极好的电力选择."
 				""
-				"If you chose this path, you should use it for both Power and Ethylene."
+				"如果你选择了这条路径,你应该将其用于电力和乙烯."
 				""
-				"Oilsands are a &6great starting point&r - they'll tide you over until you unlock Fluid Drilling Rigs."
+				"油砂是一个 &e很好的起点&r - 它们会帮助你渡过难关,直到你解锁 &a流体钻&fing 钻机."
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "575B07D390D9D079"
-			rewards: [{
-				id: "286D83CF8F84A4DF"
-				item: "gtceu:oilsands_ore"
-				random_bonus: 3
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "286D83CF8F84A4DF"
+					item: "gtceu:oilsands_ore"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			size: 0.66d
-			subtitle: "This quest was sponsored by the US Military"
+			subtitle: "这个任务由美国军方赞助"
 			tasks: [
 				{
 					id: "7B6C7E6C11D68E06"
@@ -1807,7 +1927,7 @@
 						}
 					}
 					optional_task: true
-					title: "Oilsands Ore"
+					title: "油砂矿石"
 					type: "item"
 				}
 				{
@@ -1816,7 +1936,7 @@
 					type: "item"
 				}
 			]
-			title: "America Simulator"
+			title: "美国模拟器"
 			x: -2.25d
 			y: -0.75d
 		}
@@ -1829,81 +1949,85 @@
 				"05ADBAE5B6F38956"
 			]
 			description: [
-				"Before we start, here's some important information if you're aiming to make Ethylene:"
+				"在我们开始之前,如果你打算制作乙烯,这里有一些重要信息:"
 				""
-				"Taking the &aOil&r route will require &oat least&r a &3LV Distillery&r."
+				"选择&a原油&r路线需要&o至少&r一个&3低压蒸馏室&r."
 				""
-				"With the &aBiomass&r route, you will &lneed&r a &3MV Distillery&r."
+				"选择&a生物质&r路线则&l需要&r一个&3中压蒸馏室&r."
 				""
-				"Get &eeither&r to complete this quest."
+				"选择&e其中之一&r来完成这个任务."
 				"{@pagebreak}"
-				"Got all that? &6Alright&r! Let's discuss a complex topic: &9Distillation&r. We'll try to help you understand how and why the &aJEI&r recipes are the way they are, so stick with us."
+				"都记住了吗？&e好的&r!现在我们来讨论一个复杂的话题:&9蒸馏&r.我们会尽力帮助你理解为什么&aJEI&r配方是这样的,所以请继续关注我们."
 				""
-				"Nearly all the &3Distillery&r recipes are duplicates from the &3Distillation Tower&r, except that they only have one Fluid output, and void everything else."
+				"几乎所有的&3蒸馏室&r配方都是&3&a蒸馏塔&f&r的重复,只不过它们只有一个流体输出,并且会清空其他所有内容."
 				""
-				"In other words, you could argue the &3Distillery&r is an &dinferior&r &3Distillation Tower&r."
+				"换句话说,你可以说&3蒸馏室&r是&d劣于&r&3&a蒸馏塔&f&r的."
 				"{@pagebreak}"
-				"This doesn't mean that the &3Distillery&r is the worse of the two. It is unlocked earlier, and it is &dsmaller&r, &dcheaper&r, and &dmore energy efficient&r per recipe."
+				"但这并不意味着&3蒸馏室&r是两者中较差的一个.它解锁得更早,而且更&d小&r、更&d便宜&r,并且在每个配方上更&d节能&r."
 				""
-				"Hell, in many cases, you won't even mind losing the other Fluids."
+				"在很多情况下,你甚至不会介意失去其他流体."
 				""
-				"&3Distilleries&r are an essential component for power generation, whether you pick &aDiesel&r or &aBenzene&r."
+				"&3蒸馏室&r是发电的关键组件,无论你选择&a柴油&r还是&a苯&r."
 				""
-				"You'll probably want many of them at as low-tier as possible to avoid the energy losses from Overclocking."
+				"你可能希望尽可能多地建造低等级的蒸馏室,以避免超频带来的能量损失."
 			]
 			icon: "gtceu:mv_distillery"
 			id: "6A304E453D74C57C"
 			min_required_dependencies: 2
-			rewards: [{
-				id: "3F6532E5CE210907"
-				item: "gtceu:basic_electronic_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F6532E5CE210907"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Illusion of Free Choice"
-			tasks: [{
-				id: "685043442271A0D0"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_distillery"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_distillery"
-							}
-						]
+			subtitle: "&a自由选择&f的幻象"
+			tasks: [
+				{
+					id: "685043442271A0D0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_distillery"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mv_distillery"
+								}
+							]
+						}
 					}
+					title: "任意低压或中压蒸馏塔"
+					type: "item"
 				}
-				title: "Either an LV or MV Distillery"
-				type: "item"
-			}]
-			title: "Distillery"
+			]
+			title: "蒸馏室"
 			x: -1.125d
 			y: -1.875d
 		}
 		{
 			dependencies: ["05ADBAE5B6F38956"]
 			description: [
-				"&aRefinery Gas&r, &aLPG&r and &aMethane&r are &9Gas Fuels&r. LPG (Liquid Petroleum Gas) is a mix of hydrocarbons typically used in heating appliances."
+				"&a炼油气&f&r、&a液化石油气&r和&a甲烷&r是&9气体燃料&r.液化石油气(&a液化石油气&f)是通常用于加热设备的碳氢化合物混合物."
 				""
-				"Refinery Gas is obtained either through &dNatural Gas&r or &dLight Oil&r, the latter yielding more, yet requiring an extra step of distillation."
+				"&a炼油气&f可以通过&d&a天然气&f&r或&d&a轻油&f&r获得,后者产量更高,但需要额外的蒸馏步骤."
 				""
-				"Use of a &3Centrifuge&r to separate into &aLPG&r and &aMethane&r should always be done, as it's practically free."
+				"使用&3离心机&r将其分离成&a液化石油气&r和&a甲烷&r应该是必须的,因为这几乎是免费的."
 				"{@pagebreak}"
-				"&a&aLPG&r and &aMethane&r are burned in a &3Gas Turbine&r. Among the other fuel options, they are the easier to set up which makes them excellent to get started. Their drawback is that they cannot be refined further, so upgrading the &3Fluid Drilling Rig&r may be a top priority if you stick to this fuel source."
+				"&a液化石油气&r和&a甲烷&r在&3&a燃气轮机&f&r中燃烧.在其他燃料选项中,它们是更容易设置的,这使得它们非常适合入门.它们的缺点是无法进一步提炼,所以如果你坚持使用这种燃料,升级&3&a流体钻机&f&r可能是首要任务."
 				""
-				"&aMethane&r can also be obtained from a few &anatural sources&r. &eBetween us&r, they're memes, but you can explore them if you wish. Ultimately, your power source is your choice."
+				"&a甲烷&r也可以从一些&a自然来源&r中获得.&e在我们之间&r,它们是梗,但如果你愿意,你可以探索它们.最终,你的能源来源由你选择."
 			]
 			icon: "gtceu:natural_gas_bucket"
 			id: "227D89550BB9BD55"
 			size: 0.66d
-			subtitle: "Whoever smelt it..."
+			subtitle: "谁熔炼了它……"
 			tasks: [
 				{
 					id: "027B41ACE1566E28"
@@ -1921,53 +2045,55 @@
 					type: "item"
 				}
 			]
-			title: "The Church of Natural Farts"
+			title: "自然放屁教堂"
 			x: -2.25d
 			y: 0.375d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"&aBenzene&r is a &9Gas Fuel&r. To skip some frustration, let's check out the two best ways to obtain it."
+				"&a苯&r是一种&9气体燃料&r.为了避免一些挫折,让我们来看看获得它的两种最佳方法."
 				""
-				"The first option is typically &dWood based&r. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r, which you &3distill&r for &aBenzene&r."
+				"第一种选择通常是&d基于木材&r的.将原木放入&3&a热解炉&f&r中获得&9&a木焦油&f&r.你获得的&a木炭块&f可以在&3提取器&r中进一步处理,以获得更多的&9&a木焦油&f&r,然后你将其&3蒸馏&r以获得&a苯&r."
 				""
-				"Your second option is &dHeavy Oil based&r. Put Heavy Oil in a &3Distillery&r for &9Heavy Fuel&r, which you &aseverely steam-crack&r and &3distill&r again for &aBenzene&r."
+				"第二种选择是&d基于重油&r的.将&a重油&f放入&3蒸馏室&r中获得&9&a重燃料&f&r,然后你将其&a严重蒸汽裂解&r并再次&3蒸馏&r以获得&a苯&r."
 				"{@pagebreak}"
-				"For information on how to process Oil, check the Light Fuel and Naphtha Quests."
+				"关于如何建造来处理原油,请查看&a轻燃料&f和石脑油任务."
 				""
-				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
+				"一般来说,优先放置更多的机器(&d并行化&r)而不是超频配方会更好.这样,你在处理资源时最终会损失更少的能量."
 				""
-				"&aBenzene&r is burned in a &3Gas Turbine&r. This power source starts weaker than its &eDiesel&r cousin, but gets a big boost when refined to &6Nitrobenzene&r in &6HV&r. Ultimately, your power source is your choice."
+				"&a苯&r在&3&a燃气轮机&f&r中燃烧.这种能源来源一开始比它的&e柴油&r表亲弱,但在&e高压&r中提炼成&e硝基苯&r时会有很大的提升.最终,你的能源来源由你选择."
 			]
 			icon: "gtceu:benzene_bucket"
 			id: "00E1A728E6F6D6A0"
 			size: 0.66d
-			subtitle: "In the end, it's always Benzene"
-			tasks: [{
-				id: "4E9EBCCCC7BBAFDD"
-				item: "gtceu:benzene_bucket"
-				type: "item"
-			}]
-			title: "The Church of Benzene"
+			subtitle: "最终,总是苯"
+			tasks: [
+				{
+					id: "4E9EBCCCC7BBAFDD"
+					item: "gtceu:benzene_bucket"
+					type: "item"
+				}
+			]
+			title: "苯教堂"
 			x: -2.25d
 			y: -1.875d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
+				"蒸馏&a原油&r将为你提供去硫化所需的燃料."
 				""
-				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				"&a&a硫化氢&f&r在&3电解机&r中可以完美地&d回收&r."
 				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
+				"要自动化这个过程,只需将你的&3&a化学反应器&f&r和&3电解机&r放在一起.确保使用你的&5螺丝刀&r来&4启用输出端的输入&r."
 				""
-				"&aLight Fuel&r is a good &9Power&r option, but there's something even greater... check the Quest to the left."
+				"&a&a轻燃料&f&r是一个不错的&9电力&r选项,但还有更好的... 查看任务&a向左&f."
 			]
 			icon: "gtceu:lightly_hydro_cracked_heavy_fuel_bucket"
 			id: "61972B16805FC9EE"
 			size: 0.66d
-			subtitle: "Turn up the Lights in here, baby"
+			subtitle: "在这里调高灯光,宝贝"
 			tasks: [
 				{
 					id: "6E4D818CE088D7D4"
@@ -1981,53 +2107,57 @@
 					type: "item"
 				}
 			]
-			title: "Light Fuel"
+			title: "&a轻燃料&f"
 			x: -1.125d
 			y: -3.0d
 		}
 		{
 			dependencies: ["61972B16805FC9EE"]
 			description: [
-				"&aDiesel&r is a &dOil-based &9Combustion Fuel&r."
+				"&aDiesel&r是一种&d基于石油的&9燃烧燃料&r."
 				""
-				"To mix &aLight Fuel&r and &aHeavy Fuel&r, the right ratio for &3Distilleries&r is &63:2&r from &dOil&r or &dRaw Oil&r."
+				"要混合&a&a轻燃料&f&r和&a&a重燃料&f&r,&3蒸馏塔&r的正确比例是&e3:2&r从&d原油&r或&d&a原油&f&r."
 				""
-				"This would necessitate 3 Distilleries for Light Fuel, or 2 Distilleries for Heavy Fuel."
+				"这需要3个蒸馏塔用于&a轻燃料&f,或2个蒸馏塔用于&a重燃料&f."
 				"{@pagebreak}"
-				"You can cut the amount of &dOil&r required &6drastically&r by using &dHeavy Oil&r for &aHeavy Fuel&r specifically. &dOilsands&r is a great option if you wish to go down this route!"
+				"通过使用&d&a重油&f&r专门用于&a&a重燃料&f&r,你可以大幅减少所需的&d原油&r量.如果你选择这条路线,&d油砂&r是一个很好的选项!"
 				""
-				"&o(For the math nerds, you go from 8.33 Oil -> 6 Diesel, to 5 Oil + 0.4 Heavy Oil -> 6 Diesel)&r"
+				"&o(对于数学爱好者,你从8.33原油6柴油,变为5原油 + 0.4 &a重油&f6柴油)&r"
 				""
-				"&eNote:&r Do &cnot attempt&r to put Oil in the &3Distillation Tower&r You might think it's a good idea because it gives both Light Fuel and Heavy Fuel. However, this process requires a lot of overclocking to be worth your time, and you will lose more energy than what the byproducts are worth."
+				"&e注意:&r 不要尝试将原油放入&3&a蒸馏塔&f&r.你可能会认为这是个好主意,因为它同时提供&a轻燃料&f和&a重燃料&f.然而,这个过程需要大量的超频才能值得你花时间,而且你会损失比副产品价值更多的能量."
 				"{@pagebreak}"
-				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
+				"一般来说,优先放置更多的机器(&d并行化&r)而不是超频配方更好.这样,你在处理资源时最终会损失更少的能量."
 				""
-				"&aDiesel&r is burned in a &3Combustion Generator&r. It can be further refined to &6Cetane-Boosted Diesel&r in &6HV&r. Compared to the other power sources, it is generally more efficient, but a more demanding processing line. If you take the &eOil&r route for &aPolyethylene&r, this can work great with existing infrastructure. Ultimately, the power source you want to use is your choice."
+				"&aDiesel&r在&3&a燃烧发电机&f&r中燃烧.它可以在&eHV&r中进一步提炼为&e&a高十六烷值柴油&f&r.与其他电源相比,它通常更高效,但处理线要求更高.如果你选择&e原油&r路线用于&a聚乙烯&r,这可以很好地与现有基础设施配合.最终,你想要使用的电源是你的选择."
 			]
 			icon: "gtceu:diesel_bucket"
 			id: "45769156F4253C86"
-			rewards: [{
-				id: "0D81E63BB7BAD94B"
-				item: {
-					Count: 1
-					id: "gtceu:steel_fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 8000
-							FluidName: "gtceu:oil_heavy"
+			rewards: [
+				{
+					id: "0D81E63BB7BAD94B"
+					item: {
+						Count: 1
+						id: "gtceu:steel_fluid_cell"
+						tag: {
+							Fluid: {
+								Amount: 8000
+								FluidName: "gtceu:oil_heavy"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			size: 0.66d
-			subtitle: "Mother, how is diesel made?"
-			tasks: [{
-				id: "10BAA54947D975AF"
-				item: "gtceu:diesel_bucket"
-				type: "item"
-			}]
-			title: "The Church of Diesel"
+			subtitle: "妈妈,柴油是怎么做的？"
+			tasks: [
+				{
+					id: "10BAA54947D975AF"
+					item: "gtceu:diesel_bucket"
+					type: "item"
+				}
+			]
+			title: "柴油教会"
 			x: -2.25d
 			y: -3.0d
 		}
@@ -2035,54 +2165,56 @@
 			dependencies: ["1FFD2242B94A7378"]
 			dependency_requirement: "one_started"
 			description: [
-				"Regular &o&dGregTech&r Fluid Pipes can only transport one fluid type at a time."
+				"普通的&o&d&d格雷科技&f&r &a流体管道&f一次只能传输一种流体."
 				""
-				"&3Quadruple Fluid Pipes&r can transfer four different types of fluids. &3Nonuple Fluid Pipes&r can transfer nine different types! Useful for compact setups."
+				"&3四重&a流体管道&f&r可以传输&a四种不同的&f流体类型.&3九重&a流体管道&f&r可以传输九种不同的类型!对于紧凑的设置很有用."
 				""
-				"&3Nonuple Fluid Pipes&r will be useful in &5EV&r for handling the many outputs of the &3Distillation Tower&r."
+				"&3九重&a流体管道&f&r在&5EV&r中处理&3&a蒸馏塔&f&r的多种输出时会很有用."
 				""
-				"Get &eeither&r to finish this quest."
+				"获取&e任一&r以完成此任务."
 			]
 			icon: "gtceu:tungsten_steel_quadruple_fluid_pipe"
 			id: "66041DE10C882382"
 			size: 0.66d
-			subtitle: "\"I thought channels were disabled!\""
-			tasks: [{
-				id: "2620FA131244B3DA"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:potin_quadruple_fluid_pipe"
-							}
-							{
-								Count: 1b
-								id: "gtceu:potin_nonuple_fluid_pipe"
-							}
-						]
+			subtitle: "\"我以为通道被禁用了!\""
+			tasks: [
+				{
+					id: "2620FA131244B3DA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:potin_quadruple_fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "gtceu:potin_nonuple_fluid_pipe"
+								}
+							]
+						}
 					}
+					title: "请使用多通道陶瓦管道"
+					type: "item"
 				}
-				title: "Multiple Channel Potin Pipes, please"
-				type: "item"
-			}]
-			title: "Multiple Channel Pipes"
+			]
+			title: "多通道管道"
 			x: 4.5d
 			y: -4.125d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Using a Ruby Lens, engrave a Silicon Wafer into an ILC Wafer."
+				"使用红宝石透镜,将&a硅晶片&f雕刻成ILC晶圆."
 				""
-				"This can be processed in a Cutter for IC Chips, which are important components that will be precious when improving upon your circuit crafting capabilities."
+				"这可以在切割机中加工成&aIC芯片&f,这是在提升电路制作能力时非常重要的组件."
 			]
 			icon: "gtceu:ilc_chip"
 			id: "6F6D2829FC42F21C"
 			size: 0.66d
-			subtitle: "I C U"
+			subtitle: "我看到了你"
 			tasks: [
 				{
 					id: "295D2CE93D4CE067"
@@ -2102,21 +2234,21 @@
 					type: "item"
 				}
 			]
-			title: "IC Chips"
+			title: "&a集成电路芯片&f"
 			x: 5.625d
 			y: 2.625d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Using a Sapphire Lens, engrave a Silicon Wafer into an ULPIC Wafer."
+				"使用蓝宝石透镜,将&a硅晶片&f雕刻成UL&aPIC电路晶圆&f."
 				""
-				"This can be processed in a Cutter for ULPIC Chips, which are important for some multiblock components!"
+				"这可以在切割机中加工成ULP&aIC芯片&f,这对于某些多方块组件非常重要!"
 			]
 			icon: "gtceu:ulpic_chip"
 			id: "16A1EF8B80A96633"
 			size: 0.66d
-			subtitle: "Pickin' up Chips"
+			subtitle: "捡起芯片"
 			tasks: [
 				{
 					id: "6D4D63F75646DB1C"
@@ -2136,23 +2268,23 @@
 					type: "item"
 				}
 			]
-			title: "ULPIC Chips"
+			title: "ULP&a集成电路芯片&f"
 			x: 4.5d
 			y: 0.375d
 		}
 		{
 			dependencies: ["5C94CF50090D7DA0"]
 			description: [
-				"&3Long-Distance Item Pipes&r can be used to send items across great distances. Place one endpoint at each end, and connect them with pipeline blocks."
+				"&3远程物品管道&r 可以用来在远距离之间传输物品.在两端各放置一个端点,并用管道方块连接它们."
 				""
-				"These pipes instantly transfer from the input side to the output side."
+				"这些管道会立即将物品从输入端传输到输出端."
 				""
-				"They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations."
+				"它们还有一个最小距离限制,所以不能用于短距离操作."
 			]
 			icon: "gtceu:long_distance_item_pipeline_endpoint"
 			id: "653345427522D728"
 			size: 0.66d
-			subtitle: "Wondering how to move those ores around?"
+			subtitle: "想知道如何移动那些矿石吗？"
 			tasks: [
 				{
 					count: 2L
@@ -2166,7 +2298,7 @@
 					type: "item"
 				}
 			]
-			title: "Long-Distance Items"
+			title: "远程物品传输"
 			x: -3.375d
 			y: 0.375d
 		}
@@ -2176,16 +2308,16 @@
 				"575B07D390D9D079"
 			]
 			description: [
-				"&3Long-Distance Fluid Pipes&r can be used to send fluids across great distances. Place one endpoint at each end, and connect them with pipeline blocks."
+				"&3远程&a流体管道&f&r 可以用来在远距离之间传输流体.在两端各放置一个端点,并用管道方块连接它们."
 				""
-				"These pipes instantly transfer from the input side to the output side."
+				"这些管道会立即将流体从输入端传输到输出端."
 				""
-				"They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations."
+				"它们还有一个最小距离限制,所以不能用于短距离操作."
 			]
 			icon: "gtceu:long_distance_fluid_pipeline_endpoint"
 			id: "5480AF2EDEDB6A36"
 			size: 0.66d
-			subtitle: "Wondering how to move that oil around?"
+			subtitle: "想知道如何移动那些石油吗？"
 			tasks: [
 				{
 					count: 2L
@@ -2199,36 +2331,40 @@
 					type: "item"
 				}
 			]
-			title: "Long-Distance Fluids"
+			title: "远程流体传输"
 			x: -3.375d
 			y: -0.75d
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
 			description: [
-				"Tired of running around your base yet? &3Travel Anchors&r make their introduction in the latest update!"
+				"厌倦了在你的基地里跑来跑去吗？&3&a旅行锚&f&r 在最新的更新中登场了!"
 				""
-				"Aim the &aTravel Staff&r at a placed Anchor, then &6sneak-right-click&r to teleport on top. You can &bcustomise the appearance&r of a Travel Anchor by right-clicking it with a block in your off-hand, and you can &9rename&r Anchors in their GUI. The effective tool for breaking them is the &bWrench&r."
+				"将 &a&a旅行权杖&f&r 对准放置的锚,然后 &e潜行右键&r 以传送到顶部.你可以 &b自定义&r &a旅行锚&f 的外观,方法是右键点击它并使用副手上的方块,你还可以 &9重命名&r 锚点.&a效果&f 最好的工具是 &b扳手&r."
 				""
-				"The &dEnder Pearls&r necessary to craft more Anchors won't be available yet - take a small handful of Anchors to make life a &olittle&r easier."
+				"制作更多锚点所需的 &d&a末影珍珠&f&r 暂时还不可用 - 带上几个锚点,让生活 &o稍微&r 轻松一些."
 			]
 			icon: "travelanchors:travel_anchor"
 			id: "350E8A014DD8C838"
-			rewards: [{
-				count: 3
-				id: "45B4F45CE10CD806"
-				item: "travelanchors:travel_anchor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "45B4F45CE10CD806"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "pshhh... nothin personnel... kid"
-			tasks: [{
-				id: "132FA856BB60C546"
-				item: "travelanchors:travel_staff"
-				type: "item"
-			}]
-			title: "Travel Anchors"
+			subtitle: "pshhh... 没什么特别的... 孩子"
+			tasks: [
+				{
+					id: "132FA856BB60C546"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+			]
+			title: "&a旅行锚&f"
 			x: 1.125d
 			y: 3.75d
 		}
@@ -2239,25 +2375,27 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"This Jetpack takes most &aCombustion Fuels&r (excluding oils) to enable a primitive form of flight."
+				"这个喷气背包使用大多数 &a燃烧燃料&r(不包括石油)来实现一种原始的飞行形式."
 				""
-				"Fill it like you would fill a Drum, or with a &3Canning Machine&r."
+				"像填充桶一样填充它,或者使用 &3&a装罐机&f&r."
 				""
-				"Press &4H&r (default) to enable Hover Mode."
+				"按 &4H&r(默认)启用 &a悬停模式&f."
 			]
 			id: "6FA956DAA72D6139"
 			size: 0.5d
-			subtitle: "...well, almost Fly"
-			tasks: [{
-				id: "022324F9630960C6"
-				item: {
-					Count: 1
-					id: "gtceu:liquid_fuel_jetpack"
-					tag: { }
+			subtitle: "...好吧,几乎能飞"
+			tasks: [
+				{
+					id: "022324F9630960C6"
+					item: {
+						Count: 1
+						id: "gtceu:liquid_fuel_jetpack"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "I Believe I Can Fly"
+			]
+			title: "我相信我能飞"
 			x: -0.5854591836734713d
 			y: -4.789540816326532d
 		}
@@ -2265,27 +2403,29 @@
 			dependencies: ["75F38905DEA60F15"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This jetpack enables flight, and requires energy."
+				"这个喷气背包可以实现飞行,并且需要能量."
 				""
-				"Charge it like you would charge a Battery."
+				"像给电池充电一样给它充电."
 				""
-				"Press &4H&r (default) to enable Hover Mode."
+				"按 &4H&r(默认)启用 &a悬停模式&f."
 				""
-				"&o&8(Yeah, yeah, a jetpack is supposed to work off \"propellants\". Y'all are always here to nitpick.)&r"
+				"&o&8(是的,是的,喷气背包应该是靠推进剂工作的.你们总是喜欢挑刺.)&r"
 			]
 			id: "21F70EACF6D81E6A"
 			size: 0.5d
-			subtitle: "...still not quite there."
-			tasks: [{
-				id: "1940421A45E45E25"
-				item: {
-					Count: 1
-					id: "gtceu:electric_jetpack"
-					tag: { }
+			subtitle: "...还是不太行."
+			tasks: [
+				{
+					id: "1940421A45E45E25"
+					item: {
+						Count: 1
+						id: "gtceu:electric_jetpack"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "I Believe I Can Fly II"
+			]
+			title: "我相信我能飞 II"
 			x: 1.7784863945578095d
 			y: -0.20216836734694255d
 		}
@@ -2293,27 +2433,29 @@
 			dependencies: ["26394C1290D70AB6"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &aPortable Scanner&r, or &aTricorder&r, is GTCEu's debug tool."
+				"这个 &a&a便携式扫描仪&f&r,或者叫 &aTricorde&r,是 GTCEu 的调试工具."
 				""
-				"Using it will show you a block's details, the details of the energy network, its current status and contents, and its impact on performance."
+				"使用它会显示方块的详细信息、能量网络的详细信息、当前状态和内容,以及对性能的影响."
 				""
-				"It'll also display a percentage of fluid remaining in the fluid vein for the &3Fluid Rigs&r."
+				"它还会显示 &3流体钻机&r 中流体矿脉的剩余百分比."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This little useful device comes from GregTech 5. It was extremely useful in the early days, because very little information (basically nothing) was given by GUIs or WAILA."
+				"&l&3背景故事:&r&o 这个小巧有用的设备来自 &d格雷科技&f 5.在早期非常实用,因为那时 GUI 或 WAILA 几乎没有提供任何信息."
 			]
 			id: "26C43416F9427BB3"
 			size: 0.5d
-			subtitle: "For the nosiest GregTech players"
-			tasks: [{
-				id: "3E70CB46874DE7C1"
-				item: "gtceu:portable_scanner"
-				type: "item"
-			}]
-			title: "Tricorder"
+			subtitle: "给那些最挑剔的 &d格雷科技&f 玩家"
+			tasks: [
+				{
+					id: "3E70CB46874DE7C1"
+					item: "gtceu:portable_scanner"
+					type: "item"
+				}
+			]
+			title: "便携式扫描仪"
 			x: 5.996173469387756d
 			y: -0.3042091836734713d
 		}
 	]
-	subtitle: ["Venture into petrochemistry and refine electronics"]
-	title: "&bMV&r - Medium Voltage"
+	subtitle: ["进入石油化工并精炼电子产品"]
+	title: "&bMV&r - 中压"
 }

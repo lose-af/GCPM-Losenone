@@ -3,12 +3,30 @@
 	loot_size: 1
 	order_index: 6
 	rewards: [
-		{ count: 20, item: "gtceu:purified_chalcopyrite_ore" }
-		{ count: 20, item: "gtceu:purified_tetrahedrite_ore" }
-		{ count: 20, item: "gtceu:purified_chalcocite_ore" }
-		{ count: 20, item: "gtceu:purified_bornite_ore" }
-		{ count: 20, item: "gtceu:purified_pentlandite_ore" }
-		{ count: 10, item: "gtceu:purified_cooperite_ore" }
+		{
+			count: 20
+			item: "gtceu:purified_chalcopyrite_ore"
+		}
+		{
+			count: 20
+			item: "gtceu:purified_tetrahedrite_ore"
+		}
+		{
+			count: 20
+			item: "gtceu:purified_chalcocite_ore"
+		}
+		{
+			count: 20
+			item: "gtceu:purified_bornite_ore"
+		}
+		{
+			count: 20
+			item: "gtceu:purified_pentlandite_ore"
+		}
+		{
+			count: 10
+			item: "gtceu:purified_cooperite_ore"
+		}
 	]
-	title: "platinum_group_processing"
+	title: "铂族处理"
 }

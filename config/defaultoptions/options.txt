@@ -42,10 +42,10 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
+resourcePacks:["vanilla","mod_resources","gtceu:dynamic_assets","file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip","file/帕秋莉汉化材质包-1.20.1.zip","file/GregTech-Community-Pack-Modern-v1.11.0-补汉材质包-1.20.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:zh_cn
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0

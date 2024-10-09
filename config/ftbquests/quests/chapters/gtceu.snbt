@@ -19,63 +19,69 @@
 	quests: [
 		{
 			description: [
-				"This modpack is intended as a guide on &b&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech."
+				"这个模组包旨在作为&b&lGregtech:Community Edition Unofficial Modern&r&r(也称为&aGTCEu Modern&r或&aCEu Modern&r)的指南,这是对Gregtech的延续,而Gregtech本身是Gregtech的一个分支."
 				""
-				"New content has been added to every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of new &dQuality of Life&r."
+				"每个电压等级都添加了新内容,甚至扩展到了&3终极电压&r,并且还有不少新的&d生活质量&r改进."
 				""
-				"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r. You can open the questbook with the default keybind &6F4&r, but feel free to change it if it isn't to your tastes."
+				"&aCEu Modern&r使模组与Minecraft的&e最新版本&r保持同步&o(截至撰写本文时)&r.你可以使用默认键绑定&eF4&r打开任务书,但如果不喜欢,可以随意更改."
 				"{@pagebreak}"
-				"This is a &2pure &lTech&r&2 modpack&r, focused on GregTech and its progression. You'll find &6no better place&r to learn about this mod and all the features it adds!"
+				"这是一个&2纯粹的&l科技&r&2模组包&r,专注于&d格雷科技&f及其发展.你将找不到比这里更好的地方来学习这个模组及其所有新增功能!"
 				""
-				"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost.  We wrote it with both &dold-school veterans&r and &bnewcomers&r in mind."
+				"你正在阅读的任务书&e充满了信息&r,可以指导你完成模组包,所以如果你感到迷茫,请查看它.我们为&d老手&r和&b新人&r都考虑到了."
 			]
 			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
-			rewards: [{
-				auto: "invisible"
-				icon: "minecraft:cooked_beef"
-				id: "6FD85EC9BD99C866"
-				item: "gtceu:sus_record"
-				title: "Steak"
-				type: "item"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					icon: "minecraft:cooked_beef"
+					id: "6FD85EC9BD99C866"
+					item: "gtceu:sus_record"
+					title: "牛排"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "We hope you enjoy your stay"
-			tasks: [{
-				id: "6C1F570DB9013DE7"
-				title: "Welcome!"
-				type: "checkmark"
-			}]
-			title: "Welcome to GregTech CEu!"
+			subtitle: "我们希望你在这里玩得开心"
+			tasks: [
+				{
+					id: "6C1F570DB9013DE7"
+					title: "欢迎!"
+					type: "checkmark"
+				}
+			]
+			title: "欢迎来到 &d格雷科技&f CEu!"
 			x: -0.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"&o&7\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
+				"&o&7\"我的冒险从打树开始？!嗯,我以为&d格雷科技&f会让事情变得有点不同...\"&r"
 				""
-				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
+				"如果你熟悉&d格雷科技&f,你可能知道它对原版配方的&c许多削弱&r.GTCEu确实包含了一些削弱——看看&e桶&r或&e纸&r的合成配方.然而,我们会在早期游戏中减轻这种疯狂,1个原木将给你4个木板.&a欢呼吧!&r"
 				""
-				"Here, take this &6Prospector&r. You can use it to scan for ores underground - this should give you a small boost."
+				"这里,拿这个&e勘探器&r.你可以用它扫描地下的矿物——这应该会给你一个小小的提升."
 			]
 			icon: "minecraft:oak_log"
 			id: "0EAF2C5B5EB755C5"
-			rewards: [{
-				id: "1D434B1A3A4A1E6A"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.lv"
-					tag: {
-						Charge: 100000
+			rewards: [
+				{
+					id: "1D434B1A3A4A1E6A"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.lv"
+						tag: {
+							Charge: 100000
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Begin your playthrough as before"
+			subtitle: "像以前一样开始你的游戏"
 			tasks: [
 				{
 					count: 6L
@@ -88,7 +94,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Any Logs"
+					title: "任意原木"
 					type: "item"
 				}
 				{
@@ -97,30 +103,32 @@
 					type: "item"
 				}
 			]
-			title: "The Beginning of it All"
+			title: "&a一切的开始&f"
 			x: -0.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Here's a &6nifty&r list of some resources that you'll need in bulk for early-game. Collect more than we're asking for in this quest - you'll end up running out before you know it, and it's always a good habit to gather more than you need in &aGregTech&r."
+				"这里有一个&e方便&r的资源列表,你在早期游戏中会需要大量这些资源.收集的资源比我们在任务中要求的更多——你会在不知不觉中用完,而在&a&d格雷科技&f&r中,总是习惯于收集比你需要的更多."
 				""
-				"We'd actually advise that you &etackle this quest first&r, so that you can claim its &breward&r. That way, you can do a little bit of main (read: &ointeresting&r) progression &4&lBEFORE&r you're forced to go mining."
+				"我们实际上建议你&e先完成这个任务&r,这样你就可以领取它的&b奖励&r.这样,你可以在被迫去挖矿之前,先进行一点主(读作:&o有趣的&r)进展."
 				""
-				"Eight furnaces might seem &cexcessive&r if you're new to &aGregTech,&r but trust us... you can never have too many."
+				"如果你是&a&d格雷科技&f&r的新手,八个熔炉可能看起来&c过多&r,但相信我们...你永远不会有太多的熔炉."
 			]
 			icon: "minecraft:sugar_cane"
 			id: "0436F7B60BDEB091"
-			rewards: [{
-				count: 24
-				id: "2D2C971E9E651C2C"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 24
+					id: "2D2C971E9E651C2C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Gather some resources!"
+			subtitle: "收集一些资源!"
 			tasks: [
 				{
 					count: 4L
@@ -153,44 +161,46 @@
 					type: "item"
 				}
 			]
-			title: "What do I need to progress?"
+			title: "我需要什么来推进？"
 			x: -0.75d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dhundreds&o&r of ore blocks."
+				"&a矿石&f在&2&d格雷科技&f&r中的生成方式与原版或其他模组化的Minecraft非常不同.所有矿石都生成在&e巨大的矿脉&r中,这些矿脉可以包含&d数百&o&r个矿石方块."
 				""
-				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
+				"&a矿石生成的范围&f在提示和技巧标签中有详细解释,但这里是你需要知道的内容:"
 				""
-				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by (approximately) 3 chunks&r from one to another in a cardinal direction."
+				"&9-&r 矿脉生成在一个&4网格&r中.每个矿脉在基本方向上相距(大约)3个区块."
 				""
-				"&9-&r It's a good practice to make &dWaypoints&r (default &4N&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
+				"&9-&r 为每个你找到的矿脉设置&d路径点&r(默认&4N&r)并标记它们的类型是一个好习惯.你可能需要多次返回这些矿脉."
 			]
 			icon: "gtceu:cobaltite_ore"
 			id: "0C690272ED4FB1C3"
 			shape: "rsquare"
 			size: 0.66d
-			tasks: [{
-				id: "3FA401CACE8BBE5D"
-				title: "Woah, ores sure sound exciting."
-				type: "checkmark"
-			}]
-			title: "Ore Generation"
+			tasks: [
+				{
+					id: "3FA401CACE8BBE5D"
+					title: "哇,矿石听起来真刺激."
+					type: "checkmark"
+				}
+			]
+			title: "&a银矿生成&f"
 			x: -2.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Were you aware that &aGregTech&r comes with its own set of tools? If not, you may also be pleasantly surprised to hear that they &6&lsurpass&r their vanilla equivalents."
+				"你是否知道&a&d格雷科技&f&r自带一套工具？如果你不知道,你可能会惊喜地听到它们&e&l超越&r了原版工具."
 				""
-				"Let's use the GregTech Axe as an example. If you use one to mine a log in a tree, it'll fell the &2entire tree&r for you. Timber!"
+				"让我们以&d格雷科技&f斧头为例.如果你用它来砍树,它会为你砍倒&2整棵树&r.木材!"
 				""
-				"Constant \"lumberjacking\" will eat through your Axe's &9durability&r in seconds, so you may want to make your Axe out of a &estronger material&r such as &bDiamond&r. Just be careful you don't make a vanilla Diamond Axe."
+				"持续的\"伐木\"会迅速消耗你斧头的&9耐久度&r,所以你可能想用&e更坚固的材料&r如&b钻石&r来制作你的斧头.只是小心不要做出原版的&a钻石斧&f."
 				""
-				"As a reward, take these &2Spruce saplings&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &deffective&r fuel source!"
+				"作为奖励,拿这些&2云杉树苗&r并用它们种出一些大树.你将来需要大量熔炼,而木板将作为&d有效的&r燃料来源!"
 			]
 			icon: {
 				Count: 1
@@ -203,487 +213,497 @@
 				}
 			}
 			id: "13354F24F80F65FB"
-			rewards: [{
-				count: 8
-				id: "60E07F9D0763E8E1"
-				item: "minecraft:spruce_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "60E07F9D0763E8E1"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Who needs Veinminer?"
-			tasks: [{
-				id: "3880A08A72884627"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:aluminium_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 767
-										ToolSpeed: 8.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:vanadium_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1535
-										ToolSpeed: 5.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:naquadah_alloy_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										RelocateMinedBlocks: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 5
-										MaxDamage: 3071
-										ToolSpeed: 42.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:flint_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 63
-										ToolSpeed: 3.5f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:red_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 2559
-										ToolSpeed: 9.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:blue_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1023
-										ToolSpeed: 17.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:rose_gold_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									Enchantments: [{
-										id: "minecraft:fortune"
-										lvl: 2s
-									}]
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 767
-										ToolSpeed: 14.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:hsse_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 4
-										MaxDamage: 3071
-										ToolSpeed: 7.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:iron_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 255
-										ToolSpeed: 4.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:titanium_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1535
-										ToolSpeed: 10.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:neutronium_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										RelocateMinedBlocks: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 6
-										MaxDamage: 65534
-										ToolSpeed: 182.0f
-									}
-									HideFlags: 2
-									Unbreakable: 1b
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:duranium_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										RelocateMinedBlocks: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 5
-										MaxDamage: 8191
-										ToolSpeed: 16.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:bronze_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
-									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 191
-										ToolSpeed: 5.0f
-									}
-									HideFlags: 2
-								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:invar_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									Enchantments: [
-										{
-											id: "minecraft:efficiency"
-											lvl: 1s
+			subtitle: "谁还需要矿脉挖掘？"
+			tasks: [
+				{
+					id: "3880A08A72884627"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:aluminium_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
 										}
-										{
-											id: "minecraft:bane_of_arthropods"
-											lvl: 3s
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 8.0f
 										}
-									]
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 383
-										ToolSpeed: 6.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:sterling_silver_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									Enchantments: [{
-										id: "minecraft:smite"
-										lvl: 3s
-									}]
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:vanadium_steel_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 5.0f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 767
-										ToolSpeed: 5.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:cobalt_brass_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:naquadah_alloy_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											RelocateMinedBlocks: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 5
+											MaxDamage: 3071
+											ToolSpeed: 42.0f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 1023
-										ToolSpeed: 4.5f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:tungsten_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:flint_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 63
+											ToolSpeed: 3.5f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 4
-										MaxDamage: 2047
-										ToolSpeed: 11.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:damascus_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									Enchantments: [{
-										id: "minecraft:fortune"
-										lvl: 3s
-									}]
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:red_steel_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 2559
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1023
-										ToolSpeed: 8.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:tungsten_carbide_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:blue_steel_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 17.0f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 4
-										MaxDamage: 1023
-										ToolSpeed: 62.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:wrought_iron_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:rose_gold_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										Enchantments: [
+											{
+												id: "minecraft:fortune"
+												lvl: 2s
+											}
+										]
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 14.0f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 2
-										MaxDamage: 383
-										ToolSpeed: 4.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:ultimet_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:hsse_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 3071
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 4
-										MaxDamage: 2047
-										ToolSpeed: 12.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:iron_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 255
+											ToolSpeed: 4.0f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 511
-										ToolSpeed: 7.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:stainless_steel_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:titanium_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 1535
+											ToolSpeed: 10.0f
+										}
+										HideFlags: 2
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 1023
-										ToolSpeed: 9.0f
-									}
-									HideFlags: 2
 								}
-							}
-							{
-								Count: 1b
-								id: "gtceu:diamond_axe"
-								tag: {
-									DisallowContainerItem: 0b
-									GT.Behaviours: {
-										DisableShields: 1b
-										TreeFelling: 1b
+								{
+									Count: 1b
+									id: "gtceu:neutronium_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											RelocateMinedBlocks: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 6
+											MaxDamage: 65534
+											ToolSpeed: 182.0f
+										}
+										HideFlags: 2
+										Unbreakable: 1b
 									}
-									GT.Tool: {
-										Damage: 0
-										HarvestLevel: 3
-										MaxDamage: 767
-										ToolSpeed: 8.0f
-									}
-									HideFlags: 2
 								}
-							}
-						]
+								{
+									Count: 1b
+									id: "gtceu:duranium_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											RelocateMinedBlocks: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 5
+											MaxDamage: 8191
+											ToolSpeed: 16.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:bronze_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 191
+											ToolSpeed: 5.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:invar_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										Enchantments: [
+											{
+												id: "minecraft:efficiency"
+												lvl: 1s
+											}
+											{
+												id: "minecraft:bane_of_arthropods"
+												lvl: 3s
+											}
+										]
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 6.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:sterling_silver_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										Enchantments: [
+											{
+												id: "minecraft:smite"
+												lvl: 3s
+											}
+										]
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 767
+											ToolSpeed: 5.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:cobalt_brass_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 1023
+											ToolSpeed: 4.5f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:tungsten_steel_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 2047
+											ToolSpeed: 11.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:damascus_steel_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										Enchantments: [
+											{
+												id: "minecraft:fortune"
+												lvl: 3s
+											}
+										]
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:tungsten_carbide_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 1023
+											ToolSpeed: 62.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:wrought_iron_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 2
+											MaxDamage: 383
+											ToolSpeed: 4.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:ultimet_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 4
+											MaxDamage: 2047
+											ToolSpeed: 12.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:steel_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 511
+											ToolSpeed: 7.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:stainless_steel_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 1023
+											ToolSpeed: 9.0f
+										}
+										HideFlags: 2
+									}
+								}
+								{
+									Count: 1b
+									id: "gtceu:diamond_axe"
+									tag: {
+										DisallowContainerItem: 0b
+										GT.Behaviours: {
+											DisableShields: 1b
+											TreeFelling: 1b
+										}
+										GT.Tool: {
+											Damage: 0
+											HarvestLevel: 3
+											MaxDamage: 767
+											ToolSpeed: 8.0f
+										}
+										HideFlags: 2
+									}
+								}
+							]
+						}
 					}
+					title: "拿任意伐木斧!"
+					type: "item"
 				}
-				title: "Grab any Lumber Axe!"
-				type: "item"
-			}]
-			title: "Lumbering On"
+			]
+			title: "伐木进行时"
 			x: -2.25d
 			y: -4.5d
 		}
@@ -691,98 +711,106 @@
 			dependencies: ["36DD94945D5B4A80"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Wrought Iron has a very low carbon content, but that's enough to make it &btougher&r than regular Iron."
+				"&a锻铁&f的碳含量非常低,但这足以使它比普通铁&b更坚韧&r."
 				""
-				"&aGregTech&r tools made of Wrought Iron are &650% more durable&r than their Iron cousins. You might want to consider using Wrought Iron until you unlock &2something better&r."
+				"&a&d格雷科技&f&r的&a锻铁&f工具比它们的铁制同类&e耐用50%&r.你可能想考虑使用&a锻铁&f直到你解锁&2更好的东西&r."
 				""
-				"To obtain Wrought Iron, you can &6smelt&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two &4&laren't&r interchangeable."
+				"要获得&a锻铁&f,你可以&e熔炼&r&a铁粒&f成&a锻铁粒&f,然后将它们重新组合成锭.确保你没有转换所有的铁供应,因为这两者&4&l不是&r可互换的."
 				""
-				"This may be time-consuming, but rest assured, you'll unlock a &ebetter way&r to produce Wrought Iron before long."
+				"这可能很耗时,但请放心,你很快就会解锁一种&e更好的方式&r来生产&a锻铁&f."
 			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "563C96885A227C9F"
-			rewards: [{
-				count: 5
-				id: "3CDB383AFEBDB519"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "3CDB383AFEBDB519"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Murder, she Wrought"
-			tasks: [{
-				id: "3DAB1D757B3B049D"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/wrought_iron"
+			subtitle: "谋杀,她编织"
+			tasks: [
+				{
+					id: "3DAB1D757B3B049D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/wrought_iron"
+						}
 					}
+					title: "&a锻铁锭&f"
+					type: "item"
 				}
-				title: "Wrought Iron Ingot"
-				type: "item"
-			}]
-			title: "Better Than Iron"
+			]
+			title: "&a比铁好&f"
 			x: 0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1ECBA1CBFFB9F625"]
 			description: [
-				"Alright - your first &oproper&r &aGregTech&r tool. The first of &dmany&r."
+				"好吧——你的第一个&o绳索&r &a&d格雷科技&f&r工具.第一个&d许多&r."
 				""
-				"GT tools can be made out of many different materials. When used in crafting recipes, they &baren't consumed&r, instead losing durability. You'll want to start with an Iron tool - but you could opt for Wrought Iron if you already tackled that quest."
+				"GT工具可以用许多不同的材料制成.在合成配方中使用时,它们&b不会被消耗&r,而是会失去耐久度.你可以从铁制工具开始——但如果你已经完成了那个任务,你也可以选择&a锻铁&f."
 				""
-				"&9&lHammer&f:&r A crafting tool that shows up in a lot of earlygame recipes. Its secondary function is muting machines by &msmacking&r right-clicking them."
+				"&9&l锤子&f:&r 一个出现在许多早期游戏配方中的合成工具.它的次要功能是通过&m右键点击&r来静音机器."
 				""
-				"As a sidenote on all &aGregTech&r tools, you can repair them in an Anvil using the material of the tool itself, just like any vanilla tool. If you are finding yourself short on experience, &eBottles o' Enchanting&r are now craftable."
+				"顺便提一下所有&a&d格雷科技&f&r工具,你可以在铁砧中用工具本身的材料来修复它们,就像任何原版工具一样.如果你发现自己经验不足,&e附魔之瓶&r现在可以合成了."
 			]
 			id: "7DEB73FD649BDFB6"
-			rewards: [{
-				id: "6C50A2A3D43D3FEE"
-				item: "gtceu:iron_plate"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6C50A2A3D43D3FEE"
+					item: "gtceu:iron_plate"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Your first GT Tool!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "gtceu:steel_hammer"
-					tag: {
-						Damage: 0
-						GT.Tool: {
+			subtitle: "你的第一个GT工具!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:steel_hammer"
+						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
-				}
-				id: "1A4DDB914D7D2F3C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:tools/hammers"
+					id: "1A4DDB914D7D2F3C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/hammers"
+						}
 					}
+					title: "任意锤子!"
+					type: "item"
 				}
-				title: "Any Hammer!"
-				type: "item"
-			}]
-			title: "STOP! Hammer time!"
+			]
+			title: "停!锤子时间!"
 			x: 2.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"This hammer isn't quite like the ones you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
+				"这把锤子与你用于合成的锤子不太一样.它实际上是一个&d3x3的镐子&r!"
 				""
-				"If you're familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
+				"如果你熟悉&a&l&a匠魂&f&r,它的行为&e类似于&r那个模组的锤子."
 				""
-				"Make &bgood use&r of these hammers! They'll help you to clear out an entire vein in &6record time&r."
+				"好好利用这些锤子!它们会帮助你在&e创纪录的时间内&r清理整个矿脉."
 				""
-				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
+				"&e注意:&r 任何带有&d格雷科技&f工具的任务都可以用任何材料制成的工具完成——不仅仅是显示的那种."
 			]
 			icon: {
 				Count: 1
@@ -797,119 +825,125 @@
 			id: "4A365A7CC9E374F9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Mining just became efficient"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "gtceu:steel_mining_hammer"
-					tag: {
-						Damage: 0
-						GT.Tool: {
+			subtitle: "采矿变得高效"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "gtceu:steel_mining_hammer"
+						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
-				}
-				id: "4F372C393ADC6CE2"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:tools/mining_hammers"
+					id: "4F372C393ADC6CE2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mining_hammers"
+						}
 					}
+					title: "任意采矿锤都可以."
+					type: "item"
 				}
-				title: "Any Mining Hammer will do."
-				type: "item"
-			}]
-			title: "Hammer down!"
+			]
+			title: "锤下去!"
 			x: 2.25d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"In the real world, iron isn't &oonly&r found as pure Iron Ore. Instead, it's found in a &avariety&r of &eoxide forms&r or &eminerals&r."
+				"在现实世界中,铁并不是 &only&r 以纯 &a铁矿石&f 的形式存在.相反,它以 &a多种&r &e氧化物形式&r 或 &e矿物&r 存在."
 				""
-				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're struggling to find some, the &aOre Generation&r quest tab contains a lot of information on &eore veins&r. You may also want to check the Ore Spawn Information and Ore Byproduct List tabs in &2JEI&r."
+				"你需要去收集相当多的 &a铁甲&f,因为你很快就会需要 &9一大堆&r.如果你在寻找铁矿石时遇到困难,&a&a银矿生成&f&r 任务标签中包含了许多关于 &e矿脉&r 的信息.你可能还想查看 &a矿物生成信息&f 和 &a矿物副产列表&f 标签在 &2JEI&r 中."
 				""
-				"Any of the raw ores we're asking for can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron."
+				"我们要求的任何原始矿石都可以直接熔炼成铁.这涉及到 &d&a四个不同的&f 矿脉&r 可以给你提供铁."
 				""
-				"Lastly, Fortune &cdoes not&r work on GregTech ores, &7unfortunately&r."
+				"最后,不幸的是,&d格雷科技&f 矿石不受 &c抢夺&r 附魔的影响."
 				"{@pagebreak}"
-				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting remains the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
+				"虽然在 &bmodded Minecraft&r 中囤积矿石在 &a解锁&fing 某种 &a矿石倍增&r 之前是常见的习惯,但暂时不用担心矿石处理.直接熔炼仍然是最有效的方法,很长一段时间内,考虑到在一次 &e采矿之旅&r 中很容易获得大量矿石."
 				""
-				"Gather &l&cany&r of the requested &dRaw Ores&r to complete this quest!"
+				"收集 &l&c任何&r 要求的 &d原始矿石&r 以完成此任务!"
 			]
 			icon: "minecraft:iron_ingot"
 			id: "1ECBA1CBFFB9F625"
-			rewards: [{
-				count: 32
-				id: "5CD664F60E977214"
-				item: "gtceu:magnetite_ore"
-				type: "item"
-			}]
-			size: 0.75d
-			subtitle: "Isn't it ironic... don't you think?"
-			tasks: [{
-				id: "063705687ED657F5"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:raw_iron"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_yellow_limonite"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_magnetite"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_basaltic_mineral_sand"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_granitic_mineral_sand"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_pyrite"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_goethite"
-							}
-							{
-								Count: 1b
-								id: "gtceu:raw_hematite"
-							}
-						]
-					}
+			rewards: [
+				{
+					count: 32
+					id: "5CD664F60E977214"
+					item: "gtceu:magnetite_ore"
+					type: "item"
 				}
-				title: "Iron-bearing Ores"
-				type: "item"
-			}]
-			title: "Iron, Iron, Iron!"
+			]
+			size: 0.75d
+			subtitle: "这不是很讽刺吗...你不觉得吗？"
+			tasks: [
+				{
+					id: "063705687ED657F5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:raw_iron"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_yellow_limonite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_magnetite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_basaltic_mineral_sand"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_granitic_mineral_sand"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_pyrite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_goethite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_hematite"
+								}
+							]
+						}
+					}
+					title: "含铁矿石"
+					type: "item"
+				}
+			]
+			title: "铁,铁,铁!"
 			x: 0.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"More GregTech tools are required for progression - here are the ones to lay eyes on."
+				"更多 &d格雷科技&f 工具是推进进程所必需的——以下是需要关注的工具."
 				""
-				"&9&lWrench:&r A crafting tool, but also the correct tool for GregTech machines... perfect if you think using pickaxes is unethical. It can also double as a &6wrench for other mods&r. Right-click allows you to set the output side of GregTech machines, and sneak-right-clicking rotates machines."
+				"&9&l扳手:&r 一个合成工具,但也是 &d格雷科技&f 机器的正确工具...如果你认为使用镐子是不道德的,那就完美了.它还可以作为 &e其他模组的扳手&r.右键点击允许你设置 &d格雷科技&f 机器的输出面,潜行右键点击旋转机器."
 				""
-				"&9&lFile:&r A crafting tool... and that's it. Yay!"
+				"&9&l锉刀:&r 一个合成工具...仅此而已.耶!"
 				""
-				"&9&lSaw:&r Yet another crafting tool. If we were any more evil, we would force its use if you wanted to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That being said, you can still use it to get &a6 Planks per Log&r, if you wish."
+				"&9&l锯子:&r 另一个合成工具.如果我们再邪恶一点,我们会强迫你在想从各自的合成配方中获得4个木板和4个木棍时使用它.话虽如此,如果你愿意,你仍然可以使用它来获得 &a每原木6个木板&r."
 				"{@pagebreak}"
-				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
+				"&e注意:&r 任何带有 &d格雷科技&f 工具的任务都可以用任何材料制作的工具完成,而不仅仅是显示的那种."
 			]
 			icon: {
 				Count: 1
@@ -934,7 +968,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "Any Wrench!"
+					title: "任意扳手!"
 					type: "item"
 				}
 				{
@@ -946,7 +980,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "Any File!"
+					title: "任意锉刀!"
 					type: "item"
 				}
 				{
@@ -958,40 +992,40 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "Any Saw!"
+					title: "任意锯子!"
 					type: "item"
 				}
 			]
-			title: "Important Tools"
+			title: "重要工具"
 			x: 3.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"More tools - they're not critically important right now, but you'll need to make these at some point."
+				"更多工具——它们现在不是至关重要的,但你会在某个时候需要制作这些."
 				""
-				"&9&lScrewdriver:&r A crafting tool. It's used for special configuration of machines and covers."
+				"&9&l螺丝刀:&r 一个合成工具.用于机器和覆盖物的特殊配置."
 				""
-				"&9&lWire Cutter:&r A crafting tool. You'll need it if you want to configure wire connections. Right-clicking on wires will enable or disable connection to other blocks."
+				"&9&l&a需要剪线钳&f:&r 一个合成工具.如果你想配置电线连接,你需要它.右键点击电线将启用或禁用与其他方块的连接."
 				""
-				"&9&lMortar:&r A crafting tool, used to grind various things down into dust form."
+				"&9&l研钵:&r 一个合成工具,用于将各种东西研磨成粉末形式."
 				""
-				"&9&lKnife:&r A pretty mediocre weapon, better suited as - &oyou guessed it&r - a crafting tool!"
+				"&9&l刀:&r 一个相当平庸的武器,更适合作为 - &oyou guessed it&r - 一个合成工具!"
 				""
-				"&9&lSoft Mallet:&r A tool to toggle machine operation with a simple right-click."
+				"&9&l软锤:&r 一个工具 &a切换设置&f 机器操作只需简单的右键点击."
 				"{@pagebreak}"
-				"There are a couple of other tools that are quite niche, but deserve a mention."
+				"还有一些其他工具非常小众,但值得一提."
 				""
-				"&9&lCrowbar:&r A helpful tool that can remove covers from &aGregTech&r machines by right-clicking the side."
+				"&9&l撬棍:&r 一个有用的工具,可以通过右键点击侧面从 &a&d格雷科技&f&r 机器上移除覆盖物."
 				""
-				"&9&lScythe:&r A powerful farming tool that can automatically replant your crops in a large area. It's also a surprisingly good weapon!"
+				"&9&l镰刀:&r 一个强大的农业工具,可以自动在大面积内重新种植你的作物.它也是一个出奇好的武器!"
 				""
-				"&9&lPlunger:&r A tool to clear stuck fluids from GregTech&a machines."
+				"&9&l吸液器:&r 一个工具,用于清除 &d格雷科技&f &a机器&r 中卡住的流体."
 				""
-				"&9&lButchery Knife:&r A weapon that comes pre-enchanted with &6Looting III&r. You might want to use it to gather leather and food."
+				"&9&l屠刀:&r 一个自带 &e&a抢夺III&f&r 附魔的武器.你可能想用它来收集皮革和食物."
 				"{@pagebreak}"
-				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
+				"&e&l注意:&r 此任务的奖励是 &3&a大马士革钢&f&r - 一种只能在主世界战利品中找到的稀有材料.它远远超过了你现在拥有的材料,所以一定要使用它."
 			]
 			icon: {
 				Count: 1
@@ -1004,12 +1038,14 @@
 				}
 			}
 			id: "5C3501DD3B4788FA"
-			rewards: [{
-				count: 16
-				id: "433F0ED89B586383"
-				item: "gtceu:damascus_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "433F0ED89B586383"
+					item: "gtceu:damascus_steel_ingot"
+					type: "item"
+				}
+			]
 			size: 0.75d
 			tasks: [
 				{
@@ -1021,7 +1057,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "Any Screwdriver!"
+					title: "任意螺丝刀!"
 					type: "item"
 				}
 				{
@@ -1033,7 +1069,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "Any Wire Cutter!"
+					title: "任意 &a需要剪线钳&f!"
 					type: "item"
 				}
 				{
@@ -1045,7 +1081,7 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "Any Mortar!"
+					title: "任意研钵!"
 					type: "item"
 				}
 				{
@@ -1057,7 +1093,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "Any Knife!"
+					title: "任意刀子!"
 					type: "item"
 				}
 				{
@@ -1069,243 +1105,267 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "Any Soft Mallet!"
+					title: "任意软锤!"
 					type: "item"
 				}
 			]
-			title: "More Tools"
+			title: "&a更多工具&f"
 			x: 5.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"The &e&lCoke Oven&r will likely be your first &aGregTech&r multiblock. Congratulations!"
+				"这个&e&l&a焦炉&f&r很可能是你遇到的第一个&a&d格雷科技&f&r多方块结构.恭喜你!"
 				""
-				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
+				"它用于将&e煤&r转化为&aCoke&r,或将&e木头&r转化为&a木炭&f,同时还会产生&d液体杂酚油&r作为&3额外&r输出."
 				""
-				"Take a look at the &6Multiblock Preview&r tab in JEI (press &dU&r over the controller block of any Multiblock!) to see the structure pattern."
+				"查看JEI中的&e多方块预览&r标签(在任何多方块结构的控制方块上按&dU&r!)以查看结构模式."
 				"{@pagebreak}"
-				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
+				"&9注意:&r &l任何&r砖块都可以替换为&3&a焦炉仓&f&r.你可以拥有最多五个."
 				""
-				"The Hatch allows for automation - it'll &dauto-export&r both Fluid and Items! It also works for insertion into the Coke Oven (you can use Hoppers)."
+				"&a舱口&f允许自动化——它会&d自动导出&r流体和物品!它也适用于向&a焦炉&f中插入物品(你可以使用漏斗)."
 				""
-				"If the Coke Oven happens to fully fill up on &eCreosote&r that you are not using, break and replace the Coke Oven block. &3Automated fluid voiding&r is available later in the game."
+				"如果&a焦炉&f意外地充满了你不使用的&e杂酚油&r,打碎并替换&a焦炉&f方块.&3自动流体清空&r功能将在游戏后期可用."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
+				"&l&3背景:&r&o 多方块结构的概念是模组化Minecraft的经典之作.想想IC2的&a核反应堆&f,或Railcraft的&a焦炉&f——在当时确实是革命性的!&r"
 			]
 			icon: "gtceu:coke_oven"
 			id: "4946FC5BCA4CCA88"
 			min_required_dependencies: 1
-			rewards: [{
-				id: "60891A0DEF29E9A1"
-				item: "gtceu:exquisite_coke_gem"
-				random_bonus: 2
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "60891A0DEF29E9A1"
+					item: "gtceu:exquisite_coke_gem"
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Your first big project... hopefully"
-			tasks: [{
-				id: "3545479A7C09CDFC"
-				item: "gtceu:coke_oven"
-				type: "item"
-			}]
-			title: "Coke Oven"
+			subtitle: "你的第一个大型项目...希望如此"
+			tasks: [
+				{
+					id: "3545479A7C09CDFC"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+			]
+			title: "&a焦炉&f"
 			x: 5.25d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"More resources are always nice. You're getting close to entering the &6age of Steam&r - Copper and Tin are required in many &6Steam Age&r machines, so check the ore tab to find out what veins they can be found in, and get mining!"
+				"更多的资源总是好的.你即将进入&e蒸汽时代&r——铜和锡在许多&e蒸汽时代&r机器中是必需的,所以查看矿物标签以了解它们可以在哪些矿脉中找到,并开始挖掘吧!"
 				""
-				"If the different ore names are &bconfusing&r, you can tell which elements an ore holds at a glance by reading the &dmolecular formula&r in its tooltip. Copper is &oCu&r, Tin is &oSn&r, Iron is &oFe&r, and you can consult a &3periodic table&r for the rest. It's time to brush up on your chemistry - you'll need it for &llater&r."
+				"如果不同的矿物名称让你&b困惑&r,你可以通过阅读其工具提示中的&d分子式&r一目了然地知道矿物包含哪些元素.铜是&oCu&r,锡是&oSn&r,铁是&oFe&r,其余的可以查阅&3元素周期表&r.是时候复习一下你的化学知识了——你以后会需要的."
 				""
-				"This quest can be completed with &9either metal&r, so you can claim the metal you're missinng as the reward. Be sure to find a source of both soon, as a &a&ocertain&r&a Copper-Tin alloy&r will be needed to get through the &6Steam Age&r."
+				"这个任务可以用&9任何一种金属&r完成,所以你可以将你缺少的金属作为奖励.确保尽快找到两者的来源,因为&a&o某种&r &aCopper-Tin合金&r将需要通过&e蒸汽时代&r."
 			]
 			icon: "minecraft:copper_ingot"
 			id: "45969FFBF88F4FBB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2C28FA1A5275D24E"
-				table_id: 1702176335602373230L
-				type: "choice"
-			}]
-			size: 0.75d
-			subtitle: "Gather more resources!"
-			tasks: [{
-				count: 32L
-				id: "616556ECE4DB6103"
-				item: {
-					Count: 32
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:copper_ingot"
-							}
-							{
-								Count: 1b
-								id: "gtceu:tin_ingot"
-							}
-						]
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C28FA1A5275D24E"
+					table_id: 1702176335602373230L
+					type: "choice"
 				}
-				title: "32 Copper or Tin"
-				type: "item"
-			}]
-			title: "Onwards to the Age of Bronze!"
+			]
+			size: 0.75d
+			subtitle: "收集更多资源!"
+			tasks: [
+				{
+					count: 32L
+					id: "616556ECE4DB6103"
+					item: {
+						Count: 32
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:copper_ingot"
+								}
+								{
+									Count: 1b
+									id: "gtceu:tin_ingot"
+								}
+							]
+						}
+					}
+					title: "32个铜或锡"
+					type: "item"
+				}
+			]
+			title: "向青铜时代进发!"
 			x: 3.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"&6Bronze&r is an &2alloy&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &o\"&dMore Tools&r&o\"&r quest."
+				"&e青铜&r是铜和锡的&2合金&r.将3份铜和1份锡研磨成粉末,然后混合并熔炼它们.如果你对如何操作感到困惑,可以查看&o\"&d&a更多的工具&f&r&o\"&r任务."
 				""
-				"Aim to make &amany more&r Bronze Ingots than is called for here. This is the main material for the &6Steam Age&r, and you will need LOTS of it."
+				"目标是制作比这里要求的&a更多&r &a青铜锭&f.这是&e蒸汽时代&r的主要材料,你将需要大量的它."
 				""
-				"&6&lThe progression now continues in the Steam Age chapter.&r"
+				"&e&l现在进度继续在蒸汽时代章节中.&r"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here (and in most of modded Minecraft) this is &4not&f the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &eno realism here&f."
+				"&l&3背景:&r&o 现实生活中的青铜更接近于铜与锡7:1的比例.在这里(以及大多数模组化Minecraft中),为了游戏平衡,情况&4并非如此&f.有很多类似的东西需要调整——&eno realism here&f."
 			]
 			icon: "gtceu:bronze_ingot"
 			id: "315DBB3B23F95E0D"
-			rewards: [{
-				count: 32
-				id: "5F229B651404DF0E"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "5F229B651404DF0E"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Humanity's first alloy - and yours too!"
-			tasks: [{
-				count: 24L
-				id: "39AEA2923971A2B5"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
-			title: "Bronze Age? No, &6Steam Age&r!"
+			subtitle: "人类的第一种合金——也是你的!"
+			tasks: [
+				{
+					count: 24L
+					id: "39AEA2923971A2B5"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			title: "&a青铜时代&f？不,&e蒸汽时代&r!"
 			x: 5.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"The bucket recipe has been &d&lchanged.&r It now requires plates - &owahoo&r."
+				"桶的配方已经被&d&l改变了&r.现在需要板材——&owahoo&r."
 				""
-				"Plates are used absolutely &beverywhere&r in &aGregTech&r. Combining two ingots with your new &9hammer&r in a crafting table will make a plate. This ratio is kind of &cexpensive,&r but better recipes for plates will come later."
+				"板材在&a&d格雷科技&f&r中绝对&b无处不在&r.将两个锭与你的新&9锤子&r在合成表中结合将制作一个板材.这个比例有点&c昂贵&r,但更好的板材配方将在以后出现."
 				""
-				"Take this &6Wooden Barrel&r full of &bWater&r as a reward. Huh... isn't that an odd reward? We just wanted to show you that all &aGTCEu&r tanks are portable."
+				"把这个装满&b水&r的&e&a木桶&f&r作为奖励.嗯...这不是一个奇怪的奖励吗？我们只是想向你展示所有&aGTCEu&r储罐都是便携的."
 			]
 			icon: "minecraft:bucket"
 			id: "592BD683A48C2AA2"
-			rewards: [{
-				id: "68D4ECFA9AD5349A"
-				item: {
-					Count: 1
-					id: "gtceu:wood_drum"
-					tag: {
-						Fluid: {
-							Amount: 16000L
-							FluidName: "minecraft:water"
+			rewards: [
+				{
+					id: "68D4ECFA9AD5349A"
+					item: {
+						Count: 1
+						id: "gtceu:wood_drum"
+						tag: {
+							Fluid: {
+								Amount: 16000L
+								FluidName: "minecraft:water"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "#realism"
-			tasks: [{
-				id: "5DD165E4EB34C022"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
-			title: "Greg has struck"
+			subtitle: "#现实主义"
+			tasks: [
+				{
+					id: "5DD165E4EB34C022"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			title: "Greg做出了改变"
 			x: 2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Okay, we were generous enough to leave Wood-to-Plank-ratios &cuntouched&r, but this is GregTech - charcoal smelting is &4&lnot possible&r in a Furnace. You'll need to make a &d&lCoke Oven&r to get your grubby hands on some &6charcoal&r."
+				"好吧,我们足够慷慨地保留了木头到木板的转化比率等等,但这是 &d格雷科技&f - 在熔炉中烧制木炭 &4&l是不可能的&r.你需要制作一个 &d&l&a焦炉&f&r 来获得一些 &e木炭&r."
 				""
-				"Wooden planks are still pretty good as &6furnace fuel&r, especially since you get &l&3four&r from one log."
+				"木板仍然是很好的 &e熔炉燃料&r,特别是当你从一个原木中获得 &l&3四个木板&r."
 				""
-				"If this displeases you - normally you'd be able to &brevert this back&r to vanilla behaviour in the &aGTCEu&r configs, but the configuration option is bugged. To &erevert&r the nerf, you can delete the \"charcoal.js\" script in &bkubejs/server_scripts&r!"
+				"如果这让你不爽 - 通常你可以在 &aGTCEu&r 配置中 &b恢复&r 到原版行为，但配置选项有bug。要 &e恢复&r 这个削弱，你可以删除 &bkubejs/server_scripts&r 中的 \"charcoal.js\" 脚本！"
 			]
 			icon: "minecraft:charcoal"
 			id: "36DD94945D5B4A80"
-			rewards: [{
-				count: 16
-				id: "5408859E43668198"
-				item: "minecraft:coal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "5408859E43668198"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Not here!"
-			tasks: [{
-				count: 48L
-				id: "3DF01E4FACBB1D53"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
+			subtitle: "不在这里!"
+			tasks: [
+				{
+					count: 48L
+					id: "3DF01E4FACBB1D53"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
 					}
+					title: "我们要求更多原木."
+					type: "item"
 				}
-				title: "We demand more logs."
-				type: "item"
-			}]
-			title: "Charcoal?"
+			]
+			title: "木炭？"
 			x: 0.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"In this &blightweight&r modpack, we've included enough QoL to &o(hopefully)&r fit your needs, and the pack is &aperfectly playable&r as is."
+				"在这个 &b轻量级&r 模组包中,我们已经包含了足够的QoL来 &o(希望)&r 满足你的需求,并且这个包 &a完全可以直接玩&r."
 				""
-				"&dStorage Drawers&r and &dApplied Energistics 2&r make an appearance to help with &estorage&r and &6logistics&r. Their recipes have been modified to fit progression, but you hopefully won't need to play 50 hours to make your first &5Molecular Assembler&r. There are also a few other mods that you may wish to pursue for some &ahelpful QoL&r."
+				"&d&d储物抽屉&f&r 和 &d&d应用能源2&f&r 出现了,以帮助你处理 &e存储&r 和 &e物流&r.它们的配方已经修改以适应进度,但你希望不需要玩50个小时才能制作你的第一个 &5&a分子装配室&f&r.还有一些其他的模组,你可能希望追求一些 &a有用的QoL&r."
 				"{@pagebreak}"
-				"But maybe you require... &osomething more&r?"
+				"但也许你需要... &o更多的东西&r？"
 				""
-				"If you're playing solo, feel free to &aadd mods&r to your instance. Some more &bQoL&r could be nice... more &3Tech&r could sate your cravings... maybe even some &5magic mods&r, as long as you don't add &eProjectE&r. Promise?"
+				"如果你是单人游戏,可以随意 &a添加模组&r 到你的实例中.更多的 &bQoL&r 可能会很好... 更多的 &3科技&r 可能会满足你的渴望... 也许甚至一些 &5魔法模组&r,只要你不添加 &e&d等价交换重制版&f&r.答应吗？"
 				""
-				"On the 1.12.2 version of &aGregtech: CEu&r, there were multiple &aGregTech&r addons that may be ported to 1.19.2 in future. Rest assured that this pack will do its &dbest&r to support them if they make it to this version!"
+				"在 &aGregtech:CEu&r 的1.12.2版本中,有多个 &a&d格雷科技&f&r 的附加模组可能会在未来移植到1.19.2.请放心,这个包会尽其 &d最大努力&r 支持它们,如果它们到达这个版本的话!"
 			]
 			icon: "minecraft:structure_void"
 			id: "1283B4D7B5D82193"
-			rewards: [{
-				id: "460EC827273306A5"
-				item: "storagedrawers:quantify_key"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "460EC827273306A5"
+					item: "storagedrawers:quantify_key"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Omw to install DecoCraft"
-			tasks: [{
-				id: "70C69E5432F6C3BE"
-				title: "I accept responsibility for any mod conflicts ;)"
-				type: "checkmark"
-			}]
-			title: "More mods?"
+			subtitle: "马上 &a来安装&f DecoCraft"
+			tasks: [
+				{
+					id: "70C69E5432F6C3BE"
+					title: "我为任何模组冲突负责 ;)"
+					type: "checkmark"
+				}
+			]
+			title: "更多模组？"
 			x: 2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Don't worry, these crafts are actually useful - you'll be required to make &ehundreds more&r of these components. It's good to start building the habit."
+				"别担心,这些配方实际上很有用 - 你将需要制作 &e数百个&r 这些组件.开始养成这个习惯是很好的."
 				""
-				"It's generally wise to get familiar with the idea of &o\"&bbulk-crafting&r&o\"&r - if you need 1 plate, try making 8, etc. This means you'll have lots of these &dintermediates&r ready for future crafts. It might seem unreasonable to craft &astacks of rods&r or &ascrews&r especially this early on, but they will always end up being used, saving you a lot of micro-crafting in the future."
+				"通常明智的做法是熟悉 &o\"&e批量制作&r&o\"&r 的想法 - 如果你需要1个板,试着制作8个,等等.这意味着你会有很多这些 &d中间产物&r 准备好用于未来的配方.尤其是早期,制作 &a一堆杆子&r 或 &a螺丝&r 可能看起来不合理,但它们最终总是会被用到,为你节省了未来的大量微型制作时间."
 				""
-				"If you needed &6any more&r convincing, take a peek at the &drewards&r for this quest."
+				"如果你还需要 &e更多的&r 说服,看看这个任务的 &d奖励&r."
 			]
 			icon: "minecraft:bone_meal"
 			id: "49A04E63F40D65C0"
@@ -1367,7 +1427,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Put your micro-crafting talent to the task!"
+			subtitle: "发挥你的微型制作才能!"
 			tasks: [
 				{
 					count: 16L
@@ -1382,16 +1442,16 @@
 					type: "item"
 				}
 			]
-			title: "A Minor Test of Strength"
+			title: "小小的力量测试"
 			x: 3.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Iron, Copper and Tin will only get you so far. &4Redstone&r and &bDiamond&r will occasionally be required during the &6Steam Age&r, whereas Nickel, Lead and Silver are also nice to have. All will come in handy &asoon enough&r."
+				"铁、铜和锡只能带你走这么远.&4红石&r 和 &b钻石&r 在 &e蒸汽时代&r 偶尔会被需要,而镍、铅和银也很不错.所有这些都会 &a很快&r 派上用场."
 				""
-				"&o&8Consult the ore tab if you're struggling to find these materials!&r"
+				"&o&8如果你在寻找这些材料时遇到困难,请查看矿物标签!&r"
 			]
 			icon: "gtceu:silver_ingot"
 			id: "62212F2B51AC779E"
@@ -1441,7 +1501,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Sometimes, you gotta be inefficient... to be efficient!"
+			subtitle: "有时候,你必须先低效...才能高效!"
 			tasks: [
 				{
 					count: 64L
@@ -1474,159 +1534,171 @@
 					type: "item"
 				}
 			]
-			title: "Early Investments"
+			title: "早期的投资"
 			x: 5.25d
 			y: 0.0d
 		}
 		{
 			description: [
-				"Be sure to &aproperly&r read &lthis&r quest - it has some &dimportant information&r that will remain relevant all throughout your playthrough."
+				"务必&a正确&r阅读&l这个&r任务——它包含了一些&d重要信息&r,这些信息在整个游戏过程中都将保持相关性."
 				""
-				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &b\"Guides + More\"&r quest tab if you feel like you're forgetting something."
+				"像这样的信息性任务会在它们解锁的章节中出现.如果你觉得忘记了什么,也可以查看&b\"指南 + 更多\"&r任务标签."
 				""
-				"The quest structure is intended to guide you through all the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing anything crucial."
+				"任务结构旨在引导你完成&a&d格雷科技&f&r进程中的所有主要里程碑.每个任务都应该在某些方面对你&2有益&r——如果某些内容是100%可选的,我们会提到,所以不用担心错过任何关键内容."
 				"{@pagebreak}"
-				"There are no drawbacks to playing this modpack in &dPeaceful&r - in fact, we highly urge you to do so, as there is little benefit from hostile mobs. Feel free to also to use &o/keepInventory&r, &o/sethome&r, and abuse minimap teleport as you see fit."
+				"在这个模组包中以&d和平&r模式游玩没有任何缺点——事实上,我们强烈建议你这样做,因为敌对生物几乎没有好处.你可以随意使用&o/keepInventory&r、&o/sethome&r,并根据需要滥用小地图传送."
 				""
-				"Although we won't force these settings onto you, we &4don't&r intend for this modpack to provide a punishing &eSurvival&r experience, but more so help you learn the ins and outs of &aGregTech CEu&r."
+				"虽然我们不会强制这些设置,但我们&4不&r打算让这个模组包提供惩罚性的&e生存&r体验,而是更多地帮助你学习&a&d格雷科技&f CEu&r的方方面面."
 				"{@pagebreak}"
-				"Lastly, it's good to be &lsavvy&r with &eJEI.&r &aGregTech&r items will frequently have several recipes, so you should never assume the first recipe &eJEI&r displays is the most efficient. \"Professional\" &eJEI&r usage involves the &bidentification of patterns&r in autogenerated recipes (example: all the Iron related items &6macerate&r into Iron Dust)."
+				"最后,对&eJEI&r保持&l精明&r是很好的.&a&d格雷科技&f&r物品通常有多个配方,所以你不应该假设&eJEI&r显示的第一个配方是最有效的.\"专业\" &eJEI&r使用涉及在自动生成的配方中&b识别模式&r(例如:所有与铁相关的物品&e粉碎&r成&a铁粉&f)."
 				""
-				"When complex recipes arise - and we won't sugarcoat, &aGTCEu&r can be intimidating - we'll make sure to direct you towards the more &5efficient routes&r. However, we urge you to experiment on your own. It's no fun to follow the quest book by rote, right?"
+				"当复杂的配方出现时——我们不会掩饰,&aGTCEu&r可能会让人望而生畏——我们会确保引导你走向更&5高效的路线&r.然而,我们鼓励你自己进行实验.一味地遵循任务书并不是很有趣,对吧？"
 			]
 			icon: "ftbquests:book"
 			id: "13E9DF7E980CFC5B"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "Read this, and read it again!"
-			tasks: [{
-				id: "04CC2E592A648F06"
-				title: "I have read this page multiple times"
-				type: "checkmark"
-			}]
-			title: "Important Information"
+			subtitle: "读这个,再读一遍!"
+			tasks: [
+				{
+					id: "04CC2E592A648F06"
+					title: "我已经多次阅读了这一页"
+					type: "checkmark"
+				}
+			]
+			title: "重要信息"
 			x: -2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"Crafting can quickly get &etiresome&r. How about making use of your &2new saw&r to make this Crafting table?"
+				"制作可能会很快变得&e乏味&r.何不利用你的&2新锯&r来制作这个工作台呢？"
 				""
-				"It allows you to craft from adjacent inventories, making classic &aGregTech&r microcrafting so much less &4tedious&r."
+				"它允许你从相邻的物品栏中进行合成,使得经典的&a&d格雷科技&f&r微型合成变得不那么&4繁琐&r."
 				""
-				"Saw the table again for a lower-profile Slab version."
+				"再次用锯子切割工作台以获得更低轮廓的台阶版本."
 			]
 			icon: "craftingstation:crafting_station"
 			id: "411AB552514EA14C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "No, Tinkers' is not in this modpack"
-			tasks: [{
-				id: "30D40010C8E6E115"
-				item: "craftingstation:crafting_station"
-				type: "item"
-			}]
-			title: "Crafting Station"
+			subtitle: "不,这不是匠魂模组包"
+			tasks: [
+				{
+					id: "30D40010C8E6E115"
+					item: "craftingstation:crafting_station"
+					type: "item"
+				}
+			]
+			title: "工作台"
 			x: 3.75d
 			y: -4.5d
 		}
 		{
 			description: [
-				"New to this updated pack is a &dGuides + More&r section. The information inside is available to view at any time, but whenever it becomes relevant, you will be &6directed towards it&r for some light reading."
+				"这个更新包新增了一个&d指南 + 更多&r部分.&a信息&f可以在任何时间查看,但每当它变得相关时,你将被&e引导到它&r进行一些轻松阅读."
 				""
-				"The information found inside may interest you if you would like &amore of an insight&r into some of &bGTCEu's mechanics&r - and in some cases, is absolutely indispensable."
+				"如果你希望对&bGTCEu的机制&r有更多&a深入了解&r,你可能会对里面的&a信息&f感兴趣——在某些情况下,它是绝对不可或缺的."
 				""
-				"Quests that unlock a tutorial node will have an &6orange-ish descriptor&r at the bottom of the quest description."
+				"解锁教程节点的任务将在任务描述的底部有一个&e橙色描述&r."
 				""
-				"Get reading!"
+				"开始阅读吧!"
 			]
 			icon: "minecraft:lectern"
 			id: "008ABF78E56209F7"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "Tips and tricks to help you prosper"
-			tasks: [{
-				id: "382566FB9E8CFE29"
-				title: "Alright, I get it, I get it"
-				type: "checkmark"
-			}]
-			title: "Tutorialised"
+			subtitle: "帮助你成功的技巧和窍门"
+			tasks: [
+				{
+					id: "382566FB9E8CFE29"
+					title: "好吧,我明白了,我明白了"
+					type: "checkmark"
+				}
+			]
+			title: "教程化"
 			x: -0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Rubber Trees can be found in &aForest&r, &2Jungle&r or &aSwamp&r biomes."
+				"&a橡胶树&f可以在&a森林&r、&2丛林&r或&a沼泽&r生物群系中找到."
 				""
-				"Breaking Rubber Logs will yield &6Resin,&r which will be important moving forwards."
+				"破坏&a橡胶原木&f会产出&e树脂&r,这将在未来变得重要."
 				""
-				"The logs also offer &duseful resources&r when processed in future."
+				"&a原木&f在将来加工时也会提供&d有用的资源&r."
 			]
 			id: "5193DD03C0742548"
-			rewards: [{
-				id: "4D70B6467A188FDD"
-				item: "gtceu:sticky_resin"
-				random_bonus: 3
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4D70B6467A188FDD"
+					item: "gtceu:sticky_resin"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "No, this isn't IC2"
-			tasks: [{
-				count: 8L
-				id: "76851CD51E99CA38"
-				item: "gtceu:rubber_sapling"
-				type: "item"
-			}]
-			title: "Gettin' Shaded under a Rubber Tree"
+			subtitle: "不,这不是IC2"
+			tasks: [
+				{
+					count: 8L
+					id: "76851CD51E99CA38"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+			]
+			title: "在&a橡胶树&f下乘凉"
 			x: 0.75d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Think this pack is &atoo easy&r? Wanting some unique experiences to sink your teeth into?"
+				"觉得这个整合包&a太简单&r了？想要一些独特的体验来深入探索吗？"
 				""
-				"We've gathered some GTCEu Modern-flavored recommendations in this quest."
+				"我们在这个任务中收集了一些带有GTCEu Modern风格的推荐."
 				"{@pagebreak}"
-				"&lCosmic Frontiers"
-				"- &7Ghostipedia et al."
+				"&l宇宙前沿"
+				"- &7Ghostipedia 等人"
 				""
-				"&dCosmic Frontiers&r is a 1.20.1 modpack with gameplay &ba little more difficult&r than this pack, and a focus on interactions between many mods and GTCEu Modern. You'll explore the stars above and travel to the depths below, all whilst tackling &eintricately woven&r progression that ties together the &7mechanical&r and the &5arcane&r."
+				"&d宇宙前沿&r是一个1.20.1的模组包,游戏难度&a比这个包稍高&r,专注于多个模组与GTCEu Modern的互动.你将探索星空之上,穿越地底深处,同时应对&e错综复杂的&r进度,将&7机械&r与&5神秘&r紧密结合."
 				""
-				"In its current state, the pack is considered to be in &2early alpha&r. However, progress has been curated through &3LuV&r. It's an experience like no other!"
+				"目前,该包被认为是&2早期alpha&r阶段.然而,进度已经通过&3LuV&r精心策划.这是一种独一无二的体验!"
 				"{@pagebreak}"
-				"&lAll the Mods: Gravitas 2"
-				"- &7ATMTeam"
+				"§lAll the Mods: Gravitas 2"
+				"- §7ATMTeam"
 				""
-				"Starting from &6primitive stone age technology&r, hand-knapping your tools and foraging for food, you'll need to progress through the ages covering many &bclassic and new&r mods. This is seamlessly complemented by mods such as TerraFirmaCraft, Create New Age, Stargate Journey and &8(obviously)&r GregTech."
+				"从&e原始石器时代技术&r开始,手工制作工具和采集食物,你需要穿越时代,涵盖许多&b经典和新&r模组.这完美地补充了诸如&d群峦传说&f、&a新建&f时代、星际之门之旅和&8(显然)&r &d格雷科技&f等模组."
 				""
-				"You'll find yourself transitioning from a &2primitive beginning&r, smashing rocks together, to smashing atoms together, soon &dpowering your voyages&r to the stars and beyond!"
+				"你会发现自己从&2原始的开始&r,&a破坏&f石头,到&a破坏&f原子,很快&d为你的星际之旅提供动力&r!"
 				"{@pagebreak}"
-				"&lStar Technology"
-				"- &7trulyno"
+				"&l星际科技"
+				"- §7trulyno"
 				""
-				"&6Star Technology&r is a 1.19.2 GregTech &dskyblock modpack&r where you play as a scientist stranded in an &balternate dimension&r after a dimensional travel experiment &4catastrophically fails&r."
+				"&e星际科技&r是一个1.19.2的&d格雷科技&f &d空岛模组包&r,你扮演一名科学家,在一次维度旅行实验&4灾难性失败&r后被困在一个&b平行维度&r中."
 				""
-				"Progression in this pack will take you above and beyond &3UHV&r, with numerous unique &aStargates&r to craft, and even a remixed &o\"Gregified\"&r Mystical Agriculture."
+				"在这个包中的进度将带你超越&3UHV&r,有许多独特的&a星际之门&r可以制作,甚至还有一个重新混合的&o\"Gregified\"&r &d神秘农业&f."
 				""
-				"It's important to note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version BETA 1!"
+				"需要注意的是,该包仍在&e积极开发&r中,但你应该能够在BETA 1版本中实现&o\"经典星际之门\"&r!"
 			]
 			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "63DC162144871509"
 			shape: "circle"
 			size: 0.75d
-			tasks: [{
-				id: "3E3D67B53234AD1A"
-				title: "Whoah, these sound cool."
-				type: "checkmark"
-			}]
-			title: "What Else Can I Play?"
+			tasks: [
+				{
+					id: "3E3D67B53234AD1A"
+					title: "哇,这些听起来很酷."
+					type: "checkmark"
+				}
+			]
+			title: "我还能玩什么？"
 			x: -2.25d
 			y: 0.0d
 		}
 	]
-	subtitle: ["Welcome to &6GTCP&r! Glad to have you here."]
-	title: "Introduction"
+	subtitle: ["欢迎来到&6GTCP&r!很高兴你能来."]
+	title: "介绍"
 }

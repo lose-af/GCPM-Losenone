@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "default"
-	title: "GregTech Community Pack"
+	title: "&d格雷科技&f社区包"
 	version: 13
 }

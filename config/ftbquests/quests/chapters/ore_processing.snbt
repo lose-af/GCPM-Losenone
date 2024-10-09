@@ -11,40 +11,44 @@
 		{
 			dependencies: ["730043448A9ADBB6"]
 			description: [
-				"All good ore processing lines start with a crush, and in your case, you'll want to macerate either your &5Raw Ore&r, or your Ore blocks (if you're using &dSilk Touch&r!)"
+				"所有好的矿石处理线都从粉碎开始,而你,你会想要粉碎你的 &5原矿&r,或者你的矿石块(如果你使用 &d&a精准采集&f&r!)"
 				""
-				"When you can make the large multiblock Miners, your ore yield is almost &aquadrupled&r further, and you won't need to macerate for the first step - the &bLarge Miner&r will output its ores as if they had been macerated."
+				"当你可以制作大型多块采矿机时,你的矿石产量几乎 &a翻倍&r,你不需要进行第一步粉碎 - &b&a大型采矿场&f&r 会输出已经被粉碎的矿石."
 			]
 			icon: "gtceu:lv_macerator"
 			id: "012BF60FBD5D41AC"
 			size: 1.1d
-			subtitle: "Well. You've gotta start somewhere!"
-			tasks: [{
-				id: "037584D32CBC5D8D"
-				title: "I'm feeling pretty crushed right now."
-				type: "checkmark"
-			}]
-			title: "The First Maceration"
+			subtitle: "好吧.你总得从某个地方开始!"
+			tasks: [
+				{
+					id: "037584D32CBC5D8D"
+					title: "我现在感觉被压碎了."
+					type: "checkmark"
+				}
+			]
+			title: "&a冷杉&f 粉碎"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["012BF60FBD5D41AC"]
 			description: [
-				"Nothing special here. Any ores that you don't wash in novelty chemicals simply need to be washed in water with an &dOre Washer&r. You should use Distilled Water, as it cuts the recipe time down by &650%&r. Set up a couple of Distilleries on-site and buffer into an appropriately-sized &aSuper Tank&r."
+				"这里没有什么特别的.任何不需要用新奇化学品清洗的矿石,只需在&d&a洗矿厂&f&r中用水清洗即可.你应该使用&a蒸馏水&f,因为它可以将配方时间缩短&e50%&r.在现场设置几个蒸馏器,并将其缓冲到适当大小的&a超级储罐&r中."
 				""
-				"If you don't care about the byproducts in this section, you can wash the ores in &bregular water&r without a configured circuit to process &225x&r faster, but &4without&r byproducts."
+				"如果你不关心这一部分的副产品,你可以用&b普通水&r清洗矿石,无需配置电路即可加快&25x&r处理速度,但&4没有&r副产品."
 			]
 			icon: "gtceu:distilled_water_bucket"
 			id: "228379C559E390B8"
 			size: 1.1d
-			subtitle: "The \"distinguised\" version of water"
-			tasks: [{
-				id: "2E2ABD36FCFF1CC5"
-				title: "Nah, I'll go with Distilled Water."
-				type: "checkmark"
-			}]
-			title: "Washing with Distilled Water"
+			subtitle: "水的独特版本"
+			tasks: [
+				{
+					id: "2E2ABD36FCFF1CC5"
+					title: "不,我还是选择&a蒸馏水&f."
+					type: "checkmark"
+				}
+			]
+			title: "使用&a蒸馏水&f清洗"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -54,90 +58,96 @@
 				"4353AB0E20601AEC"
 			]
 			description: [
-				"Sodium Persulfate isn't as simple to obtain as Mercury, but you'll probably find yourself making some when crafting Circuit Boards. Set up a &6Chemical Reactor&r/&bElectrolyser&r combo with a Level Emitter attached if you want to keep some in stock, and then you can wash any Crushed Ore with a &aChemical Bath&r."
+				"&a过硫酸钠&f不像水银那样容易获得,但你在制作&a电路板&f时可能会发现自己需要制作一些.如果你想保持库存,可以设置一个&e&a化学反应器&f&r/&b电解&r组合,并附上一个&a存储状态发信器&f,然后你可以用&a&a化学浸洗器&f&r清洗任何&a粉碎矿石&f."
 				"{@pagebreak}"
-				"You'll want to use &3Sodium Persulfate&r when processing:"
+				"处理以下矿石时,你可能会想使用&3&a过硫酸钠&f&r:"
 				""
-				"- Tin Ore"
-				"- Aluminium Ore"
-				"- Cobalt Ore"
-				"- Cobaltite Ore"
-				"- Bauxite Ore"
-				"- Tetrahedrite Ore"
-				"- Pentlandite Ore"
-				"- Sphalerite Ore"
-				"- Stibnite Ore"
-				"- Yellow Limonite Ore"
-				"- Malachite Ore"
-				"- Iron Ore"
+				"- &a锡矿石&f"
+				"- &a铝矿石&f"
+				"- &a钴矿石&f"
+				"- &a辉钴矿矿石&f"
+				"- &a铝土矿石&f"
+				"- 黝铜矿石"
+				"- &a镍黄铁矿矿石&f"
+				"- &a闪锌矿矿石&f"
+				"- &a辉锑矿矿石&f"
+				"- &a黄褐铁矿&f矿石"
+				"- &a孔雀石矿石&f"
+				"- &a铁矿石&f"
 				""
-				"Enjoy your byproducts!"
+				"享受你的副产品吧!"
 			]
 			icon: "gtceu:sodium_persulfate_bucket"
 			id: "5AB202F6C0B34BF3"
 			shape: "rsquare"
-			subtitle: "Sulfium Persodate"
-			tasks: [{
-				id: "04D48CBAD6DA788D"
-				title: "Sodium Persulfate goes hard!"
-				type: "checkmark"
-			}]
-			title: "Washing with Sodium Persulfate"
+			subtitle: "过硫酸钠"
+			tasks: [
+				{
+					id: "04D48CBAD6DA788D"
+					title: "&a过硫酸钠&f 很厉害!"
+					type: "checkmark"
+				}
+			]
+			title: "使用&a过硫酸钠&f清洗"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["012BF60FBD5D41AC"]
 			description: [
-				"Washing ores with Mercury where applicable instead of &3Distilled Water&r grants unique byproducts that may be difficult to obtain in other circumstances. It's usually worth doing this, as Mercury is readily available from centrifuging &cRedstone&r or &4Cinnabar&r (and in fact, Mercury is the &lonly&r real usage of Cinnabar!)"
+				"在适用的情况下,用水银清洗矿石而不是&3&a蒸馏水&f&r可以获得独特的副产品,这些副产品在其他情况下可能难以获得.通常值得这样做,因为水银可以通过离心&c红石&r或&4朱砂&r获得(事实上,水银是朱砂的&l唯一&r真正用途!)"
 				""
-				"Simply wash any &6Crushed Ore&r with a Chemical Bath."
+				"只需用&a化学浸洗器&f清洗任何&e&a粉碎矿石&f&r."
 				"{@pagebreak}"
-				"Here is a non-exhaustive list of ores you likely want to wash in Mercury:"
+				"以下是一些你可能想用水银清洗的矿石的非详尽列表:"
 				""
-				"- Galena Ore"
-				"- Tungstate Ore"
-				"- Silver Ore"
-				"- Bornite Ore"
-				"- Magnetite Ore"
-				"- Copper Ore"
-				"- Gold Ore"
-				"- Nickel Ore"
-				"- Platinum Ore"
-				"- Chalcopyrite Ore"
-				"- Sheldonite Ore"
+				"- &a方铅矿矿石&f"
+				"- 钨锰矿石"
+				"- &a银矿石&f"
+				"- 斑铜矿石"
+				"- &a磁铁矿矿石&f"
+				"- &a铜矿石&f"
+				"- &a金矿石&f"
+				"- &a镍矿石&f"
+				"- &a铂矿石&f"
+				"- 黄铜矿石"
+				"- &a铂矿石&f"
 				""
-				"These alternate \"&bwashing routes&r\" will increase your Gold, Silver, and Platinum Group yields significantly!"
+				"这些替代的\"&b清洗路线&r\"将显著增加你的金、银和铂族矿石的产量!"
 			]
 			icon: "gtceu:mercury_bucket"
 			id: "2E0777FBD0476D75"
 			shape: "rsquare"
-			subtitle: "Bathing with Venus"
-			tasks: [{
-				id: "6508774C6A27D5D9"
-				title: "Showering with Jupiter"
-				type: "checkmark"
-			}]
-			title: "Washing with Mercury"
+			subtitle: "与维纳斯共浴"
+			tasks: [
+				{
+					id: "6508774C6A27D5D9"
+					title: "用木星洗澡"
+					type: "checkmark"
+				}
+			]
+			title: "使用水银清洗"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["478A7F7565AFC8A8"]
 			description: [
-				"The default way to deal with ores at this step is usually with the &eThermal Centrifuge&r for its &bexclusive byproduct&r, but check around the above quest to make sure you're not missing something important."
+				"在这一步处理矿石的默认方法通常是使用&e&a热力离心机&f&r,因为它有&b独特的副产品&r,但在进行上述任务时,请确保你没有遗漏任何重要的事情."
 				""
-				"&9Al&rle&4z!"
+				"§9Al§rle§4z!"
 			]
 			icon: "gtceu:lv_thermal_centrifuge"
 			id: "3C36AA80FE51DA45"
-			subtitle: "This isn't Thermal Expansion..."
-			tasks: [{
-				id: "77457ABAEFF7707B"
-				title: "That's hot."
-				type: "checkmark"
-			}]
-			title: "Thermal Centrifuge"
+			subtitle: "这不是&a热力膨胀&f..."
+			tasks: [
+				{
+					id: "77457ABAEFF7707B"
+					title: "那很热."
+					type: "checkmark"
+				}
+			]
+			title: "&a热力离心机&f"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -147,17 +157,19 @@
 				"228379C559E390B8"
 				"2E0777FBD0476D75"
 			]
-			description: ["From now onwards, you'll be sending &ball of your ores&r towards &6all kinds of places&r, depending on how far you are through your playthrough. Quests will unlock around this node when you &aunlock the ability&r to deal with them, so check back occasionally if you're feeling bored."]
+			description: ["从现在开始,你将把&ball of your ores&r发送到&e各种地方&r,这取决于你在游戏中的进展.当你&a解锁处理它们的能力&r时,任务将围绕这个节点解锁,所以如果你感到无聊,可以偶尔回来看看."]
 			icon: "gtceu:purified_gold_ore"
 			id: "478A7F7565AFC8A8"
 			size: 1.1d
-			subtitle: "Started from the Raw Ore, now we here"
-			tasks: [{
-				id: "6A094CE2872E8DA3"
-				title: "Alright, I've read this!"
-				type: "checkmark"
-			}]
-			title: "We've got some Purified Ore - what's next?"
+			subtitle: "从原始矿石开始,现在我们在这里"
+			tasks: [
+				{
+					id: "6A094CE2872E8DA3"
+					title: "好吧,我已经读完了!"
+					type: "checkmark"
+				}
+			]
+			title: "我们有一些&a纯化&f矿石 - 接下来呢？"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -168,20 +180,22 @@
 				"517B6A6E04F4E4C8"
 			]
 			description: [
-				"From now? That's the basics of an &5ore processing setup&r. You can check your filters, make more machines, and generally improve efficiency, but if you've &6loosely&r followed everything on this page, you should be in &bgood stead&r!"
+				"从现在开始？这就是&5矿石处理设置&r的基础.你可以检查你的过滤器,制作更多的机器,并提高效率,但如果你&eloosely&r遵循了本页上的所有内容,你应该会处于&b良好的状态&r!"
 				""
-				"&m&7Hopefully, some information here was of use.&r"
+				"&m&7希望这里的一些信息对你有用.&r"
 			]
 			icon: "gtceu:gold_dust"
 			id: "797EB7DF0C07F327"
 			size: 1.1d
-			subtitle: "That wasn't so bad, now."
-			tasks: [{
-				id: "554BFDB6C8AB1132"
-				title: "Yay! That was really, really fun."
-				type: "checkmark"
-			}]
-			title: "We did it! Now what?"
+			subtitle: "那并不难,现在."
+			tasks: [
+				{
+					id: "554BFDB6C8AB1132"
+					title: "耶!那真的很有趣."
+					type: "checkmark"
+				}
+			]
+			title: "我们做到了!现在呢？"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -191,74 +205,82 @@
 				"390E59F05132FCB8"
 			]
 			description: [
-				"Some Gem ores - namely &cRuby&r, &9Sapphire&r, and &2Green Sapphire&r - can be mixed with Aqua Regia in their crushed form to obtain Slurry."
+				"某些宝石矿石 - 即 &c红宝石&r、&9蓝宝石&r 和 &2&a绿色蓝宝石&f&r - 可以在粉碎形式下与 &a王水&f 混合以获得浆液."
 				""
-				"When electrolysed, the Slurry has some interesting byproducts. Namely, it's one of the few ways to obtain &dTitanium Dust&r without macerating Titanium ingots!"
+				"当电解时,浆液会产生一些有趣的副产品.具体来说,这是少数几种无需研磨钛锭即可获得 &d&a钛粉&f&r 的方法之一!"
 			]
 			icon: "gtceu:ruby_slurry_bucket"
 			id: "3D9E045B8D3F2B85"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Not quite like Mekanism"
-			tasks: [{
-				id: "412357F4B4B8FB48"
-				title: "Hurry hurry, slurry."
-				type: "checkmark"
-			}]
-			title: "Slurry Processing"
+			subtitle: "不完全像 &d通用机械&f"
+			tasks: [
+				{
+					id: "412357F4B4B8FB48"
+					title: "快点快点,泥浆."
+					type: "checkmark"
+				}
+			]
+			title: "浆液处理"
 			x: 1.7938775510203726d
 			y: 0.019897959183666103d
 		}
 		{
 			dependencies: ["797EB7DF0C07F327"]
-			description: ["Some dusts in &bGregTech&r have little use other than to be processed in an &3Electrolyser&r for some nice bonus chemical outputs. You can either set a manual filter for the desired items in a &aStorage Bus&r, or provide the most vital dusts via ME Interface, for example."]
+			description: ["在 &b&d格雷科技&f&r 中,某些粉末除了在 &3电解机&r 中处理以获得一些不错的化学副产品外,几乎没有其他用途.你可以手动设置 &a&a存储总线&f&r 的过滤器以获取所需物品,或者通过 &aME接口&f 提供最关键的粉末,例如."]
 			icon: "gtceu:lv_electrolyzer"
 			id: "3B72CFB9F466DD76"
-			subtitle: "We don't need THIS much Cobaltite, right?"
-			tasks: [{
-				id: "1C9515F37AD27BA9"
-				title: "Every last drop counts."
-				type: "checkmark"
-			}]
-			title: "Electrolyse what's left!"
+			subtitle: "我们不需要这么多钴铁矿,对吧？"
+			tasks: [
+				{
+					id: "1C9515F37AD27BA9"
+					title: "每一滴都很重要."
+					type: "checkmark"
+				}
+			]
+			title: "电解剩余物!"
 			x: -1.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["797EB7DF0C07F327"]
 			description: [
-				"Some stages listed on this page output Small/Tiny Dusts, or Nuggets. These have little use in such a form, so it's never a bad idea to route these into a &dPacker&r to \"&7compress&r\" them into their full forms."
+				"本页列出的一些阶段会输出小撮粉末或小撮粉末.这些形式几乎没有用途,因此将它们路由到 &d打包机&r 以 \"&7压缩&r\" 成完整形式永远不会是个坏主意."
 				""
-				"If you're having problems with the Packer filling up with too few Nuggets and clogging your buffer, then you may want to consider using a &6GregTech Robot Arm&r set to \"Supply Exact\". Send your Nuggets in 9 at a time, and you can consider this a problem solved!"
+				"如果你遇到打包机因小撮粉末太少而堵塞缓冲区的问题,那么你可能需要考虑使用 &e&d格雷科技&f &a机械臂&f&r 设置为 \"&a精确补给&f\".每次发送9个小撮粉末,你就可以认为这个问题解决了!"
 			]
 			icon: "gtceu:lv_packer"
 			id: "433BE663989445B9"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "With our powers combined..."
-			tasks: [{
-				id: "7433795785B315B3"
-				title: "Call me Amazon delivery driver the way I be packaging"
-				type: "checkmark"
-			}]
-			title: "Do we need to package?"
+			subtitle: "&a万物归一……&f"
+			tasks: [
+				{
+					id: "7433795785B315B3"
+					title: "叫我亚马逊快递员,我打包的方式"
+					type: "checkmark"
+				}
+			]
+			title: "我们需要打包吗？"
 			x: 0.8891156462584675d
 			y: 9.970918367346947d
 		}
 		{
 			dependencies: ["478A7F7565AFC8A8"]
-			description: ["Gemstones deserve to be sifted. In &2earlier stages&r of the game, this is slow and has poor yields, but when overclocked, sifting quickly becomes a great way to &dmaximise&r your gemstone yield."]
+			description: ["宝石值得被筛选.在游戏的 &2早期阶段&r,这很慢且产量低,但当超频时,筛选很快就会成为最大化宝石产量的好方法."]
 			icon: "gtceu:lv_sifter"
 			id: "1069BF4C1771A4F6"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Great Grey Wolf Sif-ting"
-			tasks: [{
-				id: "28C312E791DF4125"
-				title: "Sifting through so much rubbish..."
-				type: "checkmark"
-			}]
-			title: "Sifting"
+			subtitle: "伟大的 &a灰色狼&f 筛选"
+			tasks: [
+				{
+					id: "28C312E791DF4125"
+					title: "筛选这么多垃圾……"
+					type: "checkmark"
+				}
+			]
+			title: "筛选"
 			x: 1.5d
 			y: 5.5d
 		}
@@ -268,21 +290,23 @@
 				"0F192D1F44B9B599"
 			]
 			description: [
-				"As mentioned in the main sections of this quest book, this &5Indium setup&r has a limited lifetime, so don't stress over optimising every last detail."
+				"如本任务书主要部分所述,这个 &5铟设置&r 有有限的寿命,所以不要过于优化每一个细节."
 				""
-				"Simply mix &dPurified Galena&r and &eSphalerite&r together with some &aSulfuric Acid&r to obtain &9Indium Concentrate&r, then combine with Aluminium Dust in a Chemical Reactor for your prize!"
+				"只需将 &d&a纯化&f方铅矿&r 和 &e闪锌矿&r 与一些 &a&a硫酸&f&r 混合,以获得 &9&a铟富集溶液&f&r,然后在 &a化学反应器&f 中与 &a铝粉&f 结合以获得你的奖品!"
 			]
 			icon: "gtceu:indium_dust"
 			id: "38D1336DC84E03FE"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Getting your first Indium has never been so fun."
-			tasks: [{
-				id: "22926D3453E03389"
-				title: "I won't get too attached to my Indium setup."
-				type: "checkmark"
-			}]
-			title: "Indium Processing"
+			subtitle: "获得你的第一个铟从未如此有趣."
+			tasks: [
+				{
+					id: "22926D3453E03389"
+					title: "我不会对我的铟设置太过依赖."
+					type: "checkmark"
+				}
+			]
+			title: "铟处理"
 			x: 2.011564625850305d
 			y: 4.01173469387755d
 		}
@@ -292,193 +316,209 @@
 				"57D4E09A9CAB150C"
 			]
 			description: [
-				"You'll want to send off the following ores to &aPlatinum Group Processing&r:"
+				"你将需要将以下矿石发送至 &a铂族处理&r:"
 				""
-				"- Purified Chalcopyrite Ore"
-				"- Purified Tetrahedrite Ore"
-				"- Purified Chalcocite Ore"
-				"- Purified Bornite Ore"
-				"- Purified Sheldonite Ore"
-				"- Purified Pentlandite Ore"
+				"- &a纯化&f黄铜矿石"
+				"- &a纯化&f黝铜矿石"
+				"- &a纯化&f辉铜矿石"
+				"- &a纯化&f斑铜矿石"
+				"- &a纯化&f&a铂矿石&f"
+				"- &a纯化&f&a镍黄铁矿矿石&f"
 				""
-				"Treat these ores with &eNitric Acid&r to receive your &5Platinum Group sludge&r, alongside a Sulfuric byproduct fluid. What you do with these &boutputs&r... is up to you to figure out!"
+				"用 &e&a硝酸&f&r 处理这些矿石以获得你的 &5铂族淤泥&r,以及硫酸副产品流体.你如何处理这些 &b输出&r... 取决于你自己去弄清楚!"
 				""
-				"&8(Hint: It's in the EV chapter.)"
+				"§8(提示:在EV章节中.)"
 			]
 			icon: "gtceu:platinum_group_sludge_dust"
 			id: "427E6091713399FE"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Quite the rabbit hole to jump down..."
-			tasks: [{
-				id: "2AA030AFC90A1E7B"
-				title: "The Entire Platline In 50 Hours"
-				type: "checkmark"
-			}]
-			title: "Platinum Group Processing"
+			subtitle: "这是一个相当深的兔子洞……"
+			tasks: [
+				{
+					id: "2AA030AFC90A1E7B"
+					title: "&a树精&f在50小时内完成Platline"
+					type: "checkmark"
+				}
+			]
+			title: "铂族处理"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["478A7F7565AFC8A8"]
 			description: [
-				"The Electromagnetic Separator is an interesting machine that skips &6two processing stages&r, but usually returns &2unique&r byproducts that aren't usually too simple to obtain. You'll need to process down pure dusts to use this - so &bmake sure&r you route any desired ores correctly."
+				"&a电磁选矿机&f 是一个有趣的机器,它跳过了 &e两个处理阶段&r,但通常会返回 &2独特&r 的副产品,这些副产品通常不太容易获得.你需要处理纯粉末才能使用它 - 所以 &b确保&r 你正确路由任何所需的矿石."
 				"{@pagebreak}"
-				"You may &bappreciate&r performing this stage of processing on the following ores:"
+				"你可能会 &b欣赏&r 对以下矿石进行此阶段的处理:"
 				""
-				"- Bastnasite Ore (This is particularly strong for Neodymium!)"
-				"- Naquadah Ore (The Enriched Naquadah byproduct is very powerful!)"
-				"- Nickel Ore"
-				"- Tin Ore"
-				"- Goethite Ore"
-				"- Hematite Ore"
-				"- Chromite Ore"
-				"- Ilmenite Ore"
-				"- Pyrite Ore"
-				"- Yellow Limonite Ore"
-				"- Glauconite Sand Ore"
-				"- Magnetite Ore"
-				"- Vanadium Magnetite Ore"
-				"- Granitic Mineral Sand Ore"
-				"- Basaltic Mineral Sand Ore"
+				"- 氟碳铈矿石(这对铷特别有效!)"
+				"- &a硅岩矿石&f(&a富集硅岩&f 副产品非常强大!)"
+				"- &a镍矿石&f"
+				"- &a锡矿石&f"
+				"- 针铁矿石"
+				"- &a赤铁矿石&f"
+				"- &a铬矿石&f"
+				"- &a钛铁矿矿石&f"
+				"- &a黄铁矿矿石&f"
+				"- &a黄褐铁矿&f 矿石"
+				"- &a海绿石矿砂&f 矿石"
+				"- &a磁铁矿矿石&f"
+				"- &a钒磁铁矿&f 矿石"
+				"- &a花岗岩矿砂&f 矿石"
+				"- &a玄武岩矿砂&f 矿石"
 			]
 			icon: "gtceu:lv_electromagnetic_separator"
 			id: "46B3BB368D86D931"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Maximising Naquadah"
-			tasks: [{
-				id: "089637EE7F1154FF"
-				title: "I'm harnessing the power of magnetism!"
-				type: "checkmark"
-			}]
-			title: "Electromagnetic Separator"
+			subtitle: "最大化Naquadah"
+			tasks: [
+				{
+					id: "089637EE7F1154FF"
+					title: "我正在利用磁力的力量!"
+					type: "checkmark"
+				}
+			]
+			title: "&a电磁选矿机&f"
 			x: -1.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"Hello! You're probably looking to set up &abasic ore processing&r. This quest line will try to guide you through the necessary motions. As always, it's &6important&r to make the disclaimer that this isn't the only &o\"meta\"&r way to process your ores - a strong ore processing facility will treat each ore depending on the demands of your &bGregTech&r factory. We emphasise that you shouldn't take this guide as gospel."
+				"你好!你可能正在寻找设置 &abasic ore processing&r 的方法.这条任务线将尝试引导你完成必要的步骤.一如既往,&e重要&r的是要声明这不是处理矿石的唯一 &o\"meta\"&r 方式——一个强大的矿石处理设施会根据你的 &b&d格雷科技&f&r 工厂的需求来处理每种矿石.我们强调你不应该将本指南视为绝对真理."
 				""
-				"Ready to get &2into the weeds&r?"
+				"准备好 &2深入细节&r 了吗？"
 			]
 			icon: "gtceu:gold_ore"
 			id: "730043448A9ADBB6"
 			shape: "square"
 			size: 1.3d
-			subtitle: "From one Ore, a great many dusts shall flow..."
-			tasks: [{
-				id: "23C471A620644954"
-				title: "One small step for Ore..."
-				type: "checkmark"
-			}]
-			title: "Start here!"
+			subtitle: "从一种矿石,将流出许多粉末……"
+			tasks: [
+				{
+					id: "23C471A620644954"
+					title: "矿石的一小步……"
+					type: "checkmark"
+				}
+			]
+			title: "从这里开始!"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1069BF4C1771A4F6"]
-			description: ["A side product of sifting is the production of &dpure dusts&r. These shouldn't be sent back to your main storage, because they can't be used in recipes... and &3centrifuging&r them will give you a sweet, sweet extra byproduct."]
+			description: ["筛选的副产品是 &d纯粉末&r.这些不应该送回你的主存储,因为它们不能用于配方……而 &3离心&r 它们会给你带来甜蜜的额外副产品."]
 			icon: "gtceu:lv_centrifuge"
 			id: "517B6A6E04F4E4C8"
 			shape: "rsquare"
 			size: 0.9d
-			subtitle: "Fear not! We have our solution!"
-			tasks: [{
-				id: "7F9EF449A760D102"
-				title: "Never mind, it's not as bad as I thought."
-				type: "checkmark"
-			}]
-			title: "Oh no! Pure dust?!"
+			subtitle: "别担心!我们有解决方案!"
+			tasks: [
+				{
+					id: "7F9EF449A760D102"
+					title: "没关系,没我想的那么糟."
+					type: "checkmark"
+				}
+			]
+			title: "哦不!纯粉末？!"
 			x: 1.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["730043448A9ADBB6"]
-			description: ["Multiple &don-tier machines&r are never a bad idea, but you should definitely consider using the Large multiblock variants of the singleblock machines from &aGregicality Multiblocks&r. They're significantly easier to upgrade as you progress through the later tiers of the mod (would you rather make a &616A LuV Energy Hatch&r, or &b16 LuV Macerators&r?!), and plus... they look rad as hell."]
+			description: ["多个 &don-tier machines&r 从来都不是坏主意,但你绝对应该考虑使用 &aGregicality Multiblocks&r 中的大型多方块机器.随着你在模组后期阶段的进展,它们显著更容易升级(你宁愿制作 &e16A LuV 能量输入仓&r,还是 &b16 个 LuV 粉碎机&r？!),而且……它们看起来酷毙了."]
 			icon: "gtceu:large_maceration_tower"
 			id: "42F91220B6FA66FC"
-			tasks: [{
-				id: "7C4D7E44B6CDFBAC"
-				type: "checkmark"
-			}]
-			title: "How would I boost my processing power?"
+			tasks: [
+				{
+					id: "7C4D7E44B6CDFBAC"
+					type: "checkmark"
+				}
+			]
+			title: "我该如何提升处理能力？"
 			x: 1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["730043448A9ADBB6"]
-			description: ["Whilst the majority (if not all) of the listed steps can be automated using GregTech alone, savvy players may wish to use AE2 for all their logistics needs. Here, we'll cover some methods you may not be aware of to help you elevate your Ore Processing to the next level."]
+			description: ["虽然列出的大多数(如果不是全部)步骤都可以仅使用 &d格雷科技&f 自动化,但精明的玩家可能希望使用 AE2 来满足所有物流需求.在这里,我们将介绍一些你可能不知道的方法,帮助你将 &a矿物处理&f 提升到一个新的水平."]
 			icon: "ae2:controller"
 			id: "3CCD98E7139BA564"
-			subtitle: "Let's look at what AE2 can do for you!"
-			tasks: [{
-				id: "67AB1263C1AA0EB2"
-				title: "Yes, I understand!"
-				type: "checkmark"
-			}]
-			title: "Applied Energistics 2"
+			subtitle: "让我们看看 AE2 能为你做什么!"
+			tasks: [
+				{
+					id: "67AB1263C1AA0EB2"
+					title: "是的,我明白了!"
+					type: "checkmark"
+				}
+			]
+			title: "&d应用能源2&f"
 			x: -1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3CCD98E7139BA564"]
 			description: [
-				"The &3ME Tag Storage Bus&r is crucial to send tagged items to a desired destination. It does what it says in the tin - simply set its filter by clicking on it, then any items that enter your AE2 network that &ematch the programmed Item Tag&r will be sent to the inventory attached to the Bus."
+				"&3ME 标签 &a存储总线&f&r 是至关重要的,它可以将标记的物品发送到所需的目的地.它如其名——只需点击它来设置过滤器,然后任何进入你的 AE2 网络的 &ematch the programmed Item Tag&r 的物品都会被发送到连接到总线的库存中."
 				""
-				"This can be particularly useful in the event that you wish to use a &afiltered subnet&r to process ore."
+				"这在希望使用 &afiltered subnet&r 处理矿石时特别有用."
 				""
-				"Remember to set a &5high priority&r if you want to prioritise Ore Processing!"
+				"记得设置 &5高优先级&r 如果你想优先 &a矿物处理&f!"
 			]
 			id: "23B078514FB4A215"
 			shape: "rsquare"
 			size: 0.75d
-			subtitle: "Casting a Wider Net"
-			tasks: [{
-				id: "4CEE717792412E0C"
-				item: "expatternprovider:tag_storage_bus"
-				type: "item"
-			}]
-			title: "Tag - You're It!"
+			subtitle: "撒下更广的网"
+			tasks: [
+				{
+					id: "4CEE717792412E0C"
+					item: "expatternprovider:tag_storage_bus"
+					type: "item"
+				}
+			]
+			title: "标记 - 轮到你了!"
 			x: -1.5198979591836874d
 			y: -2.8428571428571487d
 		}
 		{
 			dependencies: ["3CCD98E7139BA564"]
 			description: [
-				"One could define a Subnetwork (or \"Subnet\" for short) as any network that isn't part of your main network."
+				"可以将子网(或简称\"子网\")定义为任何不属于您主网络的网络."
 				""
-				"The simplest way to create a Subnet is by attaching an ME Interface to a Storage Bus. This means that the Storage Bus will treat the Interface as an inventory to be read from - i.e., it'll be able to see all of the items in the network connected to the Interface."
+				"&a简易&ft 创建子网的方法是通过将 &aME接口&f 连接到 &a存储总线&f.这意味着 &a存储总线&f 会将接口视为要读取的物品栏 - 即,它将能够看到连接到接口的网络中的所有物品."
 				""
-				"As your main network will not be transferred through the Storage Bus, you'll need to give your subnet power from the main network with Quartz Fibre. Ensure that you don't accidentally connect the two networks with regular cabling."
+				"由于主网络不会通过 &a存储总线&f 传输,您需要使用石英纤维从主网络为子网供电.确保不要意外使用常规电缆将两个网络连接起来."
 				"{@pagebreak}"
-				"Question is - how does this benefit you as a player? The logistics powers made available with subnetworking are immense, so we'll cover a few examples in light detail. The rest is left as an exercise to the reader!"
+				"问题是 - 这对您作为玩家有什么好处？子网提供的物流能力非常强大,因此我们将简要介绍几个示例.其余部分留给读者作为练习!"
 				""
-				"- A subnet for your ore processing system, which automatically handles all the intermediate byproducts without them constantly entering and exiting your main network!"
-				"- Really, it's useful to subnet larger processing chains such as Platinum processing. This way, you can ensure that byproducts can be appropriately recycled, and reduce overhead."
+				"- 用于矿石处理系统的子网,自动处理所有中间副产品,而不会不断进出您的主网络!"
+				"- 实际上,将较大的处理链(如铂金处理)子网化非常有用.这样,您可以确保副产品可以适当回收,并减少开销."
 				""
 				""
 				"{@pagebreak}"
-				"Subnets can be infinitely nested, but as ever in modded Minecraft, this should be performed in moderation (or even better, avoided), as many levels of nesting can cause performance issues when calculating the network."
+				"子网可以无限嵌套,但在模组化Minecraft中,这应该适度进行(或者更好的是,避免),因为多层嵌套在计算网络时可能会导致性能问题."
 				""
-				"Oh... and if you've re-enabled Channels in this pack, subnetworks only consume a single channel from your main network. What a bargain!"
+				"哦... 如果您在这个包中重新启用了频道,子网只会从您的主网络消耗一个频道.真是划算!"
 			]
 			icon: "ae2:storage_bus"
 			id: "1CB9A26C3296858E"
 			shape: "rsquare"
 			size: 0.75d
-			subtitle: "Socially Distanced Network"
-			tasks: [{
-				id: "24ECAB4EA2E82FE7"
-				title: "Sounds great to me."
-				type: "checkmark"
-			}]
-			title: "Subnets 101"
+			subtitle: "社交距离网络"
+			tasks: [
+				{
+					id: "24ECAB4EA2E82FE7"
+					title: "听起来不错."
+					type: "checkmark"
+				}
+			]
+			title: "子网101"
 			x: -1.5d
 			y: -1.125d
 		}
 	]
-	subtitle: ["How to extract as much as possible..."]
-	title: "Ore Processing"
+	subtitle: ["如何尽可能多地提取..."]
+	title: "矿石处理"
 }

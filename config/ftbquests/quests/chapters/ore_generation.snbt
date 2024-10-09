@@ -52,48 +52,50 @@
 		{
 			dependencies: ["0C690272ED4FB1C3"]
 			description: [
-				"Some of the details are repeated from the introduction quest, but we feel like we needed to expand on the explanation if you want to know all the details!"
+				"一些细节与介绍任务中的重复,但我们觉得如果你想了解所有细节,我们需要扩展解释!"
 				""
-				"Ready for some \"light\" reading?"
+				"准备好一些\"轻松\"阅读了吗？"
 				"{@pagebreak}"
-				"Each vein can contain up to four different ores."
+				"每个矿脉最多可以包含&a四个不同的&f矿石."
 				""
-				"Ore veins generate in a &4Grid&r. Every vein is spaced by 3 chunks from one to another in a cardinal direction."
+				"矿脉在&4网格&r中生成.每个矿脉在主方向上相隔3个区块."
 				""
-				"They spawn at the &4Center&r of the Chunks which have both their X and Z coordinates be at &b1 plus a multiple of 3&r (-8, -5, -2, 1, 4, 7, ...). You will typically find two veins in the selected chunk - one will be in the Stone layer, and the other vein lays deeper in the Deepslate layer."
+				"它们在区块的&4中心&r生成,区块的X和Z坐标均为&b1加上3的倍数&r(-8, -5, -2, 1, 4, 7, ...).你通常会在选定的区块中找到两个矿脉——一个在石头层,另一个在深层岩石层."
 				""
-				"However, Ore veins may be deleted by caves, Oil deposits, or from trying to generate above the ground."
+				"然而,矿脉可能会被洞穴、石油沉积物或试图在地面上生成而删除."
 				"{@pagebreak}"
-				"It's a good practice to make &dWaypoints&r to every vein you find, and to label their type. You may want to come back to it several times."
+				"为每个你找到的矿脉制作&d路径点&r并标记它们的类型是一个好习惯.你可能想多次返回."
 				""
-				"A typical Ore vein is &d7 blocks&r tall, and ores generate in 4 different patterns:"
-				"- The &9Top Ore&r generates in the higher 4 layers of the vein."
-				"- The &9Bottom Ore&r generates in the lower 3 layers of the vein."
-				"- The &9Between Ore&r generates in the middle 3 layers of the vein."
-				"- The &9Sporadic Ore&r generates anywhere in the vein. There will be the least amount of this ore in a vein."
+				"典型的矿脉&d7个方块&r高,矿石以4种不同的模式生成:"
+				"- &9顶部矿石&r在矿脉的上4层生成."
+				"- &9底部矿石&r在矿脉的下3层生成."
+				"- &9中间矿石&r在矿脉的中3层生成."
+				"- &9零散矿石&r在矿脉的任何地方生成.矿脉中这种矿石的数量最少."
 				""
-				"The same ore type can be in 2 different generation patterns, such as in Cassiterite veins."
+				"同一种矿石可以存在于两种不同的生成模式中,例如在锡石矿脉中."
 			]
 			icon: "gtceu:cobalt_ore"
 			id: "41730E340B3D8EDA"
 			shape: "square"
 			size: 1.5d
-			subtitle: "You'll be an expert by the time you finish reading this!"
-			tasks: [{
-				id: "502C58F19FF7DE24"
-				type: "checkmark"
-			}]
-			title: "Ore Generation"
+			subtitle: "读完这篇文章后,你将成为专家!"
+			tasks: [
+				{
+					id: "502C58F19FF7DE24"
+					type: "checkmark"
+				}
+			]
+			title: "&a银矿生成&f"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["A standard Iron vein. It's a good target when you need to replenish your supply."]
+			description: ["标准的铁矿脉.当你需要补充供应时,这是一个很好的目标."]
 			icon: "gtceu:yellow_limonite_ore"
 			id: "692F4312B3F73FAF"
 			size: 0.9d
-			subtitle: "Source of Iron, Copper"
+			subtitle: "来源 &a铁甲&f, 铜"
 			tasks: [
 				{
 					id: "6BF52C2246A0844E"
@@ -116,21 +118,21 @@
 					type: "item"
 				}
 			]
-			title: "Limonite"
+			title: "褐铁矿"
 			x: 1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"This vein is namely one of the few direct sources of Gold in the overworld."
+				"这种矿脉是主世界中少数直接的金来源之一."
 				""
-				"There are many other sources of Gold in GregTech, but you will likely see better yields of Gold if you obtain it by processing other resources."
+				"在&d格雷科技&f中还有许多其他的金来源,但如果你通过处理其他资源来获取金,可能会获得更好的产量."
 			]
 			icon: "gtceu:magnetite_ore"
 			id: "260E516A219825A2"
 			size: 0.9d
-			subtitle: "Source of Iron, Gold, Vanadium"
+			subtitle: "来源 &a铁甲&f, 金, 钒"
 			tasks: [
 				{
 					id: "2814C224F95FA845"
@@ -148,21 +150,21 @@
 					type: "item"
 				}
 			]
-			title: "Magnetite"
+			title: "磁铁矿"
 			x: 2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"An excellent Iron-Copper hybrid vein."
+				"一种优秀的铁-铜混合矿脉."
 				""
-				"Chalcopyrite will play an integral role in the late game, when you're looking to get your hands on some Platinum Group Sludge."
+				"黄铜矿将在后期游戏中发挥重要作用,当你想获取一些&a铂系矿泥&f时."
 			]
 			icon: "gtceu:pyrite_ore"
 			id: "03FBBA4A693011A8"
 			size: 0.9d
-			subtitle: "Source of Copper, Iron"
+			subtitle: "铜, 铁的来源"
 			tasks: [
 				{
 					id: "21D9BE0CDF8D20D0"
@@ -185,21 +187,21 @@
 					type: "item"
 				}
 			]
-			title: "Pyrite"
+			title: "黄铁矿"
 			x: 3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much."
+				"早期游戏的一个好矿脉.铜和锡可以制作青铜,雄黄是你的第一个砷来源,沸石则...没什么用."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o As GregTech used to auto-generate its recipes, Zeolite used to electrolyze in batches of 141 dust at a time. Whoops!"
+				"&l&3传说:&r&o 由于&d格雷科技&f曾经自动生成其配方,沸石曾经一次电解141份粉末.哎呀!"
 			]
 			icon: "gtceu:chalcopyrite_ore"
 			id: "4826DCD2FC457EA5"
 			size: 0.9d
-			subtitle: "Source of Copper, Tin"
+			subtitle: "铜, 锡的来源"
 			tasks: [
 				{
 					id: "21B8E250B773443C"
@@ -222,17 +224,17 @@
 					type: "item"
 				}
 			]
-			title: "Chalcopyrite"
+			title: "黄铜矿"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["A pure, very rich Tin vein - excellent for early game. You'll be over the moon to find one of these in the &6Steam Age&r."]
+			description: ["一种纯净且丰富的锡矿脉——非常适合早期游戏.在&e蒸汽时代&r找到一个这样的矿脉会让你欣喜若狂."]
 			icon: "gtceu:cassiterite_ore"
 			id: "3B379794A3030C73"
 			size: 0.9d
-			subtitle: "#1 Source of Tin"
+			subtitle: "#1 锡的来源"
 			tasks: [
 				{
 					id: "46C302CBE74092FC"
@@ -245,21 +247,21 @@
 					type: "item"
 				}
 			]
-			title: "Cassiterite"
+			title: "锡石"
 			x: 5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A decent alternative to the pure Tin vein if you haven't found one yet."
+				"如果你还没有找到纯净的锡矿脉,这是一个不错的替代品."
 				""
-				"The other ores are as good as decoration."
+				"&a其他&f矿石基本上只能作为装饰."
 			]
 			icon: "gtceu:cassiterite_sand_ore"
 			id: "41616C31D9C08648"
 			size: 0.9d
-			subtitle: "Source of Tin"
+			subtitle: "锡的来源"
 			tasks: [
 				{
 					id: "281CC5BB43AB6FBC"
@@ -282,45 +284,47 @@
 					type: "item"
 				}
 			]
-			title: "Cassiterite Sand"
+			title: "&a锡石矿砂&f"
 			x: 5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"As an ore, Coal is hardly worth large-scale processing, because there are too many additional steps. required to turn it into usable fuel. It's still good to have some in your back pocket."
+				"作为一种矿石,煤炭几乎不值得大规模处理,因为需要太多的额外步骤才能将其转化为可用的燃料.但随身携带一些还是不错的."
 				""
-				"Just run it through a Furnace."
+				"只需将其放入熔炉中."
 			]
 			icon: "minecraft:coal_ore"
 			id: "1E27C654E2F6FFF2"
 			size: 0.9d
-			subtitle: "Source of pollution"
-			tasks: [{
-				id: "5FC26FB906B6F0A2"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			title: "Coal"
+			subtitle: "污染的来源"
+			tasks: [
+				{
+					id: "5FC26FB906B6F0A2"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "煤炭"
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Your only source of Diamond!"
+				"你唯一的钻石来源!"
 				""
-				"Diamond has &6five times more durability&r than Iron for tools. The catch is that you'll need Diamond Plates for some tools, which is gated behind the Cutting Machine."
+				"钻石工具的耐久度是铁工具的&e五倍&r.但需要注意的是,有些工具需要&a钻石板&f,这需要通过&a切割机&f来制作."
 				""
-				"Diamond and Graphite both electrolyze into a ton of Carbon. Hint, hint..?"
+				"钻石和石墨都可以电解成大量的碳.提示,提示..？"
 				""
-				"&cNote:&r Avoid macerating Diamonds in the early game. Recovering gem dusts into the actual gem cannot be done for a while - and even then, the process is slow and time-consuming..."
+				"&c注意:&r 避免在游戏早期粉碎钻石.将宝石粉末恢复成实际的宝石需要一段时间 - 即使如此,这个过程也很慢且耗时..."
 			]
 			icon: "gtceu:graphite_ore"
 			id: "1B45DB5C85B68182"
 			size: 0.9d
-			subtitle: "Source of Diamond, Carbon"
+			subtitle: "钻石、碳的来源"
 			tasks: [
 				{
 					id: "774FD60E5F9C5225"
@@ -338,21 +342,21 @@
 					type: "item"
 				}
 			]
-			title: "Graphite"
+			title: "石墨"
 			x: 5.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Your one-stop-shop for sources of Chlorine."
+				"你获取氯的唯一途径."
 				""
-				"If you're pining after Lithium, note that it can be obtained from Lepidolite Ore Processing."
+				"如果你渴望锂,请注意它可以通过&a锂云母矿石&f加工获得."
 			]
 			icon: "gtceu:salt_ore"
 			id: "5289D5049A236D55"
 			size: 0.9d
-			subtitle: "Source of Salt, Chlorine, Lithium, Fluorine"
+			subtitle: "盐、氯、锂、氟的来源"
 			tasks: [
 				{
 					id: "13B468D35939891B"
@@ -375,21 +379,21 @@
 					type: "item"
 				}
 			]
-			title: "Gamer Rage"
+			title: "玩家愤怒"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"This vein starts to become notable for its Magnesium output starting in the midgame."
+				"这种矿脉在中期开始因其镁的产出而变得显著."
 				""
-				"Olivine also has various uses, as it can substitute &aEmerald&r in a couple of recipes."
+				"橄榄石也有多种用途,因为它可以在一些配方中替代&a绿宝石&r."
 			]
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
 			size: 0.9d
-			subtitle: "Source of Magnesium"
+			subtitle: "镁的来源"
 			tasks: [
 				{
 					id: "0428A9705DCDEBC2"
@@ -412,21 +416,21 @@
 					type: "item"
 				}
 			]
-			title: "Olivine"
+			title: "橄榄石"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"It's shiny! That's about it!"
+				"它很闪亮!仅此而已!"
 				""
-				"Yeah, you wish you could make jewelry out of it."
+				"是的,你希望你能用它制作珠宝."
 			]
 			icon: "gtceu:red_garnet_ore"
 			id: "178285129CEA9F9F"
 			size: 0.9d
-			subtitle: "Source of Necklaces"
+			subtitle: "项链的来源"
 			tasks: [
 				{
 					id: "50787547A7F0A72E"
@@ -449,23 +453,23 @@
 					type: "item"
 				}
 			]
-			title: "Garnet"
+			title: "石榴石"
 			x: 3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Hey, anyone remember Forestry?"
+				"嘿,有人记得&d林业&f吗？"
 				""
-				"This is pretty much the one vein you want to tap in for Phosphorus - which requires quite a few steps of processing to obtain."
+				"这基本上是你获取磷的唯一矿脉 - 这需要经过相当多的加工步骤才能获得."
 				""
-				"Pyrochlore will eventually become extremely valuable, as it's a good source of Niobium."
+				"烧绿石最终会变得极其有价值,因为它是铌的良好来源."
 			]
 			icon: "gtceu:apatite_ore"
 			id: "70252B72F7728EFD"
 			size: 0.9d
-			subtitle: "Source of Calcium, Phosphorus, Niobium"
+			subtitle: "钙、磷、铌的来源"
 			tasks: [
 				{
 					id: "1091719F41C151CE"
@@ -483,21 +487,21 @@
 					type: "item"
 				}
 			]
-			title: "Apatite"
+			title: "磷灰石"
 			x: 2.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Your classic Redstone vein."
+				"经典的红石矿脉."
 				""
-				"Ruby is very important for the Chromium it contains. You'll quickly discover that you can never have too much Chromium!"
+				"红宝石因其含有的铬而非常重要.你会很快发现你永远不会有太多的铬!"
 			]
 			icon: "minecraft:redstone_ore"
 			id: "2E5A71CED4B01657"
 			size: 0.9d
-			subtitle: "Source of Redstone, Ruby, Chromium, Mercury"
+			subtitle: "红石、红宝石、铬、汞的来源"
 			tasks: [
 				{
 					id: "2CE255679DBEF5D8"
@@ -515,21 +519,21 @@
 					type: "item"
 				}
 			]
-			title: "Redstone"
+			title: "红石"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Both Sapphire variants serve as your primary source of Aluminium until you can unlock other electrolysis recipes in &bMV&r."
+				"两种蓝宝石变体是你获取铝的主要来源,直到你能在&bMV&r解锁其他电解配方."
 				""
-				"The other two gems are mediocre at best."
+				"&a其它&f两种宝石最多只能算平庸."
 			]
 			icon: "gtceu:sapphire_ore"
 			id: "6EFE154D32A2155E"
 			size: 0.9d
-			subtitle: "Source of Aluminium"
+			subtitle: "铝的来源"
 			tasks: [
 				{
 					id: "1318A25CD8DF8CC8"
@@ -552,41 +556,43 @@
 					type: "item"
 				}
 			]
-			title: "Sapphire"
+			title: "蓝宝石"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A good source of &6Heavy Oil&r, which is useful for &6Diesel&r setups early on."
+				"一个很好的&e&a重油&f&r来源,这在游戏早期对&e柴油&r设置非常有用."
 				""
-				"If you don't want to spend time processing Oilsands through your setup, you can always just &bCentrifuge&r it directly to get the Heavy Oil."
+				"如果你不想花时间通过你的设置处理油砂,你可以直接&b离心机&r它来获取&a重油&f."
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "7C35B6B0B4CFFEB2"
 			size: 0.9d
-			subtitle: "Source of the American Dream"
-			tasks: [{
-				id: "301C4CD1E47E2D02"
-				item: "gtceu:raw_oilsands"
-				type: "item"
-			}]
-			title: "Oilsands"
+			subtitle: "美国梦的来源"
+			tasks: [
+				{
+					id: "301C4CD1E47E2D02"
+					item: "gtceu:raw_oilsands"
+					type: "item"
+				}
+			]
+			title: "油砂"
 			x: -0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"This one's nothing but a meme. It's literally called a Lubricant vein."
+				"这只是一个梗.它实际上被称为润滑剂矿脉."
 				""
-				"With that being said, Lubricant is always useful for your &eCutting Machines&r to keep your factory running smoothly."
+				"尽管如此,润滑剂对你的&e&a切割机&f&r总是有用的,以保持你的工厂顺利运行."
 			]
 			icon: "gtceu:soapstone_ore"
 			id: "676667089653641C"
 			size: 0.9d
-			subtitle: "Source of Lubricant"
+			subtitle: "润滑剂的来源"
 			tasks: [
 				{
 					id: "4E280784AE8DC125"
@@ -609,21 +615,21 @@
 					type: "item"
 				}
 			]
-			title: "Soapstone"
+			title: "皂石"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Did you know Lazurite and Sodalite can be used as substitutes for &9Lapis&r in enchanting?"
+				"&a你知道吗&f 天青石和方钠石可以作为附魔中&9青金石&r的替代品？"
 				""
-				"Sodalite is the most valuable Ore here, thanks to its useful electrolysis recipe when you get to &bMV&r."
+				"方钠石是最有价值的矿石,因为当你到达&bMV&r时,它的电解配方非常有用."
 			]
 			icon: "gtceu:lapis_ore"
 			id: "39A58AFE2E0C13EB"
 			size: 0.9d
-			subtitle: "Source of Lapis Lazuli, Aluminium, Sodium, Chlorine"
+			subtitle: "青金石、铝、钠、氯的来源"
 			tasks: [
 				{
 					id: "3E903B26B6E0D98E"
@@ -646,21 +652,21 @@
 					type: "item"
 				}
 			]
-			title: "Lapis"
+			title: "青金石"
 			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"Pyrolusite is what most people are here for. It smelts directly into Manganese, which you'll be needing in bulk for &6HV&r."
+				"软锰矿是大多数人来这里的目的.它直接熔炼成锰,你会在&eHV&r中大量需要它."
 				""
-				"Tantalite will eventually become extremely valuable, thanks to its Niobium byproducts, and its utility when crafting &bSMD Components&r."
+				"钽铁矿最终会变得极其有价值,因为它含有铌副产品,并且在制作&bSMD组件&r时有用."
 			]
 			icon: "gtceu:pyrolusite_ore"
 			id: "2C75A50B17AA9AF1"
 			size: 0.9d
-			subtitle: "Source of Manganese"
+			subtitle: "锰的来源"
 			tasks: [
 				{
 					id: "10FC904696261AF3"
@@ -683,17 +689,17 @@
 					type: "item"
 				}
 			]
-			title: "Pyrolusite"
+			title: "软锰矿"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["The most consistent source of Lead and Silver."]
+			description: ["获取铅和银的最稳定来源."]
 			icon: "gtceu:galena_ore"
 			id: "14587AE142D84E12"
 			size: 0.9d
-			subtitle: "Source of Lead, Silver"
+			subtitle: "铅、银的来源"
 			tasks: [
 				{
 					id: "4E3A072619DD0ADD"
@@ -711,17 +717,17 @@
 					type: "item"
 				}
 			]
-			title: "Galena"
+			title: "方铅矿"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
-			description: ["Your one and only trusty source for Nickel."]
+			description: ["你唯一的可靠镍来源."]
 			icon: "gtceu:nickel_ore"
 			id: "38C955F6CBDD95BD"
 			size: 0.9d
-			subtitle: "Source of Nickel, Cobalt"
+			subtitle: "镍、钴的来源"
 			tasks: [
 				{
 					id: "2B48BE1948B21FA3"
@@ -744,23 +750,23 @@
 					type: "item"
 				}
 			]
-			title: "Nickel"
+			title: "镍"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"A source of Bauxite for your first ever Titanium."
+				"你首次获取钛的铝土矿来源."
 				""
-				"Kyanite and Mica decompose into some desirable products if you electrolyze them, but there are definitely better options, so you shouldn't hunt them down if you want their byproducts."
+				"如果你电解它们,云母和蓝晶石会分解成一些有价值的产品,但肯定有更好的选择,所以如果你想要它们的副产品,你不应该特意寻找它们."
 				""
-				"&8(This vein probably irks your average GTNH player...)&r"
+				"&8(这条矿脉可能会让普通的GTNH玩家感到困扰...)&r"
 			]
 			icon: "gtceu:mica_ore"
 			id: "0B4BA438FE7F3640"
 			size: 0.9d
-			subtitle: "Source of Aluminium, Fluorine, Titanium"
+			subtitle: "铝、氟、钛的来源"
 			tasks: [
 				{
 					id: "7296DE6280CBC6A1"
@@ -783,21 +789,21 @@
 					type: "item"
 				}
 			]
-			title: "Mica"
+			title: "云母"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: [
-				"The worst Iron vein. It's helpful in the early game, but that's about it."
+				"最差的铁矿脉.它在游戏早期很有帮助,但也就这样了."
 				""
-				"We love you anyway, Mineral Sand vein!"
+				"无论如何,我们还是爱你的,矿砂矿脉!"
 			]
 			icon: "gtceu:granitic_mineral_sand_ore"
 			id: "5295C4AEFA8417F3"
 			size: 0.9d
-			subtitle: "Source of Iron"
+			subtitle: "铁的来源"
 			tasks: [
 				{
 					id: "0A9878360139CD46"
@@ -820,21 +826,21 @@
 					type: "item"
 				}
 			]
-			title: "Mineral Sand"
+			title: "矿砂"
 			x: 0.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"The de-facto Rare Earth vein for progression in &5EV&r... and onwards."
+				"在&5EV&r及以后阶段中,&a稀土&f矿脉的实际来源."
 				""
-				"&l&3Lore:&r&o This vein was bugged for quite some time. It's never actually contained any Monazite, and nobody realised (well, nobody brought it up!) for many, many months. Did you notice?"
+				"&l&3背景故事:&r&o 这条矿脉曾经有很长一段时间存在漏洞.它实际上从未包含任何独居石,而且没有人意识到(好吧,没有人提出来!),持续了很多个月.你注意到了吗？"
 			]
 			icon: "gtceu:netherrack_bastnasite_ore"
 			id: "2171AF09E76A5968"
 			size: 0.9d
-			subtitle: "Source of Rare Earth, Neodymium, Fluorine"
+			subtitle: "&a稀土&f、钕、氟的来源"
 			tasks: [
 				{
 					id: "7628A17F2E48C5E7"
@@ -852,17 +858,17 @@
 					type: "item"
 				}
 			]
-			title: "Bastnatite"
+			title: "重晶石"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
-			description: ["Emerald is the useful ore here. It's used in small quantities in &bMV&r, and is a part of the Crystal process for Crystal and Wetware circuits much later on."]
+			description: ["绿宝石是这里的有用矿石.它在&bMV&r中少量使用,并且在后期用于制作晶体和湿件电路的晶体过程中."]
 			icon: "gtceu:netherrack_emerald_ore"
 			id: "594D84730913698A"
 			size: 0.9d
-			subtitle: "Source of Beryllium, Emerald, Thorium"
+			subtitle: "铍、绿宝石、钍的来源"
 			tasks: [
 				{
 					id: "14C64BEBBC783475"
@@ -880,23 +886,23 @@
 					type: "item"
 				}
 			]
-			title: "Emerald"
+			title: "绿宝石"
 			x: 8.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"This vein is very rare! Congratulations on stumbling upon one."
+				"这条矿脉非常罕见!恭喜你偶然发现了一条."
 				""
-				"&8(Or at least... it should be rare.)&r"
+				"&8(或者至少...它应该是罕见的.)&r"
 				""
-				"View the contents of this vein as \"&7&obasically Molybdenum, and some other stuff&r\". Yeah, Molybdenum is what's important here."
+				"将这条矿脉的内容视为\"&7&o基本上是钼,还有一些其他东西&r\".是的,钼是这里的关键."
 			]
 			icon: "gtceu:netherrack_molybdenum_ore"
 			id: "63CB3C9F5A61E0C4"
 			size: 0.9d
-			subtitle: "Source of Molybdenum"
+			subtitle: "钼的来源"
 			tasks: [
 				{
 					id: "382A7CC243D7042E"
@@ -919,21 +925,21 @@
 					type: "item"
 				}
 			]
-			title: "Molybdenum"
+			title: "钼"
 			x: 9.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Your ticket into &bApplied Energistics 2&r is nestled deep within a Certus Quartz vein."
+				"进入&b&d应用能源2&f&r的门票深藏在一条&a赛特斯石英水晶&f矿脉中."
 				""
-				"Alongside this, note that Barite electrolyses into Barium, which you will eventually need to make some higher tier Superconductors."
+				"此外,请注意,重晶石电解成钡,你最终需要它来制作一些更高等级的超导体."
 			]
 			icon: "gtceu:netherrack_certus_quartz_ore"
 			id: "517D50E748A129AB"
 			size: 0.9d
-			subtitle: "Source of AE2, Barium"
+			subtitle: "应用能源2、钡的来源"
 			tasks: [
 				{
 					id: "753C65ED1CA407C7"
@@ -951,23 +957,23 @@
 					type: "item"
 				}
 			]
-			title: "Certus Quartz"
+			title: "&a赛特斯石英水晶&f"
 			x: 10.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Electrotine is important for progression in &6HV&r. It centrifuges into Electrum (a source of Gold and Silver), and Redstone."
+				"电石在&eHV&r中的进展非常重要.它离心成银金矿(金和银的来源)和红石."
 				""
-				"Saltpeter is used in a few reactions, and... the other two ores here are pretty average."
+				"硝石用于一些反应中,而且...这里的另外两种矿石相当普通."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Does the word \"Nikolite\" ring a bell? It's pretty much Electrotine's great-ancestor, hailing from RedPower."
+				"&l&3背景故事:&r&o \"尼科莱特\"这个词听起来耳熟吗？它几乎是电石的伟大祖先,来自红石电力."
 			]
 			icon: "gtceu:netherrack_saltpeter_ore"
 			id: "1F572D638AAACA21"
 			size: 0.9d
-			subtitle: "Source of Potassium, Electrum"
+			subtitle: "钾、银金矿的来源"
 			tasks: [
 				{
 					id: "5483A769AEEA0FA0"
@@ -990,21 +996,21 @@
 					type: "item"
 				}
 			]
-			title: "Saltpeter"
+			title: "硝石"
 			x: 11.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Both Topaz ores are excellent subjects for eventual electrolysis."
+				"两种黄玉矿石都是最终电解的绝佳对象."
 				""
-				"This makes this vein one of the best Fluorine sources."
+				"这使得这条矿脉成为最好的氟来源之一."
 			]
 			icon: "gtceu:netherrack_topaz_ore"
 			id: "37EC97FB0FC6C56D"
 			size: 0.9d
-			subtitle: "Source of Copper, Fluorine"
+			subtitle: "铜、氟的来源"
 			tasks: [
 				{
 					id: "29303BBBF186EA1B"
@@ -1027,21 +1033,21 @@
 					type: "item"
 				}
 			]
-			title: "Topaz"
+			title: "黄玉"
 			x: 10.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Almost a pure Copper vein. Damn you, Stibnite, ruining our purity!"
+				"几乎是一条纯铜矿脉.该死的辉锑矿,破坏了我们的纯度!"
 				""
-				"You can hardly complain about its presence, though - Stibnite smelts directly into Antimony, which you will want in &7LV&r for your Batteries."
+				"不过,你几乎不能抱怨它的存在——辉锑矿直接熔炼成锑,你在&7LV&r中会想要它来制作电池."
 			]
 			icon: "gtceu:netherrack_tetrahedrite_ore"
 			id: "45B62B35180593EA"
 			size: 0.9d
-			subtitle: "Source of Copper, Antimony"
+			subtitle: "铜、锑的来源"
 			tasks: [
 				{
 					id: "65BB3345F5602A55"
@@ -1059,21 +1065,21 @@
 					type: "item"
 				}
 			]
-			title: "Tetrahedrite"
+			title: "黝铜矿"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"This Nether Limonite vein variant isn't to be slept on."
+				"这种下界褐铁矿变种不容小觑."
 				""
-				"Thanks to the &adoubled yield&r of Nether ores, this is an excellent source of Iron and Gold."
+				"由于下界矿石的&a双倍产量&r,这是获取铁和金的一个极好来源."
 			]
 			icon: "gtceu:netherrack_yellow_limonite_ore"
 			id: "0AFADD21454D968E"
 			size: 0.9d
-			subtitle: "Source of Iron, Gold"
+			subtitle: "铁、金的来源"
 			tasks: [
 				{
 					id: "0C549A9F07E02FA6"
@@ -1091,21 +1097,21 @@
 					type: "item"
 				}
 			]
-			title: "Limonite"
+			title: "褐铁矿"
 			x: 8.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Your first Nether expedition should be for &eSulfur&r - which is found in this vein! Be careful, as this vein usually spawns from y-levels of 10 to 30. Bring Fire Resistance potions!"
+				"你的第一次下界探险应该是为了 &e硫磺&r - 它可以在这种矿脉中找到!小心,这种矿脉通常在y坐标10到30之间生成.带上 &a火焰抗性&f药水!"
 				""
-				"Sphalerite is extremely valuable, as its ore processing gives Gallium. It also smelts directly into Zinc."
+				"闪锌矿非常有价值,因为它的矿石处理可以获得镓.它也可以直接熔炼成锌."
 			]
 			icon: "gtceu:netherrack_sulfur_ore"
 			id: "030E299F75640977"
 			size: 0.9d
-			subtitle: "Source of Sulfur, Iron, Zinc"
+			subtitle: "硫磺、铁、锌的来源"
 			tasks: [
 				{
 					id: "022CC6EDF95C7696"
@@ -1123,21 +1129,21 @@
 					type: "item"
 				}
 			]
-			title: "Sulfur"
+			title: "硫磺"
 			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Your classic Nether Quartz vein."
+				"经典的 &a下界石英&f矿脉."
 				""
-				"Silicon isn't too difficult to come by, but Quartzite isn't a bad source."
+				"硅并不难获得,但石英岩也不是一个坏的来源."
 			]
 			icon: "gtceu:netherrack_nether_quartz_ore"
 			id: "0269FCDE2628904A"
 			size: 0.9d
-			subtitle: "Source of Nether Quartz, Silicon"
+			subtitle: "下界石英、硅的来源"
 			tasks: [
 				{
 					id: "3ABB4181FEA31D22"
@@ -1150,20 +1156,20 @@
 					type: "item"
 				}
 			]
-			title: "Quartz"
+			title: "石英"
 			x: 7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"You may already have boatloads of Iron by the time you make it here, but don't overlook the utility of this vein."
+				"当你到达这里时,你可能已经有了大量的 &a铁甲&f,但不要忽视这种矿脉的实用性."
 				""
-				"Chromite is an excellent source of Chromium, and Vanadium is needed in higher quantities in the late game."
+				"铬铁矿是铬的极好来源,而钒在后期游戏中需要大量."
 			]
 			icon: "gtceu:endstone_magnetite_ore"
 			id: "4FC668EF2BF294ED"
-			subtitle: "Source of Iron, Vanadium, Gold, Chromium"
+			subtitle: "铁甲、钒、金、铬的来源"
 			tasks: [
 				{
 					id: "221E6D04EBEC9DDE"
@@ -1186,22 +1192,22 @@
 					type: "item"
 				}
 			]
-			title: "Magnetite"
+			title: "磁铁矿"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"Seasoned sci-fi fans might recognise &2Naquadah&r from the series &dStargate&r! You'll find this becomes an essential material from &dLuV&r onwards."
+				"资深科幻迷可能会从系列 &d星际之门&r中认出 &2纳夸达&r!你会发现从 &dLuV&r开始,这成为了一种必不可少的材料."
 				""
-				"Naquadah can be processed in &dLuV&r for Titanium, Trinium, Barium, Gallium, Indium, Phosphorus, Enriched Naquadah, and Naquadria. Versatile!"
+				"纳夸达可以在 &dLuV&r中加工成钛、三钨、钡、镓、铟、磷、&a富集硅岩&f和纳夸达.多功能!"
 				""
-				"Moving the spotlight to the other ore, &cPlutonium&r is used to start the Radon loop, required in &9IV&r."
+				"将焦点转移到另一种矿石,&c钚&r用于启动氡循环,这在 &9IV&r中是必需的."
 			]
 			icon: "gtceu:endstone_naquadah_ore"
 			id: "143B1AE1F3CF53EF"
-			subtitle: "Source of... a lot."
+			subtitle: "很多东西的来源."
 			tasks: [
 				{
 					id: "310ED3BE9C7FD9E2"
@@ -1214,22 +1220,22 @@
 					type: "item"
 				}
 			]
-			title: "Naquadah"
+			title: "纳夸达"
 			x: 10.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"Platinum starts seeing usage in &5EV&r."
+				"铂金从 &5EV&r开始被使用."
 				""
-				"The Platinum Group Sludge chain becomes a requirement in &1IV&r, and Sheldonite is the best ore to kickstart your processing."
+				"&a铂系矿泥&f链在 &1IV&r中成为必需品,而谢尔顿矿是最好的矿石来启动你的处理."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The real-world name for Sheldonite ore is actually Cooperite. GregoriusT thought it was \"haha, funny\" to make it a reference to Sheldon Cooper, despite &lnot&r&o being the person the ore was named after!  We kept the \"haha, funny\" joke going."
+				"&l&3背景:&r&o 谢尔顿矿在现实世界中的名字实际上是库珀矿.GregoriusT认为这是 \"哈哈,有趣\" 把它作为一个参考谢尔顿·库珀,尽管 &l不是&r&o 以那个人命名的矿石!我们继续了这个 \"哈哈,有趣\" 的笑话."
 			]
 			icon: "gtceu:endstone_cooperite_ore"
 			id: "4D76C334B251EB3A"
-			subtitle: "Source of a lot, again..."
+			subtitle: "再次,很多东西的来源..."
 			tasks: [
 				{
 					id: "4547E85950CB15E4"
@@ -1252,20 +1258,20 @@
 					type: "item"
 				}
 			]
-			title: "Sheldonite"
+			title: "谢尔顿矿"
 			x: 8.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"Your one and only &9Tungsten&r source! Whilst you could technically get your Tungstate from macerating &eEnd Stone,&r the yield is tiny. Process these ores instead!"
+				"你唯一的 &9钨&r来源!虽然你理论上可以通过粉碎 &e&a末地石&f&r 获得钨酸盐,但产量很小.还是处理这些矿石吧!"
 				""
-				"An extremely important vein, as Tungsten is used in vast amounts in &9IV&r and onwards."
+				"这是一个极其重要的矿脉,因为钨在 &9IV&r及以后被大量使用."
 			]
 			icon: "gtceu:endstone_scheelite_ore"
 			id: "5AA98D1298FD90BA"
-			subtitle: "Source of Tungsten, Lithium"
+			subtitle: "钨、锂的来源"
 			tasks: [
 				{
 					id: "30446661E519BD77"
@@ -1283,20 +1289,20 @@
 					type: "item"
 				}
 			]
-			title: "Scheelite"
+			title: "白钨矿"
 			x: 10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"The vein to mine for &bAluminium&r and &dTitanium&r if you're a well-adjusted person."
+				"如果你是一个心态良好的人,可以开采 &a矿脉&f 来获取 &b铝&r 和 &d钛&r."
 				""
-				"Ditch those Mica veins - Bauxite is the future!"
+				"放弃那些云母矿脉 - 铝土矿是未来!"
 			]
 			icon: "gtceu:endstone_bauxite_ore"
 			id: "40B40DF0D1295A90"
-			subtitle: "Source of Aluminium, Titanium, Gallium"
+			subtitle: "铝、钛、镓的来源"
 			tasks: [
 				{
 					id: "165615C81FEAE3C3"
@@ -1314,22 +1320,22 @@
 					type: "item"
 				}
 			]
-			title: "Bauxite"
+			title: "铝土矿"
 			x: 7.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41D32C5178760F47"]
 			description: [
-				"The one and only vein for Uranium!"
+				"&a唯一的&f铀矿脉!"
 				""
-				"Uranium has a few minor uses in &5EV&r and beyond."
+				"铀在 &5EV&r及以上有一些次要用途."
 				""
-				"Did you know that Nuclear Reactors might be making their way to &bGTCEu&r in the future?"
+				"&a你知道吗&f &a核反应堆&f 可能会在未来加入 &bGTCEu&r？"
 			]
 			icon: "gtceu:endstone_pitchblende_ore"
 			id: "5ED483A04095EFA3"
-			subtitle: "Source of Uranium, Thorium, Lead"
+			subtitle: "铀、钍、铅的来源"
 			tasks: [
 				{
 					id: "6174FF347A1D09AE"
@@ -1342,11 +1348,11 @@
 					type: "item"
 				}
 			]
-			title: "Pitchblende"
+			title: "沥青铀矿"
 			x: 11.0d
 			y: 3.0d
 		}
 	]
-	subtitle: ["Ores galore, and so much more"]
-	title: "Ore Generation"
+	subtitle: ["矿石丰富,还有更多"]
+	title: "矿石生成"
 }

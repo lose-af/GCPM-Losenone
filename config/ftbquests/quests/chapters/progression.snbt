@@ -241,16 +241,16 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"Early game Circuits are hand craftable."
+				"早期游戏的电路可以手工制作."
 				""
-				"Pick up the &3Circuit Assembler&r to make them a lot more efficient."
+				"拿起 &3&a电路组装机&f&r 使它们更加高效."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:bronze_machine_casing"
 			id: "4252B1AF36FFB4F6"
 			size: 0.85d
-			subtitle: "Hand crafted and artisanal"
-			title: "Craftable in &6Steam Age&r and &7LV&r"
+			subtitle: "手工制作和艺术"
+			title: "可制作于 &e蒸汽时代&r 和 &7LV&r"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -261,18 +261,18 @@
 				"26394C1290D70AB6"
 			]
 			description: [
-				"The &9Integrated&r Circuit line may not be a strict upgrade in terms of cost, but will tide you over as a stepping stone towards the next tier."
+				" &9集成&r 电路系列在成本方面可能不是严格的升级,但会作为迈向下一个等级的垫脚石."
 				""
-				"They will require a MV &3Laser Engraver&r and a MV &3Cutting Machine&r."
+				"它们将需要一个MV &3激光刻蚀&r 和一个MV &3&a切割机&f&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Omnifactory, and in previous Gregicality, this circuit line was called &9Refined&f and was standardized like further tiers."
+				"&l&3背景:&r&o 在Omnifactory和之前的Gregicality中,这个电路系列被称为 &9精炼&f,并且像后续等级一样标准化."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:mv_machine_hull"
 			id: "5E4FBB2287D9E635"
 			size: 0.85d
-			subtitle: "Integrated Dynamics"
-			title: "Craftable in &bMV&r"
+			subtitle: "&d动态联合/集成动力&f"
+			title: "可制作于 &bMV&r"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -286,16 +286,16 @@
 				"5E76D4C24026157D"
 			]
 			description: [
-				"&eMicro&r Circuits are where the &3Cleanroom&r becomes a requirement to progress."
+				" &e微型&r 电路是 &3洁净室&r 成为进步的必要条件."
 				""
-				"Don't get caught out by the &aMainframe&r - it requires a &3HV Circuit Assembler&r."
+				"不要被 &a主机&r 绊倒 - 它需要一个 &3HV &a电路组装机&f&r."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:hv_machine_hull"
 			id: "1D717E742E50A6BD"
 			size: 0.85d
-			subtitle: "Micro Miners"
-			title: "Craftable in &bMV&r and &6HV&r"
+			subtitle: "微型矿工"
+			title: "可制作于 &bMV&r 和 &eHV&r"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -307,21 +307,21 @@
 				"58BBD540D7D4FF01"
 			]
 			description: [
-				"This is the &9Nano&r Circuit line."
+				"这是 &9纳米&r 电路系列."
 				""
-				"Starting from here, circuit progression will follow a pattern:"
+				"从这里开始,电路的进展将遵循以下模式:"
 				""
-				"&9-&r Processor"
-				"&9-&r Assembly"
-				"&9-&r Supercomputer"
-				"&9-&r Mainframe"
+				"&9-&r 处理器"
+				"&9-&r 组装"
+				"&9-&r 超级计算机"
+				"&9-&r 主机"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:ev_machine_hull"
 			id: "29C2A82490261F1C"
 			size: 0.85d
-			subtitle: "Nano Age"
-			title: "Craftable in &5EV&r"
+			subtitle: "纳米时代"
+			title: "可制作于 &5EV&r"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -333,16 +333,16 @@
 				"145F71A817C5996E"
 			]
 			description: [
-				"Welcome to the &9Quantum&r Circuit line."
+				"欢迎来到 &9量子&r 电路系列."
 				""
-				"You may want to invest in &aPBI&r at this point, as &dAdvanced SMDs&r will skyrocket your circuit production."
+				"此时您可能想投资 &aPBI&r,因为 &d高级SMD&r 将大幅提升您的电路生产."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:iv_machine_hull"
 			id: "66A23AC2EE9BC4AE"
 			size: 0.85d
-			subtitle: "GregTech gets Quantum"
-			title: "Craftable in &1IV&r"
+			subtitle: "&d格雷科技&f 进入量子"
+			title: "可制作于 &1IV&r"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -354,16 +354,16 @@
 				"7AE681E2AB31EA0D"
 			]
 			description: [
-				"This is the &9Crystal&r Circuit line."
+				"这是 &9晶体&r 电路系列."
 				""
-				"It's locked behind &3Fusion&r."
+				"它被 &3聚变&r 锁定."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:luv_machine_hull"
 			id: "6906121936A688C0"
 			size: 0.85d
-			subtitle: "Crystallisation"
-			title: "Craftable in &dLuV&r"
+			subtitle: "结晶化"
+			title: "可制作于 &dLuV&r"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -375,16 +375,16 @@
 				"359121584E056022"
 			]
 			description: [
-				"This is the &9Wetware&r Circuit line."
+				"这是 &9湿件&r 电路系列."
 				""
-				"It will be the biggest automation challenge to face in this modpack. Best of luck."
+				"这将是此模组包中面临的最大自动化挑战.祝你好运."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:zpm_machine_hull"
 			id: "629E023752317A31"
 			size: 0.85d
-			subtitle: "Soft and Wetware"
-			title: "Craftable in &cZPM&r"
+			subtitle: "软件与湿件"
+			title: "可制作于 &cZPM&r"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -393,12 +393,12 @@
 				"3CF550B81716B8B9"
 				"15EC934CE8F4DC86"
 			]
-			description: ["On this line you can see the Steam, or &8&8ULV&r, equivalents."]
+			description: ["在这条线上你可以看到蒸汽,或 &8ULV&r 的等效电路."]
 			hide_dependency_lines: true
 			icon: "gtceu:ulv_machine_casing"
 			id: "1C1976238A2FBEE0"
 			size: 0.85d
-			title: "&8ULV&r Circuits"
+			title: "&8ULV&r 电路"
 			x: -1.0d
 			y: -1.0d
 		}
@@ -409,19 +409,19 @@
 				"5E76D4C24026157D"
 			]
 			description: [
-				"Circuits along this line are &7LV&r, and are interchangeable in recipes."
+				"这条线上的电路是 &7LV&r,并且在配方中可以互换."
 				""
-				"&cElectronic Circuits&r are the \"worst\" in terms of cost and effort required to produce, but you have to start somewhere."
+				"&c&a电子电路&f&r 在成本和所需努力方面是最 \"糟糕\" 的,但你总得从某个地方开始."
 				""
-				"&eBasic Integrated Processors&r act as a middle layer between &cElectronic Circuits&r and &2Microchip Processors.&r"
+				"&e基础 &a集成处理器&f&r 作为 &c&a电子电路&f&r 和 &2微芯片处理器&r 之间的中间层."
 				""
-				"Finally, &2Microchip Processors&r will be the best option for the rest of the playthrough."
+				"最后,&2微芯片处理器&r 将是整个游玩过程中最好的选择."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_machine_casing"
 			id: "7707E5B061A7FFF7"
 			size: 0.85d
-			title: "&7LV&r Circuits"
+			title: "&7LV&r 电路"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -432,15 +432,15 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"Circuits along this line are &bMV&r, and are interchangeable in recipes."
+				"这条线上的电路是 &bMV&r,并且在配方中可以互换."
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"模式保持不变:最右边的电路以 &d更大的数量&r 出现,并且总体上 &a更容易&r 生产."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:mv_machine_casing"
 			id: "45CA8DCA8226945A"
 			size: 0.85d
-			title: "&bMV&r Circuits"
+			title: "&bMV&r 电路"
 			x: -1.0d
 			y: 1.0d
 		}
@@ -451,15 +451,15 @@
 				"26394C1290D70AB6"
 			]
 			description: [
-				"Circuits along this line are &6HV&r, and are interchangeable in recipes."
+				"这条线上的电路是 &eHV&r,并且在配方中可以互换."
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"模式保持不变:最右边的电路以 &d更大的数量&r 出现,并且总体上 &a更容易&r 生产."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:hv_machine_casing"
 			id: "54CF2016ED44CC45"
 			size: 0.85d
-			title: "&6HV&r Circuits"
+			title: "&eHV&r 电路"
 			x: -1.0d
 			y: 2.0d
 		}
@@ -470,15 +470,15 @@
 				"0017FFFAD7CD2EFE"
 			]
 			description: [
-				"Circuits along this line are &5EV&r, and are interchangeable in recipes."
+				"这条线上的电路是 &5EV&r,并且在配方中可以互换."
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"模式保持不变:最右边的电路以 &d更大的数量&r 出现,并且总体上 &a更容易&r 生产."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:ev_machine_casing"
 			id: "2A9ECD745E15A5D8"
 			size: 0.85d
-			title: "&5EV&r Circuits"
+			title: "&5EV&r 电路"
 			x: -1.0d
 			y: 3.0d
 		}
@@ -490,15 +490,15 @@
 				"5CC9B0E832545569"
 			]
 			description: [
-				"Circuits along this line are &1IV&r, and are interchangeable in recipes."
+				"这条线上的电路是 &1IV&r,并且在配方中可以互换."
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"模式保持不变:最右边的电路以 &d更大的数量&r 出现,并且总体上 &a更容易&r 生产."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:iv_machine_casing"
 			id: "5B0AC445672E14B6"
 			size: 0.85d
-			title: "&1IV&r Circuits"
+			title: "&1IV&r 电路"
 			x: -1.0d
 			y: 4.0d
 		}
@@ -510,19 +510,19 @@
 				"58BBD540D7D4FF01"
 			]
 			description: [
-				"Circuits along this line are &dLuV&r, and are interchangeable in recipes."
+				"这条线上的电路是 &dLuV&r,并且在配方中可以互换."
 				""
-				"The pattern stays the same: the rightmost circuit comes in &dlarger quantities&r and is overall &aeasier&r to produce."
+				"模式保持不变:最右边的电路以 &d更大的数量&r 出现,并且总体上 &a更容易&r 生产."
 				""
-				"Make sure to set up &3wetware board production&r as soon as possible! These take a &6very long time&r to make."
+				"确保尽快设置 &3湿件板生产&r!这些需要 &d非常长时间&r 来制作."
 				""
-				"It's &dLuV&r, not &4LUV&r."
+				"这是 &dLuV&r,不是 &4LUV&r."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:luv_machine_casing"
 			id: "140E91C53C30C096"
 			size: 0.85d
-			title: "&dLuV&r Circuits"
+			title: "&dLuV&r 电路"
 			x: -1.0d
 			y: 5.0d
 		}
@@ -532,12 +532,12 @@
 				"327C3E02CD751453"
 				"7AE681E2AB31EA0D"
 			]
-			description: ["Circuits along this line are &cZPM&r, and are interchangeable in recipes."]
+			description: ["这条线上的电路是 &cZPM&r,并且在配方中可以互换."]
 			hide_dependency_lines: true
 			icon: "gtceu:zpm_machine_casing"
 			id: "2E00E10D4E92F64D"
 			size: 0.85d
-			title: "&cZPM&r Circuits"
+			title: "&cZPM&r 电路"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -546,31 +546,31 @@
 				"79E4E53E9DF45549"
 				"359121584E056022"
 			]
-			description: ["Circuits along this line are &3UV&r, and are interchangeable for each other."]
+			description: ["这条线上的电路是 &3UV&r,并且可以互相替换."]
 			hide_dependency_lines: true
 			icon: "gtceu:uv_machine_casing"
 			id: "35EFFA6C85EFCA58"
 			size: 0.85d
-			title: "&3UV&r Circuits"
+			title: "&3UV&r 电路"
 			x: -1.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["3B49BD004F38E1A2"]
 			description: [
-				"Congratulations! You've reached the end of the circuit progression."
+				"恭喜!你已经到达了电路进化的终点."
 				""
-				"The only &4UHV&r circuit is the &6Wetware Mainframe&r, which is used for crafting some endgame stuff."
+				"唯一的 &4UHV&r 电路是 &e&a湿件电脑主机&f&r,用于制作一些最终游戏物品."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:uhv_machine_casing"
 			id: "177ADFFD33DDA624"
 			size: 0.85d
-			title: "&4UHV&r Circuits"
+			title: "&4UHV&r 电路"
 			x: -1.0d
 			y: 8.0d
 		}
 	]
-	subtitle: ["A step forward is always rewarding"]
-	title: "Circuit Progression"
+	subtitle: ["每一步前进都是值得的"]
+	title: "电路进程"
 }

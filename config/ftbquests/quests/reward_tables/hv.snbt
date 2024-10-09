@@ -3,8 +3,14 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ count: 24, item: "gtceu:chromium_dust" }
-		{ count: 24, item: "gtceu:manganese_dust" }
+		{
+			count: 24
+			item: "gtceu:chromium_dust"
+		}
+		{
+			count: 24
+			item: "gtceu:manganese_dust"
+		}
 	]
-	title: "hv"
+	title: "高压"
 }
