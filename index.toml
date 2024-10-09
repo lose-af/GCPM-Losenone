@@ -62,7 +62,7 @@ hash = "30b404e7b7dd5bca82b5452fe5cfe55e160fb7b1740bab94ba85018141746c0a"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "e5c3117822c9f4434d1bdf02ec937cdb7b9de0e2bd0c7feaa942bedd69cc9e2a"
+hash = "b4619f460e8b8fac913fe33df6f266c02174bff180549b073995d09b7d5d0add"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
@@ -934,6 +934,11 @@ hash = "caf9eb48e4eac66f7659d01896341a9c7d749ce2ddff264305283258c0b3a996"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-characters.pw.toml"
+hash = "ec23394e3d7a4b7a9203d353f8da8e3653539c08fbae97835f31a0948d9d0e52"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
 metafile = true
@@ -966,6 +971,11 @@ metafile = true
 [[files]]
 file = "mods/modern-ae2-additions.pw.toml"
 hash = "7864f0dda9fa1ca7b0c22ab276ff18a3c1434ae369e5e9b0cf797cc085138bda"
+metafile = true
+
+[[files]]
+file = "mods/modern-ui.pw.toml"
+hash = "2ebcddfa11add6526696755598ed6a9aa651c3036d3ac8fd350113f58dfba0f9"
 metafile = true
 
 [[files]]
@@ -1061,6 +1071,11 @@ metafile = true
 [[files]]
 file = "mods/trenzalore.pw.toml"
 hash = "765945f0ae2960eb0cbffeb746b6d98a483b8fb673ce30c48f53c1bb39c1ec5c"
+metafile = true
+
+[[files]]
+file = "mods/wi-zoom.pw.toml"
+hash = "96f395c71e727cd170cc85473fd26500b9e6c8555fa9b86f645746860938e6b7"
 metafile = true
 
 [[files]]

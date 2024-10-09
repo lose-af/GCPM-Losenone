@@ -101,3 +101,5 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+key_key.wi_zoom.zoom:key.keyboard.c
+key_key.modernui.zoom:key.keyboard.unknown
