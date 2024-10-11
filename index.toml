@@ -469,14 +469,6 @@ file = "config/findme.json"
 hash = "a431b4941e306a81a4a7c2c8275d576ec80eed44d6990d415b705b82f87be6fc"
 
 [[files]]
-file = "config/fluxnetworks-client.toml"
-hash = "a4d5d1dbd640f1cfe4daa2f78ad76f4fe2a939937bbcec2b157b54ecda4e7d6e"
-
-[[files]]
-file = "config/fluxnetworks-common.toml"
-hash = "a67d3281d40aefa23a85aec7b69bc9b0dee81496793d9c33cd7d25e879bf41a1"
-
-[[files]]
 file = "config/fml.toml"
 hash = "ac57fc6d369b0b1ca54d2ed07da4da5736238938db18a71402f9edad0a04f4d9"
 
@@ -1333,11 +1325,6 @@ metafile = true
 [[files]]
 file = "mods/findme.pw.toml"
 hash = "c6a2d9b3f0a172663eb91a650de90332cf7adf41662c01a9d3ad581d66e32ada"
-metafile = true
-
-[[files]]
-file = "mods/flux-networks.pw.toml"
-hash = "de63df967225278681e18afe0e323110322ec02006746980fbe77dbd974b20b3"
 metafile = true
 
 [[files]]
