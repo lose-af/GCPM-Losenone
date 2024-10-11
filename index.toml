@@ -717,6 +717,10 @@ file = "config/modernfix-mixins.properties"
 hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
+file = "config/mtr.json"
+hash = "c91a07d8a1d448486e1446348bbee840365a9440c5eaa7ed41129babbe9cf776"
+
+[[files]]
 file = "config/patchouli-client.toml"
 hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 
