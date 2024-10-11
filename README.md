@@ -35,6 +35,7 @@ If you want to play this modpack, download the modpack file from lastst CI run i
 - [x] AEInfinityBooster
 - [x] Applied Botanics Addon
 - [x] Ars Énergistique
+- [x] AE2 Things
 
 ### Tech
 
@@ -64,6 +65,10 @@ If you want to play this modpack, download the modpack file from lastst CI run i
 - [x] Macaw's Windows
 - [x] Simply Light
 - [x] PITG
+
+### Agriculture
+
+- [x] Farmer's Delight
 
 ## Other added resources
 
