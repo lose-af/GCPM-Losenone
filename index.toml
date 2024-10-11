@@ -721,6 +721,10 @@ file = "config/patchouli-client.toml"
 hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 
 [[files]]
+file = "config/pitg-common.toml"
+hash = "e33fd94e3965690e95a120e75f3496d86ae2a59d3936206eef5cf5c53469d405"
+
+[[files]]
 file = "config/pneumaticcraft/ArmorFeatureStatus.cfg"
 hash = "3260c358de448f81835cefd85f2da6a53e4bdcd2be2451c04c0a163e2c0e20be"
 
@@ -1378,6 +1382,11 @@ hash = "1e17d92e2843cdb01a229d4987b0ef456c8a759d1e02e18f5265fd8179cbf7c2"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "59d22263e36313c43ad7c5e4179cb3554d414f701442b0784d94c0ba2384edfd"
+metafile = true
+
+[[files]]
 file = "mods/glodium.pw.toml"
 hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
 metafile = true
@@ -1468,6 +1477,61 @@ hash = "43aa2c47e284692aa6182abd00929d5753c8660aea9e23b901da68aa75a68930"
 metafile = true
 
 [[files]]
+file = "mods/macaws-bridges.pw.toml"
+hash = "a4ff567d52fe55984cc0cb93430a4c8f01dc00b14fbd6e25a077dbd179f534fb"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.pw.toml"
+hash = "be4a15f841ebadfad925a2d17a0206547964b77e86e063df023f736c2c2b116c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-fences-and-walls.pw.toml"
+hash = "3d0d8413b9c465be230383e74f778e5ed930eab53a67fc55802408dfb20d53c5"
+metafile = true
+
+[[files]]
+file = "mods/macaws-furniture.pw.toml"
+hash = "4494c0ca2e7bcf5dc0193e4dc1aa37a0cb868ed40b002b8729bb16658b423dfb"
+metafile = true
+
+[[files]]
+file = "mods/macaws-holidays.pw.toml"
+hash = "9c99a35bfdcf5c7164115bba769e8e3ae0f63390d9d4bf2a06209c4f5747dc3d"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.pw.toml"
+hash = "69cee636ccc8f669dd9c157ef44b6072465fe4c35b82965046bcc4647d8b820e"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paintings.pw.toml"
+hash = "d35f82df95be7b038e48f81c290854c19183420a81b8fa5d505c97e23439face"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paths-and-pavings.pw.toml"
+hash = "bbe72ad266bb65da6bac871eafa4308acf3b1ad4bbdd3aa50713747053802b1c"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.pw.toml"
+hash = "fbb984a9f19934ccba273c93d203a3d9d623b2016b1c8c8af340b717910ca070"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.pw.toml"
+hash = "d05fa9b51d6f853ab901d6c091b089a4b0f4e6d46a0a71d2cf63307568d02004"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.pw.toml"
+hash = "02a961f55839346fcef6cca287a27cc1532f0761735a9ff2712a3efe0e4489fe"
+metafile = true
+
+[[files]]
 file = "mods/mega-cells.pw.toml"
 hash = "8dcded48817b3313cc796df6e3e193c399f17d19377ff6bc6b4a97b5f18bd75c"
 metafile = true
@@ -1526,6 +1590,11 @@ hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true
 
 [[files]]
+file = "mods/pitg.pw.toml"
+hash = "d7d039d99dac9e45daadee275d51438b5d54968abdcf42cdb8c5eb859e0d59a5"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "0f807372e11d5a8a28266ab214fd243fa7558fe3f5a0cc6505090faede8c2dd6"
 metafile = true
@@ -1551,6 +1620,11 @@ hash = "71bdf7a2baf2b49de4292b8a0ff48419119b0a9bbf1c06d4f8dd92fd97fe6416"
 metafile = true
 
 [[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "3e8c59c1817babb68d49af1bd816d6d00ffbaa8343968ad324996a0d5deb9c69"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "d218175a2fc0fd2fdb907ed55a214f0163d9bcabb75b47ccdb6f4704c3bd5dd0"
 metafile = true
@@ -1558,6 +1632,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "a84f8e46ba2d693bfbdec682ca66213e2e0783395c9af34f8b22d460d3952a4c"
+metafile = true
+
+[[files]]
+file = "mods/simply-light.pw.toml"
+hash = "762eced5d260cdbc94f0acc033efd8fe70fdfe5a28bd8d180e0b052de509893f"
 metafile = true
 
 [[files]]
@@ -1583,6 +1662,16 @@ metafile = true
 [[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "1f5b23c901e32e8e5b3e426523f7276f3a7a0fa7b3ab78e3244f8c5fc0990a97"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "c0fdbfb5995309ae73fe8c22c5d4921a9e08af1f74aed3ac5a6096e0b919ddbe"
 metafile = true
 
 [[files]]

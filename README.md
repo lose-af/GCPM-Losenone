@@ -38,7 +38,6 @@ If you want to play this modpack, download the modpack file from lastst CI run i
 
 ### Tech
 
-- [x] Flux Networks
 - [x] PneumaticCraft: Repressurized
 - [x] Immersive Engineering
 - [x] Minecraft Transit Railway
@@ -47,6 +46,24 @@ If you want to play this modpack, download the modpack file from lastst CI run i
 
 - [x] Epic Fight
 - [x] Weapons of Miracles
+- [x] souls-like universe
+
+### Cosmetic
+
+- [x] Re-chiseled
+- [x] Macaw's Paintings
+- [x] Macaw's Paths and Pavings
+- [x] Macaw's Trapdoors
+- [x] Macaw's Doors
+- [x] Macaw's Fences and Walls
+- [x] Macaw's Holidays
+- [x] Macaw's Bridges
+- [x] Macaw's Lights and Lamps
+- [x] Macaw's Roofs
+- [x] Macaw's Furniture
+- [x] Macaw's Windows
+- [x] Simply Light
+- [x] PITG
 
 ## Other added resources
 
