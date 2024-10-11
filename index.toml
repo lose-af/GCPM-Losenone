@@ -721,6 +721,10 @@ file = "config/mtr.json"
 hash = "c91a07d8a1d448486e1446348bbee840365a9440c5eaa7ed41129babbe9cf776"
 
 [[files]]
+file = "config/mtr_webserver_port.txt"
+hash = "5710231acd69d2da010d49d52017b59f6bbf2d322565b0708a07c5fda401e836"
+
+[[files]]
 file = "config/patchouli-client.toml"
 hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 
@@ -1569,14 +1573,6 @@ metafile = true
 file = "mods/mouse-tweaks.pw.toml"
 hash = "c17b9de2050b52f12368cea16836e8c6ac43be9683b2fc4755a9b3d4a60fa67b"
 metafile = true
-
-[[files]]
-file = "mods/mtr.json"
-hash = "c91a07d8a1d448486e1446348bbee840365a9440c5eaa7ed41129babbe9cf776"
-
-[[files]]
-file = "mods/mtr_webserver_port.txt"
-hash = "5710231acd69d2da010d49d52017b59f6bbf2d322565b0708a07c5fda401e836"
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
