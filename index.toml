@@ -438,11 +438,11 @@ hash = "c0e7f7bb0e06a3c8123e5c2190290a6d37435e92f407eb7ba265ce11939bca20"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "30b404e7b7dd5bca82b5452fe5cfe55e160fb7b1740bab94ba85018141746c0a"
+hash = "c79fdb8c0bf04c13858ebf3d23ce14df07750a857f82139f5a1a171ec15dcdab"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "b4619f460e8b8fac913fe33df6f266c02174bff180549b073995d09b7d5d0add"
+hash = "e5c3117822c9f4434d1bdf02ec937cdb7b9de0e2bd0c7feaa942bedd69cc9e2a"
 
 [[files]]
 file = "config/epicfight-client.toml"
