@@ -446,11 +446,11 @@ hash = "b4619f460e8b8fac913fe33df6f266c02174bff180549b073995d09b7d5d0add"
 
 [[files]]
 file = "config/epicfight-client.toml"
-hash = "12a715515f20425df8af0bf92bdfe47b1f1516836c99b32080169e6da19e1185"
+hash = "01ea2da6db2473171d045fd01a19e26aaa0b244b676fc768de5d66ad15e5613f"
 
 [[files]]
 file = "config/epicfight.toml"
-hash = "bd079022837a5609788961964492704daf1333b8b17af8b2e219bc93e1ffb299"
+hash = "c7294732c854d3fe670028fa5076b83f9c2ccb45b67313b1c986dc8bf869c2b1"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
@@ -775,6 +775,10 @@ hash = "06813199751af809ce5043408f99066b30dccfa72b2597d74543dfa6b64e8d36"
 [[files]]
 file = "config/sophisticatedcore-common.toml"
 hash = "bed67af13922484e409d6174e8112633176ea6001bd329e0f956383cfa0cabe4"
+
+[[files]]
+file = "config/souls_like_universe.toml"
+hash = "0d72e8f1d6d7cdd7916f3f10107b5931b86294c039302ccf87d7b67bba71ad1c"
 
 [[files]]
 file = "config/spark/config.json"
@@ -1298,7 +1302,7 @@ metafile = true
 
 [[files]]
 file = "mods/epic-fight-mod.pw.toml"
-hash = "631074298afdc952ca5c91dc1aec9381f86d27036d2398b424a903755911bd2a"
+hash = "1a39118934239eb4c2698fb6d64f431a16217becc0f8cd8c2756d5a8f45b18aa"
 metafile = true
 
 [[files]]
@@ -1334,6 +1338,11 @@ metafile = true
 [[files]]
 file = "mods/flux-networks.pw.toml"
 hash = "de63df967225278681e18afe0e323110322ec02006746980fbe77dbd974b20b3"
+metafile = true
+
+[[files]]
+file = "mods/forge-souls-like-universe.pw.toml"
+hash = "6359a5cdc848323722fe04904cb72c8fd86d3a19472c135cc872d4e1b851f1d0"
 metafile = true
 
 [[files]]
@@ -1621,7 +1630,7 @@ metafile = true
 
 [[files]]
 file = "mods/weapons-of-miracles-epicfight.pw.toml"
-hash = "0825c4af0136b9e83bce4495b6024c17f1f6d46b8de3894eeb22fe42af315869"
+hash = "57d06da027395283c1c0a813c6854c2053743ba753024ae490cc08fff7e4ff74"
 metafile = true
 
 [[files]]

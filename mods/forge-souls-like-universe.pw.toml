@@ -1,0 +1,13 @@
+name = "[FORGE] souls-like universe: epic fight"
+filename = "slu_1.20.1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0b2fbe5d167d1eb3a2a58d261efbe9a1f94ce402"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5504169
+project-id = 971456

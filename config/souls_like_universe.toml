@@ -1,0 +1,49 @@
+
+[souls_like_universe]
+	#monster spawns with low chance.
+	low_spawn_chance = false
+	#receive start items on first connection.
+	start_items = true
+	#If you die, you lose all your experience levels.
+	death_penalty = false
+	#Decide what reward you will offer when player kills the final boss.
+	finalboss_reward = "minecraft:elytra"
+	#If monster dies, it drops repairstone.
+	drop_repairstone = true
+	#If monster dies, it drops estus flask.
+	drop_estusflask = true
+	#Decide what reward you will offer when player kills the noble knight.
+	nobleknight_loot = "minecraft:ghast_tear"
+	#Decide what reward you will offer when player kills the ringed knight.
+	ringedknight_loot = "minecraft:ender_pearl"
+	#Decide what reward you will offer when player kills the wither skeleton knight.
+	witherskeletonknight_loot = "soulslikeuniverse:charredpiece"
+	#Decide what reward you will offer when player kills the crucible knight.
+	crucibleknight_loot = "minecraft:netherite_scrap"
+	#Decide what reward you will offer when player kills the shadow assassin.
+	shadowassassin_loot = "minecraft:phantom_membrane"
+	#Stop spawning entire souls-like mobs.
+	no_spawn = false
+	#stop playing boss theme music.
+	no_music = false
+	#stop invasion of dark spirit.
+	no_darkspirit = false
+	#stop monsters breaking boat.
+	no_boat_breaking = false
+	#increase boss health & damage
+	boss_buff = false
+	#When player dies, surrounding monsters regain health.
+	monster_healing = true
+	#If player wears armor set, player gets passive effect.
+	armor_passive = true
+	#Determine if bosses are summoned naturally.
+	boss_natural_spawn = false
+	#bosses destroy blocks.
+	destroy_blocks = true
+	#Overall, monsters become powerful.
+	difficulty_up = false
+	#Souls-like mobs are summoned only on the ground.
+	surface_spawn = true
+	#Determine whether to spawn field bosses.
+	field_boss_spawn = true
+
