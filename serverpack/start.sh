@@ -40,6 +40,6 @@ if [ ! -f packwiz-installer-bootstrap.jar ]; then
     download "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
 fi
 
-java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/GregTechCEu/GregTech-Modern-Community-Pack/main/pack.toml
+java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/lose-af/GCPM-Losenone/main/pack.toml
 
 java @user_jvm_args.txt @libraries/net/minecraftforge/forge/$FORGE_VERSION/unix_args.txt nogui
