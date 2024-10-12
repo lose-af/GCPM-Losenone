@@ -27,6 +27,7 @@ If you want to play this modpack, download the modpack file from lastst CI run i
 - [x] Botania
 - [x] Botanical Machinery
 - [x] Ars Nouveau
+- [x] MythicBotany
 
 ### AE Extensions
 
@@ -48,6 +49,7 @@ If you want to play this modpack, download the modpack file from lastst CI run i
 - [x] Epic Fight
 - [x] Weapons of Miracles
 - [x] souls-like universe
+- [x] Timeless and Classics Zero
 
 ### Cosmetic
 
