@@ -1081,6 +1081,10 @@ file = "kubejs/server_scripts/gregtech/wood_unification.js"
 hash = "3ef4090c877d7eae7e7b0426bd25d05e2abf3c1afa1eca49891ca83eb0cdd842"
 
 [[files]]
+file = "kubejs/server_scripts/losenone.immersive_engineering.js"
+hash = "39ff72ec86d1051d12ae0060fb12e12997c713b057210e74af7b1bf2b9fff3f9"
+
+[[files]]
 file = "kubejs/server_scripts/miscellaneous.js"
 hash = "0bb9c58d3536c84b89a57ba68b39e97fa7531d1491a3e9852eca5a3e3f263878"
 
