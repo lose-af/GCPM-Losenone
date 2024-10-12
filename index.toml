@@ -886,11 +886,11 @@ hash = "6d5592c9b61ca156d7901a1b2a626d9c1f5401ec6988e73fe01fab57c7df2260"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
-hash = "cb9fcb6b7c72a876bc63e3e996cb8314463879f16349d2ee03ff93d020357fad"
+hash = "ed166a2d5a54e9d62b23bdfd32c66477f1b7b170c0162013fb450911dd26ae8c"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
-hash = "4444fa163e029565eb76f6aa55940e99cfcf21727778dd6fcca4f22e1b62e5f6"
+hash = "e37c5ce3731e4cae5afc5be246c66128be991acbc951eb6c59b4aa514e484a2a"
 
 [[files]]
 file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
