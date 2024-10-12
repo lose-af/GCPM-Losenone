@@ -1630,7 +1630,7 @@ metafile = true
 
 [[files]]
 file = "mods/pitg.pw.toml"
-hash = "d7d039d99dac9e45daadee275d51438b5d54968abdcf42cdb8c5eb859e0d59a5"
+hash = "b0f2e65f04dc5017a6520ef320372a1da51c112d6df16d895d747a7d1bec8300"
 metafile = true
 
 [[files]]

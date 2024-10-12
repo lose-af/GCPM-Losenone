@@ -1,7 +1,7 @@
 name = "pitg"
-filename = "pitg-1.5.0.jar"
+filename = "pitg-1.5.1.jar"
 
 [download]
-url = "https://github.com/miracle-box/PITG-Continued/releases/download/1.5.0/pitg-1.5.0.jar"
+url = "https://github.com/miracle-box/PITG-Continued/releases/download/1.5.1/pitg-1.5.1.jar"
 hash-format = "sha256"
-hash = "034f87236a13fa3bb2508a290953de3f73e728964f85a1d8f818a32839c7a677"
+hash = "ce9fffbf583e1d0ecdea30b11acc175f947e47b9570c2677137ae1a5160fd2a8"
