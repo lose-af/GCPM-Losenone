@@ -16,4 +16,20 @@ ServerEvents.recipes((event) => {
 	event.remove({
 		output: 'immersiveengineering:stick_steel',
 	});
+
+	// Remove Iron Stick
+	event.remove({
+		output: 'immersiveengineering:stick_iron',
+	});
+
+	// Remove Aluminum
+	event.remove({
+		output: 'immersiveengineering:ingot_aluminum',
+	});
+	event.remove({
+		output: 'immersiveengineering:nugget_aluminum',
+	});
+	event.remove({
+		output: 'immersiveengineering:dust_aluminum',
+	});
 });
