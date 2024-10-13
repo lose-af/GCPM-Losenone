@@ -1082,7 +1082,7 @@ hash = "3ef4090c877d7eae7e7b0426bd25d05e2abf3c1afa1eca49891ca83eb0cdd842"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.immersive_engineering.js"
-hash = "39ff72ec86d1051d12ae0060fb12e12997c713b057210e74af7b1bf2b9fff3f9"
+hash = "c44d5d24cc9abde1a15f95f29294500f138034d1499bdb72368ebbcef095d986"
 
 [[files]]
 file = "kubejs/server_scripts/miscellaneous.js"

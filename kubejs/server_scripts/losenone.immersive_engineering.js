@@ -5,11 +5,6 @@ ServerEvents.recipes((event) => {
 		input: 'immersiveengineering:hammer',
 	});
 
-	// Remove Hammer either.
-	event.remove({
-		output: 'immersiveengineering:hammer',
-	});
-
 	// Add Barrel back. (Harder version)
 	event.shaped('immersiveengineering:gunpart_barrel', ['  H', ' R ', 'I  '], {
 		H: '#forge:tools/hammers',
