@@ -798,7 +798,7 @@ hash = "bed67af13922484e409d6174e8112633176ea6001bd329e0f956383cfa0cabe4"
 
 [[files]]
 file = "config/souls_like_universe.toml"
-hash = "15ee17e56a0606db7356ca76ca7e67227ff920701fda2a9aba1d10322a183a4a"
+hash = "3a5c2806e39d6c9a75ef3c2e980fa94a28428e20e90bb5db663893ed593ee904"
 
 [[files]]
 file = "config/spark/config.json"

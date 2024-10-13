@@ -25,7 +25,7 @@
 	#Stop spawning entire souls-like mobs.
 	no_spawn = false
 	#stop playing boss theme music.
-	no_music = false
+	no_music = true
 	#stop invasion of dark spirit.
 	no_darkspirit = false
 	#stop monsters breaking boat.
@@ -35,7 +35,7 @@
 	#When player dies, surrounding monsters regain health.
 	monster_healing = false
 	#If player wears armor set, player gets passive effect.
-	armor_passive = true
+	armor_passive = false
 	#Determine if bosses are summoned naturally.
 	boss_natural_spawn = false
 	#bosses destroy blocks.
