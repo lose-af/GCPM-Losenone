@@ -1,7 +1,7 @@
 
 [souls_like_universe]
 	#monster spawns with low chance.
-	low_spawn_chance = false
+	low_spawn_chance = true
 	#receive start items on first connection.
 	start_items = true
 	#If you die, you lose all your experience levels.
@@ -33,13 +33,13 @@
 	#increase boss health & damage
 	boss_buff = false
 	#When player dies, surrounding monsters regain health.
-	monster_healing = true
+	monster_healing = false
 	#If player wears armor set, player gets passive effect.
 	armor_passive = true
 	#Determine if bosses are summoned naturally.
 	boss_natural_spawn = false
 	#bosses destroy blocks.
-	destroy_blocks = true
+	destroy_blocks = false
 	#Overall, monsters become powerful.
 	difficulty_up = false
 	#Souls-like mobs are summoned only on the ground.

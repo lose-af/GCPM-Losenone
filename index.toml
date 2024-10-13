@@ -798,7 +798,7 @@ hash = "bed67af13922484e409d6174e8112633176ea6001bd329e0f956383cfa0cabe4"
 
 [[files]]
 file = "config/souls_like_universe.toml"
-hash = "0d72e8f1d6d7cdd7916f3f10107b5931b86294c039302ccf87d7b67bba71ad1c"
+hash = "15ee17e56a0606db7356ca76ca7e67227ff920701fda2a9aba1d10322a183a4a"
 
 [[files]]
 file = "config/spark/config.json"
@@ -886,7 +886,7 @@ hash = "6d5592c9b61ca156d7901a1b2a626d9c1f5401ec6988e73fe01fab57c7df2260"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
-hash = "ed166a2d5a54e9d62b23bdfd32c66477f1b7b170c0162013fb450911dd26ae8c"
+hash = "ae89dedc511452928303e54c138a037860fb5373ac87efe269d1ab5e13d88e65"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
