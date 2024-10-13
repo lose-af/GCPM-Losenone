@@ -886,7 +886,7 @@ hash = "6d5592c9b61ca156d7901a1b2a626d9c1f5401ec6988e73fe01fab57c7df2260"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
-hash = "ae89dedc511452928303e54c138a037860fb5373ac87efe269d1ab5e13d88e65"
+hash = "be41c1bdf4d65082eed486dbf9c5e0c0ee3ff5b1459c4aad79602817ddf0e080"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"

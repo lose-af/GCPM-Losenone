@@ -17,7 +17,7 @@
 	
 	# Disables all land protection. Useful for private servers where everyone is trusted and claims are only used for force-loading
 	# Default: false
-	disable_protection: false
+	disable_protection: true
 	
 	# Override to disable/enable fake players like miners and auto-clickers globally.
 	# Default will check this setting for each team
@@ -27,7 +27,7 @@
 	
 	# Minimap for clients connecting to this server will be disabled
 	# Default: false
-	force_disable_minimap: true
+	force_disable_minimap: false
 	
 	# Control how force-loaded chunks work.
 	# NEVER: only allow chunk force-loading if the owning team has at least one online player.
@@ -62,13 +62,13 @@
 	# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
 	# Default: 500
 	# Range: -∞ ~ +∞
-	max_claimed_chunks: 500
+	max_claimed_chunks: 250
 	
 	# Max force loaded chunks.
 	# You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission
 	# Default: 25
 	# Range: -∞ ~ +∞
-	max_force_loaded_chunks: 25
+	max_force_loaded_chunks: 16
 	
 	# Maximum time (in real-world days) where if no player in a team logs in, the team automatically loses their claims.
 	# Prevents chunks being claimed indefinitely by teams who no longer play.
