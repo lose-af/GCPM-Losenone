@@ -1497,7 +1497,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "caf9eb48e4eac66f7659d01896341a9c7d749ce2ddff264305283258c0b3a996"
+hash = "0968cf761fc4608f1d756da1b693314f23148dd8d9a4b8d1c1d046ed7d8f6f39"
 metafile = true
 
 [[files]]
@@ -1707,7 +1707,7 @@ metafile = true
 
 [[files]]
 file = "mods/souls-like-universe.pw.toml"
-hash = "495fd5d6033b523d3a4c869b9c02cc59ba128641c9c5f48c5c5e99333924fcb7"
+hash = "5cee4b2df1a8a97a9e9e025dd637e3c624dbe7fdc30b684e5e0bb5df0a795c7d"
 metafile = true
 
 [[files]]
