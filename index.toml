@@ -973,6 +973,10 @@ file = "kubejs/config/packicon.png"
 hash = "fe4ad89f75d94bdc48319efb0a746101056d2abfae3a090319931ca6895a9c0a"
 
 [[files]]
+file = "kubejs/data/losenone/recipes/pneumaticcraft_fuels/creosote.json"
+hash = "219850011b69946e2af21e5043f4f77f65ad5aae1b75d6be2e52178c92e34aca"
+
+[[files]]
 file = "kubejs/server_scripts/appliedenergistics2/ae2.js"
 hash = "e6126398eb36a866b0e3b1fa27cbdb1a43df4cf32fda056a2b855230ea8eccf1"
 
@@ -1082,7 +1086,7 @@ hash = "3ef4090c877d7eae7e7b0426bd25d05e2abf3c1afa1eca49891ca83eb0cdd842"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.immersive_engineering.js"
-hash = "8c74b019b8089adafd4e9818bb1714ea7bf1093d15a998c03719525b8ccf04af"
+hash = "3080cfff68331927ee3f3359cfb05513aeaf40e44a711fd7f1bea0bcaf560f8b"
 
 [[files]]
 file = "kubejs/server_scripts/miscellaneous.js"

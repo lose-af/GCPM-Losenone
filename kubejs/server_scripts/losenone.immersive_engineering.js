@@ -32,4 +32,15 @@ ServerEvents.recipes((event) => {
 	event.remove({
 		output: 'immersiveengineering:dust_aluminum',
 	});
+
+	// Remove Creosote
+	event.remove({
+		id: 'immersiveengineering:cokeoven/charcoal',
+	});
+	event.remove({
+		id: 'immersiveengineering:cokeoven/coke_block',
+	});
+	event.remove({
+		id: 'immersiveengineering:cokeoven/coke',
+	});
 });

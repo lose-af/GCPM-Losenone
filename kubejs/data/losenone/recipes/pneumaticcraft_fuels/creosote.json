@@ -1,0 +1,23 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"type": "pneumaticcraft:fluid_tag_present",
+					"tag": "forge:creosote"
+				}
+			],
+			"recipe": {
+				"type": "pneumaticcraft:fuel_quality",
+				"air_per_bucket": 400000,
+				"burn_rate": 0.5,
+				"fluid": {
+					"type": "pneumaticcraft:fluid",
+					"amount": 1000,
+					"tag": "forge:creosote"
+				}
+			}
+		}
+	]
+}
