@@ -15,6 +15,7 @@ If you want to play this modpack, download the modpack file from lastst CI run i
 - [x] Just Enough Characters
 - [x] Modern UI
 - [x] WI Zoom
+- [x] EMI
 
 ### Utils
 

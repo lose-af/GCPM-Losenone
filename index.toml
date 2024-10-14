@@ -445,6 +445,10 @@ file = "config/defaultoptions/options.txt"
 hash = "e5c3117822c9f4434d1bdf02ec937cdb7b9de0e2bd0c7feaa942bedd69cc9e2a"
 
 [[files]]
+file = "config/emi.css"
+hash = "42a299d4ab717e46689c1e290344709b5bb2c7ea43ac1ac858ee053bdbe40acb"
+
+[[files]]
 file = "config/epicfight-client.toml"
 hash = "01ea2da6db2473171d045fd01a19e26aaa0b244b676fc768de5d66ad15e5613f"
 
@@ -1334,6 +1338,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "59c21f304f9c5fa731bbee0e5832f8307676773ed9e3e93cfb645a22b5cc19a9"
 metafile = true
 
 [[files]]
