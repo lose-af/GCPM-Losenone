@@ -1,0 +1,7 @@
+name = "souls_like_universe"
+filename = "soulslikeuniverse-1.20.1.10+1.jar"
+
+[download]
+url = "https://github.com/lose-af/slu-tweaked/releases/download/1.20.1.10%2B1/soulslikeuniverse-1.20.1.10+1.jar"
+hash-format = "sha256"
+hash = "0c1937c330900eee2bd3606eaeb265e4aecb301bb9e62ce63821bf92a4541146"

@@ -1391,11 +1391,6 @@ hash = "c6a2d9b3f0a172663eb91a650de90332cf7adf41662c01a9d3ad581d66e32ada"
 metafile = true
 
 [[files]]
-file = "mods/forge-souls-like-universe.pw.toml"
-hash = "6359a5cdc848323722fe04904cb72c8fd86d3a19472c135cc872d4e1b851f1d0"
-metafile = true
-
-[[files]]
 file = "mods/fps-reducer.pw.toml"
 hash = "dea4cb0ab50117d79c8c0ded39b7f4720cd5424ef88fa40d77c02a4381d9c0e1"
 metafile = true
@@ -1452,7 +1447,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "9bd2ee2488f64a73125fa7781c11766c1a5053f4d1cb13deb6f129aea4ef8e9d"
+hash = "2411aab5212a8711fde74c3555f403e165db51eb3d98bf68efa20c76fb0c7f97"
 metafile = true
 
 [[files]]
@@ -1708,6 +1703,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "8207f330335ef87f9e24a51343691fec49c75153678085d0a1667235d5e463bc"
+metafile = true
+
+[[files]]
+file = "mods/souls-like-universe.pw.toml"
+hash = "495fd5d6033b523d3a4c869b9c02cc59ba128641c9c5f48c5c5e99333924fcb7"
 metafile = true
 
 [[files]]
