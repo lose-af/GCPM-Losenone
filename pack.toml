@@ -1,6 +1,6 @@
 name = "GCPM-Losenone"
 author = "ursamina, Nixieboluo"
-version = "1.11.1-r4"
+version = "1.11.1-r5"
 pack-format = "packwiz:1.1.0"
 
 [index]
