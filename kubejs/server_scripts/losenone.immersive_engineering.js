@@ -43,4 +43,12 @@ ServerEvents.recipes((event) => {
 	event.remove({
 		id: 'immersiveengineering:cokeoven/coke',
 	});
+
+	// Remove steel
+	event.remove({
+		id: 'immersiveengineering:blastfurnace/steel_block',
+	});
+	event.remove({
+		id: 'immersiveengineering:blastfurnace/steel',
+	});
 });
