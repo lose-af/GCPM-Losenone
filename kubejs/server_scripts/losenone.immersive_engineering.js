@@ -51,4 +51,12 @@ ServerEvents.recipes((event) => {
 	event.remove({
 		id: 'immersiveengineering:blastfurnace/steel',
 	});
+	event.remove({
+		id: 'immersiveengineering:arcfurnace/steel',
+	});
+
+	// Blastbrick -> Firebricks from GTCEu
+	event.shaped('gtceu:firebricks', ['BB ', 'BB ', '   '], {
+		B: 'immersiveengineering:blastbrick',
+	});
 });
