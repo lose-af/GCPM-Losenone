@@ -977,6 +977,10 @@ file = "kubejs/config/packicon.png"
 hash = "fe4ad89f75d94bdc48319efb0a746101056d2abfae3a090319931ca6895a9c0a"
 
 [[files]]
+file = "kubejs/data/losenone/recipes/arcfurnace/steel_gtceulike.json"
+hash = "e909479e390044bc8a4dbe61c6f339476a94ffd6ce7d1a7979f45063f5fe396a"
+
+[[files]]
 file = "kubejs/data/losenone/recipes/pneumaticcraft_fuels/creosote.json"
 hash = "219850011b69946e2af21e5043f4f77f65ad5aae1b75d6be2e52178c92e34aca"
 
@@ -1087,6 +1091,10 @@ hash = "dcaa3921a844900f7c8c5445662c53567947bbeedb1ddcd024e029153cccda83"
 [[files]]
 file = "kubejs/server_scripts/gregtech/wood_unification.js"
 hash = "3ef4090c877d7eae7e7b0426bd25d05e2abf3c1afa1eca49891ca83eb0cdd842"
+
+[[files]]
+file = "kubejs/server_scripts/losenone.botania.js"
+hash = "98d5ffa082896f89ab8b649b06573d6ea046251a59ce474e05533fa97014edf5"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.immersive_engineering.js"
