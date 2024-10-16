@@ -1117,6 +1117,10 @@ file = "kubejs/server_scripts/losenone.ingredients.js"
 hash = "134d4eb207d78535f47b88f6848224ce426e2c20b6cc7670b6f33b7722aae614"
 
 [[files]]
+file = "kubejs/server_scripts/losenone.tags.js"
+hash = "08084979e7d8b88b1e8a267229b5d5c01b75077903740294ee8ce2eee8937365"
+
+[[files]]
 file = "kubejs/server_scripts/miscellaneous.js"
 hash = "0bb9c58d3536c84b89a57ba68b39e97fa7531d1491a3e9852eca5a3e3f263878"
 
