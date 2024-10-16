@@ -921,6 +921,18 @@ file = "kubejs/assets/kubejs/textures/item/greg_icon.png"
 hash = "7feb964f52bb75d57247d068c9b71db39fd6e4a59206382085cfb802f150fe74"
 
 [[files]]
+file = "kubejs/assets/losenone/lang/en_us.json"
+hash = "edd0866be9905eec373f314abbab037f77fc5926d6c35b062b84ca5a27500e30"
+
+[[files]]
+file = "kubejs/assets/losenone/lang/zh_cn.json"
+hash = "86529fcf1c1f83c10e06b9e1c8288b97e50bd63f04d682d8218224ce29ab415e"
+
+[[files]]
+file = "kubejs/assets/losenone/textures/item/unsintered_blaze_powder.png"
+hash = "428aa34092b49b3aaaa1d6082453f796c1c27ae08a27e74731a8b96485bf376a"
+
+[[files]]
 file = "kubejs/assets/sophisticatedbackpacks/lang/en_us.json"
 hash = "5b59e5067cd2d39c51dcf8e76e3c5b4b2d5ddfa3e453702464d5c56ed3c2f289"
 
@@ -1101,6 +1113,10 @@ file = "kubejs/server_scripts/losenone.immersive_engineering.js"
 hash = "bcfb8a66a42c13828b6c1bc2fee9995d05c880331e88ef092073a5f6febd4e1f"
 
 [[files]]
+file = "kubejs/server_scripts/losenone.ingredients.js"
+hash = "134d4eb207d78535f47b88f6848224ce426e2c20b6cc7670b6f33b7722aae614"
+
+[[files]]
 file = "kubejs/server_scripts/miscellaneous.js"
 hash = "0bb9c58d3536c84b89a57ba68b39e97fa7531d1491a3e9852eca5a3e3f263878"
 
@@ -1167,6 +1183,10 @@ hash = "2df8bceaa0bcb871203b094c657461eb9b78cc4fc20d63d95388d2e1d0f95a2e"
 [[files]]
 file = "kubejs/startup_scripts/icons.js"
 hash = "509f876d9767bf536a5452021bef3dff8cf1d10345f2b4aba8d2df529763edbe"
+
+[[files]]
+file = "kubejs/startup_scripts/losenone.ingredients.js"
+hash = "fe6c6d408dcd5243ad51b2505e223dc463e6150f50616f613ea5a08a96e50a46"
 
 [[files]]
 file = "kubejs/startup_scripts/machinery/construction_core.js"
