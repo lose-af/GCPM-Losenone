@@ -1106,7 +1106,7 @@ hash = "3ef4090c877d7eae7e7b0426bd25d05e2abf3c1afa1eca49891ca83eb0cdd842"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.botania.js"
-hash = "98d5ffa082896f89ab8b649b06573d6ea046251a59ce474e05533fa97014edf5"
+hash = "8dd2fdf00301bee05cd8daa9f24121bc9f46016143fa8578187c8087bf2f20e4"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.immersive_engineering.js"
