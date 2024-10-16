@@ -33,12 +33,156 @@ file = "config/ae2/common.json"
 hash = "6ec61fcaabc7d24305c188da02b9c0c12de9ae6833280828a81ca5a2be9881e0"
 
 [[files]]
+file = "config/apotheosis/adventure.cfg"
+hash = "88f535a95a8dbb787543b87f5f0656d55056c1aa976107fd7b0e3db1d6902cf2"
+
+[[files]]
+file = "config/apotheosis/apotheosis.cfg"
+hash = "9665f22f77597b42cf5adc02e351253525fd76dd45b885f258dafbb038a24e26"
+
+[[files]]
+file = "config/apotheosis/ench.cfg"
+hash = "6fbf05e2719f095908f8196a694f6a8f36bc39c7d5e71644b0ea55e025c8b80f"
+
+[[files]]
+file = "config/apotheosis/enchantments.cfg"
+hash = "beea89e6e95ace19ccc79bca20369e9049fc3152c1c1b9b01c92317adedc3ee8"
+
+[[files]]
+file = "config/apotheosis/garden.cfg"
+hash = "8dea2945143e4e9e5bb0c6460296ad42a45ad95518d75a9ae36e2645c1f1e2be"
+
+[[files]]
+file = "config/apotheosis/names.cfg"
+hash = "ed7015c5fb71c21ce541fd8a624ad395783d07513a1400f46bd5a6664f6ed593"
+
+[[files]]
+file = "config/apotheosis/potion.cfg"
+hash = "eb5ccfa9af9f8723d9012193f4fd623373038dc323b30262f6d9ab3e2286853c"
+
+[[files]]
+file = "config/apotheosis/spawner.cfg"
+hash = "9c18328b82e424ca37ab9f05f8b5fc7992e93d3cf2647363dc5b55dfd1615dc7"
+
+[[files]]
+file = "config/apotheosis/village.cfg"
+hash = "e107b59d9f2fc528d7f0f705fc96db903ca897af2151e91a1eb5e8ab2c338996"
+
+[[files]]
 file = "config/appflux-common.toml"
 hash = "3b28defdbb971d422f8bdf8fc4b0f5c90414fdb57a4e06f8a521aa181741daef"
 
 [[files]]
 file = "config/appleskin-client.toml"
 hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
+
+[[files]]
+file = "config/ars_elemental/glyph_aerial_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_aquatic_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_arc_projectile.toml"
+hash = "2936a2acfa92d67e5e5bc7f0fbc4a7d6278b872e17e919777a01f055fd64efd1"
+
+[[files]]
+file = "config/ars_elemental/glyph_bubble_shield.toml"
+hash = "6a82d0871294965b37ce95eb9d1d261bf60941f2e43c6dbfbeba7cccae0ae244"
+
+[[files]]
+file = "config/ars_elemental/glyph_charm.toml"
+hash = "be624c15e8e96b3ef03b28789c29a10b1cf807b8de3b32939d505f435ed99bb7"
+
+[[files]]
+file = "config/ars_elemental/glyph_conjure_terrain.toml"
+hash = "851b3b13af08760619433c068b54a898653cdf0ad9be9cb0948da1793ec506ec"
+
+[[files]]
+file = "config/ars_elemental/glyph_discharge.toml"
+hash = "e4e4bd90a15ae27a1add4b995d54a270d7770c49c60d7889f2d7d51c372224f2"
+
+[[files]]
+file = "config/ars_elemental/glyph_envenom.toml"
+hash = "c92d63f93ea349505edd4819e699d781823368d5d86bf732a8d06ebeeb22fbe2"
+
+[[files]]
+file = "config/ars_elemental/glyph_fiery_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_homing_projectile.toml"
+hash = "81afebad66dcb8d0563d4d11c9e91bbf8af26f0e84dd8849613c206cb71c2a1e"
+
+[[files]]
+file = "config/ars_elemental/glyph_insect_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_life_link.toml"
+hash = "be911ca90e6dfffef4a2e33a65f1fb6184b3a0ec06aa1cbfd42d311c1aa71f67"
+
+[[files]]
+file = "config/ars_elemental/glyph_not_aerial_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_not_aquatic_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_not_fiery_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_not_insect_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_not_summon_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_not_undead_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_phantom_grasp.toml"
+hash = "1e422d3ab2f0ba0b150e662dcd4b15c62d8a29a107a5a0771d7cb056cf972010"
+
+[[files]]
+file = "config/ars_elemental/glyph_poison_spores.toml"
+hash = "5738ce62d02458cbcb3499c3714b7ee16333de00a887638ef7780d996f4c889b"
+
+[[files]]
+file = "config/ars_elemental/glyph_propagator_arc.toml"
+hash = "8c779d1dbc1026d2b7884b53ef33e9bf2d3b34db57a952441f30d053861f6e5c"
+
+[[files]]
+file = "config/ars_elemental/glyph_propagator_homing.toml"
+hash = "209cfaa9866d6cd84ec4a3c0059b32be23c485c5aa092b11bb0e2ab044d6b116"
+
+[[files]]
+file = "config/ars_elemental/glyph_spark.toml"
+hash = "2b5ac75aaa3bb91b4ba43127d43202daafb5d7e560944a885560e936c3dc60a4"
+
+[[files]]
+file = "config/ars_elemental/glyph_spike.toml"
+hash = "2ed55ab427d19dd6dc6b22dc17e3112b99f5efb1e6fa57f57b1510bc0ba37b6b"
+
+[[files]]
+file = "config/ars_elemental/glyph_summon_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_undead_filter.toml"
+hash = "7a9ab213f4738c55f96488d9fa5a90ee87344f2dcfc571a403c6f26b5fc19aa4"
+
+[[files]]
+file = "config/ars_elemental/glyph_watery_grave.toml"
+hash = "40ea0d3527a978b0f45c0202cd591add79b7050e034605ccc6ea678b8f307a3e"
 
 [[files]]
 file = "config/ars_nouveau-client.toml"
@@ -729,6 +873,10 @@ file = "config/modernfix-mixins.properties"
 hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
+file = "config/modonomicon-client.toml"
+hash = "ac399eabe0ff6b5dffc5c39469ab794394375525af0eefcc8c45b71213eb83f3"
+
+[[files]]
 file = "config/mtr.json"
 hash = "c91a07d8a1d448486e1446348bbee840365a9440c5eaa7ed41129babbe9cf776"
 
@@ -743,6 +891,10 @@ hash = "d25e3e6d87d778432c0b3fb7d076dfe492de6a14fb813079f01d20d604e870a1"
 [[files]]
 file = "config/mythicbotany.json5"
 hash = "a60fe155819ee2e9fbeeda25a7550d5a5fa39fab83e09116b098c7cfd5dfb9d3"
+
+[[files]]
+file = "config/occultism-client.toml"
+hash = "2da918542d7e57dad43c0b0614f5d79ddf67989016a71ef2d61344163edd7f1e"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1233,6 +1385,16 @@ hash = "482873e1d75c8d55f2d2164c839be5729e5d4c41561f1f6198cc19c4b16f7b6c"
 metafile = true
 
 [[files]]
+file = "mods/apotheosis.pw.toml"
+hash = "aeb6c7309052bb9bfb096ed6aef11cfab3c4bf3b0a44746b4e249bc0cca8120c"
+metafile = true
+
+[[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "7ec91c6a496a122e84c4f0e7737175bf869dda8e046a208ef6e13830ca731378"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
 metafile = true
@@ -1265,6 +1427,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
+metafile = true
+
+[[files]]
+file = "mods/ars-elemental.pw.toml"
+hash = "849c136f0dfe59bc4eca4e9776e36e8fb334064ccc81d47ecd3044733aeea5a8"
 metafile = true
 
 [[files]]
@@ -1473,6 +1640,11 @@ hash = "59d22263e36313c43ad7c5e4179cb3554d414f701442b0784d94c0ba2384edfd"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "ce2208de3caf116f938102b52c12ce0dd253753781a54bd0907c71dff32bc583"
+metafile = true
+
+[[files]]
 file = "mods/glodium.pw.toml"
 hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
 metafile = true
@@ -1648,6 +1820,11 @@ hash = "f03861f83a9f0c69606d5e355b9a342838a04d255873cf0751c676dd50ec6e8e"
 metafile = true
 
 [[files]]
+file = "mods/modonomicon.pw.toml"
+hash = "d3a4e2a13a72c8ebe492df7601b431dd5bf7c5d141124eaab7c41399cde3f632"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "c17b9de2050b52f12368cea16836e8c6ac43be9683b2fc4755a9b3d4a60fa67b"
 metafile = true
@@ -1660,6 +1837,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "7360013364f71b7967296d87a994a8e510e893ec9cfabd6e243293a6998189ca"
+metafile = true
+
+[[files]]
+file = "mods/occultism.pw.toml"
+hash = "8e3ee49765e396cdfc5670043340eef44604a10d00be1ad5af0fd075eefc0d19"
 metafile = true
 
 [[files]]
@@ -1720,6 +1902,11 @@ metafile = true
 [[files]]
 file = "mods/simply-light.pw.toml"
 hash = "762eced5d260cdbc94f0acc033efd8fe70fdfe5a28bd8d180e0b052de509893f"
+metafile = true
+
+[[files]]
+file = "mods/smartbrainlib.pw.toml"
+hash = "8d3e9ef52ac3b65fb976629b55652ca30f9ad8b7ff37925c3111ae78386e1a97"
 metafile = true
 
 [[files]]
