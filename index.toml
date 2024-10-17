@@ -590,7 +590,7 @@ hash = "e5c3117822c9f4434d1bdf02ec937cdb7b9de0e2bd0c7feaa942bedd69cc9e2a"
 
 [[files]]
 file = "config/emi.css"
-hash = "42a299d4ab717e46689c1e290344709b5bb2c7ea43ac1ac858ee053bdbe40acb"
+hash = "a23271f18b121139594b07aeee551c3a980a3ff1f55bcd3d8bca202e12c38591"
 
 [[files]]
 file = "config/epicfight-client.toml"
@@ -1141,10 +1141,6 @@ file = "kubejs/config/packicon.png"
 hash = "fe4ad89f75d94bdc48319efb0a746101056d2abfae3a090319931ca6895a9c0a"
 
 [[files]]
-file = "kubejs/data/losenone/recipes/arcfurnace/steel_gtceulike.json"
-hash = "e909479e390044bc8a4dbe61c6f339476a94ffd6ce7d1a7979f45063f5fe396a"
-
-[[files]]
 file = "kubejs/data/losenone/recipes/pneumaticcraft_fuels/creosote.json"
 hash = "219850011b69946e2af21e5043f4f77f65ad5aae1b75d6be2e52178c92e34aca"
 
@@ -1262,7 +1258,7 @@ hash = "8dd2fdf00301bee05cd8daa9f24121bc9f46016143fa8578187c8087bf2f20e4"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.immersive_engineering.js"
-hash = "bcfb8a66a42c13828b6c1bc2fee9995d05c880331e88ef092073a5f6febd4e1f"
+hash = "24cd08d4f9cc1d2de5b0777450750edf70eaf49d00d7b7f69b231edf6683e646"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.ingredients.js"
@@ -1270,7 +1266,7 @@ hash = "134d4eb207d78535f47b88f6848224ce426e2c20b6cc7670b6f33b7722aae614"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.tags.js"
-hash = "08084979e7d8b88b1e8a267229b5d5c01b75077903740294ee8ce2eee8937365"
+hash = "8b1cd341374f8e55c9eb0b4f4e798b7405844a92b3bb3ed3b50906890818e77a"
 
 [[files]]
 file = "kubejs/server_scripts/miscellaneous.js"

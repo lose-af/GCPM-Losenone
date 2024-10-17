@@ -3,6 +3,7 @@ ServerEvents.tags('item', (event) => {
 	// For Immersive Engineering
 	// Coal Coke -> Coke
 	event.add('forge:gems/coke', '#forge:coal_coke');
+	event.add('forge:dusts/coke', '#forge:dusts/coal_coke');
 	event.add('forge:storage_blocks/coke', '#forge:storage_blocks/coal_coke');
 
 	// Use GTCEu Bauxite tags for Raw Aluminum
