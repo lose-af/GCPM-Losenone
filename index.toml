@@ -1266,7 +1266,7 @@ hash = "134d4eb207d78535f47b88f6848224ce426e2c20b6cc7670b6f33b7722aae614"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.tags.js"
-hash = "8b1cd341374f8e55c9eb0b4f4e798b7405844a92b3bb3ed3b50906890818e77a"
+hash = "bb92af0cc8cdf5b6153be439f28efbbb0942b7f758807276afacb01cff1117ac"
 
 [[files]]
 file = "kubejs/server_scripts/miscellaneous.js"

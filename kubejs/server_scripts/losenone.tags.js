@@ -13,3 +13,9 @@ ServerEvents.tags('item', (event) => {
 	event.remove('forge:raw_materials/aluminum', 'immersiveengineering:raw_aluminum');
 	event.remove('forge:storage_blocks/raw_aluminum', 'immersiveengineering:raw_block_aluminum');
 });
+
+// Fluid Tags
+ServerEvents.tags('fluid', (event) => {
+	// Use GTCTu Bio Diesel tags
+	event.add('forge:bio_diesel', '#forge:biodiesel');
+});
