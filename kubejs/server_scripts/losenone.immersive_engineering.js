@@ -100,6 +100,8 @@ ServerEvents.recipes((event) => {
 		B: 'immersiveengineering:blastbrick',
 	});
 
-	// Some structures requires IE's steel
+	// Some structures requires IE's materials
 	event.shapeless('immersiveengineering:ingot_steel', ['#forge:ingots/steel']);
+	event.shapeless('immersiveengineering:ingot_aluminum', ['#forge:ingots/aluminum']);
+	event.shapeless('immersiveengineering:ingot_aluminum', ['#forge:ingots/aluminium']);
 });

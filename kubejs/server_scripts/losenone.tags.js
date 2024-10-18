@@ -12,6 +12,10 @@ ServerEvents.tags('item', (event) => {
 	event.add('forge:storage_blocks/raw_bauxite', 'immersiveengineering:raw_block_aluminum');
 	event.remove('forge:raw_materials/aluminum', 'immersiveengineering:raw_aluminum');
 	event.remove('forge:storage_blocks/raw_aluminum', 'immersiveengineering:raw_block_aluminum');
+
+	// Aluminum <==> Aluminium compact
+	event.add('forge:ingots/aluminium', '#forge:ingots/aluminum');
+	event.add('forge:storage_blocks/aluminium', '#forge:storage_blocks/aluminum');
 });
 
 // Fluid Tags
