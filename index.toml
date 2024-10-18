@@ -1253,6 +1253,10 @@ file = "kubejs/server_scripts/gregtech/wood_unification.js"
 hash = "3ef4090c877d7eae7e7b0426bd25d05e2abf3c1afa1eca49891ca83eb0cdd842"
 
 [[files]]
+file = "kubejs/server_scripts/losenone.ae2.js"
+hash = "5789fe8c0c72dff462734be4191bd87231593ffae9a723a45fbec4f63df9a627"
+
+[[files]]
 file = "kubejs/server_scripts/losenone.botania.js"
 hash = "e5ea61fb06cf56c08765bff210cc87ac7da1436bdc32b5646d11357d7aee3425"
 
