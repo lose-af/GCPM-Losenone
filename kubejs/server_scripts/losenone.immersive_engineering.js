@@ -99,4 +99,7 @@ ServerEvents.recipes((event) => {
 	event.shaped('gtceu:firebricks', ['BB ', 'BB ', '   '], {
 		B: 'immersiveengineering:blastbrick',
 	});
+
+	// Some structures requires IE's steel
+	event.shapeless('immersiveengineering:ingot_steel', ['#forge:ingots/steel']);
 });
