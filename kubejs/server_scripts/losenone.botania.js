@@ -12,4 +12,11 @@ ServerEvents.recipes((event) => {
 		B: 'botania:mana_bottle',
 		D: 'gtceu:ender_pearl_dust',
 	});
+
+	// Natura Pylon
+	event.shaped('botania:natura_pylon', [' N ', 'NMN', ' B '], {
+		N: '#forge:nuggets/terrasteel',
+		M: 'botania:mana_pylon',
+		B: '#forge:dusts/blaze',
+	});
 });
