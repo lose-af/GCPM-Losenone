@@ -19,6 +19,9 @@ ServerEvents.recipes((event) => {
 	event.remove({
 		output: 'immersiveengineering:stick_iron',
 	});
+	event.remove({
+		output: 'immersiveengineering:stick_aluminum',
+	});
 
 	// Remove Aluminum
 	event.remove({

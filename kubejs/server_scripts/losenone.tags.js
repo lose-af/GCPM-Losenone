@@ -15,6 +15,10 @@ ServerEvents.tags('item', (event) => {
 
 	// Aluminum <==> Aluminium compact
 	event.add('forge:ingots/aluminium', '#forge:ingots/aluminum');
+	event.add('forge:nuggets/aluminium', '#forge:nuggets/aluminum');
+	event.add('forge:plates/aluminium', '#forge:plates/aluminum');
+	event.add('forge:dusts/aluminium', '#forge:dusts/aluminum');
+	event.add('forge:wires/aluminium', '#forge:wires/aluminum');
 	event.add('forge:storage_blocks/aluminium', '#forge:storage_blocks/aluminum');
 });
 
