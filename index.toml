@@ -905,6 +905,10 @@ file = "config/pitg-common.toml"
 hash = "e33fd94e3965690e95a120e75f3496d86ae2a59d3936206eef5cf5c53469d405"
 
 [[files]]
+file = "config/pneumaticcraft-common.toml"
+hash = "1505f5682c65ebc2f48a0a15fe54723a3ab84fc91959dc4e998fa9d34a30908d"
+
+[[files]]
 file = "config/pneumaticcraft/ArmorFeatureStatus.cfg"
 hash = "3260c358de448f81835cefd85f2da6a53e4bdcd2be2451c04c0a163e2c0e20be"
 
