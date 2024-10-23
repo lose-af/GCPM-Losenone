@@ -906,7 +906,7 @@ hash = "e33fd94e3965690e95a120e75f3496d86ae2a59d3936206eef5cf5c53469d405"
 
 [[files]]
 file = "config/pneumaticcraft-common.toml"
-hash = "1505f5682c65ebc2f48a0a15fe54723a3ab84fc91959dc4e998fa9d34a30908d"
+hash = "0ba0a879fda2287d7b1a3b54a180a7c491faf20df4fc92b228be9ca32a4599e7"
 
 [[files]]
 file = "config/pneumaticcraft/ArmorFeatureStatus.cfg"
@@ -1271,6 +1271,10 @@ hash = "2f3f33dd4c9cbf83630ca2edd1e46b70bfd7999de78a5b71490198988b2ef2c9"
 [[files]]
 file = "kubejs/server_scripts/losenone.ingredients.js"
 hash = "134d4eb207d78535f47b88f6848224ce426e2c20b6cc7670b6f33b7722aae614"
+
+[[files]]
+file = "kubejs/server_scripts/losenone.occultism.js"
+hash = "1b37759f85c5dc1582eed964415fc7450f5b0a1bc8de5dda23507474a5c9698f"
 
 [[files]]
 file = "kubejs/server_scripts/losenone.tags.js"

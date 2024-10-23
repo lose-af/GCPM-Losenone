@@ -344,7 +344,7 @@
 	#Show particle trail indicating the currently-debugged drone's planned path
 	drone_debugger_path_particles = true
 	#When set to true, Drones will not execute any program. This is useful to set to true when due to a bug Drones are lagging your server or crashing it. Please report any such bugs as a PneumaticCraft: Repressurized issue so it can be investigated.
-	stop_drone_ai = false
+	stop_drone_ai = true
 	#How far will a drone go to find a Charging Station when it's low on air? Note: drones will teleport, possibly across the world to someone else's base, if this range is very large.
 	#Range: > 16
 	max_drone_charging_station_search_range = 80
