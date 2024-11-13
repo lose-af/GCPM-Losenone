@@ -287,24 +287,6 @@
 		}
 		{
 			dependencies: ["16B735F9C391D260"]
-			description: ["&9&a数字界面覆盖板&f (DIC)&r是一个视觉覆盖板.它可以显示有用的信息,如机器的状态和进度,或超级储罐中存储的流体量."]
-			icon: "gtceu:digital_interface_cover"
-			id: "111877E2F16AD71C"
-			shape: "rsquare"
-			size: 0.66d
-			tasks: [
-				{
-					id: "505B2CDC455C36C5"
-					item: "gtceu:digital_interface_cover"
-					type: "item"
-				}
-			]
-			title: "&a数字界面覆盖板&f"
-			x: 1.125d
-			y: 0.375d
-		}
-		{
-			dependencies: ["16B735F9C391D260"]
 			description: [
 				"是时候告别你的&4原始&a水泵&f&r了.它们为你感到骄傲."
 				""
