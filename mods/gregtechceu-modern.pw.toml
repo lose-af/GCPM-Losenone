@@ -1,7 +1,7 @@
 name = "gregtechceu-modern"
-filename = "gtceu-1.20.1-1.4.4+1.jar"
+filename = "gtceu-1.20.1-1.4.6+1.jar"
 
 [download]
-url = "https://github.com/lose-af/GregTech-Modern/releases/download/v1.4.4%2B1/gtceu-1.20.1-1.4.4+1.jar"
+url = "https://github.com/lose-af/GregTech-Modern/releases/download/v1.4.6%2B1/gtceu-1.20.1-1.4.6+1.jar"
 hash-format = "sha256"
-hash = "272131805bd68823cca1e33d548f7a88f686a6e763d6ee9c98753a0cfcebd06a"
+hash = "4377188080e0cab346226b4479c05e1cacd510f5f6aee9cb3348a9d7976dfa8a"

@@ -1,12 +1,12 @@
 name = "GCPM-Losenone"
 author = "ursamina, Nixieboluo"
-version = "1.11.1-r6"
+version = "1.11.3-r7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "df1647dd804b40d36134781603ea2e9fc662cda897bd661eb8189fe55f595c39"
+hash = "4052a221589f0e88df7d666aeb93410e45a2da0dfeb4cbc79a981849f0f0461e"
 
 [versions]
 forge = "47.3.6"
